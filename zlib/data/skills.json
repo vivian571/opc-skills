@@ -1,0 +1,41 @@
+{
+  "skills": [
+    {
+      "path": ".agents/skills/kindle/SKILL.md",
+      "name": "kindle",
+      "description": "Send a local ebook to Kindle with the zlib CLI, configure its SMTP delivery, or diagnose a failed send. Use the bundled zlib skill to search or download a book first.",
+      "chars": 3225
+    },
+    {
+      "path": ".agents/skills/metadata/SKILL.md",
+      "name": "metadata",
+      "description": "Fix the metadata of a local e-book (EPUB, FB2, DOCX, MOBI, AZW3, PDF) with zlib - read what the file holds, look the book up in online catalogues, choose which fields to take, write them and rename the file. Use for a wrong or missing title, author, ISBN, series, publisher, date, language, cover or file name. Works through the zlib MCP tools or the zlib CLI.",
+      "chars": 4780
+    },
+    {
+      "path": ".agents/skills/repo-readme/SKILL.md",
+      "name": "repo-readme",
+      "description": "Edit or review zlib's English and Chinese READMEs using patterns from popular TUI project READMEs, research new examples, and verify onboarding commands, TUI keys, and agent installation.",
+      "chars": 4232
+    },
+    {
+      "path": ".agents/skills/security-scan/SKILL.md",
+      "name": "security-scan",
+      "description": "Scan zlib for security problems before a release or after a dependency, network, credential, or file-handling change — govulncheck, secret scanning, GitHub alert review, and a credential-boundary code review — and handle a private vulnerability report through a GitHub security advisory.",
+      "chars": 6392
+    },
+    {
+      "path": ".agents/skills/zlib/SKILL.md",
+      "name": "zlib",
+      "description": "Search and download Z-Library books, browse saved books and recommendations, inspect download history or account quota, and diagnose domain connectivity through the zlib CLI. For fixing local e-book metadata, use the bundled metadata skill; for sending a local file to Kindle, the bundled kindle skill.",
+      "chars": 6965
+    },
+    {
+      "path": ".agents/skills/zlib-tui/SKILL.md",
+      "name": "zlib-tui",
+      "description": "Change zlib's Bubble Tea terminal screens, book cards, list spacing, or shell navigation while preserving shared layout and selection behavior.",
+      "chars": 31293
+    }
+  ],
+  "count": 6
+}

@@ -1,0 +1,90 @@
+{
+  "verified_at": "2026-11-15",
+  "verifier": "WorkBuddy 本地实测 + GitHub API + raw.githubusercontent + codeload ZIP",
+  "checks": [
+    {
+      "id": "V1",
+      "item": "仓库存在与元数据",
+      "method": "GitHub API /repos/JenkinWoo/sheeridVerify",
+      "result": "存在；main 分支；ISC；JavaScript；★3199 / fork 1516；created 2026-11-06T09:28:09Z；pushed 2026-11-06T09:54:37Z；无 description/topics",
+      "status": "已核实"
+    },
+    {
+      "id": "V2",
+      "item": "文件树",
+      "method": "git/trees/main?recursive=1 + ZIP 解压逐项比对",
+      "result": "64 个文件；src/ + scripts/ 共 31 个 JS 模块、tests/ 9 个测试文件 + 1 fixture、docs/ 5 份、config/ 与 deploy/ 各 1+3 份",
+      "status": "一致"
+    },
+    {
+      "id": "V3",
+      "item": "README / DISCLAIMER / SECURITY / CONTRIBUTING 原文",
+      "method": "raw.githubusercontent 直取",
+      "result": "四份文档全文核读；项目自述为教学/研究/授权流程测试，明确禁止伪造身份、冒用信息、骗取权益、绕过资格审核",
+      "status": "已核实"
+    },
+    {
+      "id": "V4",
+      "item": "测试是否访问真实平台",
+      "method": "grep tests/ 全部 URL + 阅读 t.mock.method 用法",
+      "result": "9 个测试文件全部替换 globalThis.fetch；URL 为 aaaa…/example.com/127.0.0.1 占位；本地起临时 HTTP fixture；无真实提交",
+      "status": "已核实，合规"
+    },
+    {
+      "id": "V5",
+      "item": "本机环境",
+      "method": "node -v / npm -v",
+      "result": "Node v22.22.2（满足 >=22.15）、npm 10.9.7",
+      "status": "就绪"
+    },
+    {
+      "id": "V6",
+      "item": "依赖安装",
+      "method": "npm ci --no-audit --no-fund",
+      "result": "20 秒装 38 个包，退出码 0；camoufox / playwright-core / proxy-chain / undici",
+      "status": "通过"
+    },
+    {
+      "id": "V7",
+      "item": "全量测试",
+      "method": "env -u NODE_OPTIONS npm test",
+      "result": "62 pass / 0 fail / 8 skip（汇总计数 70；顶层 65 = 57 pass + 8 skip），797 ms，退出码 0",
+      "status": "通过，与官方 CI 基线一致"
+    },
+    {
+      "id": "V8",
+      "item": "8 个跳过用例",
+      "method": "读 TAP SKIP 原因 + CI 注释",
+      "result": "6 个学校搜索 + 2 个 Web UI，均因未安装 Camoufox；官方 CI 在 Node 22/24 矩阵同样不装浏览器。本机尝试 npm run browser:install 失败：1.3 GB 包在代理下只下到 3.59 MB / ETA 4h45m / TypeError: terminated，缓存 0 B",
+      "status": "设计如此，非失败；本机不补浏览器覆盖"
+    },
+    {
+      "id": "V9",
+      "item": "沙箱干扰排查",
+      "method": "对比 5 次运行",
+      "result": "NODE_OPTIONS 注入的 node-language-shim 会让 node:test 挂 ~300s 并报 CODEBUDDY_BROKER_TIMEOUT；去掉后两次复现均 0.8 秒全绿",
+      "status": "已定位根因"
+    },
+    {
+      "id": "V10",
+      "item": "源码与文档口径",
+      "method": "server.js / cli.js / config 示例 / document.js 逐项比对",
+      "result": "11 条口径差异与 12 个高频坑见 diffs.json / pitfalls.json",
+      "status": "已记录"
+    },
+    {
+      "id": "V11",
+      "item": "合规边界",
+      "method": "DISCLAIMER + SECURITY + 本地代码",
+      "result": "本包只做离线索引与本地 mock 测试；不代跑提交、不填真实资料、不生成材料、不公网部署",
+      "status": "已约束"
+    }
+  ],
+  "conclusion": "项目源码真实、测试可稳定跑通（62 pass / 0 fail / 8 skip，exit 0），测试全程本地 mock；按官方 CI 基线（不装 Camoufox）已通过。浏览器覆盖因 1.3 GB 下载失败未启用，属可选增强。",
+  "excluded": [
+    "未运行 npm start / npm run submit / npm run web 等会连接真实平台的命令",
+    "未创建 config/sheerid.local.json、未填写任何真实个人或学校资料",
+    "未做公网部署，未改默认访问密码",
+    "未生成、上传或伪造任何证明材料"
+  ]
+}

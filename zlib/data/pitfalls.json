@@ -1,0 +1,18 @@
+[
+  {"id": "P1", "title": "Homebrew 公式已重命名：必须用 `zlib-cli` 而非 `zlib`", "detail": "README 明确标注：The Homebrew formula was renamed from `zlib` to **`zlib-cli`**。老教程或缓存里的 `brew install zlib` 会装错包（系统自带的压缩库 zlib）。必须用 `brew install heartleo/tap/zlib-cli`。", "severity": "高"},
+  {"id": "P2", "title": "安装脚本默认写入 /usr/local/bin，可能需要 sudo", "detail": "install.sh 默认把二进制写到 /usr/local/bin/zlib。如果该目录不可写，脚本会请求 sudo。不想用 sudo 可改用 `brew install` 或手动下载二进制放到 ~/.local/bin。", "severity": "中"},
+  {"id": "P3", "title": "zlib doctor 只检查域名可达性，不验证登录状态", "detail": "zlib doctor --json 只返回域名是否可达（HTTP 200），不检查 session.json 是否有效、是否已登录。登录状态必须用 zlib profile --json 验诂。很多用户以为 doctor 绿了就能下载，其实还得先 login。", "severity": "高"},
+  {"id": "P4", "title": "登录失败常见原因：域名失效 / 密码错 / 需要导入 cookies", "detail": "登录常见失败模式：(1) 域名被墙/失效 → 用 doctor 选个可达的再 login；(2) 密码输错 → 重输；(3) 账号需要导入浏览器 cookies → 导出 Netscape 格式 cookies.txt 再 zlib login --cookies ./cookies.txt --domain <URL>。", "severity": "高"},
+  {"id": "P5", "title": "配置优先级：环境变量 > .env > ~/.config/zlib/.env", "detail": "域名、代理、下载目录等配置按此优先级生效。常见坑：.env 里写了 ZLIB_DOMAIN 但环境变量里也有，环境变量优先生效导致改 .env 不生效。建议只用一种方式配置。", "severity": "中"},
+  {"id": "P6", "title": "ZLIB_PROXY 只影响 HTTP，不影响 SMTP", "detail": "Kindle 发送用 SMTP，不走 ZLIB_PROXY。如果 SMTP 也要走代理，得在邮件服务商层面配置（如 Gmail 不支持直接代理）。这点文档里写清楚了但容易被忽略。", "severity": "中"},
+  {"id": "P7", "title": "Kindle 发送不支持 MOBI，且有大小限制", "detail": "CLI 发送前会校验：只接受 EPUB/PDF/AZW3/TXT；拒绝 MOBI。附件大小限制：TXT ≤ 20 MiB，其他 ≤ 300 MiB（SMTP 编码有开销）。超大文件需先压缩或拆分。", "severity": "中"},
+  {"id": "P8", "title": "Kindle 发送成功 ≠ Kindle 收到书", "detail": "SMTP 成功只代表发送服务器接受了邮件，不代表 Kindle 真收到。常见原因：(1) 发件人不在 Amazon 白名单；(2) 邮箱被 Amazon 拦截；(3) Amazon 处理延迟。需查收件箱、垃圾箱、Amazon 的「管理我的内容和设备」。", "severity": "高"},
+  {"id": "P9", "title": "WeRead 导入需要手机验证码，exit code 3 时需用户自行登录", "detail": "zlib weread import 遇到 exit code 3 时，必须用户自己在终端运行 zlib weread login 完成手机验证码验证。Agent 不能代劳。导入有次数限制，失败不可重试，需去 WeRead 书架确认。", "severity": "中"},
+  {"id": "P10", "title": "zlib tui 不分配 TTY 会报错 / 无交互", "detail": "zlib tui 必须在有 TTY 的终端运行。CI、脚本、non-interactive shell 里跑会报错或直接退出。Agent 模式下不要直接调 tui，改用非交互命令（--json）。", "severity": "中"},
+  {"id": "P11", "title": "元数据编辑：DRM 文件只读不可写、格式不支持的字段会被 skipped", "detail": "zlib meta --edit 遇到 DRM 保护的文件只能读不能写。EPUB/FB2 支持最全，PDF 支持较少字段。无法存储的字段会在 JSON 里标记 cannot_store，写入时会 skipped 且不报错。", "severity": "低"},
+  {"id": "P12", "title": "Google Books 查询无 Key 会被限流（exit 4）", "detail": "metadata lookup 默认查 Google Books，无 API Key 会被限流导致 exit 4。解决：zlib config metadata google-key <YOUR_KEY> 或在 settings 里设置。", "severity": "中"},
+  {"id": "P13", "title": "Homebrew tap 名是 heartleo/tap，不是 heartleo/zlib", "detail": "brew install heartleo/tap/zlib-cli，不是 brew install heartleo/zlib。很多用户记错 tap 名导致安装失败。", "severity": "低"},
+  {"id": "P14", "title": "WeRead 导入有次数限制，失败不可重试", "detail": "WeRead 单日/单月导入有限额。导入失败（特别是 import unconfirmed）不能重试，必须去 WeRead 书架确认。already_existed: true 说明书已存在，不是新导入。", "severity": "中"},
+  {"id": "P15", "title": "MCP server 需要 zlib 在 PATH 上且已登录", "detail": "注册 MCP server（zlib mcp）时，zlib 必须在 PATH 上且已完成 zlib login。read-only 模式可隐藏写操作。Claude Code/Codex/Grok 的配置略有不同，需按各自文档配置。", "severity": "中"},
+  {"id": "P16", "title": "安装脚本 install.sh 默认装到 /usr/local/bin，可能需要 sudo", "detail": "curl ... | sh 默认写 /usr/local/bin/zlib。无 sudo 权限时会失败。可改用 brew install 或手动下载二进制放到 PATH 里的用户目录（如 ~/.local/bin）。", "severity": "中"}
+]

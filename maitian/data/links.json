@@ -1,0 +1,9 @@
+{
+  "repo": "https://github.com/CzzzzzzJ/mdldm-maitian",
+  "publisher_repo": "https://github.com/CzzzzzzJ/mdldm-maitian-publisher",
+  "readme": "https://github.com/CzzzzzzJ/mdldm-maitian#readme",
+  "license": "https://github.com/CzzzzzzJ/mdldm-maitian/blob/main/LICENSE",
+  "skill_md": "https://github.com/CzzzzzzJ/mdldm-maitian/blob/main/skills/maitian-publish/SKILL.md",
+  "local_mirror": "{{WORKBUNDY_HOME}}/skills/maitian/upstream",
+  "local_demo_cmd": "cd upstream && node src/demo.mjs  →  http://localhost:8788/?key=demo"
+}

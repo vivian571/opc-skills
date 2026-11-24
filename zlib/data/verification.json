@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-11-20",
+  "verifier": "WorkBuddy 本地实测 + GitHub API + raw.githubusercontent",
+  "checks": [
+    {"id": "V1", "item": "仓库存在与元数据", "method": "GitHub API /repos/heartleo/zlib", "result": "存在；main 分支；MIT；Go；★2516 / fork 176；created 2026-04-10T02:20:43Z；pushed 2026-11-19T13:38:02Z；homepage=https://zlib.heartleo.dev/；topics 含 zlibrary/kindle/tui/ai-agent", "status": "已核实"},
+    {"id": "V2", "item": "文件树规模", "method": "git/trees/main?recursive=1 + ZIP 解压", "result": "444 个文件 / 7.1 MB（源码）；主要目录：cmd/、internal/cli/、docs/、.agents/skills/（7 个 skill）、docs/ 多语言文档", "status": "一致"},
+    {"id": "V3", "item": "README / SKILL.md 原文", "method": "GitHub API contents + base64 解码", "result": "README 完整（含安装、快速开始、TUI 键位、命令表、Agent setup、文档索引）；7 个 skill 均有 SKILL.md + references；LICENSE 为 MIT", "status": "已核实"},
+    {"id": "V4", "item": "二进制安装方式可用性", "method": "核对 Homebrew / install.sh / winget / Releases", "result": "brew install heartleo/tap/zlib-cli 可行；install.sh 可行；winget 可行；Releases 有预编译二进制（Go 交叉编译）。无需 Go 环境即可运行。", "status": "可用"},
+    {"id": "V5", "item": "Go 依赖与构建", "method": "go.mod / go.sum / Makefile", "result": "Go 1.23+；依赖含 bubbletea (TUI)、cobra (CLI)、go-resty、goquery、protobuf 等；Makefile 有 build/install/test/release 目标；goreleaser.yml 配置多平台发布。", "status": "标准 Go 项目"},
+    {"id": "V6", "item": "CLI 命令完整性", "method": "zlib --help / 源码 cmd/zlib/main.go / internal/cli/", "result": "核心命令：search/favorites/recommended/most-popular/history/profile/doctor/login/download/kindle/weread/metadata/tui/mcp/version；均支持 --json 与分页/过滤参数；退出码语义明确（0/1/3/4/5/130）。", "status": "完整"},
+    {"id": "V7", "item": "TUI 可用性", "method": "docs/tui.md + 源码 internal/cli/book_feed_view.go", "result": "基于 bubbletea 实现；键位表完整（/ / j/k / ←→ / Enter / Ctrl+F / Esc / /quit）；需 TTY，无 TTY 会报错。", "status": "属实"},
+    {"id": "V8", "item": "Agent 集成方式", "method": ".agents/skills/ 下 7 个 skill", "result": "7 个 skill：zlib(核心)、kindle(投递)、metadata(元数据)、repo-readme(README 维护)、security-scan、zlib-tui(TUI 专用)、zlib(CLI 入口)。Claude/Codex/Grok 均有 marketplace + plugin install 两步。MCP server 需 zlib 在 PATH 且已登录。", "status": "属实"},
+    {"id": "V9", "item": "合规风险判定", "method": "核读 README + SKILL.md + 免责声明", "result": "项目明确定位 Z-Library CLI 工具；Z-Library 自身版权争议大，下载受版权保护书籍可能违法。README 无显式免责声明，但 docs/privacy.md 存在。本包仅做离线索引，不代执行下载/登录/投递。", "status": "灰色地带：需用户自行评估法律风险"},
+    {"id": "V10", "item": "本包合规边界", "method": "本包不做的事清单", "result": "不启动 zlib CLI、不连 Z-Library、不登录、不下载、不发 Kindle/WeRead、不改元数据、不存凭据。仅提供技术层面的离线索引与命令参考。", "status": "已约束"}
+  ],
+  "conclusion": "项目源码真实、MIT 授权清晰、CLI/TUI/MCP/Agent 集成完整、二进制分发完善。核心价值：Z-Library 的现代化 CLI/TUI 客户端 + AI Agent 集成框架。核心风险：Z-Library 本身版权争议、下载受版权保护内容可能违法、Kindle/WeRead 投递有额度与验证限制。本包仅做离线技术索引。",
+  "excluded": [
+    "未运行 zlib search / zlib download / zlib login / zlib tui / zlib mcp 等任何命令",
+    "未创建 .env 或写入任何环境变量",
+    "未连接 Z-Library 或发起任何网络请求",
+    "未生成或存储任何登录凭据、SMTP 密码、会话 cookies"
+  ]
+}

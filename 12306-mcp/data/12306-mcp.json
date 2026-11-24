@@ -1,0 +1,101 @@
+{
+  "repo": "Joooook/12306-mcp",
+  "name": "12306-mcp",
+  "description": "基于 Model Context Protocol (MCP) 的 12306 购票搜索服务器，提供查询余票、中转换乘、经停站等功能",
+  "url": "https://github.com/Joooook/12306-mcp",
+  "license": "MIT",
+  "version": "0.3.10",
+  "language": "TypeScript",
+  "stargazers_count": 2468,
+  "forks_count": 343,
+  "pushed_at": "2026-11-22T04:10:31Z",
+  "created_at": "2025-04-14T14:31:32Z",
+  "default_branch": "main",
+  "topics": [
+    "12306",
+    "mcp",
+    "mcp-server",
+    "train-tickets"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "axios": "^1.19.0",
+    "commander": "^14.0.3",
+    "date-fns": "^4.4.0",
+    "date-fns-tz": "^3.2.0",
+    "mcp-http-server": "^1.2.4",
+    "zod": "^3.25.76"
+  },
+  "mcp_tools": [
+    {
+      "name": "get-current-date",
+      "description": "获取当前日期，以上海时区（Asia/Shanghai, UTC+8）为准，返回格式为 "
+    },
+    {
+      "name": "get-stations-code-in-city",
+      "description": "通过中文城市名查询该城市 **所有** 火车站的名称及其对应的 `station_code`，结果是一个包含多个车站信息的列表。"
+    },
+    {
+      "name": "get-station-code-of-citys",
+      "description": "通过中文城市名查询代表该城市的 `station_code`。"
+    },
+    {
+      "name": "get-station-code-by-names",
+      "description": "通过具体的中文车站名查询其 `station_code` 和车站名。"
+    },
+    {
+      "name": "get-station-by-telecode",
+      "description": "通过车站的 `station_telecode` 查询车站的详细信息，包括名称、拼音、所属城市等。此接口主要用于在已知 `telecode` 的情况下获取更完整的车站数据，或用于特殊查询及调试目的。一般用户对话流程中较少直接触发。"
+    },
+    {
+      "name": "get-tickets",
+      "description": "查询12306余票信息。"
+    },
+    {
+      "name": "get-interline-tickets",
+      "description": "查询12306中转余票信息。尚且只支持查询前十条。"
+    },
+    {
+      "name": "get-train-route-stations",
+      "description": "查询特定列车车次在指定区间内的途径车站、到站时间、出发时间及停留时间等详细经停信息。当用户询问某趟具体列车的经停站时使用此接口。"
+    }
+  ],
+  "type_definitions": {
+    "types": [
+      "TicketData",
+      "TicketInfo",
+      "StationData",
+      "RouteStationData",
+      "RouteStationInfo",
+      "InterlineData",
+      "InterlineInfo",
+      "InterlineTicketData",
+      "TrainSearchData"
+    ],
+    "interfaces": [
+      "Price"
+    ]
+  },
+  "key_files": {
+    "src/index.ts": "MCP 服务器主入口，定义所有工具",
+    "src/types.ts": "TypeScript 类型定义",
+    "docs/principle.md": "服务原理详解",
+    "docs/architecture.md": "架构图与说明"
+  },
+  "installation": {
+    "npx": "npx -y 12306-mcp",
+    "npx_http": "npx -y 12306-mcp --port 8080",
+    "docker_stdio": "docker build . -t 12306-mcp && docker run --rm -it 12306-mcp npx 12306-mcp",
+    "docker_http": "docker run -p 8080:8080 -d 12306-mcp npx 12306-mcp --port 8080"
+  },
+  "mcp_config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "12306-mcp"
+    ]
+  }
+}

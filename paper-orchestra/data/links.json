@@ -1,0 +1,9 @@
+{
+  "repo": "https://github.com/google-research/paper-orchestra",
+  "readme": "https://github.com/google-research/paper-orchestra#readme",
+  "license": "https://github.com/google-research/paper-orchestra/blob/main/LICENSE",
+  "homepage": "https://yiwen-song.github.io/paper_orchestra/",
+  "arxiv": "https://arxiv.org/abs/2604.05018",
+  "local_mirror": "{{WORKBUNDY_HOME}}/skills/paper-orchestra/upstream",
+  "local_cli_example": "python upstream/paper_writing_cli.py --raw_materials_dir <dir> --latex_template_dir upstream/templates/cvpr2025"
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "P1",
+    "title": "git clone 在本环境直接 502",
+    "detail": "git clone https://github.com/JenkinWoo/sheeridVerify.git 报 CONNECT tunnel failed, response 502（本地代理对 git 协议隧道不稳定）。改用 https://codeload.github.com/JenkinWoo/sheeridVerify/zip/refs/heads/main 下载 ZIP 再解压，419 KB 一次成功。refresh.sh 默认走 ZIP 通道。",
+    "severity": "高"
+  },
+  {
+    "id": "P2",
+    "title": "Node 版本门槛 22.15",
+    "detail": "package.json engines.node >= 22.15；测试脚本用 node --experimental-test-module-mocks --test，低版本会直接失败。本机 v22.22.2 满足。",
+    "severity": "高"
+  },
+  {
+    "id": "P3",
+    "title": "npm ci 成功 ≠ 测试全覆盖",
+    "detail": "npm ci 只装 38 个 npm 包，不含 Camoufox 浏览器二进制。缺浏览器时 8 个用例（学校搜索 6 + Web UI 2）自动 SKIP，exit 仍是 0。想全覆盖必须 npm run browser:install。",
+    "severity": "高"
+  },
+  {
+    "id": "P4",
+    "title": "TAP 计数口径 65 vs 70",
+    "detail": "日志尾部是 1..65 与 # tests 70 / # pass 62 / # skipped 8。65 是顶层 subtest 数，70 是含嵌套层级的汇总计数，两者不是同一口径，别当成 5 个失败。",
+    "severity": "中"
+  },
+  {
+    "id": "P5",
+    "title": "配置文件必须是严格 JSON",
+    "detail": "config/sheerid.local.json 不支持 // 注释、尾随逗号；document.path 与 document.url 只能填一个。示例配置里的资料字段全为空，不能直接提交。",
+    "severity": "中"
+  },
+  {
+    "id": "P6",
+    "title": "默认访问密码硬编码",
+    "detail": "createWebServer 默认 password='JenkinWoo'，监听 127.0.0.1:8787。对外开放前必须设 ONE_WEB_PASSWORD，且 0.0.0.0 监听强制要求 ONE_WEB_PUBLIC_ORIGIN 为 HTTPS 域名。",
+    "severity": "高"
+  },
+  {
+    "id": "P7",
+    "title": "Web 模式留空代理 = 强制直连",
+    "detail": "网页 proxy 留空或纯空格时不读配置代理、系统代理或环境代理；AUTOMATION_URL 也不覆盖网页输入的链接。CLI 模式才吃 HTTPS_PROXY/HTTP_PROXY 与 AUTOMATION_PROXY。",
+    "severity": "中"
+  },
+  {
+    "id": "P8",
+    "title": "浏览器用例需要桌面",
+    "detail": "示例配置 browser.headless=false、keepOpen=true；Linux 有界面浏览器需可用桌面。无头/无桌面环境下 Camoufox 相关用例会跳过或启动失败。",
+    "severity": "中"
+  },
+  {
+    "id": "P9",
+    "title": "verificationId 去重",
+    "detail": "任务以链接里的 24 位 hex verificationId 为唯一 ID；同一次服务运行中重复提交只返回已有任务。已停止任务可显式 resume 排队尾，成功/失败任务不能重跑。",
+    "severity": "低"
+  },
+  {
+    "id": "P10",
+    "title": "写请求要带 X-Local-Token",
+    "detail": "除 GET 外所有请求必须带页面 /api/session 下发的 token，另有 Host/Origin/Sec-Fetch-Site 来源校验与 CSP；直接 curl POST /api/jobs 会被 403。",
+    "severity": "中"
+  },
+  {
+    "id": "P11",
+    "title": "测试里的 sheerid URL 都是占位符",
+    "detail": "tests/ 中出现 my.sheerid.com / services.sheerid.com 只是字符串断言与 mock 目标（aaaaaaaa…、example.com），不代表发起过真实请求，也不构成授权。",
+    "severity": "低"
+  },
+  {
+    "id": "P12",
+    "title": "仓库极新但 star 极高",
+    "detail": "created_at 2026-11-06，核实日 2026-11-15 已有 3199 star / 1516 fork，9 天内暴涨；热度不等于代码质量或用途合规，判断以源码与免责声明为准。",
+    "severity": "低"
+  },
+  {
+    "id": "P13",
+    "title": "NODE_OPTIONS 里的 node shim 会制造假失败",
+    "detail": "WorkBuddy 注入 NODE_OPTIONS=--require=.../node-language-shim.cjs，干扰 node:test 的 mock/IPC：个别用例各挂 ~299.5s 报 CODEBUDDY_BROKER_TIMEOUT，整轮 337s、3 个假失败。用 env -u NODE_OPTIONS npm test 后 0.8s 全绿，已两次复现。这是本环境最重要的排错点。",
+    "severity": "高"
+  },
+  {
+    "id": "P14",
+    "title": "Camoufox 浏览器包 1.3 GB",
+    "detail": "npm run browser:install 从 GitHub releases 下载 1.3 GB；本机代理下只到 3.59 MB、ETA 4h45m、最终 TypeError: terminated（exit 1），缓存 0 B。8 个浏览器用例因此保持 SKIP，与官方 CI 一致。",
+    "severity": "中"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {"id": "P1", "title": "Android 12+ 才能控制 APP，Android 11 只能聊天/Web", "detail": "README 明确：Chat/web/files 需要 Android 11+；Operating phone apps 需要 Android 12+，推荐 Android 14+。低版本设备上「Set up phone control」向导会卡住，不是 bug 是系统限制。", "severity": "高"},
+  {"id": "P2", "title": "无线调试必须开启且保持——切换 Wi-Fi 后会断开", "detail": "FAQ 明示：Android 会在切换 Wi-Fi 或重启后关闭无线调试。Mika 获权后可自动重开，但如果权限没给对（没勾选「Always allow on this network」），每次换网络都要重新配对。", "severity": "中"},
+  {"id": "P3", "title": "Accessibility 服务必须在 Mika 安装后由 App 自己开启", "detail": "Step 3 建议直接点「Skip」——Mika 配对完成后会自动开启自己的 Accessibility service。手动去系统设置里找 Mika 开权限，有时会被标记为「Restricted setting」导致开关灰显。", "severity": "中"},
+  {"id": "P4", "title": "支付/登录页面禁止截图——Mika 会主动交出控制权", "detail": "README FAQ：Pages like payments and password entry block screenshots, so Mika asks you to take over there. 这是系统级限制，Mika 无法绕过。涉及敏感操作的步骤必须由人亲手完成。", "severity": "高"},
+  {"id": "P5", "title": "Linux sandbox 仅 arm64 设备可用", "detail": "README 注明：Linux sandbox (Python/Node/Shell) 仅在 arm64 设备上支持。x86_64 模拟器或旧款设备会显示「此设备不支持沙箱」。", "severity": "低"},
+  {"id": "P6", "title": "内置 knowledge 是中文写的，但英文对话也正常工作", "detail": "README 澄清：Built-in app/website knowledge is written in Chinese, but that doesn't limit you — the model reads it fine, and you can talk to Mika in English. 模型能理解中文 knowledge 并用英文输出。", "severity": "低"},
+  {"id": "P7", "title": "Gradle 构建需要 ~2GB 内存和稳定网络（拉依赖）", "detail": "gradle.properties 设了 -Xmx2g。首次构建要从 google() / mavenCentral() 拉几十 MB 的依赖，国内网络可能需要代理。CI 跑在 ubuntu-latest 上 40 分钟超时。", "severity": "中"},
+  {"id": "P8", "title": "APK 产物名含 ABI 拆分：universal 和 arm64-v8a 是两个独立完整包", "detail": "build.gradle.kts 注释写明：两个包代码、资源、版本号、签名都一样，只差 lib/ 下的 native 库。各自是完整 APK，不是一起安装的拆分包。下载时选 universal 最保险。", "severity": "低"},
+  {"id": "P9", "title": "开发者调试包和生产包同名但 package 不同，可并存安装", "detail": "debug 构建默认 packageId = com.wangzan101.mika.dev，可与生产版 `com.wangzan101.mika` 并排安装互不干扰。用 mika connect 时需用 `--package com.wangzan101.mika.dev` 指定。", "severity": "低"},
+  {"id": "P10", "title": "WebUSB ADB 仅 Chrome Android 支持——iOS/Safari 不行", "detail": "README FAQ：苹果手机/postmarketOS 可以尝试 KDE Connect 替代。这意味着 iOS 用户无法用 WebUSB 方式做 ADB 截屏，只能用 KDE Connect 或其他方案。", "severity": "中"},
+  {"id": "P11", "title": "自动操作第三方 APP 可能违反其 ToS", "detail": "README Privacy & safety 章节明确警告：Operating third-party apps and websites automatically may break their terms of service, so use your own judgment. 微信/淘宝/抖音等平台都有反自动化条款，用 Mika 刷量/薅羊毛有风险。", "severity": "高"},
+  {"id": "P12", "title": "数据集/评测用例未随仓库发布", "detail": "README 声明 dataset will be released separately at a later date（这是 paper-orchestra 的情况）。Mika 目前没有 eval/tasks 公开数据——只有 README 里展示的几个 demo GIF。想看真实测试案例得自己造或使用 dev 目录里的示例。", "severity": "低"}
+]

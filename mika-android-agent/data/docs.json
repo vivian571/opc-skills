@@ -1,0 +1,47 @@
+{
+  "README.md": {
+    "desc": "项目主文档（中英双语）",
+    "chars": 13944,
+    "lines": 201
+  },
+  "docs/setup-guide.en.md": {
+    "desc": "手机配对设置指南（6 步向导）",
+    "chars": 27167,
+    "lines": 276
+  },
+  "docs/cli.en.md": {
+    "desc": "CLI 与 Skill 用法说明",
+    "chars": 15709,
+    "lines": 163
+  },
+  "docs/computer.en.md": {
+    "desc": "计算机远程接入指南",
+    "chars": 8792,
+    "lines": 78
+  },
+  "docs/dev/architecture.md": {
+    "desc": "架构文档（模块分层、TaskService、AgentLoop）",
+    "chars": 142599,
+    "lines": 445
+  },
+  "docs/models.en.md": {
+    "desc": "模型 provider 列表与签名方式",
+    "chars": 13612,
+    "lines": 96
+  },
+  "docs/features.en.md": {
+    "desc": "功能详细说明",
+    "chars": 20764,
+    "lines": 167
+  },
+  "docs/disclaimer.en.md": {
+    "desc": "免责声明",
+    "chars": 2437,
+    "lines": 29
+  },
+  ".github/CONTRIBUTING.md": {
+    "desc": "贡献指南",
+    "chars": 12193,
+    "lines": 77
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "链接（cli-anything）",
+  "links": [
+    { "label": "仓库", "url": "https://github.com/HKUDS/CLI-Anything" },
+    { "label": "CLI-Hub 在线浏览", "url": "https://hkuds.github.io/CLI-Anything/" },
+    { "label": "CLI-Hub 官网", "url": "https://clianything.cc/" },
+    { "label": "中文 README", "url": "https://github.com/HKUDS/CLI-Anything/blob/main/README_CN.md" },
+    { "label": "技术报告 arXiv:2606.03854", "url": "https://arxiv.org/abs/2606.03854" },
+    { "label": "贡献指南", "url": "https://github.com/HKUDS/CLI-Anything/blob/main/CONTRIBUTING.md" },
+    { "label": "CLI 心愿单", "url": "https://github.com/HKUDS/CLI-Anything/issues/new?template=cli-wishlist.yml" },
+    { "label": "PyPI cli-anything-hub", "url": "https://pypi.org/project/cli-anything-hub/" }
+  ]
+}

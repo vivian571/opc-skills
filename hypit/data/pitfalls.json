@@ -1,0 +1,74 @@
+[
+  {
+    "id": "P1",
+    "pitfall": "Skill 与可执行文件是两个独立安装通道",
+    "detail": "npx skills add 只装生产知识（skills/hypit），hypit 可执行包（CLI/组件/Runtime/Studio）需 Agent 另行准备。装了 Skill ≠ 能渲染。",
+    "severity": "高"
+  },
+  {
+    "id": "P2",
+    "pitfall": "安装 Skill 不含模型额度",
+    "detail": "Hypit 框架免费，但 Coding Agent 与图像/视频/语音模型各自计费。安装不等于有生成额度。",
+    "severity": "高"
+  },
+  {
+    "id": "P3",
+    "pitfall": "Node 版本门槛",
+    "detail": "需 Node >=22.15.0 + pnpm 10.33.0 + TypeScript 5.9.3。旧 Node 会在 tsx/esm bootstrap 阶段失败。",
+    "severity": "中"
+  },
+  {
+    "id": "P4",
+    "pitfall": "源码启动需 pnpm install --frozen-lockfile",
+    "detail": "直接跑仓库根 ./hypit 若无依赖会提示 'run: pnpm install --frozen-lockfile' 并 exit 1。普通用户应走 npm 发行包而非源码。",
+    "severity": "中"
+  },
+  {
+    "id": "P5",
+    "pitfall": "License 非标准 Apache-2.0",
+    "detail": "是修改版：禁止未经授权做多租户 SaaS、禁止商业再分发、不得移除 CLI/报告中的 LOGO 与版权信息。GitHub API 识别为 NOASSERTION。",
+    "severity": "高"
+  },
+  {
+    "id": "P6",
+    "pitfall": "SVML/SVS/SVRun 三种后缀职能不同",
+    "detail": ".svml=作品主源（Script/media/components/composition），.svs=可复用 Recipe，.svrun=单次执行的目标选择。混用会导致 Build 找不到 Author Source。",
+    "severity": "中"
+  },
+  {
+    "id": "P7",
+    "pitfall": "时间锚定到词而非秒",
+    "detail": "Hypit 核心是 semantic alignment——字幕/MG/B-roll 锚到 Script 的词。改写台词后时序自动 reflow；用秒硬编码会失去这个优势。",
+    "severity": "中"
+  },
+  {
+    "id": "P8",
+    "pitfall": "输出物可完全不调用生成模型",
+    "detail": "工作流可纯用代码渲染字幕/MG/视觉，不调用生成模型、不产生模型服务费。别默认每个 video 都需付费 API。",
+    "severity": "中"
+  },
+  {
+    "id": "P9",
+    "pitfall": "换脸/克隆的合规红线",
+    "detail": "README 主打 swap the face/clone viral video。用于真人需授权与深度合成标识；本包不协助冒充、造谣、侵权或敏感场景换脸。",
+    "severity": "高"
+  },
+  {
+    "id": "P10",
+    "pitfall": "凭证配置与服务选择是两件事",
+    "detail": "选 HypiHub/自带 API key/本地模型是服务选择；凭证怎么连由 Provider 与 Profile 决定。别把二者混为一谈。",
+    "severity": "中"
+  },
+  {
+    "id": "P11",
+    "pitfall": "Studio 预览 ≠ 最终导出",
+    "detail": "浏览器审阅可在编码前进行；导出是独立的交付决定。用户说'看看'不等于'导出成片'。",
+    "severity": "低"
+  },
+  {
+    "id": "P12",
+    "pitfall": "monorepo 88 个 workspace 包",
+    "detail": "packages/ 下 88 个 @hypit/* 包，通过 pnpm workspace 与自定义 distribution-resolution 加载。查找某功能先定位包名再看其 src/index.ts。",
+    "severity": "低"
+  }
+]

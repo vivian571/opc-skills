@@ -1,0 +1,46 @@
+{
+  "title": "合规硬约束（cli-anything）",
+  "license": "Apache-2.0",
+  "rules": [
+    {
+      "id": "OFFLINE-INDEX-ONLY",
+      "level": "hard",
+      "rule": "本包只做离线索引与手册——不执行 cli-hub install、不连网装包、不启动任何软件 harness、不跑 agent-harness 的 CLI 命令。"
+    },
+    {
+      "id": "APACHE-2.0-REUSE",
+      "level": "info",
+      "rule": "Apache-2.0 允许商用/修改/分发，但须保留版权声明与 LICENSE 副本；含专利授权，修改后需标注变更。"
+    },
+    {
+      "id": "THIRD-PARTY-SOFTWARE",
+      "level": "hard",
+      "rule": "每个 harness 依赖的宿主软件（Blender/GIMP/LibreOffice/Zoom 等）各有自己的 EULA/开源协议。装 harness ≠ 获得软件授权，用户自负。"
+    },
+    {
+      "id": "DATA-AND-OSINT",
+      "level": "hard",
+      "rule": "涉及 Zoom/Intelwatch/Mailchimp/Exa 等联网 harness 的，可能触达用户账号数据、企业数据或 OSINT 情报。禁止未经许可采集他人数据；遵守平台 ToS 与《个人信息保护法》。"
+    },
+    {
+      "id": "GIMP-SCRIPTFU-INJECTION",
+      "level": "hard",
+      "rule": "上游曾修 GIMP Script-Fu 路径注入漏洞（2026-03-14）。使用 GIMP harness 时勿拼接未清洗的外部路径到 Script-Fu 命令。"
+    },
+    {
+      "id": "SKETCH-PATH-TRAVERSAL",
+      "level": "hard",
+      "rule": "上游曾加固 Sketch CLI 的 token 文件处理防路径穿越/符号链接逃逸（2026-05-21）。涉及 token 文件路径时勿用用户可控的相对路径。"
+    },
+    {
+      "id": "DEFUSEDXML",
+      "level": "info",
+      "rule": "XML/SVG/ODF/MLT/MusicXML/CSL 解析上游已走 defusedxml 防 XXE。自行二次开发时保持该防线，勿解析不可信 XML。"
+    },
+    {
+      "id": "NO-CREDENTIALS",
+      "level": "hard",
+      "rule": "本包不存任何 API key/token/凭据。registry 中 install_cmd 只是公开安装命令，不含密钥。"
+    }
+  ]
+}

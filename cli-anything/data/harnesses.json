@@ -1,0 +1,419 @@
+{
+  "count": 69,
+  "harnesses": [
+    {
+      "software": "3MF",
+      "harness_path": "3MF/agent-harness",
+      "py_files": 14,
+      "packaged": true
+    },
+    {
+      "software": "QGIS",
+      "harness_path": "QGIS/agent-harness",
+      "py_files": 17,
+      "packaged": true
+    },
+    {
+      "software": "adguardhome",
+      "harness_path": "adguardhome/agent-harness",
+      "py_files": 21,
+      "packaged": true
+    },
+    {
+      "software": "anygen",
+      "harness_path": "anygen/agent-harness",
+      "py_files": 14,
+      "packaged": true
+    },
+    {
+      "software": "audacity",
+      "harness_path": "audacity/agent-harness",
+      "py_files": 30,
+      "packaged": true
+    },
+    {
+      "software": "blender",
+      "harness_path": "blender/agent-harness",
+      "py_files": 23,
+      "packaged": true
+    },
+    {
+      "software": "browser",
+      "harness_path": "browser/agent-harness",
+      "py_files": 17,
+      "packaged": true
+    },
+    {
+      "software": "calibre",
+      "harness_path": "calibre/agent-harness",
+      "py_files": 17,
+      "packaged": true
+    },
+    {
+      "software": "cc-switch",
+      "harness_path": "cc-switch/agent-harness",
+      "py_files": 10,
+      "packaged": true
+    },
+    {
+      "software": "chromadb",
+      "harness_path": "chromadb/agent-harness",
+      "py_files": 16,
+      "packaged": true
+    },
+    {
+      "software": "cloudanalyzer",
+      "harness_path": "cloudanalyzer/agent-harness",
+      "py_files": 13,
+      "packaged": true
+    },
+    {
+      "software": "cloudcompare",
+      "harness_path": "cloudcompare/agent-harness",
+      "py_files": 14,
+      "packaged": true
+    },
+    {
+      "software": "comfyui",
+      "harness_path": "comfyui/agent-harness",
+      "py_files": 14,
+      "packaged": true
+    },
+    {
+      "software": "dify-workflow",
+      "harness_path": "dify-workflow/agent-harness",
+      "py_files": 10,
+      "packaged": true
+    },
+    {
+      "software": "drawio",
+      "harness_path": "drawio/agent-harness",
+      "py_files": 17,
+      "packaged": true
+    },
+    {
+      "software": "eez-studio",
+      "harness_path": "eez-studio/agent-harness",
+      "py_files": 15,
+      "packaged": true
+    },
+    {
+      "software": "eth2-quickstart",
+      "harness_path": "eth2-quickstart/agent-harness",
+      "py_files": 17,
+      "packaged": true
+    },
+    {
+      "software": "exa",
+      "harness_path": "exa/agent-harness",
+      "py_files": 12,
+      "packaged": true
+    },
+    {
+      "software": "firefly-iii",
+      "harness_path": "firefly-iii/agent-harness",
+      "py_files": 28,
+      "packaged": true
+    },
+    {
+      "software": "freecad",
+      "harness_path": "freecad/agent-harness",
+      "py_files": 32,
+      "packaged": true
+    },
+    {
+      "software": "gimp",
+      "harness_path": "gimp/agent-harness",
+      "py_files": 18,
+      "packaged": true
+    },
+    {
+      "software": "godot",
+      "harness_path": "godot/agent-harness",
+      "py_files": 16,
+      "packaged": true
+    },
+    {
+      "software": "inkscape",
+      "harness_path": "inkscape/agent-harness",
+      "py_files": 22,
+      "packaged": true
+    },
+    {
+      "software": "intelwatch",
+      "harness_path": "intelwatch/agent-harness",
+      "py_files": 9,
+      "packaged": true
+    },
+    {
+      "software": "iterm2",
+      "harness_path": "iterm2/agent-harness",
+      "py_files": 23,
+      "packaged": true
+    },
+    {
+      "software": "joplin",
+      "harness_path": "joplin/agent-harness",
+      "py_files": 23,
+      "packaged": true
+    },
+    {
+      "software": "jumpserver",
+      "harness_path": "jumpserver/agent-harness",
+      "py_files": 19,
+      "packaged": true
+    },
+    {
+      "software": "kdenlive",
+      "harness_path": "kdenlive/agent-harness",
+      "py_files": 20,
+      "packaged": true
+    },
+    {
+      "software": "krita",
+      "harness_path": "krita/agent-harness",
+      "py_files": 15,
+      "packaged": true
+    },
+    {
+      "software": "libreoffice",
+      "harness_path": "libreoffice/agent-harness",
+      "py_files": 20,
+      "packaged": true
+    },
+    {
+      "software": "live2d",
+      "harness_path": "live2d/agent-harness",
+      "py_files": 28,
+      "packaged": true
+    },
+    {
+      "software": "lldb",
+      "harness_path": "lldb/agent-harness",
+      "py_files": 19,
+      "packaged": true
+    },
+    {
+      "software": "macrocli",
+      "harness_path": "macrocli/agent-harness",
+      "py_files": 27,
+      "packaged": true
+    },
+    {
+      "software": "mailchimp",
+      "harness_path": "mailchimp/agent-harness",
+      "py_files": 45,
+      "packaged": true
+    },
+    {
+      "software": "mermaid",
+      "harness_path": "mermaid/agent-harness",
+      "py_files": 14,
+      "packaged": true
+    },
+    {
+      "software": "minimax",
+      "harness_path": "minimax/agent-harness",
+      "py_files": 13,
+      "packaged": true
+    },
+    {
+      "software": "mubu",
+      "harness_path": "mubu/agent-harness",
+      "py_files": 14,
+      "packaged": true
+    },
+    {
+      "software": "musescore",
+      "harness_path": "musescore/agent-harness",
+      "py_files": 19,
+      "packaged": true
+    },
+    {
+      "software": "n8n",
+      "harness_path": "n8n/agent-harness",
+      "py_files": 25,
+      "packaged": true
+    },
+    {
+      "software": "notebooklm",
+      "harness_path": "notebooklm/agent-harness",
+      "py_files": 11,
+      "packaged": true
+    },
+    {
+      "software": "novita",
+      "harness_path": "novita/agent-harness",
+      "py_files": 12,
+      "packaged": true
+    },
+    {
+      "software": "nsight-graphics",
+      "harness_path": "nsight-graphics/agent-harness",
+      "py_files": 25,
+      "packaged": true
+    },
+    {
+      "software": "nslogger",
+      "harness_path": "nslogger/agent-harness",
+      "py_files": 17,
+      "packaged": true
+    },
+    {
+      "software": "obs-studio",
+      "harness_path": "obs-studio/agent-harness",
+      "py_files": 20,
+      "packaged": true
+    },
+    {
+      "software": "obsidian",
+      "harness_path": "obsidian/agent-harness",
+      "py_files": 17,
+      "packaged": true
+    },
+    {
+      "software": "ollama",
+      "harness_path": "ollama/agent-harness",
+      "py_files": 15,
+      "packaged": true
+    },
+    {
+      "software": "openrefine",
+      "harness_path": "openrefine/agent-harness",
+      "py_files": 14,
+      "packaged": true
+    },
+    {
+      "software": "openscreen",
+      "harness_path": "openscreen/agent-harness",
+      "py_files": 18,
+      "packaged": true
+    },
+    {
+      "software": "pm2",
+      "harness_path": "pm2/agent-harness",
+      "py_files": 16,
+      "packaged": true
+    },
+    {
+      "software": "quietshrink",
+      "harness_path": "quietshrink/agent-harness",
+      "py_files": 5,
+      "packaged": true
+    },
+    {
+      "software": "rekordbox",
+      "harness_path": "rekordbox/agent-harness",
+      "py_files": 9,
+      "packaged": true
+    },
+    {
+      "software": "renderdoc",
+      "harness_path": "renderdoc/agent-harness",
+      "py_files": 22,
+      "packaged": true
+    },
+    {
+      "software": "rms",
+      "harness_path": "rms/agent-harness",
+      "py_files": 27,
+      "packaged": true
+    },
+    {
+      "software": "safari",
+      "harness_path": "safari/agent-harness",
+      "py_files": 17,
+      "packaged": true
+    },
+    {
+      "software": "sbox",
+      "harness_path": "sbox/agent-harness",
+      "py_files": 26,
+      "packaged": true
+    },
+    {
+      "software": "seaclip",
+      "harness_path": "seaclip/agent-harness",
+      "py_files": 17,
+      "packaged": true
+    },
+    {
+      "software": "shotcut",
+      "harness_path": "shotcut/agent-harness",
+      "py_files": 24,
+      "packaged": true
+    },
+    {
+      "software": "siyuan",
+      "harness_path": "siyuan/agent-harness",
+      "py_files": 14,
+      "packaged": true
+    },
+    {
+      "software": "sketch",
+      "harness_path": "sketch/agent-harness",
+      "py_files": 0,
+      "packaged": false
+    },
+    {
+      "software": "slay_the_spire_ii",
+      "harness_path": "slay_the_spire_ii/agent-harness",
+      "py_files": 14,
+      "packaged": true
+    },
+    {
+      "software": "tigris",
+      "harness_path": "tigris/agent-harness",
+      "py_files": 18,
+      "packaged": true
+    },
+    {
+      "software": "unimol_tools",
+      "harness_path": "unimol_tools/agent-harness",
+      "py_files": 23,
+      "packaged": true
+    },
+    {
+      "software": "unrealinsights",
+      "harness_path": "unrealinsights/agent-harness",
+      "py_files": 20,
+      "packaged": true
+    },
+    {
+      "software": "videocaptioner",
+      "harness_path": "videocaptioner/agent-harness",
+      "py_files": 15,
+      "packaged": true
+    },
+    {
+      "software": "wavetone",
+      "harness_path": "wavetone/agent-harness",
+      "py_files": 15,
+      "packaged": true
+    },
+    {
+      "software": "web-yu-pri",
+      "harness_path": "web-yu-pri/agent-harness",
+      "py_files": 12,
+      "packaged": true
+    },
+    {
+      "software": "wiremock",
+      "harness_path": "wiremock/agent-harness",
+      "py_files": 17,
+      "packaged": true
+    },
+    {
+      "software": "zoom",
+      "harness_path": "zoom/agent-harness",
+      "py_files": 14,
+      "packaged": true
+    },
+    {
+      "software": "zotero",
+      "harness_path": "zotero/agent-harness",
+      "py_files": 26,
+      "packaged": true
+    }
+  ]
+}

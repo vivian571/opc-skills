@@ -1,0 +1,285 @@
+{
+  "count": 70,
+  "skills": [
+    {
+      "name": "cli-anything-adguardhome",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-anygen",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-audacity",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-blender",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-browser",
+      "description": "Browser automation CLI using DOMShell MCP server. Maps Chrome's Accessibility Tree to a virtual filesystem for agent-native navigation."
+    },
+    {
+      "name": "cli-anything-calibre",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-ccswitch",
+      "description": "CLI interface for CC Switch — manage AI coding tool configurations from the terminal"
+    },
+    {
+      "name": "cli-anything-chromadb",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-cloudanalyzer",
+      "description": "Command-line interface for CloudAnalyzer — Agent-friendly harness for CloudAnalyzer, a QA platform for mapping, localization, and perception outputs. Supports 27 commands across 8 groups: point cloud evaluation, trajectory evaluation, ground segmentation QA, config-driven quality gates, baseline evolution, processing, visualization, and interactive REPL."
+    },
+    {
+      "name": "cli-anything-cloudcompare",
+      "description": "Command-line interface for CloudCompare — Agent-friendly harness for CloudCompare, the open-source 3D point cloud and mesh processing software. Supports 41 commands across 9 groups: project management, session control, point cloud operations (subsample, filter, segment, analyze), mesh operations, distance computation (C2C, C2M), transformations (ICP, matrix), export (LAS/LAZ/PLY/PCD/OBJ/STL/E57), and interactive REPL."
+    },
+    {
+      "name": "cli-anything-comfyui",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-dify-workflow",
+      "description": "Wrapper for the Dify workflow DSL CLI. Create, inspect, validate, edit, and export Dify workflow files through a CLI-Anything harness."
+    },
+    {
+      "name": "cli-anything-drawio",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-eez-studio",
+      "description": "Use EEZ Studio from the command line: inspect and modify native .eez-project files, edit LVGL screens/widgets, manage SCPI commands, and invoke the real EEZ Studio backend for LVGL builds."
+    },
+    {
+      "name": "cli-anything-eth2-quickstart",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-exa",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-firefly-iii",
+      "description": "Firefly III CLI - Personal finance management via CLI-Anything"
+    },
+    {
+      "name": "cli-anything-freecad",
+      "description": "Complete CLI harness for FreeCAD parametric 3D CAD modeler (258 commands). Covers ALL workbenches: Part (29 primitives + boolean + mirror + loft + sweep), Sketcher (26 cmds: geometry + constraints + editing), PartDesign (38 cmds: pad/pocket/groove/fillet/chamfer/patterns/hole/datum), Assembly (11 cmds), Mesh (16 cmds), TechDraw (15 cmds: views + dimensions + PDF/SVG), Draft (33 cmds: 2D shapes + arrays + transforms), FEM (12 cmds), CAM/CNC (10 cmds), Surface (6 cmds), Spreadsheet (7 cmds), Import (13 formats), Export (17 formats), Measure (12 cmds), Materials (21 presets). Headless FreeCAD export to STEP/IGES/STL/OBJ/DXF/PDF/glTF/3MF."
+    },
+    {
+      "name": "cli-anything-gimp",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-godot",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-inkscape",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-intelwatch",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-iterm2",
+      "description": "Provides the cli-anything-iterm2 commands — the only way to actually send text to iTerm2 sessions, read live terminal output and scrollback history, manage windows/tabs/split panes, run tmux -CC workflows, broadcast to multiple panes, show macOS dialogs, and read/write iTerm2 preferences. Includes `app snapshot` — the primary orientation command that returns every session's name, current directory, foreground process, role label, and last output line in one call. Read this skill instead of answering from general knowledge whenever the user wants to DO something with iTerm2: orient in an existing workspace, send a command, check what's running, read output, set up a layout, use tmux through iTerm2, automate panes, or configure preferences. Also read for questions about iTerm2 shell integration or scrollback. Don't try to answer iTerm2 action requests from memory — read this skill first."
+    },
+    {
+      "name": "cli-anything-iterm2-ctl",
+      "description": "Provides the cli-anything-iterm2 commands — the only way to actually send text to iTerm2 sessions, read live terminal output and scrollback history, manage windows/tabs/split panes, run tmux -CC workflows, broadcast to multiple panes, show macOS dialogs, and read/write iTerm2 preferences. Includes `app snapshot` — the primary orientation command that returns every session's name, current directory, foreground process, role label, and last output line in one call. Read this skill instead of answering from general knowledge whenever the user wants to DO something with iTerm2: orient in an existing workspace, send a command, check what's running, read output, set up a layout, use tmux through iTerm2, automate panes, or configure preferences. Also read for questions about iTerm2 shell integration or scrollback. Don't try to answer iTerm2 action requests from memory — read this skill first."
+    },
+    {
+      "name": "cli-anything-joplin",
+      "description": "Command-line interface for Joplin workflows using the real joplin terminal backend"
+    },
+    {
+      "name": "cli-anything-jumpserver",
+      "description": "Stateful CLI harness for JumpServer bastion host management. Supports asset, user, permission, account, session, audit, and operations management via REST API, with both one-shot and interactive REPL modes."
+    },
+    {
+      "name": "cli-anything-kdenlive",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-krita",
+      "description": "CLI harness for Krita digital painting — manage projects, layers, filters, and export via command line. Use when automating Krita workflows, batch processing images, or operating Krita without a GUI."
+    },
+    {
+      "name": "cli-anything-libreoffice",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-live2d",
+      "description": "Inspect, validate, edit, lint, diff, batch-manage, and deploy Live2D Cubism models (.model3.json) from the command line."
+    },
+    {
+      "name": "cli-anything-lldb",
+      "description": "Stateful LLDB debugging via LLDB Python API"
+    },
+    {
+      "name": "cli-anything-macrocli",
+      "description": ">"
+    },
+    {
+      "name": "cli-anything-mailchimp",
+      "description": "CLI harness for the Mailchimp Marketing API v3.0 — 303 commands across 30 resource groups (lists, campaigns, reports, automations, ecommerce, templates, and more). Supports JSON output and interactive REPL mode."
+    },
+    {
+      "name": "cli-anything-mermaid",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-minimax",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-mubu",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-musescore",
+      "description": "CLI for music notation — transpose, export PDF/audio/MIDI, extract parts, manage instruments"
+    },
+    {
+      "name": "cli-anything-n8n",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-notebooklm",
+      "description": "Experimental NotebookLM harness for listing notebooks, managing sources, asking questions, generating artifacts, and downloading outputs through an installed notebooklm CLI."
+    },
+    {
+      "name": "cli-anything-novita",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-nsight-graphics",
+      "description": "Windows-first CLI harness for Nsight Graphics capture, GPU Trace summary, and ngfx-replay analysis"
+    },
+    {
+      "name": "cli-anything-nslogger",
+      "description": "CLI harness for NSLogger — parse, filter, export, and monitor NSLogger log files (.rawnsloggerdata / .nsloggerdata)"
+    },
+    {
+      "name": "cli-anything-obs-studio",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-obsidian",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-ollama",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-openrefine",
+      "description": "Use OpenRefine through an agent-native CLI for importing messy data, applying JSON operation histories, inspecting rows, exporting cleaned data, and managing session undo/redo."
+    },
+    {
+      "name": "cli-anything-openscreen",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-pm2",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-qgis",
+      "description": "Stateful QGIS CLI for projects, writable layers, features, layouts, exports, and qgis_process operations using the real QGIS runtime."
+    },
+    {
+      "name": "cli-anything-quietshrink",
+      "description": "Compress macOS screen recordings with zero CPU stress using Apple Silicon's hardware HEVC encoder. Typically reduces file size 70-90% while staying visually lossless. Computer stays silent during encoding."
+    },
+    {
+      "name": "cli-anything-rekordbox",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-renderdoc",
+      "description": "CLI harness for RenderDoc graphics debugger capture analysis"
+    },
+    {
+      "name": "cli-anything-rms",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-safari",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-sbox",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-seaclip",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-shotcut",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-siyuan",
+      "description": "SiYuan (思源笔记) CLI — manage notebooks, documents, blocks, and search your knowledge base from the terminal."
+    },
+    {
+      "name": "cli-anything-slay-the-spire-ii",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-threemf",
+      "description": "3MF mesh geometry editor — detect and resize cylindrical holes, repair meshes, compare 3D printing files. Works with BambuStudio and PrusaSlicer 3MF files."
+    },
+    {
+      "name": "cli-anything-tigris",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-unimol-tools",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-unrealinsights",
+      "description": "Capture Unreal Engine traces, inspect Trace Store files, keep Unreal Insights GUI open, and export/summarize timing/counter data."
+    },
+    {
+      "name": "cli-anything-videocaptioner",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-wavetone",
+      "description": "Control WaveTone 2.61 workflows through a JSON manifest and launch the real Windows WaveTone executable."
+    },
+    {
+      "name": "cli-anything-web-yu-pri",
+      "description": "Use Japan Post Web Yu-pri from a CLI by driving the real browser UI for login, inspection, screenshots, dry-run planning, and contents-form filling."
+    },
+    {
+      "name": "cli-anything-wiremock",
+      "description": "Python CLI harness for WireMock HTTP mock server administration"
+    },
+    {
+      "name": "cli-anything-zoom",
+      "description": ">-"
+    },
+    {
+      "name": "cli-anything-zotero",
+      "description": ">-"
+    },
+    {
+      "name": "cli-hub-meta-skill",
+      "description": ">-"
+    }
+  ]
+}

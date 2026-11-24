@@ -1,0 +1,25 @@
+{
+  "repo": "JenkinWoo/sheeridVerify",
+  "url": "https://github.com/JenkinWoo/sheeridVerify",
+  "name": "sheeridverify",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=22.15"
+  },
+  "dependencies": {
+    "camoufox": "^0.5.9",
+    "playwright-core": "^1.62.1",
+    "proxy-chain": "^3.0.1",
+    "undici": "^7.30.1"
+  },
+  "language": "JavaScript (ESM)",
+  "default_branch": "main",
+  "stargazers_count": 3199,
+  "forks_count": 1516,
+  "created_at": "2026-11-06T09:28:09Z",
+  "pushed_at": "2026-11-06T09:54:37Z",
+  "verified_at": "2026-11-15",
+  "note": "star/fork/日期为 2026-11-15 通过 GitHub API 核实的快照，实时值以 --refresh 为准"
+}

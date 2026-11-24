@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-11-17",
+  "verifier": "WorkBuddy 本地实测 + GitHub API + raw.githubusercontent",
+  "checks": [
+    {"id": "V1", "item": "仓库存在与元数据", "method": "GitHub API /repos/cubewhy/skid-homework", "result": "存在；main 分支；GPL-3.0；TypeScript；★1906 / fork 358；created 2025-09-27T01:17:57Z；pushed 2026-09-14T23:24:44Z；updated 2026-11-17T00:44:34Z（晚于 pushed_at，有未推送改动）；homepage=https://skid.cubewhy.dev；topics=[ai,gemini,homework,homework-helper,homework-solver,self-learning,self-taught,study]", "status": "已核实"},
+    {"id": "V2", "item": "文件树规模", "method": "git/trees/main?recursive=1", "result": "218 个文件；src/ 主体 100+ 文件；public/locales/en+zh 双语；docs/zh/shortcuts/jsxgraph.md 一份中文文档；.github/workflows/docker-image.yml + lint.yaml CI 两条", "status": "一致"},
+    {"id": "V3", "item": "README / LICENSE 原文", "method": "raw.githubusercontent 直取", "result": "README 250 行中英双语，写明 GPL-3.0、免责声明（『鼓励学术诚信, 请勿在考试中使用』）、快捷键表、画图工具支持列表、ADB 限制。LICENSE 确认为 GPLv3 全文头", "status": "已核实"},
+    {"id": "V4", "item": "技术栈可验证", "method": "cat package.json | jq '.dependencies'", "result": "Next.js 15 (implied), @google/genai ^1.39.0, jsxgraph ^1.12.2, framer-motion ^12.30.0, dexie ^4.3.0, i18next ^25.8.0, @yume-chan/adb * 系列, dompurify 3.3.2, etc.", "status": "属实"},
+    {"id": "V5", "item": "Prompt 文件可读性", "method": "head -30 src/ai/prompts/*.md", "result": "4 份 .md prompt 均为人类可读的自然语言指令，非 system prompt 泄露风险项（它们本身就是面向用户的可定制 prompt）", "status": "属实"},
+    {"id": "V6", "item": "API Key 存储方式", "method": "grep -r 'localStorage\\|indexeddb\\|dexie\\|KEY' src/", "result": "Key 存 IndexedDB（dexie），不进 git，不进环境变量。README 明示『Gemini API Key 是免费的, 可以去申请』指向 Google AI Studio", "status": "属实"},
+    {"id": "V7", "item": "是否含后门/遥测", "method": "grep -riE 'telemetry|analytics|mixpanel|amplitude|google.analytics|gtag' src/ public/", "result": "零命中。README 明确标榜『无遥测』，源码亦无对应接入。", "status": "属实"},
+    {"id": "V8", "item": "GPL-3.0 vs 依赖 MIT 库兼容性", "method": "jq '.dependencies' package.json | grep -E '^\"@|^\"framer|^\"radix', 对照 fsf 兼容性表", "result": "GPL-3.0 允许链接 MIT/BSD/Apache 库（radix-ui, framer-motion, class-variance-authority 等全为 MIT）。唯一需注意：若修改 skid-homework 源码再分发，必须同样 GPL-3.0 开源——这是 copyleft 的要求，不是 bug。", "status": "合规"},
+    {"id": "V9", "item": "CI 工作流", "method": "cat .github/workflows/*.yml", "result": "lint.yaml：pnpm install + eslint src/；docker-image.yml：GitHub Container Registry 发布。无测试步骤——项目自身也未写明有测试套件", "status": "核实"},
+    {"id": "V10", "item": "合规边界判定", "method": "核读 README Disclaimer 章节 + safety.json 设计", "result": "项目方明确声明『鼓励学术诚信, 请勿在考试中使用』。本包据此设定四层硬约束：（1）只做离线索引，（2）不提供绕过检测方案，（3）不代生成作弊 prompt，（4）客观描述功能时同步提醒免责声明", "status": "已约束"}
+  ],
+  "conclusion": "项目源码真实、GPL-3.0 授权清晰、功能与设计意图匹配 README 描述。本包只做技术层面的离线索引，不对任何具体使用场景背书。",
+  "excluded": [
+    "未启动 next dev / 访问 localhost:3000 / 填写 API Key / 调用 Gemini 或 OpenAI API",
+    "未尝试连接任意 ADB 设备或拍摄屏幕截图",
+    "未部署到 Vercel / Cloudflare / Docker Hub，不产生任何实际 HTTP 请求到 skid.cubewhy.dev",
+    "未修改 src/ai/prompts/*.md 内容，保留上游原始 prompt 文本"
+  ]
+}

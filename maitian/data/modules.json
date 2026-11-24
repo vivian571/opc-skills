@@ -1,0 +1,167 @@
+[
+  {
+    "path": "src/access.mjs",
+    "lines": 35,
+    "bytes": 2081,
+    "group": "核心模块",
+    "role": "access control middleware",
+    "exports": []
+  },
+  {
+    "path": "src/board.mjs",
+    "lines": 101,
+    "bytes": 8690,
+    "group": "核心模块",
+    "role": "飞书多维表格看板同步",
+    "exports": []
+  },
+  {
+    "path": "src/bridge.mjs",
+    "lines": 39,
+    "bytes": 2117,
+    "group": "核心模块",
+    "role": "Chrome DevTools Protocol 桥接器（调 publisher 插件）",
+    "exports": []
+  },
+  {
+    "path": "src/checks.mjs",
+    "lines": 183,
+    "bytes": 14769,
+    "group": "核心模块",
+    "role": "发布前校验：字数/禁词/封面比例/faststart",
+    "exports": []
+  },
+  {
+    "path": "src/chrome-shim.mjs",
+    "lines": 115,
+    "bytes": 6326,
+    "group": "核心模块",
+    "role": "Node 内 mock chrome.tabs/chrome.debugger",
+    "exports": []
+  },
+  {
+    "path": "src/db.mjs",
+    "lines": 63,
+    "bytes": 6315,
+    "group": "核心模块",
+    "role": "SQLite 状态落盘：episodes/tasks/logs/snapshot/meta",
+    "exports": [
+      "db",
+      "NAMES",
+      "STATE_CN",
+      "episodes",
+      "getEpisode",
+      "getTasks",
+      "recentLogs",
+      "getSnapshot",
+      "getMeta"
+    ]
+  },
+  {
+    "path": "src/demo.mjs",
+    "lines": 75,
+    "bytes": 9018,
+    "group": "核心模块",
+    "role": "演示模式：用假数据起 :8788 静态服务",
+    "exports": []
+  },
+  {
+    "path": "src/driver.mjs",
+    "lines": 69,
+    "bytes": 4278,
+    "group": "核心模块",
+    "role": "各平台浏览器驱动适配层",
+    "exports": []
+  },
+  {
+    "path": "src/feishu.mjs",
+    "lines": 60,
+    "bytes": 4548,
+    "group": "核心模块",
+    "role": "飞书卡片通知：开跑/到位/异常/等你点/日报/复盘/周报",
+    "exports": []
+  },
+  {
+    "path": "src/followers.mjs",
+    "lines": 87,
+    "bytes": 7847,
+    "group": "核心模块",
+    "role": "粉丝数采集",
+    "exports": []
+  },
+  {
+    "path": "src/hub.mjs",
+    "lines": 450,
+    "bytes": 39078,
+    "group": "核心模块",
+    "role": "发布中控主入口：plan/run/status/sync/mark/adopt/metrics/followers/review/weekly/board/daemon",
+    "exports": []
+  },
+  {
+    "path": "src/init.mjs",
+    "lines": 80,
+    "bytes": 6789,
+    "group": "核心模块",
+    "role": "首次安装向导：环境检查+配置生成+开机自启+登录页",
+    "exports": []
+  },
+  {
+    "path": "src/login.mjs",
+    "lines": 95,
+    "bytes": 7615,
+    "group": "核心模块",
+    "role": "各平台登录态探测与引导扫码",
+    "exports": []
+  },
+  {
+    "path": "src/metrics.mjs",
+    "lines": 78,
+    "bytes": 7416,
+    "group": "核心模块",
+    "role": "每日流量采集（播放/互动/涨粉）",
+    "exports": []
+  },
+  {
+    "path": "src/review.mjs",
+    "lines": 126,
+    "bytes": 9152,
+    "group": "核心模块",
+    "role": "复盘计算（第 1/3/7 天自动触发）",
+    "exports": []
+  },
+  {
+    "path": "src/site.mjs",
+    "lines": 20,
+    "bytes": 1359,
+    "group": "核心模块",
+    "role": "自有站点转化归因接口（可选二次开发）",
+    "exports": []
+  },
+  {
+    "path": "src/tunnel.mjs",
+    "lines": 37,
+    "bytes": 2478,
+    "group": "核心模块",
+    "role": "cloudflared 隧道管理",
+    "exports": []
+  },
+  {
+    "path": "src/web.mjs",
+    "lines": 187,
+    "bytes": 20372,
+    "group": "核心模块",
+    "role": "本地网页服务：大屏/分页面/API，带 web.key 鉴权",
+    "exports": [
+      "createServer",
+      "handlers"
+    ]
+  },
+  {
+    "path": "skills/maitian-publish/SKILL.md",
+    "lines": 168,
+    "bytes": 8560,
+    "group": "技能文档",
+    "role": "发布流程 9 步 SOP：看片→写素材→确认封面→建工程→generate&validate→plan→run→你点→sync",
+    "exports": []
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "scope": "本包只做离线索引与上游源码文档查阅，**不代跑 hub.mjs、不启动专用 Chrome、不连飞书 webhook、不操作任何平台后台**。用户自行决定是否安装、配置、运行。",
+  "source": "upstream/README.md + skills/maitian-publish/SKILL.md + config.example.json + src/*.mjs（只读抽样）",
+  "rules": [
+    {"id": "S1", "level": "硬约束", "rule": "只跑静态读取：grep / 头读 README / SKILL.md / config.example.json；不启动任何 node.js 进程、不连 chrome://inspect、不调用 localhost:8765 或 localhost:9333。"},
+    {"id": "S2", "level": "硬约束", "rule": "不生成 / 修改 config.json、不触碰 chrome-profile/、不在本机上建 maitian 工程目录。"},
+    {"id": "S3", "level": "硬约束", "rule": "不代写「发布素材.md」、不生成 publish.json、不调 make-publish.mjs / validate.mjs。"},
+    {"id": "S4", "level": "硬约束", "rule": "不部署飞书 webhook：feishu.mjs 的 hook URL 是凭据级信息，绝不输出到公开仓库 / Issue / 日志。"},
+    {"id": "S5", "level": "硬约束", "rule": "不指导用户绕过各平台的反自动化风控：README 明确国内四家由人点最终发布，自动化只负责填写和核对。"},
+    {"id": "S6", "level": "约束", "rule": "本包内容仅作为离线参考手册——若用户自行决定要装麦田并配好环境，用户自负其责，本包不对真实运行时行为背书。"},
+    {"id": "S7", "level": "约束", "rule": "MIT 协议下允许任意用途；但本包不代表原作者麦当 mdldm 的任何立场或推荐。"}
+  ],
+  "allowed": [
+    "查上游 README：一行装好命令、三级上手路线、架构框图、命令清单、配置字段、远程访问方案、手机小组件接入方式",
+    "查 skills/maitian-publish/SKILL.md：发布流程 9 步（看片→写发布素材→确认封面→建工程→generate&validate→plan→run→你点发布→取链接回填）、各平台文案规则、封面 ffmpeg 命令、防重策略",
+    "查 config.example.json：字段释义与可选/必填边界",
+    "查 src/hub.mjs 命令行入口、src/web.mjs 路由表、src/feishu.mjs 通知类型、src/site.mjs 二次开发接口"
+  ],
+  "not_allowed": [
+    "代跑 hub plan / hub run / hub daemon / hub metrics 等会读写 SQLite 或驱动 Chrome 的命令",
+    "打开 http://localhost:8787 / 8788 网页并做交互操作",
+    "修改 config.json 或生成新的 chrome-profile/",
+    "把 feishuWebhook URL、web.key、browser extension ID 等凭据写入公开文件",
+    "指导如何用脚本绕过 B站/抖音/小红书/视频号的发布门槛"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "repo": "https://github.com/cubewhy/skid-homework",
+  "readme": "https://github.com/cubewhy/skid-homework#readme",
+  "license": "https://github.com/cubewhy/skid-homework/blob/main/LICENSE",
+  "demo": "https://skid.996every.day",
+  "local_mirror": "{{WORKBUNDY_HOME}}/skills/skid-homework/upstream"
+}

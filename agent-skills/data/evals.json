@@ -1,0 +1,155 @@
+{
+  "cases": [
+    {
+      "skill": "api-and-interface-design",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "browser-testing-with-devtools",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "ci-cd-and-automation",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "code-review-and-quality",
+      "positive_count": 4,
+      "negative_count": 2,
+      "case_count": 4
+    },
+    {
+      "skill": "code-simplification",
+      "positive_count": 5,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "constraint-driven-development",
+      "positive_count": 5,
+      "negative_count": 3,
+      "case_count": 3
+    },
+    {
+      "skill": "context-engineering",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 2
+    },
+    {
+      "skill": "debugging-and-error-recovery",
+      "positive_count": 5,
+      "negative_count": 3,
+      "case_count": 2
+    },
+    {
+      "skill": "deprecation-and-migration",
+      "positive_count": 5,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "documentation-and-adrs",
+      "positive_count": 6,
+      "negative_count": 2,
+      "case_count": 4
+    },
+    {
+      "skill": "doubt-driven-development",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "frontend-ui-engineering",
+      "positive_count": 5,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "git-workflow-and-versioning",
+      "positive_count": 6,
+      "negative_count": 3,
+      "case_count": 1
+    },
+    {
+      "skill": "idea-refine",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "incremental-implementation",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 2
+    },
+    {
+      "skill": "interview-me",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "observability-and-instrumentation",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "performance-optimization",
+      "positive_count": 5,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "planning-and-task-breakdown",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "security-and-hardening",
+      "positive_count": 6,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "shipping-and-launch",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 2
+    },
+    {
+      "skill": "source-driven-development",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 1
+    },
+    {
+      "skill": "spec-driven-development",
+      "positive_count": 7,
+      "negative_count": 3,
+      "case_count": 2
+    },
+    {
+      "skill": "test-driven-development",
+      "positive_count": 5,
+      "negative_count": 2,
+      "case_count": 4
+    },
+    {
+      "skill": "using-agent-skills",
+      "positive_count": 3,
+      "negative_count": 2,
+      "case_count": 1
+    }
+  ],
+  "count": 25
+}

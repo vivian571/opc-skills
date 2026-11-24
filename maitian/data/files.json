@@ -1,0 +1,415 @@
+[
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug.yml",
+    "bytes": 966,
+    "lines": 28,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/idea.yml",
+    "bytes": 284,
+    "lines": 11,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 104,
+    "lines": 11,
+    "kind": "text",
+    "group": ".gitignore"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1069,
+    "lines": 22,
+    "kind": "text",
+    "group": "LICENSE"
+  },
+  {
+    "path": "README.md",
+    "bytes": 17457,
+    "lines": 230,
+    "kind": "text",
+    "group": "README.md"
+  },
+  {
+    "path": "config.example.json",
+    "bytes": 2197,
+    "lines": 45,
+    "kind": "text",
+    "group": "config.example.json"
+  },
+  {
+    "path": "docs/readme/author.png",
+    "bytes": 476505,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/readme/avatar.png",
+    "bytes": 90057,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/readme/banner.png",
+    "bytes": 1384478,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/readme/flow.png",
+    "bytes": 850506,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/readme/src/author.html",
+    "bytes": 2148,
+    "lines": 27,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/readme/src/banner.html",
+    "bytes": 2330,
+    "lines": 32,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/readme/src/base.css",
+    "bytes": 1364,
+    "lines": 15,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/readme/src/board.jpg",
+    "bytes": 444576,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/readme/src/flow.html",
+    "bytes": 2819,
+    "lines": 33,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/readme/src/mascot.js",
+    "bytes": 1544,
+    "lines": 18,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/screenshots/board.jpg",
+    "bytes": 444576,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/screenshots/calendar.jpg",
+    "bytes": 168314,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/screenshots/convert.jpg",
+    "bytes": 258927,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/screenshots/episode.jpg",
+    "bytes": 235051,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/screenshots/mobile.jpg",
+    "bytes": 176996,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/screenshots/traffic.jpg",
+    "bytes": 295203,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "package.json",
+    "bytes": 379,
+    "lines": 11,
+    "kind": "text",
+    "group": "package.json"
+  },
+  {
+    "path": "scripts/install-launchd.sh",
+    "bytes": 2104,
+    "lines": 41,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/install.sh",
+    "bytes": 2285,
+    "lines": 33,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/widget/maitian-loader.js",
+    "bytes": 1231,
+    "lines": 26,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/widget/maitian-widget.js",
+    "bytes": 13397,
+    "lines": 211,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "skills/maitian-publish/SKILL.md",
+    "bytes": 8560,
+    "lines": 168,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "src/access.mjs",
+    "bytes": 2081,
+    "lines": 35,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/board.mjs",
+    "bytes": 8690,
+    "lines": 101,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/bridge.mjs",
+    "bytes": 2117,
+    "lines": 39,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/checks.mjs",
+    "bytes": 14769,
+    "lines": 183,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/chrome-shim.mjs",
+    "bytes": 6326,
+    "lines": 115,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/db.mjs",
+    "bytes": 6315,
+    "lines": 63,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/demo.mjs",
+    "bytes": 9018,
+    "lines": 75,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/driver.mjs",
+    "bytes": 4278,
+    "lines": 69,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/feishu.mjs",
+    "bytes": 4548,
+    "lines": 60,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/followers.mjs",
+    "bytes": 7847,
+    "lines": 87,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/hub.mjs",
+    "bytes": 39078,
+    "lines": 450,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/init.mjs",
+    "bytes": 6789,
+    "lines": 80,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/login.mjs",
+    "bytes": 7615,
+    "lines": 95,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/metrics.mjs",
+    "bytes": 7416,
+    "lines": 78,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/review.mjs",
+    "bytes": 9152,
+    "lines": 126,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/site.mjs",
+    "bytes": 1359,
+    "lines": 20,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/tunnel.mjs",
+    "bytes": 2478,
+    "lines": 37,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/_logo.json",
+    "bytes": 6375,
+    "lines": 1,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/board.html",
+    "bytes": 32579,
+    "lines": 237,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/icon-180.png",
+    "bytes": 20112,
+    "lines": 0,
+    "kind": "binary",
+    "group": "src"
+  },
+  {
+    "path": "src/web/icon-512.png",
+    "bytes": 74525,
+    "lines": 0,
+    "kind": "binary",
+    "group": "src"
+  },
+  {
+    "path": "src/web/logos/bilibili.svg",
+    "bytes": 1381,
+    "lines": 1,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/logos/tiktok.svg",
+    "bytes": 707,
+    "lines": 1,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/logos/wechat.svg",
+    "bytes": 1330,
+    "lines": 1,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/logos/x.svg",
+    "bytes": 252,
+    "lines": 1,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/logos/xiaohongshu.svg",
+    "bytes": 3584,
+    "lines": 1,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/logos/youtube.svg",
+    "bytes": 459,
+    "lines": 1,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/mt.css",
+    "bytes": 23184,
+    "lines": 154,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/mt.js",
+    "bytes": 15473,
+    "lines": 66,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/pages.html",
+    "bytes": 25321,
+    "lines": 152,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web.mjs",
+    "bytes": 20372,
+    "lines": 187,
+    "kind": "text",
+    "group": "src"
+  }
+]

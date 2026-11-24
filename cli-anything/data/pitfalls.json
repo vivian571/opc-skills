@@ -1,0 +1,65 @@
+{
+  "title": "已知坑点（cli-anything）",
+  "pitfalls": [
+    {
+      "id": "P1-REGISTRY-DATE",
+      "symptom": "cli-hub registry 日期检测异常，npm/pip 混用包识别不准",
+      "cause": "registry 自动化对 `python -m pip` 形式的安装命令日期解析曾有缺陷",
+      "fix": "registry 更新逻辑已支持 `python -m pip`（#312）。自建 registry 时用标准 install_cmd 格式"
+    },
+    {
+      "id": "P2-SKILL-PATH-LAYOUT",
+      "symptom": "SKILL.md 找不到，npx skills add 装不上",
+      "cause": "2026-04-18 起 SKILL.md 统一迁移到顶层 skills/ 目录，旧路径失效",
+      "fix": "用新规范：`npx skills add HKUDS/CLI-Anything --skill <skill-name> -g -y`；skill_md 字段指向 skills/<name>/SKILL.md"
+    },
+    {
+      "id": "P3-REPL-BANNER-CRASH",
+      "symptom": "n8n CLI 无子命令启动 REPL 时崩溃",
+      "cause": "no-subcommand 交互启动路径的 banner 渲染崩溃",
+      "fix": "已修（#280）。若用旧版，显式带子命令启动可绕过"
+    },
+    {
+      "id": "P4-LIBREOFFICE-MACOS",
+      "symptom": "LibreOffice 无头转换在 macOS 上失败",
+      "cause": "macOS 的 LibreOffice 路径/无头模式兼容问题",
+      "fix": "上游已加固（#290）。确保 soffice 在 PATH 或指定绝对路径"
+    },
+    {
+      "id": "P5-RENDER-PATH-ABSOLUTE",
+      "symptom": "Blender 渲染输出找不到/覆盖错文件",
+      "cause": "渲染路径用了相对路径",
+      "fix": "Blender skill 强制用绝对渲染路径（2026-03-29 更新）"
+    },
+    {
+      "id": "P6-OPENSCREEN-SUBTOTALS",
+      "symptom": "Openscreen 测试小计对不上",
+      "cause": "test 汇总统计口径 bug",
+      "fix": "已修（#200）"
+    },
+    {
+      "id": "P7-GEN5-PROJECT",
+      "symptom": "Kdenlive Gen5 项目输出异常/项目生成失败",
+      "cause": "Kdenlive Gen5 兼容问题",
+      "fix": "已修（兼容性补丁）"
+    },
+    {
+      "id": "P8-EMPTY-INTRO",
+      "symptom": "skill_generation 生成 skill 时空 intro 崩溃",
+      "cause": "SKILL 生成器未处理空 intro",
+      "fix": "已修（#203）"
+    },
+    {
+      "id": "P9-REGISTRY-MUTATION",
+      "symptom": "registry 数据被意外改写/污染",
+      "cause": "registry 条目未复制就打 _source 标签，污染了缓存/模拟数据",
+      "fix": "已修（#281）——条目先 copy 再 tag"
+    },
+    {
+      "id": "P10-HARNESS-PROGRESSIVE",
+      "symptom": "harness 文档太长，agent 抓不住重点",
+      "cause": "v0.2.0 前 HARNESS.md 平铺",
+      "fix": "v0.2.0 起渐进披露：细节抽到 guides/ 按需加载，Phases 1-7 连续"
+    }
+  ]
+}

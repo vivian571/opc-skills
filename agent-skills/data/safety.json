@@ -1,0 +1,24 @@
+{
+  "scope": "本技能包只做离线索引、上游源码镜像与命令文件摘要，不运行任何 agent 工作流、评测或 session hook。",
+  "source": "upstream/README.md + CLAUDE.md + CONTRIBUTING.md + LICENSE(MIT)",
+  "rules": [
+    {"id": "S1", "level": "硬约束", "rule": "只跑本地 mock 与静态读取：grep/头读 README/SKILL.md、解析 JSON、索引结构；不启动 claude/codex/copilot/claude code 等宿主调用任何 skill。"},
+    {"id": "S2", "level": "硬约束", "rule": "不代写、代执行 evals：evals/cases/*.json、evals/fixtures/ 和 scripts/run-evals.js 全部原样镜像但只作为离线文档查阅——不调用 headless claude、不消费 token。"},
+    {"id": "S3", "level": "硬约束", "rule": "不部署 hooks：hooks/session-start.sh 等脚本只是离线快照；不在任何宿主注入 SessionStart envelope 或修改 agents 配置。"},
+    {"id": "S4", "level": "硬约束", "rule": "不生成代码：本包是参考手册，用户若要使用某个 skill（如 TDD / Spec-driven），用户自行决定何时触发，本包不参与决策与执行。"},
+    {"id": "S5", "level": "约束", "rule": "MIT 授权下允许任意用途；本包仅做学习参考与离线速查，不对上游质量/合规做任何背书。"},
+    {"id": "S6", "level": "约束", "rule": "不收集真实 agent 会话日志、token 用量、评测分数数据写入公开仓库。"}
+  ],
+  "allowed": [
+    "查 25 个技能的 phase 归属、overview、trigger/usage 模式",
+    "查 9 个 slash commands（/spec /plan /build /test /constraints /review /webperf /code-simplify /ship）的原始描述文本",
+    "查 Tier-2 trigger/routing 评测框架（TF-IDF cosine）以及 25 份 case JSON 的结构样例",
+    "查 hooks/session-start.sh 的注入逻辑与输出 envelope 格式"
+  ],
+  "not_allowed": [
+    "运行 run-evals.js --behavioral（会实际调用 Claude API 消耗 token）",
+    "把 hooks 写到任何宿主（Claude Code / Codex CLI）的 config 目录",
+    "代写 SPEC.md / tasks/plan.md / CONSTRAINTS.md 并指导用户 commit",
+    "代理 user 向 GitHub Copilot / Cursor / Windsurf 写入 .cursor/rules 或规则配置"
+  ]
+}

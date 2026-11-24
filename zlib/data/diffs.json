@@ -1,0 +1,13 @@
+[
+  {"id": "D1", "claim": "README: 可通过 Homebrew 安装", "measured": "brew install heartleo/tap/zlib-cli 可行，但注意公式名已从 zlib 改为 zlib-cli。README 已更新说明。", "verdict": "属实，但需注意公式名变更"},
+  {"id": "D2", "claim": "README: 安装脚本安装到 /usr/local/bin，可能需要 sudo", "measured": "install.sh 默认目标 /usr/local/bin/zlib，无写权限时会 sudo 提示。可用 brew 或手动下载避免 sudo。", "verdict": "属实"},
+  {"id": "D3", "claim": "README: zlib doctor 检查域名可达性", "measured": "zlib doctor --json 确实只检查域名 HTTP 可达性（返回 healthy 列表），不验证登录状态。需配合 zlib profile 确认登录。", "verdict": "属实，但不等于登录检查"},
+  {"id": "D4", "claim": "README: 支持 Kindle 投递（SMTP）", "measured": "zlib kindle send 确实通过 SMTP 发送；需配置 ZLIB_SMTP_PWD 等环境变量。SMTP 成功仅代表发送服务器接受，不保证 Kindle 收到。", "verdict": "属实但有边界"},
+  {"id": "D5", "claim": "README: 支持 WeRead 导入", "measured": "zlib weread import 可用；需手机验证码登录（exit 3 时需用户自行 zlib weread login）。有导入额度限制，失败不可重试。", "verdict": "属实但有额度与验证限制"},
+  {"id": "D6", "claim": "README: 支持 MCP Server（stdio）", "measured": "zlib mcp 可注册为 stdio server；需 zlib 在 PATH 上且已登录。支持 --read-only 隐藏写操作。Claude/Codex/Grok 配置略有不同。", "verdict": "属实"},
+  {"id": "D7", "claim": "README: Agent plugins (Claude Code/Codex/Grok)", "measured": "三个平台都有 marketplace add + plugin install 两步安装；插件带 skills + MCP server 双入口。", "verdict": "属实"},
+  {"id": "D7", "claim": "README: WeRead 导入支持 TXT/EPUB/PDF", "measured": "TXT ≤ 20 MiB，其他 ≤ 300 MiB。导入有额度限制，失败不可重试，already_existed: true 说明已存在。", "verdict": "属实"},
+  {"id": "D8", "claim": "README: Homebrew formula renamed to zlib-cli", "measured": "公式已重命名，brew install heartleo/tap/zlib-cli 是正确用法。旧命令 brew install zlib 会装系统压缩库。", "verdict": "属实"},
+  {"id": "D9", "claim": "README: install.sh 安装到 /usr/local/bin 可能需 sudo", "measured": "默认写 /usr/local/bin/zlib，无权限会提示 sudo。可用 brew 或手动下载避免。", "verdict": "属实"},
+  {"id": "D10", "claim": "README: 代理 ZLIB_PROXY 仅影响 HTTP，不影响 SMTP", "measured": "文档明确说明 ZLIB_PROXY 仅对 HTTP 请求生效，Kindle SMTP 发送不走此代理。需在邮件服务商侧配置 SMTP 代理。", "verdict": "属实"}
+]

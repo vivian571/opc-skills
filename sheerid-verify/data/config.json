@@ -1,0 +1,137 @@
+{
+  "source": "config/sheerid.example.json",
+  "target": "config/sheerid.local.json",
+  "rule": "必须是标准 JSON，不支持 // 注释与尾随逗号；document.path 与 document.url 只能填一个",
+  "fields": [
+    {
+      "key": "web.concurrency",
+      "example": 1,
+      "note": "并发上限，正整数，默认 1；启动时与入队时读取"
+    },
+    {
+      "key": "app",
+      "example": "sheerid",
+      "note": "应用适配器名，当前仅有 sheerid"
+    },
+    {
+      "key": "proxy",
+      "example": null,
+      "note": "代理；Web 模式留空强制直连，不使用环境代理"
+    },
+    {
+      "key": "browser.headless",
+      "example": false,
+      "note": "是否无头；示例为 false，本机需可用桌面"
+    },
+    {
+      "key": "browser.locale",
+      "example": "en-US",
+      "note": "浏览器语言，示例 en-US"
+    },
+    {
+      "key": "browser.keepOpen",
+      "example": true,
+      "note": "提交后是否保留浏览器，示例 true"
+    },
+    {
+      "key": "browser.autoFill",
+      "example": true,
+      "note": "自动填表；false 时改为手动填写"
+    },
+    {
+      "key": "document.path",
+      "example": "",
+      "note": "本地材料路径；与 document.url 二选一，不可同时填"
+    },
+    {
+      "key": "document.url",
+      "example": "",
+      "note": "材料下载地址；与 document.path 二选一"
+    },
+    {
+      "key": "timeouts.apiMs",
+      "example": 20000,
+      "note": "接口超时，默认 20000 ms"
+    },
+    {
+      "key": "timeouts.actionMs",
+      "example": 15000,
+      "note": "页面动作超时，默认 15000 ms"
+    },
+    {
+      "key": "timeouts.navigationMs",
+      "example": 60000,
+      "note": "导航超时，默认 60000 ms"
+    },
+    {
+      "key": "timeouts.readyMs",
+      "example": 120000,
+      "note": "页面就绪超时，默认 120000 ms"
+    },
+    {
+      "key": "timeouts.humanMs",
+      "example": 180000,
+      "note": "真人验证等待，默认 180000 ms"
+    },
+    {
+      "key": "timeouts.resultMs",
+      "example": 45000,
+      "note": "结果等待，默认 45000 ms"
+    },
+    {
+      "key": "interaction.keyDelayMs.min",
+      "example": 40,
+      "note": ""
+    },
+    {
+      "key": "interaction.keyDelayMs.max",
+      "example": 120,
+      "note": ""
+    },
+    {
+      "key": "interaction.fieldDelayMs.min",
+      "example": 500,
+      "note": ""
+    },
+    {
+      "key": "interaction.fieldDelayMs.max",
+      "example": 1200,
+      "note": ""
+    },
+    {
+      "key": "interaction.submitDelayMs.min",
+      "example": 1000,
+      "note": ""
+    },
+    {
+      "key": "interaction.submitDelayMs.max",
+      "example": 2000,
+      "note": ""
+    },
+    {
+      "key": "artifactsDir",
+      "example": ".runs",
+      "note": "运行产物目录，默认 .runs，必须保持私有"
+    },
+    {
+      "key": "data.country",
+      "example": "",
+      "note": "国家；示例为空，需自行填授权范围内的值"
+    },
+    {
+      "key": "data.organization.name",
+      "example": "",
+      "note": "学校名称"
+    },
+    {
+      "key": "data.organization.optionText",
+      "example": "",
+      "note": "下拉选项文本"
+    },
+    {
+      "key": "data.organization.emailDomain",
+      "example": "example.edu",
+      "note": "邮箱后缀，示例 example.edu"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "scope": "本包只做离线索引、上游文档查阅与 CLI 命令参考。**不代执行任何下载、登录、发送到 Kindle/WeRead、元数据编辑操作**。用户自行决定是否使用 zlib CLI、登录 Z-Library、发送文件到 Kindle/WeRead。",
+  "source": "upstream/README.md + .agents/skills/zlib/SKILL.md + .agents/skills/kindle/SKILL.md + .agents/skills/metadata/SKILL.md",
+  "rules": [
+    {"id": "S1", "level": "硬约束", "rule": "只跑静态读取：grep / 头读 README / SKILL.md / 文档；不启动 zlib CLI、不连 Z-Library、不登录账号、不下载文件、不发送邮件。"},
+    {"id": "S2", "level": "硬约束", "rule": "不生成任何 .env 文件、不存储 ZLIB_SMTP_PWD / 会话 cookies / 密码 / API Key。"},
+    {"id": "S3", "level": "硬约束", "rule": "不指导如何绕过 Z-Library 的反爬虫、登录限制、域名封锁。"},
+    {"id": "S4", "level": "硬约束", "rule": "不代用户下载受版权保护的电子书、不协助规避版权保护、不指导如何批量下载分发。"},
+    {"id": "S5", "level": "约束", "rule": "可客观描述 zlib CLI 的功能、命令参数、TUI 操作、Agent 集成方式——这些是技术文档层面的事实陈述。"},
+    {"id": "S6", "level": "约束", "rule": "若用户询问『怎么下载某本书』，回答应停留在命令语法层面（zlib search + zlib download），并同步提醒版权风险与 Z-Library 自身的使用条款。"},
+    {"id": "S7", "level": "约束", "rule": "MIT 授权下允许任意用途；但本包不代表作者 heartleo 的任何立场，不对 Z-Library 的合法性/可用性背书。"}
+  ],
+  "allowed": [
+    "查 CLI 命令语法、参数、JSON 输出格式、退出码",
+    "查 TUI 键位、界面结构、导航流程",
+    "查 Agent 集成方式（Claude Code/Codex/Grok/MCP 插件安装）",
+    "查 Kindle/WeRead 投递的配置要求与故障排查步骤",
+    "查元数据技能的 CLI/MCP 双路径用法",
+    "查 .agents/skills/ 下各 skill 的触发条件与用法"
+  ],
+  "not_allowed": [
+    "代用户执行 zlib login / zlib download / zlib kindle send / zlib weread import",
+    "生成或存储任何登录凭据、SMTP 密码、会话 cookies",
+    "指导如何绕过 Z-Library 反爬虫、域名封锁、登录限制",
+    "把下载的电子书文件直接发送给用户或第三方"
+  ]
+}

@@ -1,0 +1,450 @@
+[
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "bytes": 961,
+    "lines": 32,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/PULL_REQUEST_TEMPLATE.md",
+    "bytes": 444,
+    "lines": 14,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "bytes": 561,
+    "lines": 28,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 109,
+    "lines": 10,
+    "kind": "text",
+    "group": ".gitignore"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 1993,
+    "lines": 34,
+    "kind": "text",
+    "group": "CONTRIBUTING.md"
+  },
+  {
+    "path": "DISCLAIMER.md",
+    "bytes": 3297,
+    "lines": 30,
+    "kind": "text",
+    "group": "DISCLAIMER.md"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 772,
+    "lines": 16,
+    "kind": "text",
+    "group": "LICENSE"
+  },
+  {
+    "path": "README.md",
+    "bytes": 33114,
+    "lines": 319,
+    "kind": "text",
+    "group": "README.md"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 1424,
+    "lines": 20,
+    "kind": "text",
+    "group": "SECURITY.md"
+  },
+  {
+    "path": "config/sheerid.example.json",
+    "bytes": 669,
+    "lines": 20,
+    "kind": "text",
+    "group": "config"
+  },
+  {
+    "path": "deploy/.env.web.example",
+    "bytes": 419,
+    "lines": 8,
+    "kind": "text",
+    "group": "deploy"
+  },
+  {
+    "path": "deploy/nginx.conf.example",
+    "bytes": 838,
+    "lines": 25,
+    "kind": "text",
+    "group": "deploy"
+  },
+  {
+    "path": "deploy/one-web.service",
+    "bytes": 399,
+    "lines": 19,
+    "kind": "text",
+    "group": "deploy"
+  },
+  {
+    "path": "docs/DEPLOYMENT.md",
+    "bytes": 9666,
+    "lines": 168,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/LINUX_DO_POST.md",
+    "bytes": 1404,
+    "lines": 26,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/browser-workflow.md",
+    "bytes": 14751,
+    "lines": 183,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/community/introduction.html",
+    "bytes": 3025,
+    "lines": 25,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/community/introduction.md",
+    "bytes": 2052,
+    "lines": 37,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/community/sheeridverify-intro.png",
+    "bytes": 308831,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "package-lock.json",
+    "bytes": 20747,
+    "lines": 629,
+    "kind": "text",
+    "group": "package-lock.json"
+  },
+  {
+    "path": "package.json",
+    "bytes": 990,
+    "lines": 37,
+    "kind": "text",
+    "group": "package.json"
+  },
+  {
+    "path": "scripts/install-browser.js",
+    "bytes": 2322,
+    "lines": 45,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/process.js",
+    "bytes": 322,
+    "lines": 12,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "src/apps/registry.js",
+    "bytes": 357,
+    "lines": 11,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/apps/sheerid/client.js",
+    "bytes": 3259,
+    "lines": 65,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/apps/sheerid/document-workflow.js",
+    "bytes": 9879,
+    "lines": 180,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/apps/sheerid/document.js",
+    "bytes": 7423,
+    "lines": 145,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/apps/sheerid/human-verification.js",
+    "bytes": 5207,
+    "lines": 89,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/apps/sheerid/index.js",
+    "bytes": 11195,
+    "lines": 209,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/apps/sheerid/labels.js",
+    "bytes": 2430,
+    "lines": 46,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/apps/sheerid/organization.js",
+    "bytes": 1178,
+    "lines": 19,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/apps/sheerid/page-state.js",
+    "bytes": 1184,
+    "lines": 23,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/apps/sheerid/selectors.js",
+    "bytes": 937,
+    "lines": 14,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/apps/sheerid/status.js",
+    "bytes": 4236,
+    "lines": 89,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/browser/form.js",
+    "bytes": 19357,
+    "lines": 392,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/browser/interaction.js",
+    "bytes": 2925,
+    "lines": 129,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/browser/session.js",
+    "bytes": 2424,
+    "lines": 56,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/cli.js",
+    "bytes": 3373,
+    "lines": 65,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/core/config.js",
+    "bytes": 6544,
+    "lines": 116,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/core/errors.js",
+    "bytes": 303,
+    "lines": 12,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/core/http.js",
+    "bytes": 3199,
+    "lines": 63,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/core/logger.js",
+    "bytes": 1168,
+    "lines": 26,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/core/network.js",
+    "bytes": 2145,
+    "lines": 49,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/core/proxy.js",
+    "bytes": 6317,
+    "lines": 127,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/core/runner.js",
+    "bytes": 8785,
+    "lines": 177,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/core/status-query.js",
+    "bytes": 966,
+    "lines": 20,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/core/storage.js",
+    "bytes": 2125,
+    "lines": 53,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/core/workflow.js",
+    "bytes": 2864,
+    "lines": 51,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/index.js",
+    "bytes": 274,
+    "lines": 6,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/jobs.js",
+    "bytes": 10701,
+    "lines": 231,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/public/app.js",
+    "bytes": 17236,
+    "lines": 329,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/public/index.html",
+    "bytes": 2929,
+    "lines": 38,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/public/style.css",
+    "bytes": 17428,
+    "lines": 504,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/web/server.js",
+    "bytes": 9321,
+    "lines": 184,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "tests/document-continuation.test.js",
+    "bytes": 16900,
+    "lines": 339,
+    "kind": "text",
+    "group": "tests"
+  },
+  {
+    "path": "tests/document-polling.test.js",
+    "bytes": 8552,
+    "lines": 167,
+    "kind": "text",
+    "group": "tests"
+  },
+  {
+    "path": "tests/document-source.test.js",
+    "bytes": 1098,
+    "lines": 24,
+    "kind": "text",
+    "group": "tests"
+  },
+  {
+    "path": "tests/fixtures/web-config.js",
+    "bytes": 1209,
+    "lines": 22,
+    "kind": "text",
+    "group": "tests"
+  },
+  {
+    "path": "tests/school-search.test.js",
+    "bytes": 5362,
+    "lines": 112,
+    "kind": "text",
+    "group": "tests"
+  },
+  {
+    "path": "tests/status-query.test.js",
+    "bytes": 3864,
+    "lines": 71,
+    "kind": "text",
+    "group": "tests"
+  },
+  {
+    "path": "tests/web-public.test.js",
+    "bytes": 4321,
+    "lines": 69,
+    "kind": "text",
+    "group": "tests"
+  },
+  {
+    "path": "tests/web-queue.test.js",
+    "bytes": 10172,
+    "lines": 225,
+    "kind": "text",
+    "group": "tests"
+  },
+  {
+    "path": "tests/web-ui.test.js",
+    "bytes": 15751,
+    "lines": 248,
+    "kind": "text",
+    "group": "tests"
+  },
+  {
+    "path": "tests/web.test.js",
+    "bytes": 10546,
+    "lines": 187,
+    "kind": "text",
+    "group": "tests"
+  }
+]

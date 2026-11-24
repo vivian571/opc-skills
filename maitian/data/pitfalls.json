@@ -1,0 +1,14 @@
+[
+  {"id": "P1", "title": "macOS only — Linux / WSL / Windows 全挂", "detail": "README 显式标注 macOS-only badge；hub.mjs 用 node:sqlite 内置模块（Node ≥22.5），并依赖 launchd（install-launchd.sh）。在 Linux / Mac 虚拟机外跑 = 不可用。别在云服务器上试。", "severity": "高"},
+  {"id": "P2", "title": "专用 Chrome profile = 独立于日常浏览器的隔离身份", "detail": "config.chromeProfile 必须指向一个专门给麦田用的 Chrome，**不要复用你日常登录账号的那个 profile**。否则各平台会把麦田的 CDP 行为当成异常登录触发风控。专用 profile 里的 cookies / storage 与日常 Chrome 完全隔离。", "severity": "高"},
+  {"id": "P3", "title": "国内四家不自动提交 —— 最后一下必须人点", "detail": "B站 / 抖音 / 小红书 / 视频号 只填好就停，守护进程每 20 分钟飞书卡片提醒你点发布。这是作者刻意设计的风控规避，不是 bug。若期望全自动，得改源码且风险自担。", "severity": "高"},
+  {"id": "P4", "title": "成片必须 faststart（moov 在文件头）", "detail": "否则小红书报「无视频流信息」、抖音不出表单。校验工具（validate.mjs）会拦，但如果你跳过校验直接跑 hub run，上传阶段才会报错，时间成本高。导出时用 `-movflags +faststart`。", "severity": "中"},
+  {"id": "P5", "title": "同一条视频每个平台只传一次，反复重传必触发风控", "detail": "防重逻辑是本仓库的核心价值之一。X / YouTube / Instagram / 自有站点有去重查询；国内四家靠 hub mark 状态机。跨设备迁移时务必先 hub status --logs 确认哪些已到位，再决定要不要重新 run。", "severity": "中"},
+  {"id": "P6", "title": "YouTube Studio 定时可能比 CDP 看到的更准", "detail": "README 明示：关闭上传对话框后视频可能已排好定时，中控会先去 Studio 列表确认再下结论。不要仅凭页面看到的「未定时」就以为没排上。", "severity": "低"},
+  {"id": "P7", "title": "视频号的定时可能被平台偷偷改成别的时间", "detail": "实测遇到 +2 小时偏差。sync 会拿平台记录的定时和计划比对，不一致发 ⚠️ 卡片。若发现定时漂移，手动 hub mark <id> channels scheduled 并备注实际平台记录时间，下次 sync 不会再误判。", "severity": "中"},
+  {"id": "P8", "title": "X 长文+视频帖引用长文是双步流程，普通帖子不是", "detail": "publish.json 里 X.mode=article+quote 时才走 `x-article-quote.mjs`：定时前 25 分钟启动插件，先上传视频帖，到点发长文，拿到长文链接贴进视频帖再发出。如果只需普通推文，走常规自动提交路径即可。", "severity": "低"},
+  {"id": "P9", "title": "专用 Chrome 卡死时用 curl 关标签页，不要用 browser.close()", "detail": "README 写明：`curl 127.0.0.1:9333/json/close/<id>` 不会触发「离开此网站」确认对话框；直接用 browser.close() 会弹出警告阻断后续调度。", "severity": "低"},
+  {"id": "P10", "title": "demo.mjs 只能看假数据，不能当真实工作台用", "detail": "`node src/demo.mjs` 启动在 :8788 端口展示演示大屏，所有数字都是硬编码的。想接入真实数据必须先完成 init.mjs 向导 + 各平台扫码登录 + 登记工程目录。", "severity": "中"},
+  {"id": "P11", "title": "pluginDir 指向的是姊妹仓库 mdldm-maitian-publisher 的本地 clone", "detail": "本仓库不携带各平台适配器代码；它通过 chrome-port 8765 调用 publisher 插件。发布者没装上 / bridge 地址配错 / 扩展没启用「允许访问文件网址」，hub run 会卡在第一平台。", "severity": "高"},
+  {"id": "P12", "title": "web.login=feishu 验证码登录 ≠ 免密全通", "detail": "6 位验证码推到飞书群、5 分钟有效、单次使用、错 5 次作废、60 秒冷却。配合 Access 团队的 AUD Tag 可做到零信任登录；但飞书 webhook 挂了就直接锁死。建议同时保留 ?key= 口令作备用通道。", "severity": "中"}
+]

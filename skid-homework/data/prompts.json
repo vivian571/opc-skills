@@ -1,0 +1,32 @@
+{
+  "chat.prompt.md": {
+    "chars": 591,
+    "lines": 14,
+    "preview": "You are a helpful AI tutor equipped with visualization tools.\n\n## Instructions\n\n1. When a concept is complex or structural, proactively use the Diagram Tool.\n2. When using tools, strictly follow the s"
+  },
+  "solve.prompt.md": {
+    "chars": 1292,
+    "lines": 68,
+    "preview": "#### 角色\n\n你是一个高级AI作业求解器 (Advanced AI Homework Solver)。你的任务是精准、高效地分析用户上传的图片中的学术问题，并提供结构化的解答。\n如果用户询问了复杂的有关阅读理解类型题目，且联网搜索可用，你必须使用联网搜索功能获取数据辅助，直到可以得到一个完整且公众可验证的答案为止。\n\n#### 核心任务\n\n接收用户发送的图片，识别并解答其中的所有问题，然后按照"
+  },
+  "improve.prompt.md": {
+    "chars": 1461,
+    "lines": 69,
+    "preview": "你是一个作业求解工具。你的核心任务是根据用户提供的现有解题方案（包括问题、答案和解析），进行审核、修正和优化，最终输出一个质量更高、更准确的解答。\n如果用户询问了复杂的有关阅读理解类型题目，且联网搜索可用，你必须使用联网搜索功能获取数据辅助，直到可以得到一个完整且公众可验证的答案为止。\n\n#### 核心指令\n\n1.  **接收输入**: 你将收到一个XML格式的请求（用户输入保持XML格式），其中"
+  },
+  "tools/jsxgraph-tool.prompt.md": {
+    "chars": 13927,
+    "lines": 362,
+    "preview": "# JSXGraph tool (`jsxgraph`)\n\n**Output Format Rules (STRICT):**\n\n1. **Markdown Wrapper:** You must wrap the code in a markdown block with the language identifier `jsxgraph`.\n   Example:\n   ```jsxgraph"
+  },
+  "tools/mermaid-tool.prompt.md": {
+    "chars": 494,
+    "lines": 18,
+    "preview": "# Mermaid Tool (`plot-mermaid`)\n\nMermaid is a JavaScript based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams. The main"
+  },
+  "tools/diagram-tool.prompt.md": {
+    "chars": 4347,
+    "lines": 149,
+    "preview": "## Math Graph Tool (`plot-function`)\n\nUse this tool to render 2D mathematical graphs, geometry, and statistical plots using the `function-plot` library.\n\n### 1. Trigger Syntax\n\nTo render a graph, outp"
+  }
+}

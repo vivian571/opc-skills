@@ -1,0 +1,8 @@
+{
+  "repo": "https://github.com/wangzan101/Mika",
+  "releases": "https://github.com/wangzan101/Mika/releases/latest",
+  "homepage": "https://mikaphone.com",
+  "setup_guide": "https://github.com/wangzan101/Mika/blob/main/docs/setup-guide.en.md",
+  "cli_doc": "https://github.com/wangzan101/Mika/blob/main/docs/cli.en.md",
+  "local_mirror": "{{WORKBUNDY_HOME}}/skills/mika-android-agent/upstream"
+}

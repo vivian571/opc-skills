@@ -1,0 +1,103 @@
+{
+  "repo": "pingdotgg/t3code",
+  "name": "t3code",
+  "description": "The open-source control plane for coding agents. Runs Claude Code, Codex, Cursor, OpenCode, Grok Build, Antigravity, Kiro, Pi, Muse Code, fx on your machine — controlled from desktop, web, or phone.",
+  "url": "https://github.com/pingdotgg/t3code",
+  "homepage": "https://t3.codes",
+  "license": "MIT",
+  "version": "0.1.11",
+  "language": "TypeScript",
+  "stargazers_count": 68446,
+  "forks_count": 11775,
+  "pushed_at": "2026-11-21T09:10:22Z",
+  "created_at": "2026-02-08T23:46:22Z",
+  "default_branch": "main",
+  "topics": [
+    "agent-orchestration",
+    "agents",
+    "ai",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "code",
+    "vibe-coding"
+  ],
+  "apps": [
+    "desktop",
+    "server",
+    "web",
+    "mobile",
+    "client-runtime",
+    "contracts",
+    "issue-tracker-linear"
+  ],
+  "packages": [
+    "effect-acp",
+    "effect-codex-app-server",
+    "provider-acp",
+    "provider-acp-registry",
+    "provider-core",
+    "provider-cursor",
+    "provider-fx",
+    "provider-grok",
+    "provider-kiro",
+    "provider-muse",
+    "provider-opencode",
+    "provider-pi",
+    "provider-testing",
+    "secret-provider-core",
+    "secret-provider-definitions",
+    "secret-provider-onepassword",
+    "shared",
+    "source-control-*",
+    "ssh",
+    "tailscale"
+  ],
+  "core_concepts": {
+    "Control Plane": "One server → multi-client (desktop/web/iOS/Android) architecture",
+    "Thread": "A coding session with history, permissions, and source control state",
+    "Provider": "Agent adapter — t3code speaks ACP (Agent Control Protocol) to any supported agent",
+    "Worktree": "Each thread can work in its own git worktree for isolated experimentation",
+    "Permission Modes": "Safe/Suggested/Elevated — controls what the agent can execute without confirmation",
+    "Remote Access": "Phone/app connects over local network, Tailscale, or T3 Connect relay",
+    "ACP Registry": "Standardized protocol between t3code server and coding agents",
+    "SnapShots": "Visual state capture of threads for review/share"
+  },
+  "supported_providers": {
+    "Claude Code": "primary",
+    "Codex CLI": "OpenAI's agent",
+    "Cursor": "VS Code fork with AI baked in",
+    "OpenCode": "oc.ai powered terminal agent",
+    "Grok Build": "xAI's coding agent",
+    "Antigravity": "local-first agent",
+    "Kiro": "another coding agent",
+    "Pi": "coding assistant",
+    "Muse Code": "AI coding tool",
+    "fx": "terminal-based AI coder"
+  },
+  "cli_commands": {
+    "t3": "Start the server (default: :5555)",
+    "npx t3@latest": "Try without installing",
+    "brew install --cask t3-code": "macOS desktop app",
+    "winget install T3Tools.T3Code": "Windows",
+    "yay -S t3code-bin": "Arch Linux",
+    "curl -fsSL https://t3.codes/install.sh | sh": "Unix install script"
+  },
+  "architecture": {
+    "Server": "Node.js backend (apps/server) — manages threads, credentials, agent connections",
+    "Desktop": "Electron app (apps/desktop) — native UI, system tray, keyboard shortcuts",
+    "Web": "React/Vite frontend (apps/web) — browser client for threads",
+    "Mobile": "Native iOS/Android apps connecting back to server",
+    "Providers": "ACP-based adapters in packages/provider-* for each coding agent",
+    "Secrets": "1Password connect, system keychain, env file support",
+    "Source Control": "Multi-VCS (GitHub, GitLab, Bitbucket, Azure DevOps, Forgejo, TanStack Source)"
+  },
+  "key_files": {
+    "t3.json": "App config/schema registration",
+    "package.json": "pnpm monorepo root",
+    "pnpm-workspace.yaml": "workspace definition",
+    "AGENTS.md": "Contribution/internal guidelines for coding agents",
+    "CLAUDE.md": "Claude-specific project instructions",
+    ".github/skills/": "GitHub Actions for CI/review"
+  }
+}

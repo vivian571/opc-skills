@@ -1,0 +1,55 @@
+{
+  "agents": [
+    {
+      "path": "methods/agents/content_refinement_agent.py",
+      "lines": 594,
+      "role": "内容润色：整体一致性检查与格式统一"
+    },
+    {
+      "path": "methods/agents/literature_review_agent.py",
+      "lines": 608,
+      "role": "文献综述：Semantic Scholar 检索 + LLM 筛选 + 综述段落写作"
+    },
+    {
+      "path": "methods/agents/outline_agent.py",
+      "lines": 61,
+      "role": "大纲生成：idea.md + experimental_log.md → 论文结构"
+    },
+    {
+      "path": "methods/agents/plotting_agent.py",
+      "lines": 275,
+      "role": "图表生成：从代码自动生成配图（可选）"
+    },
+    {
+      "path": "methods/agents/section_writing_agent.py",
+      "lines": 219,
+      "role": "章节撰写：按大纲逐节生成正文内容"
+    },
+    {
+      "path": "methods/prompts/content_refinement_agent.py",
+      "role": "prompt 函数定义",
+      "lines": 0
+    },
+    {
+      "path": "methods/prompts/format_agent.py",
+      "role": "prompt 函数定义",
+      "lines": 0
+    },
+    {
+      "path": "methods/prompts/literature_review_agent.py",
+      "role": "prompt 函数定义",
+      "lines": 0
+    },
+    {
+      "path": "methods/prompts/outline_agent.py",
+      "role": "prompt 函数定义",
+      "lines": 0
+    },
+    {
+      "path": "methods/prompts/section_writing_agent.py",
+      "role": "prompt 函数定义",
+      "lines": 0
+    }
+  ],
+  "count": 10
+}

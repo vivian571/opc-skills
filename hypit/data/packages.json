@@ -1,0 +1,533 @@
+{
+  "count": 88,
+  "packages": [
+    {
+      "name": "admission",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 1
+    },
+    {
+      "name": "atomic-file",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 3
+    },
+    {
+      "name": "audio-track",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 10
+    },
+    {
+      "name": "author",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 5
+    },
+    {
+      "name": "bach",
+      "version": "0.1.1",
+      "description": "",
+      "src_ts_files": 4
+    },
+    {
+      "name": "blob",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 2
+    },
+    {
+      "name": "browser-capture",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 3
+    },
+    {
+      "name": "caption",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 11
+    },
+    {
+      "name": "caption-fine",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 14
+    },
+    {
+      "name": "cli",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 33
+    },
+    {
+      "name": "comment-sticker",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 10
+    },
+    {
+      "name": "compiler",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 7
+    },
+    {
+      "name": "composition",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 9
+    },
+    {
+      "name": "credential-store-env",
+      "version": "0.1.1",
+      "description": "",
+      "src_ts_files": 2
+    },
+    {
+      "name": "credential-store-local",
+      "version": "0.1.1",
+      "description": "",
+      "src_ts_files": 6
+    },
+    {
+      "name": "depth-stack",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 11
+    },
+    {
+      "name": "elevenlabs-speech",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 4
+    },
+    {
+      "name": "endpoint",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 2
+    },
+    {
+      "name": "executor",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 6
+    },
+    {
+      "name": "facet",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 3
+    },
+    {
+      "name": "film",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 10
+    },
+    {
+      "name": "fishaudio-speech",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 4
+    },
+    {
+      "name": "fontsource",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 5
+    },
+    {
+      "name": "generation",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 11
+    },
+    {
+      "name": "gpt-image",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 5
+    },
+    {
+      "name": "gpt-image-kits",
+      "version": "0.1.1",
+      "description": "",
+      "src_ts_files": 0
+    },
+    {
+      "name": "grok-imagine",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 3
+    },
+    {
+      "name": "html-document",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 7
+    },
+    {
+      "name": "html-program",
+      "version": "0.1.1",
+      "description": "",
+      "src_ts_files": 14
+    },
+    {
+      "name": "html-video",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 5
+    },
+    {
+      "name": "image-operations",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 18
+    },
+    {
+      "name": "interview-emoji-reveal",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 9
+    },
+    {
+      "name": "kernel",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 9
+    },
+    {
+      "name": "loader",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 10
+    },
+    {
+      "name": "markup",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 12
+    },
+    {
+      "name": "media",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 11
+    },
+    {
+      "name": "media-local",
+      "version": "0.2.1",
+      "description": "",
+      "src_ts_files": 17
+    },
+    {
+      "name": "media-operations",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 10
+    },
+    {
+      "name": "mimo-speech",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 4
+    },
+    {
+      "name": "minimax-h3",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 3
+    },
+    {
+      "name": "nano-banana",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 3
+    },
+    {
+      "name": "narrative",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 8
+    },
+    {
+      "name": "narrative-caption",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 11
+    },
+    {
+      "name": "narrative-speech-alignment",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 11
+    },
+    {
+      "name": "narrative-temporal",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 11
+    },
+    {
+      "name": "pixverse",
+      "version": "0.2.1",
+      "description": "",
+      "src_ts_files": 4
+    },
+    {
+      "name": "producer",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 1
+    },
+    {
+      "name": "project",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 2
+    },
+    {
+      "name": "protocol",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 8
+    },
+    {
+      "name": "provider-beatapi",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 6
+    },
+    {
+      "name": "provider-hiapi",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 6
+    },
+    {
+      "name": "provider-html-local",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 27
+    },
+    {
+      "name": "provider-hypihub",
+      "version": "0.2.2",
+      "description": "",
+      "src_ts_files": 8
+    },
+    {
+      "name": "provider-image-opencv-local",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 5
+    },
+    {
+      "name": "provider-monid",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 6
+    },
+    {
+      "name": "provider-pollo",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 6
+    },
+    {
+      "name": "provider-sume",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 6
+    },
+    {
+      "name": "provider-tokendance",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 6
+    },
+    {
+      "name": "provider-whisperx-local",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 4
+    },
+    {
+      "name": "ranking",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 12
+    },
+    {
+      "name": "recipe",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 7
+    },
+    {
+      "name": "region-evidence",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 9
+    },
+    {
+      "name": "result",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 8
+    },
+    {
+      "name": "run",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 9
+    },
+    {
+      "name": "runtime",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 8
+    },
+    {
+      "name": "runtime-local",
+      "version": "0.1.1",
+      "description": "",
+      "src_ts_files": 28
+    },
+    {
+      "name": "script",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 12
+    },
+    {
+      "name": "seedance",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 5
+    },
+    {
+      "name": "seedance-kits",
+      "version": "0.1.1",
+      "description": "",
+      "src_ts_files": 0
+    },
+    {
+      "name": "seedream",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 3
+    },
+    {
+      "name": "source",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 3
+    },
+    {
+      "name": "spatial",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 10
+    },
+    {
+      "name": "speech-estimate",
+      "version": "0.1.1",
+      "description": "",
+      "src_ts_files": 5
+    },
+    {
+      "name": "speech-evidence",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 4
+    },
+    {
+      "name": "studio",
+      "version": "0.2.1",
+      "description": "",
+      "src_ts_files": 60
+    },
+    {
+      "name": "studio-companion",
+      "version": "0.1.2",
+      "description": "",
+      "src_ts_files": 1
+    },
+    {
+      "name": "temporal",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 13
+    },
+    {
+      "name": "text",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 10
+    },
+    {
+      "name": "text-fine",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 8
+    },
+    {
+      "name": "timeline",
+      "version": "0.1.0",
+      "description": "",
+      "src_ts_files": 6
+    },
+    {
+      "name": "timeline-author",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 9
+    },
+    {
+      "name": "video",
+      "version": "0.2.2",
+      "description": "",
+      "src_ts_files": 6
+    },
+    {
+      "name": "visual-track",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 16
+    },
+    {
+      "name": "volcengine-matting",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 3
+    },
+    {
+      "name": "wan",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 3
+    },
+    {
+      "name": "whisperx",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 10
+    },
+    {
+      "name": "workspace",
+      "version": "0.0.0-dev",
+      "description": "",
+      "src_ts_files": 3
+    },
+    {
+      "name": "yt-dlp",
+      "version": "0.2.0",
+      "description": "",
+      "src_ts_files": 4
+    }
+  ]
+}

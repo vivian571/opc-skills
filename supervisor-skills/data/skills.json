@@ -1,0 +1,206 @@
+{
+  "count": 12,
+  "skills": [
+    {
+      "name": "drawio-reconstruction",
+      "group": "others",
+      "path": "others/drawio-reconstruction/SKILL.md",
+      "description": "\"Reconstructs reference images into high-fidelity, editable Draw.io files with rendered previews: native Draw.io elements carry text and structure, SVG covers simple icons that match the reference, and cropped or transparent PNGs preserve complex visuals. Use when the user wants a diagram image, research figure, architecture diagram, slide, UI screenshot, or image folder turned into `.drawio` XML; batch requests use a manifest with bounded parallelism when available and a full-fidelity serial fallback otherwise.\"",
+      "description_zh": "参考图/论文图/架构图/UI 截图一键重建为可编辑 .drawio + PNG 预览与视觉审计",
+      "references": [],
+      "reference_count": 0,
+      "lines": 348
+    },
+    {
+      "name": "rebuttal-guidance",
+      "group": "others",
+      "path": "others/rebuttal-guidance/SKILL.md",
+      "description": ">- Provides actionable peer-review rebuttal guidance (not full rebuttal prose) using conditional persuasion P(Z|X,Y): match reviewer mindset X, recommend strategy Y, optionally ground in manuscript evidence and similar successful historical (review, rebuttal) pairs. Use when the user pastes reviewer comments, asks for rebuttal help, rebuttal guidance, response to reviewers, how to reply to R1.W2, OpenReview rebuttal, or the reviewer ignored the rebuttal.",
+      "description_zh": "条件说服模型：识别审稿人心态→匹配 rebuttal 策略，逐条生成回应指导",
+      "references": [
+        "checklist.md",
+        "concern-classification.md",
+        "mindset-library.md",
+        "mindset-matching-heuristics.md",
+        "response-templates.md",
+        "strategy-dimensions.md"
+      ],
+      "reference_count": 6,
+      "lines": 129
+    },
+    {
+      "name": "benchmark-paper-template",
+      "group": "skills",
+      "path": "skills/benchmark-paper-template/SKILL.md",
+      "description": "Structures Benchmark and Evaluation papers using the five-pillar framework (Research Gap, Construction Pipeline, Evaluation Framework, Empirical Findings, optional Companion Method). Returns a completeness audit, a six-part Introduction logic chain, a Section 2-7 skeleton, and a pre-submission checklist. Use when writing a benchmark paper, structuring a benchmark paper, checking whether a benchmark idea is substantive, drafting a benchmark Introduction, or planning the data-construction pipeline or experiments.",
+      "description_zh": "Benchmark/Evaluation 类论文专用：梳理评估逻辑、gap 分析与实验设计",
+      "references": [
+        "benchmark-design.md",
+        "checklist.md",
+        "construction-pipeline.md",
+        "experiments.md",
+        "gap-analysis.md",
+        "instantiation-template.md",
+        "orchestrator-notes.md",
+        "paper-structure.md"
+      ],
+      "reference_count": 8,
+      "lines": 138
+    },
+    {
+      "name": "deep-research",
+      "group": "skills",
+      "path": "skills/deep-research/SKILL.md",
+      "description": ">- Runs a deep, survey-grade literature investigation on a research topic: freezes research questions, searches from multiple adversarial perspectives, verifies every citation, synthesizes evidence into a MECE taxonomy with in-sentence cross-comparison, and answers the research questions in an evidence-first report. Use when the user asks for a literature review, a survey of a field, research landscape mapping, or a deep dive into what is known about a topic.",
+      "description_zh": "综述级文献深调：多视角检索 + 逐条引用核验 + MECE 分类综合 + 交叉对比，产出逐条回答研究问题的 survey",
+      "references": [
+        "citation-protocol.md",
+        "hedge-calibration.md",
+        "output-structure.md",
+        "quality-gates.md",
+        "search-strategy.md",
+        "self-adversarial.md",
+        "synthesis-framework.md"
+      ],
+      "reference_count": 7,
+      "lines": 198
+    },
+    {
+      "name": "figure-designer",
+      "group": "skills",
+      "path": "skills/figure-designer/SKILL.md",
+      "description": ">- Advises on the design of the three core figures in a technical paper: the Motivated Example (Figure 1), the Solution Overview (Methodology), and the Experimental Results figures. Recommends the right design paradigm, layout, labelling, and tool for each figure type, then runs a quality-control audit. Use when the user asks to 'design a figure', 'draw Figure 1', 'plot experiment results', 'choose the right chart type', 'which figure tool to use', or 'figure looks unprofessional'.",
+      "description_zh": "告诉 AI 你想表达什么，按动机图/总览图/实验图设计范式给专业作图建议",
+      "references": [
+        "design-rules.md",
+        "experimental-results.md",
+        "motivated-example.md",
+        "solution-overview.md",
+        "tools.md"
+      ],
+      "reference_count": 5,
+      "lines": 195
+    },
+    {
+      "name": "idea-evaluator",
+      "group": "skills",
+      "path": "skills/idea-evaluator/SKILL.md",
+      "description": ">- Evaluates a preliminary research idea against a five-dimension framework (Higher, Faster, Stronger, Cheaper, Broader) plus idea-lifecycle and student-capability matching, paradigm-shift probing, and a fatal-flaws audit. Returns a reviewer-style verdict; non-STEM ideas route to substitute frameworks. Use when the user has a draft research idea and asks whether it is worth pursuing, asks to 'evaluate this idea', 'score this idea', 'assess feasibility', 'novelty check', 'is this a good research direction', or before committing to a paper scope.",
+      "description_zh": "Idea 五维评估（更高/更快/更强/更省/更广）+ 生命周期与能力匹配 + 范式转移探测 + 致命缺陷审计，给出审稿人式结论",
+      "references": [
+        "domain-evaluation-frameworks.md",
+        "fatal-flaws.md",
+        "five-dimensions.md",
+        "lifecycle-capability-matching.md",
+        "paradigm-elephant.md",
+        "paradigm-examples.md",
+        "paradigm-first-principles.md",
+        "paradigm-hamming.md",
+        "paradigm-shift-probe.md",
+        "paradigm-technology-cycle.md",
+        "worked-examples.md"
+      ],
+      "reference_count": 11,
+      "lines": 315
+    },
+    {
+      "name": "intro-drafter",
+      "group": "skills",
+      "path": "skills/intro-drafter/SKILL.md",
+      "description": ">- Drafts the Introduction prose for a technical paper, guided internally by a six-paragraph flowchart: background and running example, existing limitations, problem essence and goal, key challenges, solution overview, contributions. Positions the paper as Technique or New Problem/Setting, aligns contributions with challenges, and weaves verified citations. Outputs flowing prose by default, or an outline on request. Use when the user asks to draft, outline, or restructure an Introduction.",
+      "description_zh": "基于 Introduction Flowchart 思考模型，输入研究动机直出六段式 Intro 正文（引用经检索核验）",
+      "references": [
+        "contribution-patterns.md",
+        "evidence-discipline.md",
+        "flowchart.md",
+        "paper-types.md",
+        "prose-delivery.md",
+        "running-example.md",
+        "worked-examples.md"
+      ],
+      "reference_count": 7,
+      "lines": 200
+    },
+    {
+      "name": "paper-polish",
+      "group": "skills",
+      "path": "skills/paper-polish/SKILL.md",
+      "description": ">- Polishes existing academic prose while preserving the author's meaning: grammar and flow repair, tone calibration against evidence strength, AI-tone removal, and Chinese-to-English rewriting at submission quality. Never fabricates data, citations, or claims, and flags any edit that could change scientific meaning. Use when the user asks to polish a draft, fix awkward wording, remove AI flavor, translate a Chinese manuscript into publishable English, or tone down overclaiming.",
+      "description_zh": "忠于原意的语言润色：改语法、去 AI 腔、把握措辞分寸，动含义处逐条标出待确认",
+      "references": [
+        "academic-phrasebank.md",
+        "ai-tone-guardrails.md",
+        "section-conventions.md"
+      ],
+      "reference_count": 3,
+      "lines": 256
+    },
+    {
+      "name": "paper-writer",
+      "group": "skills",
+      "path": "skills/paper-writer/SKILL.md",
+      "description": ">- Drafts publishable paper prose from the author's own materials, from a single paragraph to a full manuscript, across STEM and non-STEM fields. Every factual claim traces to user input, verified retrieval, or field common knowledge; citations pass an independent verification ladder; delivery is clean prose with zero placeholder tags. Use when the user asks to write a section, turn an idea or results into paper text, or draft a full paper.",
+      "description_zh": "证据门控的论文正文写作：每个事实声明可溯源，引用经独立核查，绝不编造",
+      "references": [
+        "academic-phrasebank.md",
+        "ai-tone-guardrails.md",
+        "citation-style.md",
+        "evidence-discipline.md",
+        "prose-delivery.md",
+        "section-conventions.md",
+        "section-guidance.md",
+        "verification-checklist.md",
+        "verification-ladder.md"
+      ],
+      "reference_count": 9,
+      "lines": 273
+    },
+    {
+      "name": "pre-submission-reviewer",
+      "group": "skills",
+      "path": "skills/pre-submission-reviewer/SKILL.md",
+      "description": ">- Runs a pre-submission review of a technical paper across five dimensions: macro logic, writing details, English grammar, LaTeX formatting, and figure quality. Uses a reviewer-style severity taxonomy (CRITICAL / MAJOR / MINOR) and flags banned AI-tone vocabulary and em-dash misuse. Use when the user asks to 'review this paper', 'audit before submission', 'check the draft', 'find issues', 'proofread', or within one week of a submission deadline.",
+      "description_zh": "顶会审稿人视角全面审查草稿：写作 Checklist + 英语语法易错点",
+      "references": [
+        "forbidden-patterns.md",
+        "grammar-rules.md",
+        "latex-rules.md",
+        "logic-and-structure.md",
+        "section-guides.md"
+      ],
+      "reference_count": 5,
+      "lines": 314
+    },
+    {
+      "name": "tech-paper-template",
+      "group": "skills",
+      "path": "skills/tech-paper-template/SKILL.md",
+      "description": ">- Structures a technical paper's full logical skeleton using a thinking-template table (research background, limitations, key idea or goal, challenges, methodology modules, contributions), positions the paper as Technique or New Problem/Setting, and runs a four-point self-consistency check. Use when the user is brainstorming a paper, discussing progress with an advisor, or planning the paper before drafting. Also use for 'paper skeleton', 'paper logic chain', 'thinking template', 'paper-structure planning'.",
+      "description_zh": "技术类 Full Paper 思考模板，一步步梳理论文完整逻辑链",
+      "references": [
+        "consistency-checks.md",
+        "paper-types.md",
+        "thinking-template.md",
+        "worked-examples.md"
+      ],
+      "reference_count": 4,
+      "lines": 180
+    },
+    {
+      "name": "vibe-research-workflow",
+      "group": "skills",
+      "path": "skills/vibe-research-workflow/SKILL.md",
+      "description": ">- Guides AI-assisted research across three sub-flows, Vibe Coding, Vibe Figure, and Vibe Writing, with behavioural rules that keep the user in charge of academic judgment while delegating mechanical work to AI. Recommends the right tool (Cursor, Claude Code, Codex, Figma, Gemini) for the current stage. Use when the user asks 'how to use AI for research', 'Vibe Coding tips', 'AI-assisted writing workflow', 'which AI tool for this', or starts an AI-assisted work session.",
+      "description_zh": "AI 辅助科研全流程：Vibe Coding / Vibe Figure / Vibe Writing 三件套实战",
+      "references": [
+        "behavior-guidelines.md",
+        "tool-selection.md",
+        "vibe-coding.md",
+        "vibe-figure.md",
+        "vibe-writing.md"
+      ],
+      "reference_count": 5,
+      "lines": 186
+    }
+  ]
+}

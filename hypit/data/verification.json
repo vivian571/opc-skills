@@ -1,0 +1,62 @@
+[
+  {
+    "item": "仓库可访问与克隆",
+    "method": "git clone --depth 1 https://github.com/hypit-ai/hypit.git",
+    "result": "成功，37M（含 .git 9.4M）",
+    "date": "2026-11-20"
+  },
+  {
+    "item": "元数据",
+    "method": "GET https://api.github.com/repos/hypit-ai/hypit",
+    "result": "stars=30780, forks=3633, language=TypeScript, created=2026-07-29, pushed=2026-11-19, license=NOASSERTION",
+    "date": "2026-11-20"
+  },
+  {
+    "item": "License 类型",
+    "method": "读取 LICENSE 原文前 30 行",
+    "result": "修改版 Apache-2.0 + 附加条件（多租户/SaaS 禁、商业再分发禁、LOGO 保留）",
+    "date": "2026-11-20"
+  },
+  {
+    "item": "版本与工具链",
+    "method": "读取 package.json",
+    "result": "version=0.3.3, node>=22.15.0, pnpm@10.33.0, typescript=5.9.3, bin=bin/hypit.mjs",
+    "date": "2026-11-20"
+  },
+  {
+    "item": "CLI 根命令",
+    "method": "grep packages/cli/src/command.ts genericCliCommandNames",
+    "result": "17 个域无关根命令 + 应用命令（studio/run/login/logout）",
+    "date": "2026-11-20"
+  },
+  {
+    "item": "上游 Skill",
+    "method": "读取 skills/hypit/SKILL.md + 统计 references",
+    "result": "SKILL.md 存在，references 62 个 md 文件 + 7 个示例源文件（creation/environment/playbooks/production）",
+    "date": "2026-11-20"
+  },
+  {
+    "item": "镜像完整性",
+    "method": "rsync 排除 .git/node_modules/dist/二进制后统计",
+    "result": "1595 文件 / 15M，0 个二进制媒体残留，关键文件（LICENSE/README/package.json/SKILL.md）齐全",
+    "date": "2026-11-20"
+  },
+  {
+    "item": "SVML 后缀统计",
+    "method": "find *.svml *.svs *.svrun",
+    "result": "svml=25, svs=37, svrun=32",
+    "date": "2026-11-20"
+  },
+  {
+    "item": "沙箱 gotcha",
+    "method": "运行 build_index.py",
+    "result": "mkdir(exist_ok=True) 被沙箱 shim 拦截抛 FileExistsError；改 try/except 后通过",
+    "date": "2026-11-20"
+  },
+  {
+    "item": "CLI 与文档自洽",
+    "method": "SKILL.md/quickstart.md 交叉验证",
+    "result": "安装命令、Skill/可执行分离、费用模型、SVML 三后缀口径一致",
+    "date": "2026-11-20"
+  }
+]

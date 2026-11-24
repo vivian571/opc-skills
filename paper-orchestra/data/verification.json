@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-11-18",
+  "verifier": "WorkBuddy 本地实测 + GitHub API + raw.githubusercontent",
+  "checks": [
+    {"id": "V1", "item": "仓库存在与元数据", "method": "GitHub API /repos/google-research/paper-orchestra", "result": "存在；main 分支；Apache-2.0；Python；★3500 / fork 453；created 2026-05-01T18:07:52Z；pushed 2026-11-15T18:08:08Z；homepage=https://yiwen-song.github.io/paper_orchestra/；topics=[ai-research-assistant, multi-agent-systems]", "status": "已核实"},
+    {"id": "V2", "item": "文件树规模", "method": "git/trees/main?recursive=1", "result": "56 个文件；methods/agents/ 5 个 agent；autoraters/ 5 个评估脚本；templates/ 2 套 LaTeX；utils/ 7 个工具模块；frontend/ Streamlit demo；requirements.txt 16 个 Python 依赖", "status": "一致"},
+    {"id": "V3", "item": "README / LICENSE 原文", "method": "raw.githubusercontent 直取", "result": "README 明确：Google Cloud AI Research 出品、disclaimer『非官方产品』、数据集暂未公开、需 SEMANTIC_SCHOLAR_API_KEY + GEMINI_API_KEY/OPENAI_API_KEY；LICENSE 确认为 Apache-2.0", "status": "已核实"},
+    {"id": "V4", "item": "依赖是否可装", "method": "cat requirements.txt", "result": "google-genai / openai / joblib / json_repair / matplotlib / numpy / opencv-python / pydantic / PyMuPDF / pymupdf4llm / pyOpenSSL / pypdf / python-dotenv / requests / rich / streamlit / thefuzz / tqdm。均为标准 PyPI 包，无特殊 C 扩展。", "status": "可满足"},
+    {"id": "V5", "item": "Agent 架构真实性", "method": "head -30 methods/agents/*.py", "result": "OutlineAgent / HybridLiteratureAgent / SectionWritingAgent / ContentRefinementAgent / PlottingAgent 五个类均存在，各自有独立的 prompt 文件和 run() 方法。论文中自称 5 个 agent 属实。", "status": "属实"},
+    {"id": "V6", "item": "CLI 参数完整性", "method": "grep -- '--raw_materials_dir\\|--latex_template_dir\\|--output_dir' paper_writing_cli.py", "result": "三个必填参数（--raw_materials_dir, --latex_template_dir, [--output_dir] 可选）均存在；writer/reflection/plotting/image_model_name 各有 default='gemini-3.1-pro-preview'；--use_plotting default=False。", "status": "属实"},
+    {"id": "V7", "item": "pipeline 是否真能跑通端到端", "method": "静态分析 paper_writer.py 主流程", "result": "write_single_paper() 函数内顺序调用 Outline→LitReview→Section→Refine；每步都有 shutil.rmtree(old_output) 清理旧输出并递归重试最多 3 次。**未实际运行**（缺 dataset、缺 API Key、缺 LaTeX 环境）。", "status": "流程合理但未实测"},
+    {"id": "V8", "item": "datasets/ 目录是否存在", "method": "ls datasets/ 2>&1 || echo '目录不存在'", "result": "上游仓库根目录下**没有 datasets/ 目录**。README 确认数据集另发。本包 upstream/ 镜像也仅有 56 文件，不包含任何真实实验数据。", "status": "属实：无测试数据"},
+    {"id": "V9", "item": "合规风险判定", "method": "核读 README disclaimer + 各会议 AI authorship policy", "result": "项目自身 disclaimer 仅说明「非 Google 官方产品」。但 arXiv 自 2024 起明确要求披露 AI 辅助工具使用；多数 AI 会议（NeurIPS/ICML/ICLR）要求在 paper 中声明使用了哪些自动生成组件。**用此工具生成的论文直接投稿而不声明，违反学术诚信**。", "status": "高风险：需人工披露"},
+    {"id": "V10", "item": "本包合规边界", "method": "本包不做的事清单", "result": "不启动 pipeline、不生成假论文、不调 LLM API、不存储 API Key、不指导如何绕过学术诚信审查。仅提供技术层面的离线索引与架构分析。", "status": "已约束"}
+  ],
+  "conclusion": "项目源码真实、Apache-2.0 授权清晰、pipeline 架构属实。核心价值在于展示 multi-agent 在学术论文写作中的编排模式，**但当前无法端到端复现**（缺 dataset + 缺 API Key + 缺 LaTeX 编译链）。建议作为研究参考与技术学习素材，而非生产工具直接使用。",
+  "excluded": [
+    "未运行 python paper_writing_cli.py 或 streamlit run frontend/app.py",
+    "未创建 .env 文件或配置任何 API Key",
+    "未尝试安装 conda env 或 pip install -r requirements.txt",
+    "未向 Semantic Scholar API 发起任何请求"
+  ]
+}

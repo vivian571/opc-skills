@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-11-17",
+  "verifier": "WorkBuddy 本地实测 + GitHub API + raw.githubusercontent",
+  "checks": [
+    {"id": "V1", "item": "仓库存在与元数据", "method": "GitHub API /repos/CzzzzzzJ/mdldm-maitian", "result": "存在；main 分支；MIT；JavaScript；★335 / fork 114；created 2026-11-14T03:59:22Z；pushed 2026-11-16T12:27:07Z；homepage=null；topics=[automation, chrome-extension, creator-tools, dashboard, feishu, social-media]", "status": "已核实"},
+    {"id": "V2", "item": "文件树结构", "method": "git/trees/main?recursive=1 + ZIP 解压逐项比对", "result": "72 个文件；src/ 18 个 .mjs + web/ 子目录；skills/maitian-publish/SKILL.md；config.example.json；scripts/install.sh/install-launchd.sh/widget/；docs/readme/screenshots 图片（镜像时排除大图）", "status": "一致"},
+    {"id": "V3", "item": "README / LICENSE / SKILL.md 原文", "method": "raw.githubusercontent 直取全文", "result": "自述为「自媒体多平台发布中控与数据监控工作台」，配合姊妹仓库 mdldm-maitian-publisher（Chrome 插件）使用；明确国内四家只填写不发布、最后一下由人点；不存任何平台密码；MIT 授权", "status": "已核实"},
+    {"id": "V4", "item": "依赖门槛是否符合本机环境", "method": "node -v / uname -s", "result": "本机 Node v22.22.2 ✅（满足 ≥22.5）；macOS ✅；Google Chrome ✅。但专用 Chrome profile（chrome-profile/）不存在，飞书 webhook / extensionId 未配 → 无法真正跑 hub daemon", "status": "部分就绪：基础条件满足，运行时凭据缺"},
+    {"id": "V5", "item": "npm install 是否可能", "method": "package.json 无 dependencies 字段", "result": "零 npm deps — 直接用 node src/*.mjs 运行，仅依赖 node:sqlite / node:http / fs 等内置模块。ZIP 下载 4.5 MB，镜像后 5.1 MB（含源码），不含 node_modules", "status": "通过"},
+    {"id": "V6", "item": "是否需要付费凭据或第三方服务绑定", "method": "grep config.example.json feishuWebhook site base board.baseToken", "result": "feishuWebhook（可选）、site（可选，二次开发接口）、board（可选，飞书多维表格）。核心功能（hub plan/run/sync/review）不需任何外部凭据即可演示。只有飞书卡片通知和远程访问需要配置项", "status": "最小可用无需付费"},
+    {"id": "V7", "item": "隐私边界声明的真实性", "method": "grep -r password config.example.json src/*.mjs docs/", "result": "全仓 grep password 零命中；chrome-profile/ / data/ / config.json 均在 .gitignore；README 明确说不存任何平台密码、只读创作者后台", "status": "属实"},
+    {"id": "V8", "item": "合规风险判定", "method": "SKILL.md + README 全文核读 + 平台风控条款对照", "result": "本项目**刻意不自动触发各平台的发布动作**（国内四家人工确认）；不做互动自动化（点赞/评论/关注）；只读你自己账号的创作者数据。不是 anti-ToS 工具而是创作助手。⚠️ 但使用 CDP 驱动浏览器操作平台网页本身处于平台 ToS 灰色地带——作者用专用 Chrome profile 隔离身份降低风险，不代表官方认可", "status": "灰色但不越界：需用户自行评估平台条款风险"},
+    {"id": "V9", "item": "姊妹仓库 mdldm-maitian-publisher 是否包含在本包", "method": "find upstream -name '*publisher*'", "result": "不包含。adapter 代码在另一个独立 repo；本包只加载其 lib/ 并调 bridge 端口 8765。本技能包的 upstream/ 仅有调用方侧的代码（chrome-shim.mjs / bridge.mjs / driver.mjs 是 thin wrapper）", "status": "已知缺口：完整运行必须另装 publisher"},
+    {"id": "V10", "item": "能否在不联网本机复现 demo", "method": "curl http://localhost:8788/?key=demo（未启动前）; grep 'node src/demo.mjs' README.md", "result": "demo.mjs 起本地 :8788 静态服务展示假大屏数据，不联网可跑。但真实工作流（hub plan/run/sync/metrics）必须先扫码登录各平台 + 建工程目录 + 接 NAS + 装出版者插件", "status": "Demo 可离线演示，生产模式需全链路准备"}
+  ],
+  "conclusion": "项目源码真实、MIT 授权清晰、隐私声明可信；基础运行环境（Node ≥22.5 + macOS + Chrome）本机具备；完整工作流依赖姊妹仓库 publisher 插件和真实平台登录态，本包只做离线索引。",
+  "excluded": [
+    "未运行 node src/hub.mjs daemon / run / metrics 等会读写 SQLite 或驱动浏览器的命令",
+    "未打开 http://localhost:8787/8788 做任何交互",
+    "未生成或修改 config.json、chrome-profile/、data/hub.db",
+    "未接入任何飞书 webhook 或第三方 SaaS 账户"
+  ]
+}

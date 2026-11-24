@@ -1,0 +1,334 @@
+[
+  {
+    "path": "scripts/install-browser.js",
+    "lines": 45,
+    "bytes": 2322,
+    "group": "辅助脚本",
+    "role": "Camoufox 下载（Windows 解压补丁）",
+    "exports": [
+      "patchWindowsExtractor",
+      "installBrowser"
+    ]
+  },
+  {
+    "path": "scripts/process.js",
+    "lines": 12,
+    "bytes": 322,
+    "group": "辅助脚本",
+    "role": "ESM 主模块判定与致命错误输出",
+    "exports": [
+      "isMainModule",
+      "reportFatalError"
+    ]
+  },
+  {
+    "path": "src/apps/registry.js",
+    "lines": 11,
+    "bytes": 357,
+    "group": "SheerID 适配",
+    "role": "应用适配器注册表",
+    "exports": [
+      "getApplication"
+    ]
+  },
+  {
+    "path": "src/apps/sheerid/client.js",
+    "lines": 65,
+    "bytes": 3259,
+    "group": "SheerID 适配",
+    "role": "rest/v2 verification 接口封装",
+    "exports": [
+      "verificationIdFromUrl",
+      "parseVerification",
+      "createVerificationClient",
+      "validateUploadUrl"
+    ]
+  },
+  {
+    "path": "src/apps/sheerid/document-workflow.js",
+    "lines": 180,
+    "bytes": 9879,
+    "group": "SheerID 适配",
+    "role": "docUpload 轮询、复审、丢失响应补偿",
+    "exports": [
+      "runDocumentWorkflow"
+    ]
+  },
+  {
+    "path": "src/apps/sheerid/document.js",
+    "lines": 145,
+    "bytes": 7423,
+    "group": "SheerID 适配",
+    "role": "材料原始字节读取与上传",
+    "exports": [
+      "selectDocumentSource",
+      "readDocument"
+    ]
+  },
+  {
+    "path": "src/apps/sheerid/human-verification.js",
+    "lines": 89,
+    "bytes": 5207,
+    "group": "SheerID 适配",
+    "role": "交互式真人验证提示（由用户本人完成）",
+    "exports": [
+      "waitForSubmitReady"
+    ]
+  },
+  {
+    "path": "src/apps/sheerid/index.js",
+    "lines": 209,
+    "bytes": 11195,
+    "group": "SheerID 适配",
+    "role": "SheerID 应用主流程与步骤状态机",
+    "exports": [
+      "sheerid"
+    ]
+  },
+  {
+    "path": "src/apps/sheerid/labels.js",
+    "lines": 46,
+    "bytes": 2430,
+    "group": "SheerID 适配",
+    "role": "界面文案与错误标签映射",
+    "exports": [
+      "formLocales",
+      "countryChoice",
+      "monthChoice"
+    ]
+  },
+  {
+    "path": "src/apps/sheerid/organization.js",
+    "lines": 19,
+    "bytes": 1178,
+    "group": "SheerID 适配",
+    "role": "学校检索与精确匹配",
+    "exports": [
+      "organizationIsSelected"
+    ]
+  },
+  {
+    "path": "src/apps/sheerid/page-state.js",
+    "lines": 23,
+    "bytes": 1184,
+    "group": "SheerID 适配",
+    "role": "页面当前步骤识别",
+    "exports": [
+      "verificationFailure",
+      "assertVerificationAvailable"
+    ]
+  },
+  {
+    "path": "src/apps/sheerid/selectors.js",
+    "lines": 14,
+    "bytes": 937,
+    "group": "SheerID 适配",
+    "role": "页面选择器常量",
+    "exports": [
+      "selectors"
+    ]
+  },
+  {
+    "path": "src/apps/sheerid/status.js",
+    "lines": 89,
+    "bytes": 4236,
+    "group": "SheerID 适配",
+    "role": "状态查询与响应解析",
+    "exports": [
+      "stepStatuses",
+      "checkVerificationStatus"
+    ]
+  },
+  {
+    "path": "src/browser/form.js",
+    "lines": 392,
+    "bytes": 19357,
+    "group": "浏览器交互",
+    "role": "表单填写、学校搜索与提交动作",
+    "exports": [
+      "waitForFields",
+      "selectChoice",
+      "visibleField",
+      "setField"
+    ]
+  },
+  {
+    "path": "src/browser/interaction.js",
+    "lines": 129,
+    "bytes": 2925,
+    "group": "浏览器交互",
+    "role": "打字/点击的拟人延时",
+    "exports": [
+      "createInteraction"
+    ]
+  },
+  {
+    "path": "src/browser/session.js",
+    "lines": 56,
+    "bytes": 2424,
+    "group": "浏览器交互",
+    "role": "Camoufox 会话启动与关闭",
+    "exports": [
+      "waitForSessionClose",
+      "createSession"
+    ]
+  },
+  {
+    "path": "src/cli.js",
+    "lines": 65,
+    "bytes": 3373,
+    "group": "入口",
+    "role": "命令行入口：--config/--submit/--status/--file/--url/--help 与退出码",
+    "exports": []
+  },
+  {
+    "path": "src/core/config.js",
+    "lines": 116,
+    "bytes": 6544,
+    "group": "核心框架",
+    "role": "读取并校验 JSON 配置，禁止注释与尾随逗号",
+    "exports": [
+      "isRecord",
+      "checkKeys",
+      "normalizeWebConfig",
+      "loadConfig",
+      "normalizeConfig"
+    ]
+  },
+  {
+    "path": "src/core/errors.js",
+    "lines": 12,
+    "bytes": 303,
+    "group": "核心框架",
+    "role": "AutomationError / requireValue 参数断言",
+    "exports": [
+      "AutomationError",
+      "requireValue"
+    ]
+  },
+  {
+    "path": "src/core/http.js",
+    "lines": 63,
+    "bytes": 3199,
+    "group": "核心框架",
+    "role": "fetch 封装、重试与限速处理",
+    "exports": [
+      "httpResponseError",
+      "fetchData"
+    ]
+  },
+  {
+    "path": "src/core/logger.js",
+    "lines": 26,
+    "bytes": 1168,
+    "group": "核心框架",
+    "role": "按 verificationId 隔离的异步日志",
+    "exports": [
+      "withLogSink",
+      "createLogger"
+    ]
+  },
+  {
+    "path": "src/core/network.js",
+    "lines": 49,
+    "bytes": 2145,
+    "group": "核心框架",
+    "role": "代理 dispatcher 与直连切换",
+    "exports": [
+      "withNetwork",
+      "browserProxy",
+      "networkFetch"
+    ]
+  },
+  {
+    "path": "src/core/proxy.js",
+    "lines": 127,
+    "bytes": 6317,
+    "group": "核心框架",
+    "role": "HTTP/SOCKS5 代理解析、proxy-chain 本地转发",
+    "exports": [
+      "resolveProxy",
+      "systemProxy",
+      "parseProxy",
+      "upstreamProxyUrl"
+    ]
+  },
+  {
+    "path": "src/core/runner.js",
+    "lines": 177,
+    "bytes": 8785,
+    "group": "核心框架",
+    "role": "任务锁、浏览器生命周期与提交流程编排",
+    "exports": [
+      "runAutomation"
+    ]
+  },
+  {
+    "path": "src/core/status-query.js",
+    "lines": 20,
+    "bytes": 966,
+    "group": "核心框架",
+    "role": "状态查询入口",
+    "exports": [
+      "queryStatusWithRetry"
+    ]
+  },
+  {
+    "path": "src/core/storage.js",
+    "lines": 53,
+    "bytes": 2125,
+    "group": "核心框架",
+    "role": "运行产物与结果持久化",
+    "exports": [
+      "withTaskLock",
+      "acquireLock",
+      "saveResult"
+    ]
+  },
+  {
+    "path": "src/core/workflow.js",
+    "lines": 51,
+    "bytes": 2864,
+    "group": "核心框架",
+    "role": "按 currentStep 分流：只读查询 / 浏览器 / 材料",
+    "exports": [
+      "runWorkflow"
+    ]
+  },
+  {
+    "path": "src/index.js",
+    "lines": 6,
+    "bytes": 274,
+    "group": "入口",
+    "role": "包入口，导出核心模块",
+    "exports": []
+  },
+  {
+    "path": "src/web/jobs.js",
+    "lines": 231,
+    "bytes": 10701,
+    "group": "Web 工作台",
+    "role": "任务队列、并发上限、停止/恢复/删除",
+    "exports": [
+      "WebJobs"
+    ]
+  },
+  {
+    "path": "src/web/public/app.js",
+    "lines": 329,
+    "bytes": 17236,
+    "group": "Web 前端",
+    "role": "前端页面逻辑与 SSE 式轮询",
+    "exports": []
+  },
+  {
+    "path": "src/web/server.js",
+    "lines": 184,
+    "bytes": 9321,
+    "group": "Web 工作台",
+    "role": "本机 Web 工作台 HTTP 服务、鉴权与 CSP",
+    "exports": [
+      "createWebServer"
+    ]
+  }
+]

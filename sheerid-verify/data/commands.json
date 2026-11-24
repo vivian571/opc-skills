@@ -1,0 +1,119 @@
+{
+  "scripts": [
+    {
+      "name": "test",
+      "command": "node --experimental-test-module-mocks --test",
+      "note": "node --experimental-test-module-mocks --test；本地 mock，不访问真实验证接口"
+    },
+    {
+      "name": "start",
+      "command": "node src/cli.js",
+      "note": "按状态分流的命令行入口（默认只填表、不提交）"
+    },
+    {
+      "name": "web",
+      "command": "node src/web/server.js",
+      "note": "启动本机 Web 工作台，默认 http://127.0.0.1:8787"
+    },
+    {
+      "name": "status",
+      "command": "node src/cli.js --status",
+      "note": "只读查询状态，不开浏览器、不改远端状态"
+    },
+    {
+      "name": "submit",
+      "command": "node src/cli.js --submit",
+      "note": "按当前步骤提交（浏览器或材料接口）"
+    },
+    {
+      "name": "browser:install",
+      "command": "node scripts/install-browser.js",
+      "note": "下载 Camoufox；未安装时 8 个浏览器用例会跳过"
+    }
+  ],
+  "cli_flags": [
+    {
+      "flag": "--config <path>",
+      "note": "指定 JSON 配置，默认 config/sheerid.local.json"
+    },
+    {
+      "flag": "--submit",
+      "note": "按当前步骤提交；会改变远端状态，仅限授权测试"
+    },
+    {
+      "flag": "--status",
+      "note": "只读查询，不开浏览器、不上传"
+    },
+    {
+      "flag": "--file <path>",
+      "note": "本地 PNG/JPEG/PDF，覆盖配置的材料来源"
+    },
+    {
+      "flag": "--url <url>",
+      "note": "HTTP/HTTPS 材料地址，覆盖配置的材料来源"
+    },
+    {
+      "flag": "--help",
+      "note": "输出 CLI 帮助"
+    }
+  ],
+  "exit_codes": [
+    {
+      "code": 0,
+      "meaning": "filled / verified / manual"
+    },
+    {
+      "code": 1,
+      "meaning": "failed / rejected"
+    },
+    {
+      "code": 2,
+      "meaning": "需要后续动作（document_required / pending 等）"
+    },
+    {
+      "code": 3,
+      "meaning": "submission_unknown，提交结果不确定"
+    },
+    {
+      "code": 130,
+      "meaning": "被 SIGINT/SIGTERM 中断"
+    }
+  ],
+  "env_vars": [
+    {
+      "name": "ONE_WEB_PASSWORD",
+      "note": "Web 访问密码；公网部署必须改掉默认值 JenkinWoo"
+    },
+    {
+      "name": "ONE_WEB_HOST",
+      "note": "监听地址，默认 127.0.0.1；0.0.0.0 需同时配 HTTPS 公网地址"
+    },
+    {
+      "name": "ONE_WEB_PUBLIC_ORIGIN",
+      "note": "公网 HTTPS 源站地址，用于来源校验"
+    },
+    {
+      "name": "AUTOMATION_URL",
+      "note": "覆盖 CLI 配置里的验证链接（不覆盖网页输入）"
+    },
+    {
+      "name": "AUTOMATION_PROXY",
+      "note": "覆盖 CLI 代理（HTTP/HTTPS/SOCKS5 或 direct）"
+    }
+  ],
+  "write_headers": [
+    {
+      "name": "X-Web-Password",
+      "note": "访问密码，换取会话"
+    },
+    {
+      "name": "Cookie: one-session",
+      "note": "HttpOnly + SameSite=Strict 会话"
+    },
+    {
+      "name": "X-Local-Token",
+      "note": "所有非 GET 写请求必须携带，防 CSRF"
+    }
+  ],
+  "cli_usage": "npm start -- [--config <path>] [--submit | --status] [--file <path> | --url <url>]"
+}

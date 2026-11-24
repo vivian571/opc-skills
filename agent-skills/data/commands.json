@@ -1,0 +1,24 @@
+{
+  "toml": {
+    "build": "",
+    "code-simplify": "",
+    "constraints": "",
+    "planning": "",
+    "review": "",
+    "ship": "",
+    "spec": "",
+    "test": "",
+    "webperf": ""
+  },
+  "claude_md": {
+    "build": "--- | description: Implement tasks incrementally — build, test, verify, commit. Add \"auto\" to run th",
+    "code-simplify": "--- | description: Simplify code for clarity and maintainability — reduce complexity without changin",
+    "constraints": "--- | description: Define and enforce this project's quality bar — interview, sane defaults, CONSTRA",
+    "plan": "--- | description: Break work into small verifiable tasks with acceptance criteria and dependency or",
+    "review": "--- | description: Conduct a five-axis code review — correctness, readability, architecture, securit",
+    "ship": "--- | description: Run the pre-launch checklist via parallel fan-out to specialist personas, then sy",
+    "spec": "--- | description: Start spec-driven development — write a structured specification before writing c",
+    "test": "--- | description: Run TDD workflow — write failing tests, implement, verify. For bugs, use the Prov",
+    "webperf": "--- | description: Run a web performance audit via the web-performance-auditor persona | disable-mod"
+  }
+}

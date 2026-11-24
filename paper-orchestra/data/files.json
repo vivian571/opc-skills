@@ -1,0 +1,394 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 53,
+    "lines": 7,
+    "kind": "text",
+    "group": ".gitignore"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "bytes": 4487,
+    "lines": 93,
+    "kind": "text",
+    "group": "CODE_OF_CONDUCT.md"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 1128,
+    "lines": 33,
+    "kind": "text",
+    "group": "CONTRIBUTING.md"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 11357,
+    "lines": 202,
+    "kind": "text",
+    "group": "LICENSE"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4967,
+    "lines": 106,
+    "kind": "text",
+    "group": "README.md"
+  },
+  {
+    "path": "assets/overview.png",
+    "bytes": 1792329,
+    "lines": 0,
+    "kind": "binary",
+    "group": "assets"
+  },
+  {
+    "path": "autoraters/agent_review.py",
+    "bytes": 10093,
+    "lines": 212,
+    "kind": "text",
+    "group": "autoraters"
+  },
+  {
+    "path": "autoraters/citation_f1.py",
+    "bytes": 31494,
+    "lines": 863,
+    "kind": "text",
+    "group": "autoraters"
+  },
+  {
+    "path": "autoraters/lit_review_quality.py",
+    "bytes": 11360,
+    "lines": 358,
+    "kind": "text",
+    "group": "autoraters"
+  },
+  {
+    "path": "autoraters/prompts/lit_review_quality_prompts.py",
+    "bytes": 7688,
+    "lines": 208,
+    "kind": "text",
+    "group": "autoraters"
+  },
+  {
+    "path": "autoraters/prompts/sxs_quality_prompts.py",
+    "bytes": 4552,
+    "lines": 86,
+    "kind": "text",
+    "group": "autoraters"
+  },
+  {
+    "path": "autoraters/sxs_lit_review_quality.py",
+    "bytes": 11512,
+    "lines": 354,
+    "kind": "text",
+    "group": "autoraters"
+  },
+  {
+    "path": "autoraters/sxs_paper_quality.py",
+    "bytes": 14002,
+    "lines": 414,
+    "kind": "text",
+    "group": "autoraters"
+  },
+  {
+    "path": "frontend/README.md",
+    "bytes": 1288,
+    "lines": 41,
+    "kind": "text",
+    "group": "frontend"
+  },
+  {
+    "path": "frontend/app.py",
+    "bytes": 46724,
+    "lines": 1083,
+    "kind": "text",
+    "group": "frontend"
+  },
+  {
+    "path": "frontend/examples/cvpr_example.json",
+    "bytes": 13628,
+    "lines": 7,
+    "kind": "text",
+    "group": "frontend"
+  },
+  {
+    "path": "frontend/examples/cvpr_example_figure.png",
+    "bytes": 241541,
+    "lines": 0,
+    "kind": "binary",
+    "group": "frontend"
+  },
+  {
+    "path": "frontend/frontend_utils.py",
+    "bytes": 2609,
+    "lines": 73,
+    "kind": "text",
+    "group": "frontend"
+  },
+  {
+    "path": "methods/agents/content_refinement_agent.py",
+    "bytes": 23036,
+    "lines": 594,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "methods/agents/literature_review_agent.py",
+    "bytes": 22575,
+    "lines": 608,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "methods/agents/outline_agent.py",
+    "bytes": 2244,
+    "lines": 61,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "methods/agents/plotting_agent.py",
+    "bytes": 9640,
+    "lines": 275,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "methods/agents/section_writing_agent.py",
+    "bytes": 8190,
+    "lines": 219,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "methods/paper_writer.py",
+    "bytes": 16572,
+    "lines": 444,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "methods/paper_writer_with_plotting.py",
+    "bytes": 20016,
+    "lines": 521,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "methods/prompts/content_refinement_agent.py",
+    "bytes": 4845,
+    "lines": 86,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "methods/prompts/format_agent.py",
+    "bytes": 5010,
+    "lines": 91,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "methods/prompts/literature_review_agent.py",
+    "bytes": 2993,
+    "lines": 48,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "methods/prompts/outline_agent.py",
+    "bytes": 11845,
+    "lines": 200,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "methods/prompts/section_writing_agent.py",
+    "bytes": 5243,
+    "lines": 81,
+    "kind": "text",
+    "group": "methods"
+  },
+  {
+    "path": "paper_writing_cli.py",
+    "bytes": 6415,
+    "lines": 177,
+    "kind": "text",
+    "group": "paper_writing_cli.py"
+  },
+  {
+    "path": "paper_writing_cli.sh",
+    "bytes": 997,
+    "lines": 26,
+    "kind": "text",
+    "group": "paper_writing_cli.sh"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 165,
+    "lines": 18,
+    "kind": "text",
+    "group": "requirements.txt"
+  },
+  {
+    "path": "templates/cvpr2025/cvpr.sty",
+    "bytes": 17969,
+    "lines": 509,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/cvpr2025/guidelines.md",
+    "bytes": 8799,
+    "lines": 190,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/cvpr2025/ieeenat_fullname.bst",
+    "bytes": 26900,
+    "lines": 1449,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/cvpr2025/preamble.tex",
+    "bytes": 251,
+    "lines": 11,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/cvpr2025/references.bib",
+    "bytes": 2971,
+    "lines": 112,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/cvpr2025/template.tex",
+    "bytes": 1715,
+    "lines": 78,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/iclr2025/fancyhdr.sty",
+    "bytes": 20521,
+    "lines": 486,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/iclr2025/guidelines.md",
+    "bytes": 4936,
+    "lines": 110,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/iclr2025/iclr2025_conference.bst",
+    "bytes": 26973,
+    "lines": 1441,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/iclr2025/iclr2025_conference.sty",
+    "bytes": 9025,
+    "lines": 247,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/iclr2025/math_commands.tex",
+    "bytes": 12284,
+    "lines": 509,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/iclr2025/natbib.sty",
+    "bytes": 45154,
+    "lines": 1247,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/iclr2025/references.bib",
+    "bytes": 629,
+    "lines": 24,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "templates/iclr2025/template.tex",
+    "bytes": 1558,
+    "lines": 74,
+    "kind": "text",
+    "group": "templates"
+  },
+  {
+    "path": "utils/common_utils.py",
+    "bytes": 1551,
+    "lines": 55,
+    "kind": "text",
+    "group": "utils"
+  },
+  {
+    "path": "utils/content_parsing_utils.py",
+    "bytes": 1756,
+    "lines": 44,
+    "kind": "text",
+    "group": "utils"
+  },
+  {
+    "path": "utils/gemini_utils.py",
+    "bytes": 12393,
+    "lines": 355,
+    "kind": "text",
+    "group": "utils"
+  },
+  {
+    "path": "utils/llm_backend_utils.py",
+    "bytes": 7243,
+    "lines": 223,
+    "kind": "text",
+    "group": "utils"
+  },
+  {
+    "path": "utils/openai_utils.py",
+    "bytes": 7077,
+    "lines": 209,
+    "kind": "text",
+    "group": "utils"
+  },
+  {
+    "path": "utils/paper_banana_utils.py",
+    "bytes": 34689,
+    "lines": 682,
+    "kind": "text",
+    "group": "utils"
+  },
+  {
+    "path": "utils/pdf_utils.py",
+    "bytes": 9854,
+    "lines": 294,
+    "kind": "text",
+    "group": "utils"
+  },
+  {
+    "path": "utils/prompt_utils.py",
+    "bytes": 1949,
+    "lines": 44,
+    "kind": "text",
+    "group": "utils"
+  },
+  {
+    "path": "utils/scholar_utils.py",
+    "bytes": 3168,
+    "lines": 101,
+    "kind": "text",
+    "group": "utils"
+  }
+]

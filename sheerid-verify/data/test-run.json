@@ -1,0 +1,466 @@
+{
+  "command": "npm test  (node --experimental-test-module-mocks --test)",
+  "node": "v22.22.2",
+  "npm": "10.9.7",
+  "cwd": "{{WORKSPACE}}/_work/sheeridVerify",
+  "final_verdict": "去掉 WorkBuddy 注入的 NODE_OPTIONS shim 后稳定全绿（两次复现 0.8 秒 / 62 pass / 0 fail / 8 skip / exit 0）；浏览器覆盖因 1.3 GB Camoufox 下载失败未启用，与官方 CI 基线一致",
+  "runs": [
+    {
+      "seq": 1,
+      "label": "首次 npm test（默认环境）",
+      "tests": 70,
+      "pass": 62,
+      "fail": 0,
+      "skipped": 8,
+      "duration_ms": 24176,
+      "exit": 0,
+      "log": "/tmp/sheerid-test.log"
+    },
+    {
+      "seq": 2,
+      "label": "browser:install 后 npm test",
+      "tests": 70,
+      "pass": 59,
+      "fail": 3,
+      "skipped": 8,
+      "duration_ms": 337853,
+      "exit": 1,
+      "log": "/tmp/sheerid-test-full.log",
+      "cause": "两个用例各挂 ~299.5s，报错 CODEBUDDY_BROKER_TIMEOUT"
+    },
+    {
+      "seq": 3,
+      "label": "顺序重跑（无并发）",
+      "exit": 137,
+      "cause": "命令在 1/65 用例处被 SIGTERM，未完成"
+    },
+    {
+      "seq": 4,
+      "label": "--test-concurrency=1 沙箱外",
+      "exit": 137,
+      "cause": "跑到 51/65 被 SIGTERM，未完成"
+    },
+    {
+      "seq": 5,
+      "label": "env -u NODE_OPTIONS npm test",
+      "tests": 70,
+      "pass": 62,
+      "fail": 0,
+      "skipped": 8,
+      "duration_ms": 797,
+      "exit": 0,
+      "log": "/tmp/sheerid-test5.log",
+      "cause": "根因：NODE_OPTIONS 注入的 node-language-shim 干扰 node:test 的 mock/IPC，去掉后正常"
+    },
+    {
+      "seq": 6,
+      "label": "浏览器安装失败后再次 env -u NODE_OPTIONS npm test",
+      "tests": 70,
+      "pass": 62,
+      "fail": 0,
+      "skipped": 8,
+      "duration_ms": 781,
+      "exit": 0,
+      "log": "/tmp/sheerid-test6.log",
+      "cause": "复现确认：稳定全绿"
+    }
+  ],
+  "cases": [
+    {
+      "name": "browser closes before document download and the task lock stays held through upload",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "closing the browser preserves the shared proxy dispatcher for document requests",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "SSO continuation reads the file before switching to document review",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "continuation rechecks server state and does not upload if verification already succeeded",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "terminal browser outcomes never start uploads",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "browser pending and email outcomes keep the browser until a terminal result",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "submission waits for API docUpload before closing, even when the page already shows upload",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "intermediate review/email steps and temporary API errors do not close the browser",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "terminal API rejection closes for cleanup without uploading",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "stopping before the API reaches upload closes the browser and releases resources",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "an uncertain browser submit checks the API before continuing material upload",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "fill-only mode never submits or starts document processing",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "lost upload response is queried until a terminal rejection and is never replayed",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "an existing document step can upload with automatic form filling disabled",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "explicit material URL override reaches the browser continuation",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "material downloads include the configured full name and retain existing query parameters",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "URL overrides also receive the current name instead of a stale name",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "nested task locks retain exclusion and release after an exception",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "loopback materials download from this computer even with an unreachable upstream proxy",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Pending is intermediate; keep the lock and poll until verified",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Review rejection fetches fresh original bytes and a new upload URL",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Terminal errors and exhausted review limits fail without another upload",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Already pending and email verification are polled without uploading",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Read-only status queries still report pending once",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Lost PUT response only queries; no duplicate upload or completion request",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Lost completion response can resolve to success through GET",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Transient GET failures back off, then finish on success",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "429 without Retry-After or with a terminal error is not retried",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Stopping during polling cancels the wait and releases the task lock",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Resuming an uncertain upload polls the existing submission without uploading again",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Stopping an uncertain resumed upload retains its uncertainty for the next resume",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "standalone material URLs work without personal data",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "local material paths do not need names",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "partial or invalid names stop named downloads before requesting a file",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "stale school results refresh after one backspace and select the exact school",
+      "status": "skip",
+      "reason": "No installed Camoufox browser for local fixtures",
+      "note": ""
+    },
+    {
+      "name": "matching school results are selected without editing the search",
+      "status": "skip",
+      "reason": "No installed Camoufox browser for local fixtures",
+      "note": ""
+    },
+    {
+      "name": "school retry is bounded and never selects an unrelated option",
+      "status": "skip",
+      "reason": "No installed Camoufox browser for local fixtures",
+      "note": ""
+    },
+    {
+      "name": "a busy school search is allowed to finish without deleting characters",
+      "status": "skip",
+      "reason": "No installed Camoufox browser for local fixtures",
+      "note": ""
+    },
+    {
+      "name": "a user-edited search is not shortened",
+      "status": "skip",
+      "reason": "No installed Camoufox browser for local fixtures",
+      "note": ""
+    },
+    {
+      "name": "search is not retriggered after an option selection has been attempted",
+      "status": "skip",
+      "reason": "No installed Camoufox browser for local fixtures",
+      "note": ""
+    },
+    {
+      "name": "Initial routing retries transient read errors before continuing from confirmed status",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Persistent initial network failure stops after three reads with a query stage",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Browser preflight also retries temporary status failures",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Initial rate limits and invalid responses are not retried",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Stopping during the initial retry delay prevents any further request",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Public deployment requires a nonempty password and an explicit HTTPS origin",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Public HTTPS origin authenticates, keeps CSRF protections and supports queue requests",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Configured concurrency runs N jobs and starts the remaining jobs in FIFO order",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Stop removes queued work and holds running slots until browser cleanup finishes",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Concurrent duplicate submissions and URL forms use one verificationId",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Stopped queued jobs resume at the tail once, retaining identity and original settings",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Running jobs only resume after cleanup, and shutdown prohibits resuming",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Shutdown cancels running and waiting jobs without starting the queue",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Changed concurrency applies on next admission; invalid settings do not admit jobs",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Concurrent asynchronous workflow logs remain attached to their own verificationId",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Deletion preserves active slots and queued work until explicitly stopped",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Web UI deletes failed jobs, allows resubmission and preserves a different selection during deletion",
+      "status": "skip",
+      "reason": "No installed Camoufox for local UI fixture",
+      "note": ""
+    },
+    {
+      "name": "Web UI queues multiple IDs, reconnects and stops only the selected task",
+      "status": "skip",
+      "reason": "No installed Camoufox for local UI fixture",
+      "note": ""
+    },
+    {
+      "name": "Web serves assets, protects writes and does not expose saved settings",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Web uses the five request fields with fresh settings and only the entered proxy",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Duplicate verification IDs share one job; cancellation preserves uncertainty",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Rejects invalid input or extra settings without running workflow",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "Web starts with no task-specific fields in settings and never writes submitted values back",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "DELETE removes finished jobs, protects writes, and allows explicit readmission",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "name": "DELETE rejects active tasks with a conflict response",
+      "status": "pass",
+      "reason": "",
+      "note": ""
+    }
+  ],
+  "browser_install": {
+    "command": "env -u NODE_OPTIONS npm run browser:install",
+    "result": "失败",
+    "reason": "Camoufox 包 1.3 GB，本机代理下仅下到 3.59 MB，进度条 ETA 4h45m，最终 TypeError: terminated（退出码 1）；~/Library/Caches/camoufox 仍为 0 B",
+    "impact": "8 个浏览器用例保持 SKIP，与官方 CI 一致，不影响通过判定"
+  }
+}

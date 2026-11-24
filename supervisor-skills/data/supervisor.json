@@ -1,0 +1,66 @@
+{
+  "repo": "HKUSTDial/Supervisor-Skills",
+  "name": "supervisor-skills",
+  "description": "将博导十年科研经验炼化为可直接调用的 AI 技能。从 Idea 构思到论文投稿，AI 科研副导师。",
+  "url": "https://github.com/HKUSTDial/Supervisor-Skills",
+  "author": "骆昱宇（香港科技大学广州 助理教授）",
+  "license": "CC BY-NC-SA 4.0（署名-非商业-相同方式共享）",
+  "version": "2.1.0",
+  "language": "Python / Markdown",
+  "stargazers_count": 13160,
+  "forks_count": 785,
+  "created_at": "2026-04-19",
+  "pushed_at": "2026-11-21",
+  "default_branch": "main",
+  "topics": [
+    "ai-research",
+    "phd-research",
+    "research-skills",
+    "vibe-research",
+    "awesome"
+  ],
+  "mirrored_md": 128,
+  "skill_count": 12,
+  "handbook_count": 36,
+  "core_concepts": {
+    "最后一公里问题": "科研不只是方法论缺失，更是经验、品味与判断力的综合考验",
+    "Guide + Skills 双轨制": "handbook 讲道（系统理论），skills 讲器（可执行 AI 技能）",
+    "五维框架": "Higher / Faster / Stronger / Cheaper / Broader — Idea 评估与构思的核心坐标系",
+    "审稿人视角": "Novel Problem / Novel Method / Nice Story / Nice Presentation 四维论文质量评价",
+    "证据门控": "paper-writer 的每个事实声明可溯源到材料或核验文献，绝不编造引用",
+    "学科范式路由": "评估/评审技能按学科范式切换框架，不用一把尺子量所有领域",
+    "条件说服模型": "rebuttal-guidance：识别审稿人心态 X → 匹配策略 Y → 生成回应",
+    "Ducktor": "Agent 原生完全体，把科研判断讲给用户听，而非只点确认"
+  },
+  "workflow_stages": {
+    "构思与调研": [
+      "idea-evaluator",
+      "deep-research",
+      "vibe-research-workflow"
+    ],
+    "写作": [
+      "tech-paper-template",
+      "intro-drafter",
+      "paper-writer",
+      "benchmark-paper-template"
+    ],
+    "自查与润色": [
+      "paper-polish",
+      "pre-submission-reviewer"
+    ],
+    "可视化": [
+      "figure-designer",
+      "drawio-reconstruction (others)"
+    ],
+    "投稿后": [
+      "rebuttal-guidance (others)"
+    ]
+  },
+  "related_projects": {
+    "Ducktor": "Claude Code/Codex 原生插件，/duck on 全程陪伴",
+    "DeepSeek-Ducktor": "DeepSeek Harness 原生插件",
+    "DataMagic": "动态图表与数据故事",
+    "DeepEye": "数据分析智能体，生成报告/仪表盘/数据视频"
+  },
+  "install_prompt": "Help me install Supervisor-Skills from https://github.com/HKUSTDial/Supervisor-Skills with Skills."
+}

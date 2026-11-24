@@ -1,0 +1,24 @@
+{
+  "scope": "本包只做离线索引、上游文档查阅与技术架构分析。**不对使用场景做任何背书**——特别是自动操作第三方 APP 可能违反各平台的 Terms of Service。",
+  "source": "upstream/README.md + docs/setup-guide.en.md + docs/cli.en.md + docs/dev/architecture.md",
+  "rules": [
+    {"id": "S1", "level": "硬约束", "rule": "只跑静态读取：grep / 头读 README / 源码头部注释 / 文档；不启动 adb、不连 Android 设备、不调用 mika CLI、不安装 APK。"},
+    {"id": "S2", "level": "硬约束", "rule": "不生成任何 API Key、token、凭证或配置文件（.env、gradle.properties 等）。"},
+    {"id": "S3", "level": "硬约束", "rule": "不指导如何绕过第三方 APP 的反自动化检测（如微信/淘宝/抖音的风控）。"},
+    {"id": "S4", "level": "约束", "rule": "可客观描述项目的技术架构、能力边界、部署方式——这些是事实陈述，不是使用建议。"},
+    {"id": "S5", "level": "约束", "rule": "若用户询问『怎么用这个 APP 自动发微信』，回答应停留在技术层面（怎么配 API Key、怎么建 knowledge），并同步提醒 README 的免责声明和各平台的 ToS 风险。"},
+    {"id": "S6", "level": "约束", "rule": "Apache-2.0 授权下允许任意用途；但本包不代表作者 wangzan101 的任何立场。"}
+  ],
+  "allowed": [
+    "查架构文档：核心模块职责、AgentLoop 设计、能力系统",
+    "查 CLI 命令清单与用法说明",
+    "查 setup-guide 的配对步骤（仅供学习原理）",
+    "查 supported providers 列表（DeepSeek/Gemini/OpenAI/Ollama...）"
+  ],
+  "not_allowed": [
+    "代用户配置 API Key 或编辑任何凭据文件",
+    "生成用于绕过风控的提示词或脚本",
+    "指导如何在未授权的情况下操作他人账号",
+    "把本项目包装成「全自动刷量/薅羊毛」工具推广"
+  ]
+}

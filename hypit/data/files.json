@@ -1,0 +1,6382 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 450
+  },
+  {
+    "path": ".github/FUNDING.yml",
+    "bytes": 930
+  },
+  {
+    "path": ".github/ISSUE_AUTOMATION_DESIGN.md",
+    "bytes": 4192
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "bytes": 1591
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/config.yml",
+    "bytes": 426
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+    "bytes": 727
+  },
+  {
+    "path": ".github/automation/analysis-prompt.md",
+    "bytes": 1627
+  },
+  {
+    "path": ".github/automation/analysis.mjs",
+    "bytes": 6168
+  },
+  {
+    "path": ".github/automation/analysis.test.mjs",
+    "bytes": 4821
+  },
+  {
+    "path": ".github/workflows/automation-check.yml",
+    "bytes": 794
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "bytes": 2609
+  },
+  {
+    "path": ".github/workflows/npm-package.yml",
+    "bytes": 3223
+  },
+  {
+    "path": ".github/workflows/publish-npm.yml",
+    "bytes": 4723
+  },
+  {
+    "path": ".github/workflows/repository-analysis.yml",
+    "bytes": 1540
+  },
+  {
+    "path": ".github/workflows/sync-hypihub-docs.yml",
+    "bytes": 1859
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 1551
+  },
+  {
+    "path": ".node-version",
+    "bytes": 8
+  },
+  {
+    "path": ".puppeteerrc.cjs",
+    "bytes": 205
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 10522
+  },
+  {
+    "path": "CONTRIBUTING.zh-CN.md",
+    "bytes": 8993
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 3299
+  },
+  {
+    "path": "README.md",
+    "bytes": 21383
+  },
+  {
+    "path": "README.zh-CN.md",
+    "bytes": 20632
+  },
+  {
+    "path": "bin/hypit.mjs",
+    "bytes": 1925
+  },
+  {
+    "path": "docs/.vitepress/config.mts",
+    "bytes": 181
+  },
+  {
+    "path": "docs/guide/agents.md",
+    "bytes": 3149
+  },
+  {
+    "path": "docs/guide/author-packages.md",
+    "bytes": 5665
+  },
+  {
+    "path": "docs/guide/component-anatomy.md",
+    "bytes": 3822
+  },
+  {
+    "path": "docs/guide/conventions.md",
+    "bytes": 2821
+  },
+  {
+    "path": "docs/guide/develop.md",
+    "bytes": 2974
+  },
+  {
+    "path": "docs/guide/packages.md",
+    "bytes": 4950
+  },
+  {
+    "path": "docs/guide/providers.md",
+    "bytes": 8899
+  },
+  {
+    "path": "docs/guide/runtime.md",
+    "bytes": 8629
+  },
+  {
+    "path": "docs/guide/service-partners.md",
+    "bytes": 5189
+  },
+  {
+    "path": "docs/guide/skill.md",
+    "bytes": 4247
+  },
+  {
+    "path": "docs/guide/studio-companion-architecture.md",
+    "bytes": 3195
+  },
+  {
+    "path": "docs/guide/studio-temporal-windows.md",
+    "bytes": 3341
+  },
+  {
+    "path": "docs/guide/testing.md",
+    "bytes": 4182
+  },
+  {
+    "path": "docs/public/hypit-logo-dark.svg",
+    "bytes": 4004
+  },
+  {
+    "path": "docs/public/hypit-logo-light.svg",
+    "bytes": 4048
+  },
+  {
+    "path": "docs/public/hypit-logo.svg",
+    "bytes": 9806
+  },
+  {
+    "path": "docs/public/logo-line-dark.svg",
+    "bytes": 12987
+  },
+  {
+    "path": "docs/public/logo-line-light.svg",
+    "bytes": 9828
+  },
+  {
+    "path": "docs/public/logo-mark.svg",
+    "bytes": 387
+  },
+  {
+    "path": "docs/public/monid-logo-blue.svg",
+    "bytes": 4288
+  },
+  {
+    "path": "docs/public/monid-logo-white.svg",
+    "bytes": 4288
+  },
+  {
+    "path": "docs/public/video-rebirth-dark.svg",
+    "bytes": 10120
+  },
+  {
+    "path": "docs/public/video-rebirth-light.svg",
+    "bytes": 10120
+  },
+  {
+    "path": "docs/public/zh/index.html",
+    "bytes": 564
+  },
+  {
+    "path": "docs/quickstart/composition.md",
+    "bytes": 5565
+  },
+  {
+    "path": "docs/quickstart/generation.md",
+    "bytes": 15540
+  },
+  {
+    "path": "docs/quickstart/images.md",
+    "bytes": 4144
+  },
+  {
+    "path": "docs/quickstart/preview.md",
+    "bytes": 6003
+  },
+  {
+    "path": "docs/quickstart/run.md",
+    "bytes": 22400
+  },
+  {
+    "path": "docs/quickstart/script.md",
+    "bytes": 11765
+  },
+  {
+    "path": "docs/quickstart/styles.md",
+    "bytes": 13430
+  },
+  {
+    "path": "docs/quickstart/timing.md",
+    "bytes": 6147
+  },
+  {
+    "path": "docs/quickstart/tracks.md",
+    "bytes": 26377
+  },
+  {
+    "path": "docs/quickstart.md",
+    "bytes": 5633
+  },
+  {
+    "path": "docs/zh/guide/agents.md",
+    "bytes": 2812
+  },
+  {
+    "path": "docs/zh/guide/author-packages.md",
+    "bytes": 5071
+  },
+  {
+    "path": "docs/zh/guide/component-anatomy.md",
+    "bytes": 3177
+  },
+  {
+    "path": "docs/zh/guide/conventions.md",
+    "bytes": 2457
+  },
+  {
+    "path": "docs/zh/guide/develop.md",
+    "bytes": 2831
+  },
+  {
+    "path": "docs/zh/guide/packages.md",
+    "bytes": 4145
+  },
+  {
+    "path": "docs/zh/guide/providers.md",
+    "bytes": 7628
+  },
+  {
+    "path": "docs/zh/guide/runtime.md",
+    "bytes": 7582
+  },
+  {
+    "path": "docs/zh/guide/service-partners.md",
+    "bytes": 4796
+  },
+  {
+    "path": "docs/zh/guide/skill.md",
+    "bytes": 3620
+  },
+  {
+    "path": "docs/zh/guide/studio-companion-architecture.md",
+    "bytes": 2780
+  },
+  {
+    "path": "docs/zh/guide/studio-temporal-windows.md",
+    "bytes": 3112
+  },
+  {
+    "path": "docs/zh/guide/testing.md",
+    "bytes": 3922
+  },
+  {
+    "path": "docs/zh/quickstart/composition.md",
+    "bytes": 5188
+  },
+  {
+    "path": "docs/zh/quickstart/generation.md",
+    "bytes": 14536
+  },
+  {
+    "path": "docs/zh/quickstart/images.md",
+    "bytes": 4129
+  },
+  {
+    "path": "docs/zh/quickstart/preview.md",
+    "bytes": 5373
+  },
+  {
+    "path": "docs/zh/quickstart/run.md",
+    "bytes": 20032
+  },
+  {
+    "path": "docs/zh/quickstart/script.md",
+    "bytes": 11647
+  },
+  {
+    "path": "docs/zh/quickstart/styles.md",
+    "bytes": 12943
+  },
+  {
+    "path": "docs/zh/quickstart/timing.md",
+    "bytes": 5831
+  },
+  {
+    "path": "docs/zh/quickstart/tracks.md",
+    "bytes": 24022
+  },
+  {
+    "path": "docs/zh/quickstart.md",
+    "bytes": 5255
+  },
+  {
+    "path": "examples/README.md",
+    "bytes": 3302
+  },
+  {
+    "path": "examples/complex-explainer/.gitignore",
+    "bytes": 96
+  },
+  {
+    "path": "examples/complex-explainer/README.md",
+    "bytes": 7257
+  },
+  {
+    "path": "examples/complex-explainer/hypit.runtime.json",
+    "bytes": 582
+  },
+  {
+    "path": "examples/complex-explainer/package-lock.json",
+    "bytes": 1927
+  },
+  {
+    "path": "examples/complex-explainer/package.json",
+    "bytes": 486
+  },
+  {
+    "path": "examples/complex-explainer/packages/launch-scenes/README.md",
+    "bytes": 569
+  },
+  {
+    "path": "examples/complex-explainer/packages/launch-scenes/package.json",
+    "bytes": 618
+  },
+  {
+    "path": "examples/complex-explainer/packages/launch-scenes/src/activation.js",
+    "bytes": 10713
+  },
+  {
+    "path": "examples/complex-explainer/packages/launch-scenes/src/render.js",
+    "bytes": 2709
+  },
+  {
+    "path": "examples/complex-explainer/packages/launch-scenes/src/studio.js",
+    "bytes": 1959
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/README.md",
+    "bytes": 8068
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/package.json",
+    "bytes": 722
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/src/activation.js",
+    "bytes": 17918
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/src/definition.js",
+    "bytes": 1020
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/src/flag-cloth.js",
+    "bytes": 2769
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/src/placed-visual-media.js",
+    "bytes": 1728
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/src/portrait-inset.js",
+    "bytes": 5929
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/src/portrait-transition.js",
+    "bytes": 6469
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/src/presenter.js",
+    "bytes": 21351
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/src/pullback.js",
+    "bytes": 6410
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/src/reframe.js",
+    "bytes": 5659
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/src/render.js",
+    "bytes": 18271
+  },
+  {
+    "path": "examples/complex-explainer/packages/opening-system/src/studio.js",
+    "bytes": 7377
+  },
+  {
+    "path": "examples/complex-explainer/packages/single-line-captions/README.md",
+    "bytes": 629
+  },
+  {
+    "path": "examples/complex-explainer/packages/single-line-captions/package.json",
+    "bytes": 314
+  },
+  {
+    "path": "examples/complex-explainer/packages/single-line-captions/src/activation.js",
+    "bytes": 4039
+  },
+  {
+    "path": "examples/complex-explainer/packages/visual-language/README.md",
+    "bytes": 821
+  },
+  {
+    "path": "examples/complex-explainer/packages/visual-language/package.json",
+    "bytes": 150
+  },
+  {
+    "path": "examples/complex-explainer/packages/visual-language/src/index.js",
+    "bytes": 327
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/README.md",
+    "bytes": 3440
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/package.json",
+    "bytes": 631
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/activation.js",
+    "bytes": 13442
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/render.js",
+    "bytes": 170
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/code-route/animation.js",
+    "bytes": 7470
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/code-route/index.js",
+    "bytes": 9083
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/code-route/styles.js",
+    "bytes": 9848
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/comparison/animation.js",
+    "bytes": 2781
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/comparison/index.js",
+    "bytes": 2328
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/comparison/styles.js",
+    "bytes": 1622
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/components/animation.js",
+    "bytes": 3348
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/components/index.js",
+    "bytes": 2016
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/components/styles.js",
+    "bytes": 3309
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/delivery/animation.js",
+    "bytes": 2873
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/delivery/index.js",
+    "bytes": 3095
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/delivery/styles.js",
+    "bytes": 4546
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/editor-route/animation.js",
+    "bytes": 12147
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/editor-route/editor-styles.js",
+    "bytes": 7709
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/editor-route/index.js",
+    "bytes": 8243
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/editor-route/materials-styles.js",
+    "bytes": 4043
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/editor-route/output-styles.js",
+    "bytes": 4168
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/editor-route/stage-styles.js",
+    "bytes": 2335
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/editor-route/styles.js",
+    "bytes": 307
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/introduction/animation.js",
+    "bytes": 3256
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/introduction/index.js",
+    "bytes": 3166
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/introduction/styles.js",
+    "bytes": 2216
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/outro/animation.js",
+    "bytes": 4562
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/outro/index.js",
+    "bytes": 4224
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/outro/styles.js",
+    "bytes": 5581
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/semantic-time/animation.js",
+    "bytes": 4899
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/semantic-time/index.js",
+    "bytes": 4282
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/scenes/semantic-time/styles.js",
+    "bytes": 6694
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/shared/beats.js",
+    "bytes": 150
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/shared/brand-marks.js",
+    "bytes": 4259
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/shared/pixel-type.js",
+    "bytes": 2286
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/shared/route-cards.js",
+    "bytes": 3185
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/shared/scene-styles.js",
+    "bytes": 1958
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/shared/scene.js",
+    "bytes": 6056
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/shared/studio-art.js",
+    "bytes": 11612
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/shared/terminal.js",
+    "bytes": 251
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/shared/workshop-language.js",
+    "bytes": 6347
+  },
+  {
+    "path": "examples/complex-explainer/packages/web-scenes/src/studio.js",
+    "bytes": 2172
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/ASSET-PROVENANCE.md",
+    "bytes": 1289
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/BRIEF.md",
+    "bytes": 1170
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/CRAFT-NOTES.md",
+    "bytes": 10470
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/README.md",
+    "bytes": 2982
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/TREATMENT.md",
+    "bytes": 2647
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/authors/assets.svml",
+    "bytes": 5634
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/authors/direction.svml",
+    "bytes": 17260
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/authors/main.svml",
+    "bytes": 70042
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/authors/script.svml",
+    "bytes": 5305
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/recipes/composition.svs",
+    "bytes": 904
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/recipes/performance.svs",
+    "bytes": 246
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/runs/export-parts.svrun",
+    "bytes": 6556
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/runs/prepare-example.svrun",
+    "bytes": 9306
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/runs/render.svrun",
+    "bytes": 6392
+  },
+  {
+    "path": "examples/complex-explainer/productions/explainer/scripts/assemble-final-export.py",
+    "bytes": 2277
+  },
+  {
+    "path": "examples/interview/README.md",
+    "bytes": 7744
+  },
+  {
+    "path": "examples/interview/ada-tracking.svs",
+    "bytes": 23029
+  },
+  {
+    "path": "examples/interview/hypit.runtime.json",
+    "bytes": 789
+  },
+  {
+    "path": "examples/interview/package-lock.json",
+    "bytes": 115181
+  },
+  {
+    "path": "examples/interview/package.json",
+    "bytes": 325
+  },
+  {
+    "path": "examples/interview/packages/flash/README.md",
+    "bytes": 302
+  },
+  {
+    "path": "examples/interview/packages/flash/package.json",
+    "bytes": 476
+  },
+  {
+    "path": "examples/interview/packages/flash/src/activation.ts",
+    "bytes": 10894
+  },
+  {
+    "path": "examples/interview/recipes.svs",
+    "bytes": 4485
+  },
+  {
+    "path": "examples/interview/reference.svml",
+    "bytes": 22822
+  },
+  {
+    "path": "examples/interview/reference.svrun",
+    "bytes": 138
+  },
+  {
+    "path": "examples/interview/reference.svs",
+    "bytes": 2576
+  },
+  {
+    "path": "examples/interview/spanish-tracking.svs",
+    "bytes": 23848
+  },
+  {
+    "path": "examples/interview/swap-host-README.md",
+    "bytes": 143
+  },
+  {
+    "path": "examples/interview/swap-host.svml",
+    "bytes": 23708
+  },
+  {
+    "path": "examples/interview/swap-host.svrun",
+    "bytes": 138
+  },
+  {
+    "path": "examples/interview/swap-lang-README.md",
+    "bytes": 139
+  },
+  {
+    "path": "examples/interview/swap-lang.svml",
+    "bytes": 22752
+  },
+  {
+    "path": "examples/interview/swap-lang.svrun",
+    "bytes": 138
+  },
+  {
+    "path": "examples/interview/swap-ride-README.md",
+    "bytes": 118
+  },
+  {
+    "path": "examples/interview/swap-ride.svml",
+    "bytes": 25796
+  },
+  {
+    "path": "examples/interview/swap-ride.svrun",
+    "bytes": 138
+  },
+  {
+    "path": "examples/interview/tracking.svs",
+    "bytes": 23612
+  },
+  {
+    "path": "examples/interview/variants.md",
+    "bytes": 299
+  },
+  {
+    "path": "examples/interview/wojak-tracking.svs",
+    "bytes": 26900
+  },
+  {
+    "path": "examples/minimal-author-package/README.md",
+    "bytes": 1455
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/README.md",
+    "bytes": 3479
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/package.json",
+    "bytes": 831
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/preview/build.svrun",
+    "bytes": 136
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/preview/preview.svml",
+    "bytes": 3044
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/preview/recipes.svs",
+    "bytes": 249
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/src/activation.ts",
+    "bytes": 743
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/src/component.ts",
+    "bytes": 3391
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/src/fragment.ts",
+    "bytes": 1980
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/src/index.ts",
+    "bytes": 530
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/src/manifest.ts",
+    "bytes": 5460
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/src/style.ts",
+    "bytes": 675
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/src/surface.ts",
+    "bytes": 3869
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/src/temporal.ts",
+    "bytes": 466
+  },
+  {
+    "path": "examples/minimal-author-package/packages/example-component/tsconfig.json",
+    "bytes": 419
+  },
+  {
+    "path": "examples/podcast/README.md",
+    "bytes": 4825
+  },
+  {
+    "path": "examples/podcast/hypit.runtime.json",
+    "bytes": 852
+  },
+  {
+    "path": "examples/podcast/kits/split-opening.svs",
+    "bytes": 962
+  },
+  {
+    "path": "examples/podcast/package.json",
+    "bytes": 123
+  },
+  {
+    "path": "examples/podcast/recipes.svs",
+    "bytes": 10856
+  },
+  {
+    "path": "examples/podcast/reference.svml",
+    "bytes": 25508
+  },
+  {
+    "path": "examples/podcast/reference.svrun",
+    "bytes": 137
+  },
+  {
+    "path": "examples/podcast/reference.svs",
+    "bytes": 3073
+  },
+  {
+    "path": "examples/podcast/swap-app-README.md",
+    "bytes": 101
+  },
+  {
+    "path": "examples/podcast/swap-app.svml",
+    "bytes": 25942
+  },
+  {
+    "path": "examples/podcast/swap-app.svrun",
+    "bytes": 137
+  },
+  {
+    "path": "examples/podcast/swap-host-README.md",
+    "bytes": 96
+  },
+  {
+    "path": "examples/podcast/swap-host.svml",
+    "bytes": 24985
+  },
+  {
+    "path": "examples/podcast/swap-host.svrun",
+    "bytes": 138
+  },
+  {
+    "path": "examples/podcast/swap-item-README.md",
+    "bytes": 105
+  },
+  {
+    "path": "examples/podcast/swap-item.svml",
+    "bytes": 26985
+  },
+  {
+    "path": "examples/podcast/swap-item.svrun",
+    "bytes": 138
+  },
+  {
+    "path": "examples/podcast/variants.md",
+    "bytes": 232
+  },
+  {
+    "path": "examples/provider-package/README.md",
+    "bytes": 10586
+  },
+  {
+    "path": "examples/provider-package/hypit.runtime.json",
+    "bytes": 680
+  },
+  {
+    "path": "examples/provider-package/packages/provider-images/package.json",
+    "bytes": 574
+  },
+  {
+    "path": "examples/provider-package/packages/provider-images/src/activation.ts",
+    "bytes": 1249
+  },
+  {
+    "path": "examples/provider-package/packages/provider-images/src/provider.ts",
+    "bytes": 8450
+  },
+  {
+    "path": "examples/provider-package/packages/provider-images/test/provider.test.ts",
+    "bytes": 7970
+  },
+  {
+    "path": "examples/provider-package/packages/provider-images/tsconfig.json",
+    "bytes": 371
+  },
+  {
+    "path": "examples/provider-package/packages/provider-videos/package.json",
+    "bytes": 573
+  },
+  {
+    "path": "examples/provider-package/packages/provider-videos/src/activation.ts",
+    "bytes": 1249
+  },
+  {
+    "path": "examples/provider-package/packages/provider-videos/src/provider.ts",
+    "bytes": 10425
+  },
+  {
+    "path": "examples/provider-package/packages/provider-videos/test/provider.test.ts",
+    "bytes": 11341
+  },
+  {
+    "path": "examples/provider-package/packages/provider-videos/tsconfig.json",
+    "bytes": 371
+  },
+  {
+    "path": "examples/ranking-football/README.md",
+    "bytes": 4206
+  },
+  {
+    "path": "examples/ranking-football/column-recipes.svs",
+    "bytes": 3067
+  },
+  {
+    "path": "examples/ranking-football/download-reused-media.mjs",
+    "bytes": 700
+  },
+  {
+    "path": "examples/ranking-football/hypit.runtime.json",
+    "bytes": 789
+  },
+  {
+    "path": "examples/ranking-football/package-lock.json",
+    "bytes": 115083
+  },
+  {
+    "path": "examples/ranking-football/package.json",
+    "bytes": 309
+  },
+  {
+    "path": "examples/ranking-football/recipes.svs",
+    "bytes": 2892
+  },
+  {
+    "path": "examples/ranking-football/reference-banana/README.md",
+    "bytes": 491
+  },
+  {
+    "path": "examples/ranking-football/reference-banana/build.svrun",
+    "bytes": 144
+  },
+  {
+    "path": "examples/ranking-football/reference-banana/hypit.runtime.json",
+    "bytes": 819
+  },
+  {
+    "path": "examples/ranking-football/reference-banana/kits/speaker-v1.svs",
+    "bytes": 4887
+  },
+  {
+    "path": "examples/ranking-football/reference-banana/package-lock.json",
+    "bytes": 115083
+  },
+  {
+    "path": "examples/ranking-football/reference-banana/package.json",
+    "bytes": 309
+  },
+  {
+    "path": "examples/ranking-football/reference-banana/recipes.svs",
+    "bytes": 2892
+  },
+  {
+    "path": "examples/ranking-football/reference-banana/reference-banana.svml",
+    "bytes": 36439
+  },
+  {
+    "path": "examples/ranking-football/reference-banana/reference-banana.svrun",
+    "bytes": 145
+  },
+  {
+    "path": "examples/ranking-football/reference-banana/studio.svrun",
+    "bytes": 144
+  },
+  {
+    "path": "examples/ranking-football/reference-banana-from-swap/README.md",
+    "bytes": 605
+  },
+  {
+    "path": "examples/ranking-football/reference-banana-from-swap/build.svrun",
+    "bytes": 154
+  },
+  {
+    "path": "examples/ranking-football/reference-banana-from-swap/hypit.runtime.json",
+    "bytes": 819
+  },
+  {
+    "path": "examples/ranking-football/reference-banana-from-swap/kits/speaker-v1.svs",
+    "bytes": 4887
+  },
+  {
+    "path": "examples/ranking-football/reference-banana-from-swap/package-lock.json",
+    "bytes": 115083
+  },
+  {
+    "path": "examples/ranking-football/reference-banana-from-swap/package.json",
+    "bytes": 309
+  },
+  {
+    "path": "examples/ranking-football/reference-banana-from-swap/recipes.svs",
+    "bytes": 2892
+  },
+  {
+    "path": "examples/ranking-football/reference-banana-from-swap/reference-banana-from-swap.svml",
+    "bytes": 36439
+  },
+  {
+    "path": "examples/ranking-football/reference-banana-from-swap/reference-banana-from-swap.svrun",
+    "bytes": 155
+  },
+  {
+    "path": "examples/ranking-football/reference-banana-from-swap/studio.svrun",
+    "bytes": 154
+  },
+  {
+    "path": "examples/ranking-football/reference-gpt.svml",
+    "bytes": 36480
+  },
+  {
+    "path": "examples/ranking-football/reference-gpt.svrun",
+    "bytes": 142
+  },
+  {
+    "path": "examples/ranking-football/reference.svml",
+    "bytes": 24521
+  },
+  {
+    "path": "examples/ranking-football/reference.svrun",
+    "bytes": 138
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-README.md",
+    "bytes": 130
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana/README.md",
+    "bytes": 868
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana/column-recipes.svs",
+    "bytes": 3067
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana/hypit.runtime.json",
+    "bytes": 819
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana/kits/speaker-v1.svs",
+    "bytes": 4887
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana/package-lock.json",
+    "bytes": 115083
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana/package.json",
+    "bytes": 309
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana/reuse.svrun",
+    "bytes": 488
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana/swap-effect-banana.svml",
+    "bytes": 32333
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana/swap-effect-banana.svrun",
+    "bytes": 147
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana-reference-sync/README.md",
+    "bytes": 890
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana-reference-sync/build.svrun",
+    "bytes": 503
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana-reference-sync/column-recipes.svs",
+    "bytes": 3067
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana-reference-sync/hybrid-recipes.svs",
+    "bytes": 3786
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana-reference-sync/hypit.runtime.json",
+    "bytes": 819
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana-reference-sync/kits/speaker-v1.svs",
+    "bytes": 4887
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana-reference-sync/package-lock.json",
+    "bytes": 115083
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana-reference-sync/package.json",
+    "bytes": 309
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana-reference-sync/swap-effect-banana-reference-sync.svml",
+    "bytes": 36624
+  },
+  {
+    "path": "examples/ranking-football/swap-effect-banana-reference-sync/swap-effect-banana-reference-sync.svrun",
+    "bytes": 162
+  },
+  {
+    "path": "examples/ranking-football/swap-effect.svml",
+    "bytes": 32374
+  },
+  {
+    "path": "examples/ranking-football/swap-effect.svrun",
+    "bytes": 140
+  },
+  {
+    "path": "examples/ranking-football/swap-host-README.md",
+    "bytes": 110
+  },
+  {
+    "path": "examples/ranking-football/swap-host.svml",
+    "bytes": 36491
+  },
+  {
+    "path": "examples/ranking-football/swap-host.svrun",
+    "bytes": 138
+  },
+  {
+    "path": "examples/ranking-football/swap-topic-README.md",
+    "bytes": 129
+  },
+  {
+    "path": "examples/ranking-football/swap-topic.svml",
+    "bytes": 37190
+  },
+  {
+    "path": "examples/ranking-football/swap-topic.svrun",
+    "bytes": 139
+  },
+  {
+    "path": "examples/ranking-football/tech-tier-recipes.svs",
+    "bytes": 2979
+  },
+  {
+    "path": "examples/ranking-football/tier-banana-recipes.svs",
+    "bytes": 2892
+  },
+  {
+    "path": "examples/ranking-football/variants.md",
+    "bytes": 302
+  },
+  {
+    "path": "examples/semantic-composition/README.md",
+    "bytes": 2475
+  },
+  {
+    "path": "examples/semantic-composition/chat.svml",
+    "bytes": 1809
+  },
+  {
+    "path": "examples/semantic-composition/chat.svrun",
+    "bytes": 133
+  },
+  {
+    "path": "examples/semantic-composition/chat.svs",
+    "bytes": 99
+  },
+  {
+    "path": "examples/semantic-composition/hypit.runtime.json",
+    "bytes": 303
+  },
+  {
+    "path": "examples/semantic-composition/packages/chat-scene/README.md",
+    "bytes": 1795
+  },
+  {
+    "path": "examples/semantic-composition/packages/chat-scene/package.json",
+    "bytes": 746
+  },
+  {
+    "path": "examples/semantic-composition/packages/chat-scene/src/activation.ts",
+    "bytes": 10253
+  },
+  {
+    "path": "examples/semantic-composition/packages/chat-scene/src/render.ts",
+    "bytes": 5341
+  },
+  {
+    "path": "examples/semantic-composition/packages/chat-scene/test/render.test.ts",
+    "bytes": 2696
+  },
+  {
+    "path": "examples/semantic-composition/packages/chat-scene/tsconfig.json",
+    "bytes": 419
+  },
+  {
+    "path": "examples/semantic-composition/packages/responsive-explainer/README.md",
+    "bytes": 2580
+  },
+  {
+    "path": "examples/semantic-composition/packages/responsive-explainer/package.json",
+    "bytes": 756
+  },
+  {
+    "path": "examples/semantic-composition/packages/responsive-explainer/src/activation.ts",
+    "bytes": 7432
+  },
+  {
+    "path": "examples/semantic-composition/packages/responsive-explainer/src/render.ts",
+    "bytes": 5967
+  },
+  {
+    "path": "examples/semantic-composition/packages/responsive-explainer/tsconfig.json",
+    "bytes": 419
+  },
+  {
+    "path": "hypit",
+    "bytes": 404
+  },
+  {
+    "path": "migrations/0.3.1.md",
+    "bytes": 5962
+  },
+  {
+    "path": "migrations/0.3.1.zh-CN.md",
+    "bytes": 5567
+  },
+  {
+    "path": "migrations/0.3.md",
+    "bytes": 13851
+  },
+  {
+    "path": "migrations/0.3.zh-CN.md",
+    "bytes": 13129
+  },
+  {
+    "path": "package.json",
+    "bytes": 13685
+  },
+  {
+    "path": "packages/admission/README.md",
+    "bytes": 564
+  },
+  {
+    "path": "packages/admission/package.json",
+    "bytes": 316
+  },
+  {
+    "path": "packages/admission/src/index.ts",
+    "bytes": 4304
+  },
+  {
+    "path": "packages/atomic-file/README.md",
+    "bytes": 1243
+  },
+  {
+    "path": "packages/atomic-file/package.json",
+    "bytes": 231
+  },
+  {
+    "path": "packages/atomic-file/src/index.ts",
+    "bytes": 49
+  },
+  {
+    "path": "packages/atomic-file/src/replace-file-windows.ts",
+    "bytes": 2792
+  },
+  {
+    "path": "packages/atomic-file/src/replace-file.ts",
+    "bytes": 400
+  },
+  {
+    "path": "packages/atomic-file/test/replace-file.test.ts",
+    "bytes": 1318
+  },
+  {
+    "path": "packages/audio-track/README.md",
+    "bytes": 3698
+  },
+  {
+    "path": "packages/audio-track/package.json",
+    "bytes": 1504
+  },
+  {
+    "path": "packages/audio-track/src/activation.ts",
+    "bytes": 1406
+  },
+  {
+    "path": "packages/audio-track/src/component.ts",
+    "bytes": 2540
+  },
+  {
+    "path": "packages/audio-track/src/fragment.ts",
+    "bytes": 2885
+  },
+  {
+    "path": "packages/audio-track/src/index.ts",
+    "bytes": 1018
+  },
+  {
+    "path": "packages/audio-track/src/manifest.ts",
+    "bytes": 11324
+  },
+  {
+    "path": "packages/audio-track/src/program.ts",
+    "bytes": 8337
+  },
+  {
+    "path": "packages/audio-track/src/source-time.ts",
+    "bytes": 9488
+  },
+  {
+    "path": "packages/audio-track/src/studio.ts",
+    "bytes": 2977
+  },
+  {
+    "path": "packages/audio-track/src/surface.ts",
+    "bytes": 13480
+  },
+  {
+    "path": "packages/audio-track/src/types.ts",
+    "bytes": 2255
+  },
+  {
+    "path": "packages/audio-track/test/audio-track.test.ts",
+    "bytes": 19196
+  },
+  {
+    "path": "packages/author/README.md",
+    "bytes": 5076
+  },
+  {
+    "path": "packages/author/package.json",
+    "bytes": 502
+  },
+  {
+    "path": "packages/author/src/author.ts",
+    "bytes": 10027
+  },
+  {
+    "path": "packages/author/src/fragment.ts",
+    "bytes": 18952
+  },
+  {
+    "path": "packages/author/src/frontend-facet.ts",
+    "bytes": 1008
+  },
+  {
+    "path": "packages/author/src/index.ts",
+    "bytes": 1748
+  },
+  {
+    "path": "packages/author/src/source.ts",
+    "bytes": 6539
+  },
+  {
+    "path": "packages/author/test/author.test.ts",
+    "bytes": 6332
+  },
+  {
+    "path": "packages/author/test/fragment.test.ts",
+    "bytes": 7472
+  },
+  {
+    "path": "packages/bach/README.md",
+    "bytes": 2788
+  },
+  {
+    "path": "packages/bach/package.json",
+    "bytes": 659
+  },
+  {
+    "path": "packages/bach/src/activation.ts",
+    "bytes": 1306
+  },
+  {
+    "path": "packages/bach/src/index.ts",
+    "bytes": 8814
+  },
+  {
+    "path": "packages/bach/src/surface.ts",
+    "bytes": 10205
+  },
+  {
+    "path": "packages/bach/src/validation.ts",
+    "bytes": 1442
+  },
+  {
+    "path": "packages/blob/README.md",
+    "bytes": 515
+  },
+  {
+    "path": "packages/blob/package.json",
+    "bytes": 298
+  },
+  {
+    "path": "packages/blob/src/activation.ts",
+    "bytes": 186
+  },
+  {
+    "path": "packages/blob/src/index.ts",
+    "bytes": 570
+  },
+  {
+    "path": "packages/browser-capture/README.md",
+    "bytes": 6343
+  },
+  {
+    "path": "packages/browser-capture/package.json",
+    "bytes": 587
+  },
+  {
+    "path": "packages/browser-capture/src/browser.ts",
+    "bytes": 1703
+  },
+  {
+    "path": "packages/browser-capture/src/cli.ts",
+    "bytes": 11548
+  },
+  {
+    "path": "packages/browser-capture/src/index.ts",
+    "bytes": 8213
+  },
+  {
+    "path": "packages/browser-capture/test/capture.test.ts",
+    "bytes": 7206
+  },
+  {
+    "path": "packages/browser-capture/test/cli.test.ts",
+    "bytes": 3149
+  },
+  {
+    "path": "packages/caption/README.md",
+    "bytes": 4985
+  },
+  {
+    "path": "packages/caption/package.json",
+    "bytes": 629
+  },
+  {
+    "path": "packages/caption/src/activation.ts",
+    "bytes": 822
+  },
+  {
+    "path": "packages/caption/src/component.ts",
+    "bytes": 3038
+  },
+  {
+    "path": "packages/caption/src/display.ts",
+    "bytes": 2388
+  },
+  {
+    "path": "packages/caption/src/identity.ts",
+    "bytes": 2420
+  },
+  {
+    "path": "packages/caption/src/index.ts",
+    "bytes": 996
+  },
+  {
+    "path": "packages/caption/src/manifest.ts",
+    "bytes": 5208
+  },
+  {
+    "path": "packages/caption/src/style.ts",
+    "bytes": 3161
+  },
+  {
+    "path": "packages/caption/src/surface.ts",
+    "bytes": 805
+  },
+  {
+    "path": "packages/caption/src/temporalize.ts",
+    "bytes": 1745
+  },
+  {
+    "path": "packages/caption/src/types.ts",
+    "bytes": 2403
+  },
+  {
+    "path": "packages/caption/src/visibility.ts",
+    "bytes": 1442
+  },
+  {
+    "path": "packages/caption/test/caption.test.ts",
+    "bytes": 1262
+  },
+  {
+    "path": "packages/caption-fine/README.md",
+    "bytes": 10162
+  },
+  {
+    "path": "packages/caption-fine/package.json",
+    "bytes": 1541
+  },
+  {
+    "path": "packages/caption-fine/src/activation.ts",
+    "bytes": 1439
+  },
+  {
+    "path": "packages/caption-fine/src/component.ts",
+    "bytes": 2711
+  },
+  {
+    "path": "packages/caption-fine/src/fragment.ts",
+    "bytes": 3271
+  },
+  {
+    "path": "packages/caption-fine/src/index.ts",
+    "bytes": 899
+  },
+  {
+    "path": "packages/caption-fine/src/joined-box.ts",
+    "bytes": 6058
+  },
+  {
+    "path": "packages/caption-fine/src/manifest.ts",
+    "bytes": 35386
+  },
+  {
+    "path": "packages/caption-fine/src/recipe.ts",
+    "bytes": 6834
+  },
+  {
+    "path": "packages/caption-fine/src/render.ts",
+    "bytes": 55493
+  },
+  {
+    "path": "packages/caption-fine/src/schedule.ts",
+    "bytes": 7488
+  },
+  {
+    "path": "packages/caption-fine/src/spacing.ts",
+    "bytes": 727
+  },
+  {
+    "path": "packages/caption-fine/src/studio.ts",
+    "bytes": 10786
+  },
+  {
+    "path": "packages/caption-fine/src/style.ts",
+    "bytes": 19601
+  },
+  {
+    "path": "packages/caption-fine/src/surface.ts",
+    "bytes": 10981
+  },
+  {
+    "path": "packages/caption-fine/src/types.ts",
+    "bytes": 5747
+  },
+  {
+    "path": "packages/caption-fine/test/caption-fine.test.ts",
+    "bytes": 32407
+  },
+  {
+    "path": "packages/caption-fine/test/layout.browser.test.ts",
+    "bytes": 9528
+  },
+  {
+    "path": "packages/caption-fine/test/studio-companion.test.ts",
+    "bytes": 6416
+  },
+  {
+    "path": "packages/cli/README.md",
+    "bytes": 15026
+  },
+  {
+    "path": "packages/cli/package.json",
+    "bytes": 851
+  },
+  {
+    "path": "packages/cli/src/application.ts",
+    "bytes": 5242
+  },
+  {
+    "path": "packages/cli/src/arguments.ts",
+    "bytes": 21268
+  },
+  {
+    "path": "packages/cli/src/build-planning.ts",
+    "bytes": 20975
+  },
+  {
+    "path": "packages/cli/src/command-hint.ts",
+    "bytes": 872
+  },
+  {
+    "path": "packages/cli/src/command.ts",
+    "bytes": 4391
+  },
+  {
+    "path": "packages/cli/src/commands/environment.ts",
+    "bytes": 7195
+  },
+  {
+    "path": "packages/cli/src/commands/execution.ts",
+    "bytes": 19301
+  },
+  {
+    "path": "packages/cli/src/commands/results.ts",
+    "bytes": 9531
+  },
+  {
+    "path": "packages/cli/src/commands/types.ts",
+    "bytes": 296
+  },
+  {
+    "path": "packages/cli/src/distribution.ts",
+    "bytes": 3692
+  },
+  {
+    "path": "packages/cli/src/immediate.ts",
+    "bytes": 3754
+  },
+  {
+    "path": "packages/cli/src/index.ts",
+    "bytes": 1832
+  },
+  {
+    "path": "packages/cli/src/installed-application.ts",
+    "bytes": 15025
+  },
+  {
+    "path": "packages/cli/src/machine-view.ts",
+    "bytes": 3131
+  },
+  {
+    "path": "packages/cli/src/main.ts",
+    "bytes": 27369
+  },
+  {
+    "path": "packages/cli/src/node-application.ts",
+    "bytes": 3116
+  },
+  {
+    "path": "packages/cli/src/oauth.ts",
+    "bytes": 13499
+  },
+  {
+    "path": "packages/cli/src/observation.ts",
+    "bytes": 8751
+  },
+  {
+    "path": "packages/cli/src/output.ts",
+    "bytes": 47146
+  },
+  {
+    "path": "packages/cli/src/paths.ts",
+    "bytes": 1178
+  },
+  {
+    "path": "packages/cli/src/public.ts",
+    "bytes": 873
+  },
+  {
+    "path": "packages/cli/src/reachability.ts",
+    "bytes": 4343
+  },
+  {
+    "path": "packages/cli/src/result-export.ts",
+    "bytes": 5978
+  },
+  {
+    "path": "packages/cli/src/result-query.ts",
+    "bytes": 1917
+  },
+  {
+    "path": "packages/cli/src/run-file.ts",
+    "bytes": 9629
+  },
+  {
+    "path": "packages/cli/src/runtime-port.ts",
+    "bytes": 8175
+  },
+  {
+    "path": "packages/cli/src/runtime-view.ts",
+    "bytes": 654
+  },
+  {
+    "path": "packages/cli/src/secret-input.ts",
+    "bytes": 627
+  },
+  {
+    "path": "packages/cli/src/source-discovery.ts",
+    "bytes": 7064
+  },
+  {
+    "path": "packages/cli/src/source-packages.ts",
+    "bytes": 3445
+  },
+  {
+    "path": "packages/cli/src/usage-error.ts",
+    "bytes": 304
+  },
+  {
+    "path": "packages/cli/src/version.ts",
+    "bytes": 5427
+  },
+  {
+    "path": "packages/cli/src/view.ts",
+    "bytes": 11982
+  },
+  {
+    "path": "packages/cli/test/application.test.ts",
+    "bytes": 4122
+  },
+  {
+    "path": "packages/cli/test/build-programs.test.ts",
+    "bytes": 12558
+  },
+  {
+    "path": "packages/cli/test/build-results.test.ts",
+    "bytes": 36414
+  },
+  {
+    "path": "packages/cli/test/command-hint.test.ts",
+    "bytes": 1328
+  },
+  {
+    "path": "packages/cli/test/control-commands.test.ts",
+    "bytes": 28942
+  },
+  {
+    "path": "packages/cli/test/installed-application.test.ts",
+    "bytes": 5409
+  },
+  {
+    "path": "packages/cli/test/oauth.test.ts",
+    "bytes": 8311
+  },
+  {
+    "path": "packages/cli/test/observation.test.ts",
+    "bytes": 4319
+  },
+  {
+    "path": "packages/cli/test/output.test.ts",
+    "bytes": 21958
+  },
+  {
+    "path": "packages/cli/test/plan-needs.test.ts",
+    "bytes": 2805
+  },
+  {
+    "path": "packages/cli/test/programs-command.test.ts",
+    "bytes": 17523
+  },
+  {
+    "path": "packages/cli/test/reachability.test.ts",
+    "bytes": 3798
+  },
+  {
+    "path": "packages/cli/test/runtime-selection.test.ts",
+    "bytes": 13600
+  },
+  {
+    "path": "packages/cli/test/secret-input.test.ts",
+    "bytes": 922
+  },
+  {
+    "path": "packages/cli/test/source-discovery.test.ts",
+    "bytes": 4088
+  },
+  {
+    "path": "packages/cli/test/version.test.ts",
+    "bytes": 4004
+  },
+  {
+    "path": "packages/cli/test/view.test.ts",
+    "bytes": 4012
+  },
+  {
+    "path": "packages/comment-sticker/README.md",
+    "bytes": 1879
+  },
+  {
+    "path": "packages/comment-sticker/package.json",
+    "bytes": 1161
+  },
+  {
+    "path": "packages/comment-sticker/src/activation.ts",
+    "bytes": 1374
+  },
+  {
+    "path": "packages/comment-sticker/src/author.ts",
+    "bytes": 6779
+  },
+  {
+    "path": "packages/comment-sticker/src/component.ts",
+    "bytes": 4485
+  },
+  {
+    "path": "packages/comment-sticker/src/fragment.ts",
+    "bytes": 4867
+  },
+  {
+    "path": "packages/comment-sticker/src/index.ts",
+    "bytes": 1162
+  },
+  {
+    "path": "packages/comment-sticker/src/manifest.ts",
+    "bytes": 24834
+  },
+  {
+    "path": "packages/comment-sticker/src/program.ts",
+    "bytes": 26273
+  },
+  {
+    "path": "packages/comment-sticker/src/studio.ts",
+    "bytes": 6787
+  },
+  {
+    "path": "packages/comment-sticker/src/surface.ts",
+    "bytes": 9967
+  },
+  {
+    "path": "packages/comment-sticker/src/types.ts",
+    "bytes": 3165
+  },
+  {
+    "path": "packages/comment-sticker/test/comment-sticker.test.ts",
+    "bytes": 9138
+  },
+  {
+    "path": "packages/compiler/README.md",
+    "bytes": 3661
+  },
+  {
+    "path": "packages/compiler/package.json",
+    "bytes": 601
+  },
+  {
+    "path": "packages/compiler/src/compiler.ts",
+    "bytes": 6682
+  },
+  {
+    "path": "packages/compiler/src/error.ts",
+    "bytes": 283
+  },
+  {
+    "path": "packages/compiler/src/graph-query.ts",
+    "bytes": 1953
+  },
+  {
+    "path": "packages/compiler/src/index.ts",
+    "bytes": 735
+  },
+  {
+    "path": "packages/compiler/src/modules.ts",
+    "bytes": 3917
+  },
+  {
+    "path": "packages/compiler/src/run.ts",
+    "bytes": 17360
+  },
+  {
+    "path": "packages/compiler/src/source.ts",
+    "bytes": 16215
+  },
+  {
+    "path": "packages/compiler/test/compiler.test.ts",
+    "bytes": 32793
+  },
+  {
+    "path": "packages/compiler/test/source.test.ts",
+    "bytes": 3636
+  },
+  {
+    "path": "packages/composition/README.md",
+    "bytes": 5047
+  },
+  {
+    "path": "packages/composition/package.json",
+    "bytes": 864
+  },
+  {
+    "path": "packages/composition/src/activation.ts",
+    "bytes": 353
+  },
+  {
+    "path": "packages/composition/src/audio-level-automation.ts",
+    "bytes": 2444
+  },
+  {
+    "path": "packages/composition/src/component.ts",
+    "bytes": 1070
+  },
+  {
+    "path": "packages/composition/src/index.ts",
+    "bytes": 1249
+  },
+  {
+    "path": "packages/composition/src/introspection.ts",
+    "bytes": 2265
+  },
+  {
+    "path": "packages/composition/src/manifest.ts",
+    "bytes": 1067
+  },
+  {
+    "path": "packages/composition/src/schema.ts",
+    "bytes": 19435
+  },
+  {
+    "path": "packages/composition/src/track.ts",
+    "bytes": 66107
+  },
+  {
+    "path": "packages/composition/src/visual.ts",
+    "bytes": 6092
+  },
+  {
+    "path": "packages/composition/test/render.test.ts",
+    "bytes": 7141
+  },
+  {
+    "path": "packages/composition/test/track.test.ts",
+    "bytes": 10848
+  },
+  {
+    "path": "packages/credential-store-env/README.md",
+    "bytes": 398
+  },
+  {
+    "path": "packages/credential-store-env/package.json",
+    "bytes": 512
+  },
+  {
+    "path": "packages/credential-store-env/src/activation.ts",
+    "bytes": 727
+  },
+  {
+    "path": "packages/credential-store-env/src/index.ts",
+    "bytes": 802
+  },
+  {
+    "path": "packages/credential-store-env/test/store.test.ts",
+    "bytes": 704
+  },
+  {
+    "path": "packages/credential-store-local/README.md",
+    "bytes": 1178
+  },
+  {
+    "path": "packages/credential-store-local/package.json",
+    "bytes": 610
+  },
+  {
+    "path": "packages/credential-store-local/runtime/windows-credential.ps1",
+    "bytes": 2172
+  },
+  {
+    "path": "packages/credential-store-local/src/activation.ts",
+    "bytes": 1781
+  },
+  {
+    "path": "packages/credential-store-local/src/file.ts",
+    "bytes": 4296
+  },
+  {
+    "path": "packages/credential-store-local/src/index.ts",
+    "bytes": 237
+  },
+  {
+    "path": "packages/credential-store-local/src/os.ts",
+    "bytes": 5914
+  },
+  {
+    "path": "packages/credential-store-local/src/store.ts",
+    "bytes": 3592
+  },
+  {
+    "path": "packages/credential-store-local/src/windows.ts",
+    "bytes": 2556
+  },
+  {
+    "path": "packages/credential-store-local/test/file-concurrency.test.ts",
+    "bytes": 5319
+  },
+  {
+    "path": "packages/credential-store-local/test/file-failed-replacement.test.ts",
+    "bytes": 2260
+  },
+  {
+    "path": "packages/credential-store-local/test/file-store-writer-fixture.ts",
+    "bytes": 585
+  },
+  {
+    "path": "packages/credential-store-local/test/file-store.test.ts",
+    "bytes": 3573
+  },
+  {
+    "path": "packages/credential-store-local/test/os-store.test.ts",
+    "bytes": 1664
+  },
+  {
+    "path": "packages/credential-store-local/test/store.test.ts",
+    "bytes": 6675
+  },
+  {
+    "path": "packages/credential-store-local/test/windows-limit.test.ts",
+    "bytes": 568
+  },
+  {
+    "path": "packages/credential-store-local/test/windows.test.ts",
+    "bytes": 2402
+  },
+  {
+    "path": "packages/depth-stack/README.md",
+    "bytes": 2790
+  },
+  {
+    "path": "packages/depth-stack/package.json",
+    "bytes": 1397
+  },
+  {
+    "path": "packages/depth-stack/src/activation.ts",
+    "bytes": 1300
+  },
+  {
+    "path": "packages/depth-stack/src/author.ts",
+    "bytes": 7823
+  },
+  {
+    "path": "packages/depth-stack/src/component.ts",
+    "bytes": 3770
+  },
+  {
+    "path": "packages/depth-stack/src/fragment.ts",
+    "bytes": 5387
+  },
+  {
+    "path": "packages/depth-stack/src/index.ts",
+    "bytes": 1327
+  },
+  {
+    "path": "packages/depth-stack/src/lower.ts",
+    "bytes": 12197
+  },
+  {
+    "path": "packages/depth-stack/src/manifest.ts",
+    "bytes": 29303
+  },
+  {
+    "path": "packages/depth-stack/src/program.ts",
+    "bytes": 15549
+  },
+  {
+    "path": "packages/depth-stack/src/studio.ts",
+    "bytes": 6803
+  },
+  {
+    "path": "packages/depth-stack/src/surface.ts",
+    "bytes": 14495
+  },
+  {
+    "path": "packages/depth-stack/src/types.ts",
+    "bytes": 2989
+  },
+  {
+    "path": "packages/depth-stack/test/depth-stack.test.ts",
+    "bytes": 24350
+  },
+  {
+    "path": "packages/elevenlabs-speech/README.md",
+    "bytes": 1222
+  },
+  {
+    "path": "packages/elevenlabs-speech/package.json",
+    "bytes": 672
+  },
+  {
+    "path": "packages/elevenlabs-speech/src/activation.ts",
+    "bytes": 998
+  },
+  {
+    "path": "packages/elevenlabs-speech/src/fragment.ts",
+    "bytes": 575
+  },
+  {
+    "path": "packages/elevenlabs-speech/src/index.ts",
+    "bytes": 4364
+  },
+  {
+    "path": "packages/elevenlabs-speech/src/surface.ts",
+    "bytes": 6846
+  },
+  {
+    "path": "packages/elevenlabs-speech/test/elevenlabs-speech.test.ts",
+    "bytes": 2781
+  },
+  {
+    "path": "packages/endpoint/README.md",
+    "bytes": 10651
+  },
+  {
+    "path": "packages/endpoint/package.json",
+    "bytes": 312
+  },
+  {
+    "path": "packages/endpoint/src/http.ts",
+    "bytes": 4369
+  },
+  {
+    "path": "packages/endpoint/src/index.ts",
+    "bytes": 20158
+  },
+  {
+    "path": "packages/endpoint/test/endpoint.test.ts",
+    "bytes": 4680
+  },
+  {
+    "path": "packages/executor/README.md",
+    "bytes": 2038
+  },
+  {
+    "path": "packages/executor/package.json",
+    "bytes": 432
+  },
+  {
+    "path": "packages/executor/src/executor.ts",
+    "bytes": 29126
+  },
+  {
+    "path": "packages/executor/src/index.ts",
+    "bytes": 371
+  },
+  {
+    "path": "packages/executor/src/planning.ts",
+    "bytes": 2838
+  },
+  {
+    "path": "packages/executor/src/registry.ts",
+    "bytes": 10581
+  },
+  {
+    "path": "packages/executor/src/resources.ts",
+    "bytes": 1480
+  },
+  {
+    "path": "packages/executor/src/types.ts",
+    "bytes": 2053
+  },
+  {
+    "path": "packages/executor/test/driver.test.ts",
+    "bytes": 12057
+  },
+  {
+    "path": "packages/executor/test/scheduler.test.ts",
+    "bytes": 20437
+  },
+  {
+    "path": "packages/executor/test/validation.test.ts",
+    "bytes": 9010
+  },
+  {
+    "path": "packages/facet/README.md",
+    "bytes": 292
+  },
+  {
+    "path": "packages/facet/package.json",
+    "bytes": 179
+  },
+  {
+    "path": "packages/facet/src/facet.ts",
+    "bytes": 203
+  },
+  {
+    "path": "packages/facet/src/frontend.ts",
+    "bytes": 1916
+  },
+  {
+    "path": "packages/facet/src/index.ts",
+    "bytes": 201
+  },
+  {
+    "path": "packages/film/README.md",
+    "bytes": 2996
+  },
+  {
+    "path": "packages/film/package.json",
+    "bytes": 1375
+  },
+  {
+    "path": "packages/film/src/activation.ts",
+    "bytes": 966
+  },
+  {
+    "path": "packages/film/src/component.ts",
+    "bytes": 2460
+  },
+  {
+    "path": "packages/film/src/fragment.ts",
+    "bytes": 3118
+  },
+  {
+    "path": "packages/film/src/index.ts",
+    "bytes": 659
+  },
+  {
+    "path": "packages/film/src/manifest.ts",
+    "bytes": 6247
+  },
+  {
+    "path": "packages/film/src/program.ts",
+    "bytes": 3415
+  },
+  {
+    "path": "packages/film/src/recipe.ts",
+    "bytes": 946
+  },
+  {
+    "path": "packages/film/src/studio.ts",
+    "bytes": 711
+  },
+  {
+    "path": "packages/film/src/surface.ts",
+    "bytes": 5842
+  },
+  {
+    "path": "packages/film/src/types.ts",
+    "bytes": 742
+  },
+  {
+    "path": "packages/film/test/film.test.ts",
+    "bytes": 10247
+  },
+  {
+    "path": "packages/film/test/surface.test.ts",
+    "bytes": 9274
+  },
+  {
+    "path": "packages/fishaudio-speech/README.md",
+    "bytes": 1567
+  },
+  {
+    "path": "packages/fishaudio-speech/package.json",
+    "bytes": 671
+  },
+  {
+    "path": "packages/fishaudio-speech/src/activation.ts",
+    "bytes": 1244
+  },
+  {
+    "path": "packages/fishaudio-speech/src/fragment.ts",
+    "bytes": 574
+  },
+  {
+    "path": "packages/fishaudio-speech/src/index.ts",
+    "bytes": 5788
+  },
+  {
+    "path": "packages/fishaudio-speech/src/surface.ts",
+    "bytes": 7939
+  },
+  {
+    "path": "packages/fishaudio-speech/test/fishaudio-speech.test.ts",
+    "bytes": 5034
+  },
+  {
+    "path": "packages/fontsource/README.md",
+    "bytes": 935
+  },
+  {
+    "path": "packages/fontsource/package.json",
+    "bytes": 575
+  },
+  {
+    "path": "packages/fontsource/src/activation.ts",
+    "bytes": 682
+  },
+  {
+    "path": "packages/fontsource/src/index.ts",
+    "bytes": 226
+  },
+  {
+    "path": "packages/fontsource/src/manifest.ts",
+    "bytes": 1871
+  },
+  {
+    "path": "packages/fontsource/src/studio.ts",
+    "bytes": 1038
+  },
+  {
+    "path": "packages/fontsource/src/surface.ts",
+    "bytes": 6276
+  },
+  {
+    "path": "packages/fontsource/test/fontsource.test.ts",
+    "bytes": 2199
+  },
+  {
+    "path": "packages/generation/README.md",
+    "bytes": 4146
+  },
+  {
+    "path": "packages/generation/package.json",
+    "bytes": 739
+  },
+  {
+    "path": "packages/generation/src/activation.ts",
+    "bytes": 499
+  },
+  {
+    "path": "packages/generation/src/component.ts",
+    "bytes": 2561
+  },
+  {
+    "path": "packages/generation/src/identity.ts",
+    "bytes": 3722
+  },
+  {
+    "path": "packages/generation/src/index.ts",
+    "bytes": 2021
+  },
+  {
+    "path": "packages/generation/src/manifest.ts",
+    "bytes": 2023
+  },
+  {
+    "path": "packages/generation/src/mapping.ts",
+    "bytes": 11522
+  },
+  {
+    "path": "packages/generation/src/model.ts",
+    "bytes": 30449
+  },
+  {
+    "path": "packages/generation/src/ports.ts",
+    "bytes": 10176
+  },
+  {
+    "path": "packages/generation/src/request.ts",
+    "bytes": 17511
+  },
+  {
+    "path": "packages/generation/src/schema.ts",
+    "bytes": 1469
+  },
+  {
+    "path": "packages/generation/src/types.ts",
+    "bytes": 460
+  },
+  {
+    "path": "packages/generation/test/identity.test.ts",
+    "bytes": 2461
+  },
+  {
+    "path": "packages/generation/test/mapping-fields.test.ts",
+    "bytes": 2439
+  },
+  {
+    "path": "packages/generation/test/model.test.ts",
+    "bytes": 10754
+  },
+  {
+    "path": "packages/generation/test/ports.test.ts",
+    "bytes": 11219
+  },
+  {
+    "path": "packages/gpt-image/README.md",
+    "bytes": 2667
+  },
+  {
+    "path": "packages/gpt-image/package.json",
+    "bytes": 1081
+  },
+  {
+    "path": "packages/gpt-image/src/activation.ts",
+    "bytes": 1282
+  },
+  {
+    "path": "packages/gpt-image/src/cleanup-program.ts",
+    "bytes": 451
+  },
+  {
+    "path": "packages/gpt-image/src/fragment.ts",
+    "bytes": 4096
+  },
+  {
+    "path": "packages/gpt-image/src/index.ts",
+    "bytes": 6552
+  },
+  {
+    "path": "packages/gpt-image/src/surface.ts",
+    "bytes": 7618
+  },
+  {
+    "path": "packages/gpt-image/test/broll-graph.test.ts",
+    "bytes": 9089
+  },
+  {
+    "path": "packages/gpt-image/test/surface.test.ts",
+    "bytes": 4244
+  },
+  {
+    "path": "packages/gpt-image-kits/README.md",
+    "bytes": 2480
+  },
+  {
+    "path": "packages/gpt-image-kits/kits/phone-ugc-v1.svs",
+    "bytes": 954
+  },
+  {
+    "path": "packages/gpt-image-kits/package.json",
+    "bytes": 349
+  },
+  {
+    "path": "packages/grok-imagine/README.md",
+    "bytes": 977
+  },
+  {
+    "path": "packages/grok-imagine/package.json",
+    "bytes": 667
+  },
+  {
+    "path": "packages/grok-imagine/src/activation.ts",
+    "bytes": 1214
+  },
+  {
+    "path": "packages/grok-imagine/src/index.ts",
+    "bytes": 7094
+  },
+  {
+    "path": "packages/grok-imagine/src/surface.ts",
+    "bytes": 6312
+  },
+  {
+    "path": "packages/html-document/README.md",
+    "bytes": 2507
+  },
+  {
+    "path": "packages/html-document/package.json",
+    "bytes": 619
+  },
+  {
+    "path": "packages/html-document/src/activation.ts",
+    "bytes": 844
+  },
+  {
+    "path": "packages/html-document/src/component.ts",
+    "bytes": 1235
+  },
+  {
+    "path": "packages/html-document/src/document.ts",
+    "bytes": 9648
+  },
+  {
+    "path": "packages/html-document/src/fragment.ts",
+    "bytes": 835
+  },
+  {
+    "path": "packages/html-document/src/index.ts",
+    "bytes": 513
+  },
+  {
+    "path": "packages/html-document/src/manifest.ts",
+    "bytes": 2953
+  },
+  {
+    "path": "packages/html-document/src/surface.ts",
+    "bytes": 1630
+  },
+  {
+    "path": "packages/html-program/README.md",
+    "bytes": 3220
+  },
+  {
+    "path": "packages/html-program/package.json",
+    "bytes": 1131
+  },
+  {
+    "path": "packages/html-program/src/activation.ts",
+    "bytes": 502
+  },
+  {
+    "path": "packages/html-program/src/capture-scope.ts",
+    "bytes": 3450
+  },
+  {
+    "path": "packages/html-program/src/component.ts",
+    "bytes": 2946
+  },
+  {
+    "path": "packages/html-program/src/document.ts",
+    "bytes": 51496
+  },
+  {
+    "path": "packages/html-program/src/execution.ts",
+    "bytes": 2945
+  },
+  {
+    "path": "packages/html-program/src/fragment.ts",
+    "bytes": 1196
+  },
+  {
+    "path": "packages/html-program/src/frame-work.ts",
+    "bytes": 6536
+  },
+  {
+    "path": "packages/html-program/src/html-visual.ts",
+    "bytes": 5621
+  },
+  {
+    "path": "packages/html-program/src/index.ts",
+    "bytes": 927
+  },
+  {
+    "path": "packages/html-program/src/manifest.ts",
+    "bytes": 5281
+  },
+  {
+    "path": "packages/html-program/src/playback.ts",
+    "bytes": 10910
+  },
+  {
+    "path": "packages/html-program/src/text.ts",
+    "bytes": 63259
+  },
+  {
+    "path": "packages/html-program/src/types.ts",
+    "bytes": 2453
+  },
+  {
+    "path": "packages/html-program/src/visibility.ts",
+    "bytes": 1407
+  },
+  {
+    "path": "packages/html-program/test/capture-scope.test.ts",
+    "bytes": 4644
+  },
+  {
+    "path": "packages/html-program/test/document.test.ts",
+    "bytes": 39404
+  },
+  {
+    "path": "packages/html-program/test/frame-work.test.ts",
+    "bytes": 4182
+  },
+  {
+    "path": "packages/html-program/test/text-runtime.test.ts",
+    "bytes": 7569
+  },
+  {
+    "path": "packages/html-program/test/visibility.test.ts",
+    "bytes": 1501
+  },
+  {
+    "path": "packages/html-video/README.md",
+    "bytes": 985
+  },
+  {
+    "path": "packages/html-video/package.json",
+    "bytes": 1307
+  },
+  {
+    "path": "packages/html-video/src/activation.ts",
+    "bytes": 530
+  },
+  {
+    "path": "packages/html-video/src/fragment.ts",
+    "bytes": 2686
+  },
+  {
+    "path": "packages/html-video/src/index.ts",
+    "bytes": 227
+  },
+  {
+    "path": "packages/html-video/src/manifest.ts",
+    "bytes": 2728
+  },
+  {
+    "path": "packages/html-video/src/surface.ts",
+    "bytes": 3141
+  },
+  {
+    "path": "packages/html-video/test/presentation.test.ts",
+    "bytes": 1125
+  },
+  {
+    "path": "packages/html-video/test/render.test.ts",
+    "bytes": 15586
+  },
+  {
+    "path": "packages/image-operations/README.md",
+    "bytes": 1492
+  },
+  {
+    "path": "packages/image-operations/package.json",
+    "bytes": 705
+  },
+  {
+    "path": "packages/image-operations/src/activation.ts",
+    "bytes": 1484
+  },
+  {
+    "path": "packages/image-operations/src/component.ts",
+    "bytes": 3040
+  },
+  {
+    "path": "packages/image-operations/src/compose-component.ts",
+    "bytes": 4589
+  },
+  {
+    "path": "packages/image-operations/src/compose-declaration.ts",
+    "bytes": 2861
+  },
+  {
+    "path": "packages/image-operations/src/compose-fragment.ts",
+    "bytes": 2189
+  },
+  {
+    "path": "packages/image-operations/src/compose-program.ts",
+    "bytes": 2900
+  },
+  {
+    "path": "packages/image-operations/src/compose-surface.ts",
+    "bytes": 5009
+  },
+  {
+    "path": "packages/image-operations/src/compose-types.ts",
+    "bytes": 603
+  },
+  {
+    "path": "packages/image-operations/src/execution-types.ts",
+    "bytes": 2667
+  },
+  {
+    "path": "packages/image-operations/src/execution.ts",
+    "bytes": 8457
+  },
+  {
+    "path": "packages/image-operations/src/fragment.ts",
+    "bytes": 854
+  },
+  {
+    "path": "packages/image-operations/src/index.ts",
+    "bytes": 1476
+  },
+  {
+    "path": "packages/image-operations/src/manifest.ts",
+    "bytes": 12789
+  },
+  {
+    "path": "packages/image-operations/src/operation-schema.ts",
+    "bytes": 3359
+  },
+  {
+    "path": "packages/image-operations/src/program.ts",
+    "bytes": 671
+  },
+  {
+    "path": "packages/image-operations/src/refs.ts",
+    "bytes": 1483
+  },
+  {
+    "path": "packages/image-operations/src/surface.ts",
+    "bytes": 9501
+  },
+  {
+    "path": "packages/image-operations/src/types.ts",
+    "bytes": 288
+  },
+  {
+    "path": "packages/image-operations/test/execution.test.ts",
+    "bytes": 1558
+  },
+  {
+    "path": "packages/image-operations/test/image-compose.test.ts",
+    "bytes": 4529
+  },
+  {
+    "path": "packages/image-operations/test/image-transform.test.ts",
+    "bytes": 3631
+  },
+  {
+    "path": "packages/interview-emoji-reveal/README.md",
+    "bytes": 2194
+  },
+  {
+    "path": "packages/interview-emoji-reveal/package.json",
+    "bytes": 666
+  },
+  {
+    "path": "packages/interview-emoji-reveal/src/activation.ts",
+    "bytes": 1064
+  },
+  {
+    "path": "packages/interview-emoji-reveal/src/component.ts",
+    "bytes": 3356
+  },
+  {
+    "path": "packages/interview-emoji-reveal/src/fragment.ts",
+    "bytes": 3136
+  },
+  {
+    "path": "packages/interview-emoji-reveal/src/index.ts",
+    "bytes": 975
+  },
+  {
+    "path": "packages/interview-emoji-reveal/src/manifest.ts",
+    "bytes": 12307
+  },
+  {
+    "path": "packages/interview-emoji-reveal/src/program.ts",
+    "bytes": 15775
+  },
+  {
+    "path": "packages/interview-emoji-reveal/src/style.ts",
+    "bytes": 2630
+  },
+  {
+    "path": "packages/interview-emoji-reveal/src/surface.ts",
+    "bytes": 6752
+  },
+  {
+    "path": "packages/interview-emoji-reveal/src/types.ts",
+    "bytes": 1560
+  },
+  {
+    "path": "packages/kernel/README.md",
+    "bytes": 2117
+  },
+  {
+    "path": "packages/kernel/package.json",
+    "bytes": 242
+  },
+  {
+    "path": "packages/kernel/src/error.ts",
+    "bytes": 248
+  },
+  {
+    "path": "packages/kernel/src/graph.ts",
+    "bytes": 11886
+  },
+  {
+    "path": "packages/kernel/src/index.ts",
+    "bytes": 753
+  },
+  {
+    "path": "packages/kernel/src/link.ts",
+    "bytes": 9186
+  },
+  {
+    "path": "packages/kernel/src/machine.ts",
+    "bytes": 7769
+  },
+  {
+    "path": "packages/kernel/src/plan.ts",
+    "bytes": 19018
+  },
+  {
+    "path": "packages/kernel/src/reducer.ts",
+    "bytes": 17568
+  },
+  {
+    "path": "packages/kernel/src/reference.ts",
+    "bytes": 792
+  },
+  {
+    "path": "packages/kernel/src/slice.ts",
+    "bytes": 4587
+  },
+  {
+    "path": "packages/kernel/test/chain-fixture.ts",
+    "bytes": 2045
+  },
+  {
+    "path": "packages/kernel/test/core.test.ts",
+    "bytes": 8253
+  },
+  {
+    "path": "packages/kernel/test/demand.test.ts",
+    "bytes": 23016
+  },
+  {
+    "path": "packages/kernel/test/greeting-fixture.ts",
+    "bytes": 8616
+  },
+  {
+    "path": "packages/kernel/test/machine-scaling.test.ts",
+    "bytes": 1250
+  },
+  {
+    "path": "packages/loader/README.md",
+    "bytes": 4593
+  },
+  {
+    "path": "packages/loader/package.json",
+    "bytes": 431
+  },
+  {
+    "path": "packages/loader/src/contribution.ts",
+    "bytes": 2083
+  },
+  {
+    "path": "packages/loader/src/index.ts",
+    "bytes": 100
+  },
+  {
+    "path": "packages/loader/src/node/distribution-resolution.ts",
+    "bytes": 4056
+  },
+  {
+    "path": "packages/loader/src/node/index.ts",
+    "bytes": 787
+  },
+  {
+    "path": "packages/loader/src/node/loader.ts",
+    "bytes": 12512
+  },
+  {
+    "path": "packages/loader/src/node/location.ts",
+    "bytes": 15494
+  },
+  {
+    "path": "packages/loader/src/node/module-scope.ts",
+    "bytes": 9723
+  },
+  {
+    "path": "packages/loader/src/node/public.ts",
+    "bytes": 817
+  },
+  {
+    "path": "packages/loader/src/node/types.ts",
+    "bytes": 789
+  },
+  {
+    "path": "packages/loader/src/types.ts",
+    "bytes": 1210
+  },
+  {
+    "path": "packages/loader/test/distribution-resolution.test.ts",
+    "bytes": 1417
+  },
+  {
+    "path": "packages/loader/test/loader.test.ts",
+    "bytes": 10111
+  },
+  {
+    "path": "packages/loader/test/location.test.ts",
+    "bytes": 6035
+  },
+  {
+    "path": "packages/loader/test/module-scope.test.ts",
+    "bytes": 7352
+  },
+  {
+    "path": "packages/markup/README.md",
+    "bytes": 4913
+  },
+  {
+    "path": "packages/markup/package.json",
+    "bytes": 542
+  },
+  {
+    "path": "packages/markup/src/element.ts",
+    "bytes": 1608
+  },
+  {
+    "path": "packages/markup/src/error.ts",
+    "bytes": 883
+  },
+  {
+    "path": "packages/markup/src/frontend.ts",
+    "bytes": 21383
+  },
+  {
+    "path": "packages/markup/src/index.ts",
+    "bytes": 709
+  },
+  {
+    "path": "packages/markup/src/registry.ts",
+    "bytes": 2989
+  },
+  {
+    "path": "packages/markup/src/run/activation.ts",
+    "bytes": 259
+  },
+  {
+    "path": "packages/markup/src/run/frontend.ts",
+    "bytes": 561
+  },
+  {
+    "path": "packages/markup/src/run/index.ts",
+    "bytes": 141
+  },
+  {
+    "path": "packages/markup/src/run/syntax.ts",
+    "bytes": 11458
+  },
+  {
+    "path": "packages/markup/src/surface-facet.ts",
+    "bytes": 3948
+  },
+  {
+    "path": "packages/markup/src/syntax.ts",
+    "bytes": 10773
+  },
+  {
+    "path": "packages/markup/src/types.ts",
+    "bytes": 8264
+  },
+  {
+    "path": "packages/markup/test/author-integration.test.ts",
+    "bytes": 9392
+  },
+  {
+    "path": "packages/markup/test/run/run.test.ts",
+    "bytes": 12096
+  },
+  {
+    "path": "packages/media/README.md",
+    "bytes": 3603
+  },
+  {
+    "path": "packages/media/package.json",
+    "bytes": 661
+  },
+  {
+    "path": "packages/media/src/activation.ts",
+    "bytes": 1666
+  },
+  {
+    "path": "packages/media/src/component.ts",
+    "bytes": 2168
+  },
+  {
+    "path": "packages/media/src/domain.ts",
+    "bytes": 525
+  },
+  {
+    "path": "packages/media/src/frame-range.ts",
+    "bytes": 1516
+  },
+  {
+    "path": "packages/media/src/identity.ts",
+    "bytes": 12317
+  },
+  {
+    "path": "packages/media/src/index.ts",
+    "bytes": 1269
+  },
+  {
+    "path": "packages/media/src/manifest.ts",
+    "bytes": 9900
+  },
+  {
+    "path": "packages/media/src/render.ts",
+    "bytes": 4974
+  },
+  {
+    "path": "packages/media/src/schema.ts",
+    "bytes": 6535
+  },
+  {
+    "path": "packages/media/src/surface.ts",
+    "bytes": 9763
+  },
+  {
+    "path": "packages/media/src/types.ts",
+    "bytes": 3739
+  },
+  {
+    "path": "packages/media/test/asset-surface.test.ts",
+    "bytes": 2519
+  },
+  {
+    "path": "packages/media/test/domain.test.ts",
+    "bytes": 989
+  },
+  {
+    "path": "packages/media/test/font-surface.test.ts",
+    "bytes": 5144
+  },
+  {
+    "path": "packages/media-local/README.md",
+    "bytes": 6861
+  },
+  {
+    "path": "packages/media-local/package.json",
+    "bytes": 1064
+  },
+  {
+    "path": "packages/media-local/src/activation.ts",
+    "bytes": 2644
+  },
+  {
+    "path": "packages/media-local/src/audio-level-automation.ts",
+    "bytes": 1698
+  },
+  {
+    "path": "packages/media-local/src/cli.ts",
+    "bytes": 861
+  },
+  {
+    "path": "packages/media-local/src/execute.ts",
+    "bytes": 64121
+  },
+  {
+    "path": "packages/media-local/src/file-frames.ts",
+    "bytes": 1620
+  },
+  {
+    "path": "packages/media-local/src/files.ts",
+    "bytes": 46705
+  },
+  {
+    "path": "packages/media-local/src/frame-grid.ts",
+    "bytes": 1940
+  },
+  {
+    "path": "packages/media-local/src/index.ts",
+    "bytes": 472
+  },
+  {
+    "path": "packages/media-local/src/normalize-copy.ts",
+    "bytes": 2258
+  },
+  {
+    "path": "packages/media-local/src/probe.ts",
+    "bytes": 13230
+  },
+  {
+    "path": "packages/media-local/src/process-env.ts",
+    "bytes": 834
+  },
+  {
+    "path": "packages/media-local/src/process.ts",
+    "bytes": 4611
+  },
+  {
+    "path": "packages/media-local/src/program.ts",
+    "bytes": 704
+  },
+  {
+    "path": "packages/media-local/src/provider.ts",
+    "bytes": 5753
+  },
+  {
+    "path": "packages/media-local/src/speech.ts",
+    "bytes": 2844
+  },
+  {
+    "path": "packages/media-local/src/toolchain.ts",
+    "bytes": 2343
+  },
+  {
+    "path": "packages/media-local/src/webp.ts",
+    "bytes": 8087
+  },
+  {
+    "path": "packages/media-local/test/alpha.test.ts",
+    "bytes": 3181
+  },
+  {
+    "path": "packages/media-local/test/file-frames.test.ts",
+    "bytes": 2321
+  },
+  {
+    "path": "packages/media-local/test/files.test.ts",
+    "bytes": 15997
+  },
+  {
+    "path": "packages/media-local/test/probe.test.ts",
+    "bytes": 3332
+  },
+  {
+    "path": "packages/media-local/test/process-env.test.ts",
+    "bytes": 2506
+  },
+  {
+    "path": "packages/media-local/test/provider.test.ts",
+    "bytes": 51722
+  },
+  {
+    "path": "packages/media-local/test/toolchain.test.ts",
+    "bytes": 1522
+  },
+  {
+    "path": "packages/media-local/test/webp.test.ts",
+    "bytes": 1620
+  },
+  {
+    "path": "packages/media-operations/README.md",
+    "bytes": 6680
+  },
+  {
+    "path": "packages/media-operations/package.json",
+    "bytes": 1019
+  },
+  {
+    "path": "packages/media-operations/src/activation.ts",
+    "bytes": 2058
+  },
+  {
+    "path": "packages/media-operations/src/audio-plan.ts",
+    "bytes": 8766
+  },
+  {
+    "path": "packages/media-operations/src/component.ts",
+    "bytes": 15202
+  },
+  {
+    "path": "packages/media-operations/src/fragment.ts",
+    "bytes": 5942
+  },
+  {
+    "path": "packages/media-operations/src/index.ts",
+    "bytes": 1542
+  },
+  {
+    "path": "packages/media-operations/src/manifest.ts",
+    "bytes": 28364
+  },
+  {
+    "path": "packages/media-operations/src/operations.ts",
+    "bytes": 12904
+  },
+  {
+    "path": "packages/media-operations/src/selection.ts",
+    "bytes": 6005
+  },
+  {
+    "path": "packages/media-operations/src/surface.ts",
+    "bytes": 17088
+  },
+  {
+    "path": "packages/media-operations/src/types.ts",
+    "bytes": 5432
+  },
+  {
+    "path": "packages/media-operations/test/manifest.test.ts",
+    "bytes": 10583
+  },
+  {
+    "path": "packages/media-operations/test/mux.test.ts",
+    "bytes": 2049
+  },
+  {
+    "path": "packages/media-operations/test/presentation.test.ts",
+    "bytes": 976
+  },
+  {
+    "path": "packages/media-operations/test/selection.test.ts",
+    "bytes": 4889
+  },
+  {
+    "path": "packages/media-operations/test/still-video.test.ts",
+    "bytes": 1213
+  },
+  {
+    "path": "packages/mimo-speech/README.md",
+    "bytes": 1548
+  },
+  {
+    "path": "packages/mimo-speech/package.json",
+    "bytes": 666
+  },
+  {
+    "path": "packages/mimo-speech/src/activation.ts",
+    "bytes": 1164
+  },
+  {
+    "path": "packages/mimo-speech/src/fragment.ts",
+    "bytes": 569
+  },
+  {
+    "path": "packages/mimo-speech/src/index.ts",
+    "bytes": 5926
+  },
+  {
+    "path": "packages/mimo-speech/src/surface.ts",
+    "bytes": 7985
+  },
+  {
+    "path": "packages/mimo-speech/test/mimo-speech.test.ts",
+    "bytes": 4689
+  },
+  {
+    "path": "packages/minimax-h3/README.md",
+    "bytes": 1099
+  },
+  {
+    "path": "packages/minimax-h3/package.json",
+    "bytes": 665
+  },
+  {
+    "path": "packages/minimax-h3/src/activation.ts",
+    "bytes": 1322
+  },
+  {
+    "path": "packages/minimax-h3/src/index.ts",
+    "bytes": 9109
+  },
+  {
+    "path": "packages/minimax-h3/src/surface.ts",
+    "bytes": 9219
+  },
+  {
+    "path": "packages/nano-banana/README.md",
+    "bytes": 1165
+  },
+  {
+    "path": "packages/nano-banana/package.json",
+    "bytes": 666
+  },
+  {
+    "path": "packages/nano-banana/src/activation.ts",
+    "bytes": 1099
+  },
+  {
+    "path": "packages/nano-banana/src/index.ts",
+    "bytes": 6015
+  },
+  {
+    "path": "packages/nano-banana/src/surface.ts",
+    "bytes": 5851
+  },
+  {
+    "path": "packages/narrative/README.md",
+    "bytes": 2062
+  },
+  {
+    "path": "packages/narrative/package.json",
+    "bytes": 528
+  },
+  {
+    "path": "packages/narrative/src/activation.ts",
+    "bytes": 493
+  },
+  {
+    "path": "packages/narrative/src/component.ts",
+    "bytes": 1395
+  },
+  {
+    "path": "packages/narrative/src/identity.ts",
+    "bytes": 5825
+  },
+  {
+    "path": "packages/narrative/src/index.ts",
+    "bytes": 671
+  },
+  {
+    "path": "packages/narrative/src/manifest.ts",
+    "bytes": 1113
+  },
+  {
+    "path": "packages/narrative/src/schema.ts",
+    "bytes": 2571
+  },
+  {
+    "path": "packages/narrative/src/selection.ts",
+    "bytes": 2486
+  },
+  {
+    "path": "packages/narrative/src/types.ts",
+    "bytes": 2814
+  },
+  {
+    "path": "packages/narrative-caption/README.md",
+    "bytes": 921
+  },
+  {
+    "path": "packages/narrative-caption/package.json",
+    "bytes": 771
+  },
+  {
+    "path": "packages/narrative-caption/src/activation.ts",
+    "bytes": 879
+  },
+  {
+    "path": "packages/narrative-caption/src/component.ts",
+    "bytes": 1636
+  },
+  {
+    "path": "packages/narrative-caption/src/error.ts",
+    "bytes": 312
+  },
+  {
+    "path": "packages/narrative-caption/src/identity.ts",
+    "bytes": 2371
+  },
+  {
+    "path": "packages/narrative-caption/src/index.ts",
+    "bytes": 726
+  },
+  {
+    "path": "packages/narrative-caption/src/manifest.ts",
+    "bytes": 1553
+  },
+  {
+    "path": "packages/narrative-caption/src/project.ts",
+    "bytes": 3700
+  },
+  {
+    "path": "packages/narrative-caption/src/schema.ts",
+    "bytes": 613
+  },
+  {
+    "path": "packages/narrative-caption/src/selection.ts",
+    "bytes": 1962
+  },
+  {
+    "path": "packages/narrative-caption/src/surface.ts",
+    "bytes": 4022
+  },
+  {
+    "path": "packages/narrative-caption/src/types.ts",
+    "bytes": 321
+  },
+  {
+    "path": "packages/narrative-speech-alignment/README.md",
+    "bytes": 3132
+  },
+  {
+    "path": "packages/narrative-speech-alignment/package.json",
+    "bytes": 764
+  },
+  {
+    "path": "packages/narrative-speech-alignment/src/activation.ts",
+    "bytes": 518
+  },
+  {
+    "path": "packages/narrative-speech-alignment/src/align.ts",
+    "bytes": 10263
+  },
+  {
+    "path": "packages/narrative-speech-alignment/src/component.ts",
+    "bytes": 1422
+  },
+  {
+    "path": "packages/narrative-speech-alignment/src/error.ts",
+    "bytes": 211
+  },
+  {
+    "path": "packages/narrative-speech-alignment/src/index.ts",
+    "bytes": 530
+  },
+  {
+    "path": "packages/narrative-speech-alignment/src/local.ts",
+    "bytes": 2568
+  },
+  {
+    "path": "packages/narrative-speech-alignment/src/locate.ts",
+    "bytes": 20130
+  },
+  {
+    "path": "packages/narrative-speech-alignment/src/manifest.ts",
+    "bytes": 1510
+  },
+  {
+    "path": "packages/narrative-speech-alignment/src/materialize.ts",
+    "bytes": 3226
+  },
+  {
+    "path": "packages/narrative-speech-alignment/src/normalize.ts",
+    "bytes": 2512
+  },
+  {
+    "path": "packages/narrative-speech-alignment/src/types.ts",
+    "bytes": 1193
+  },
+  {
+    "path": "packages/narrative-speech-alignment/test/speech-align.test.ts",
+    "bytes": 16385
+  },
+  {
+    "path": "packages/narrative-temporal/README.md",
+    "bytes": 2096
+  },
+  {
+    "path": "packages/narrative-temporal/package.json",
+    "bytes": 814
+  },
+  {
+    "path": "packages/narrative-temporal/src/activation.ts",
+    "bytes": 1746
+  },
+  {
+    "path": "packages/narrative-temporal/src/component.ts",
+    "bytes": 4587
+  },
+  {
+    "path": "packages/narrative-temporal/src/identity.ts",
+    "bytes": 2455
+  },
+  {
+    "path": "packages/narrative-temporal/src/index.ts",
+    "bytes": 851
+  },
+  {
+    "path": "packages/narrative-temporal/src/manifest.ts",
+    "bytes": 4875
+  },
+  {
+    "path": "packages/narrative-temporal/src/materialize.ts",
+    "bytes": 1838
+  },
+  {
+    "path": "packages/narrative-temporal/src/projection.ts",
+    "bytes": 6667
+  },
+  {
+    "path": "packages/narrative-temporal/src/schema.ts",
+    "bytes": 1023
+  },
+  {
+    "path": "packages/narrative-temporal/src/studio.ts",
+    "bytes": 3022
+  },
+  {
+    "path": "packages/narrative-temporal/src/surface.ts",
+    "bytes": 16615
+  },
+  {
+    "path": "packages/narrative-temporal/src/types.ts",
+    "bytes": 1897
+  },
+  {
+    "path": "packages/narrative-temporal/test/identity.test.ts",
+    "bytes": 1286
+  },
+  {
+    "path": "packages/narrative-temporal/test/studio.test.ts",
+    "bytes": 1220
+  },
+  {
+    "path": "packages/narrative-temporal/test/surface.test.ts",
+    "bytes": 5241
+  },
+  {
+    "path": "packages/pixverse/README.md",
+    "bytes": 1981
+  },
+  {
+    "path": "packages/pixverse/package.json",
+    "bytes": 663
+  },
+  {
+    "path": "packages/pixverse/src/activation.ts",
+    "bytes": 1081
+  },
+  {
+    "path": "packages/pixverse/src/index.ts",
+    "bytes": 11355
+  },
+  {
+    "path": "packages/pixverse/src/surface.ts",
+    "bytes": 12226
+  },
+  {
+    "path": "packages/pixverse/src/validation.ts",
+    "bytes": 796
+  },
+  {
+    "path": "packages/producer/README.md",
+    "bytes": 6424
+  },
+  {
+    "path": "packages/producer/package.json",
+    "bytes": 279
+  },
+  {
+    "path": "packages/producer/src/index.ts",
+    "bytes": 5122
+  },
+  {
+    "path": "packages/project/README.md",
+    "bytes": 1724
+  },
+  {
+    "path": "packages/project/package.json",
+    "bytes": 181
+  },
+  {
+    "path": "packages/project/src/index.ts",
+    "bytes": 76
+  },
+  {
+    "path": "packages/project/src/project-context.ts",
+    "bytes": 2408
+  },
+  {
+    "path": "packages/protocol/README.md",
+    "bytes": 584
+  },
+  {
+    "path": "packages/protocol/package.json",
+    "bytes": 182
+  },
+  {
+    "path": "packages/protocol/src/build-id.ts",
+    "bytes": 2346
+  },
+  {
+    "path": "packages/protocol/src/build.ts",
+    "bytes": 7304
+  },
+  {
+    "path": "packages/protocol/src/canonical.ts",
+    "bytes": 1425
+  },
+  {
+    "path": "packages/protocol/src/error.ts",
+    "bytes": 275
+  },
+  {
+    "path": "packages/protocol/src/identity.ts",
+    "bytes": 1663
+  },
+  {
+    "path": "packages/protocol/src/index.ts",
+    "bytes": 320
+  },
+  {
+    "path": "packages/protocol/src/module.ts",
+    "bytes": 1687
+  },
+  {
+    "path": "packages/protocol/src/value.ts",
+    "bytes": 2321
+  },
+  {
+    "path": "packages/protocol/test/canonical.test.ts",
+    "bytes": 2026
+  },
+  {
+    "path": "packages/provider-beatapi/README.md",
+    "bytes": 4738
+  },
+  {
+    "path": "packages/provider-beatapi/package.json",
+    "bytes": 933
+  },
+  {
+    "path": "packages/provider-beatapi/src/activation.ts",
+    "bytes": 2510
+  },
+  {
+    "path": "packages/provider-beatapi/src/errors.ts",
+    "bytes": 2736
+  },
+  {
+    "path": "packages/provider-beatapi/src/index.ts",
+    "bytes": 148
+  },
+  {
+    "path": "packages/provider-beatapi/src/mapping.ts",
+    "bytes": 4213
+  },
+  {
+    "path": "packages/provider-beatapi/src/provider.ts",
+    "bytes": 15468
+  },
+  {
+    "path": "packages/provider-beatapi/src/routes.ts",
+    "bytes": 5981
+  },
+  {
+    "path": "packages/provider-beatapi/test/routes.test.ts",
+    "bytes": 3205
+  },
+  {
+    "path": "packages/provider-hiapi/README.md",
+    "bytes": 4666
+  },
+  {
+    "path": "packages/provider-hiapi/package.json",
+    "bytes": 969
+  },
+  {
+    "path": "packages/provider-hiapi/src/activation.ts",
+    "bytes": 2482
+  },
+  {
+    "path": "packages/provider-hiapi/src/errors.ts",
+    "bytes": 2398
+  },
+  {
+    "path": "packages/provider-hiapi/src/index.ts",
+    "bytes": 142
+  },
+  {
+    "path": "packages/provider-hiapi/src/mapping.ts",
+    "bytes": 5970
+  },
+  {
+    "path": "packages/provider-hiapi/src/provider.ts",
+    "bytes": 14213
+  },
+  {
+    "path": "packages/provider-hiapi/src/routes.ts",
+    "bytes": 7266
+  },
+  {
+    "path": "packages/provider-hiapi/test/routes.test.ts",
+    "bytes": 4427
+  },
+  {
+    "path": "packages/provider-html-local/README.md",
+    "bytes": 4341
+  },
+  {
+    "path": "packages/provider-html-local/package.json",
+    "bytes": 1268
+  },
+  {
+    "path": "packages/provider-html-local/src/activation.ts",
+    "bytes": 7708
+  },
+  {
+    "path": "packages/provider-html-local/src/browser-install.ts",
+    "bytes": 354
+  },
+  {
+    "path": "packages/provider-html-local/src/browser.ts",
+    "bytes": 6508
+  },
+  {
+    "path": "packages/provider-html-local/src/capture-exit.ts",
+    "bytes": 1524
+  },
+  {
+    "path": "packages/provider-html-local/src/capture-process.ts",
+    "bytes": 6179
+  },
+  {
+    "path": "packages/provider-html-local/src/capture-worker.ts",
+    "bytes": 1975
+  },
+  {
+    "path": "packages/provider-html-local/src/capture.ts",
+    "bytes": 19133
+  },
+  {
+    "path": "packages/provider-html-local/src/concurrency.ts",
+    "bytes": 4076
+  },
+  {
+    "path": "packages/provider-html-local/src/frame-span-index.ts",
+    "bytes": 3876
+  },
+  {
+    "path": "packages/provider-html-local/src/index.ts",
+    "bytes": 353
+  },
+  {
+    "path": "packages/provider-html-local/src/opaque-capture.ts",
+    "bytes": 14459
+  },
+  {
+    "path": "packages/provider-html-local/src/options.ts",
+    "bytes": 1385
+  },
+  {
+    "path": "packages/provider-html-local/src/ordered-frame-sink.ts",
+    "bytes": 5024
+  },
+  {
+    "path": "packages/provider-html-local/src/output.ts",
+    "bytes": 3356
+  },
+  {
+    "path": "packages/provider-html-local/src/process-tree.ts",
+    "bytes": 3635
+  },
+  {
+    "path": "packages/provider-html-local/src/process.ts",
+    "bytes": 6268
+  },
+  {
+    "path": "packages/provider-html-local/src/program.ts",
+    "bytes": 3494
+  },
+  {
+    "path": "packages/provider-html-local/src/progress.ts",
+    "bytes": 2288
+  },
+  {
+    "path": "packages/provider-html-local/src/provider.ts",
+    "bytes": 5336
+  },
+  {
+    "path": "packages/provider-html-local/src/render.ts",
+    "bytes": 11070
+  },
+  {
+    "path": "packages/provider-html-local/src/sampling.ts",
+    "bytes": 4923
+  },
+  {
+    "path": "packages/provider-html-local/src/server.ts",
+    "bytes": 2747
+  },
+  {
+    "path": "packages/provider-html-local/src/source-frame-decoder.ts",
+    "bytes": 8654
+  },
+  {
+    "path": "packages/provider-html-local/src/source-frame-store.ts",
+    "bytes": 13605
+  },
+  {
+    "path": "packages/provider-html-local/src/stage.ts",
+    "bytes": 6661
+  },
+  {
+    "path": "packages/provider-html-local/src/surface-validation.ts",
+    "bytes": 9098
+  },
+  {
+    "path": "packages/provider-html-local/src/weighted-capacity.ts",
+    "bytes": 1498
+  },
+  {
+    "path": "packages/provider-html-local/test/alpha.test.ts",
+    "bytes": 5545
+  },
+  {
+    "path": "packages/provider-html-local/test/browser-download.test.ts",
+    "bytes": 6661
+  },
+  {
+    "path": "packages/provider-html-local/test/browser.test.ts",
+    "bytes": 4968
+  },
+  {
+    "path": "packages/provider-html-local/test/capture-process.test.ts",
+    "bytes": 14374
+  },
+  {
+    "path": "packages/provider-html-local/test/concurrency.test.ts",
+    "bytes": 2687
+  },
+  {
+    "path": "packages/provider-html-local/test/frame-span-index.test.ts",
+    "bytes": 2102
+  },
+  {
+    "path": "packages/provider-html-local/test/frames.test.ts",
+    "bytes": 3508
+  },
+  {
+    "path": "packages/provider-html-local/test/ordered-frame-sink.test.ts",
+    "bytes": 2385
+  },
+  {
+    "path": "packages/provider-html-local/test/process-env.test.ts",
+    "bytes": 2988
+  },
+  {
+    "path": "packages/provider-html-local/test/progress.test.ts",
+    "bytes": 1754
+  },
+  {
+    "path": "packages/provider-html-local/test/provider.test.ts",
+    "bytes": 7819
+  },
+  {
+    "path": "packages/provider-html-local/test/range.test.ts",
+    "bytes": 15263
+  },
+  {
+    "path": "packages/provider-html-local/test/source-frame-decoder.test.ts",
+    "bytes": 1272
+  },
+  {
+    "path": "packages/provider-html-local/test/source-frame-store.test.ts",
+    "bytes": 4243
+  },
+  {
+    "path": "packages/provider-html-local/test/stage.test.ts",
+    "bytes": 12584
+  },
+  {
+    "path": "packages/provider-html-local/test/surface-validation.test.ts",
+    "bytes": 6757
+  },
+  {
+    "path": "packages/provider-html-local/test/visual-readiness.test.ts",
+    "bytes": 28189
+  },
+  {
+    "path": "packages/provider-html-local/test/weighted-capacity.test.ts",
+    "bytes": 629
+  },
+  {
+    "path": "packages/provider-hypihub/README.md",
+    "bytes": 18787
+  },
+  {
+    "path": "packages/provider-hypihub/package.json",
+    "bytes": 1267
+  },
+  {
+    "path": "packages/provider-hypihub/src/activation.ts",
+    "bytes": 4678
+  },
+  {
+    "path": "packages/provider-hypihub/src/errors.ts",
+    "bytes": 3297
+  },
+  {
+    "path": "packages/provider-hypihub/src/index.ts",
+    "bytes": 148
+  },
+  {
+    "path": "packages/provider-hypihub/src/mapping.ts",
+    "bytes": 9910
+  },
+  {
+    "path": "packages/provider-hypihub/src/oauth.ts",
+    "bytes": 5066
+  },
+  {
+    "path": "packages/provider-hypihub/src/provider.ts",
+    "bytes": 36301
+  },
+  {
+    "path": "packages/provider-hypihub/src/routes.ts",
+    "bytes": 8536
+  },
+  {
+    "path": "packages/provider-hypihub/src/upload.ts",
+    "bytes": 22227
+  },
+  {
+    "path": "packages/provider-hypihub/test/oauth.test.ts",
+    "bytes": 2958
+  },
+  {
+    "path": "packages/provider-hypihub/test/provider.test.ts",
+    "bytes": 55606
+  },
+  {
+    "path": "packages/provider-hypihub/test/routes.test.ts",
+    "bytes": 11792
+  },
+  {
+    "path": "packages/provider-hypihub/test/upload.test.ts",
+    "bytes": 15752
+  },
+  {
+    "path": "packages/provider-image-opencv-local/README.md",
+    "bytes": 1091
+  },
+  {
+    "path": "packages/provider-image-opencv-local/package.json",
+    "bytes": 744
+  },
+  {
+    "path": "packages/provider-image-opencv-local/runtime/.python-version",
+    "bytes": 5
+  },
+  {
+    "path": "packages/provider-image-opencv-local/runtime/README.md",
+    "bytes": 1356
+  },
+  {
+    "path": "packages/provider-image-opencv-local/runtime/pyproject.toml",
+    "bytes": 425
+  },
+  {
+    "path": "packages/provider-image-opencv-local/runtime/raster_execute.py",
+    "bytes": 11670
+  },
+  {
+    "path": "packages/provider-image-opencv-local/runtime/uv.lock",
+    "bytes": 7411
+  },
+  {
+    "path": "packages/provider-image-opencv-local/src/activation.ts",
+    "bytes": 2639
+  },
+  {
+    "path": "packages/provider-image-opencv-local/src/deployment.ts",
+    "bytes": 2059
+  },
+  {
+    "path": "packages/provider-image-opencv-local/src/index.ts",
+    "bytes": 175
+  },
+  {
+    "path": "packages/provider-image-opencv-local/src/program.ts",
+    "bytes": 2582
+  },
+  {
+    "path": "packages/provider-image-opencv-local/src/provider.ts",
+    "bytes": 7735
+  },
+  {
+    "path": "packages/provider-image-opencv-local/test/program.test.ts",
+    "bytes": 3172
+  },
+  {
+    "path": "packages/provider-image-opencv-local/test/provider.test.ts",
+    "bytes": 7215
+  },
+  {
+    "path": "packages/provider-monid/README.md",
+    "bytes": 5173
+  },
+  {
+    "path": "packages/provider-monid/package.json",
+    "bytes": 842
+  },
+  {
+    "path": "packages/provider-monid/src/activation.ts",
+    "bytes": 2482
+  },
+  {
+    "path": "packages/provider-monid/src/errors.ts",
+    "bytes": 3050
+  },
+  {
+    "path": "packages/provider-monid/src/index.ts",
+    "bytes": 142
+  },
+  {
+    "path": "packages/provider-monid/src/mapping.ts",
+    "bytes": 4286
+  },
+  {
+    "path": "packages/provider-monid/src/provider.ts",
+    "bytes": 17157
+  },
+  {
+    "path": "packages/provider-monid/src/routes.ts",
+    "bytes": 7220
+  },
+  {
+    "path": "packages/provider-monid/test/routes.test.ts",
+    "bytes": 2035
+  },
+  {
+    "path": "packages/provider-pollo/README.md",
+    "bytes": 3314
+  },
+  {
+    "path": "packages/provider-pollo/package.json",
+    "bytes": 893
+  },
+  {
+    "path": "packages/provider-pollo/src/activation.ts",
+    "bytes": 2482
+  },
+  {
+    "path": "packages/provider-pollo/src/errors.ts",
+    "bytes": 2322
+  },
+  {
+    "path": "packages/provider-pollo/src/index.ts",
+    "bytes": 142
+  },
+  {
+    "path": "packages/provider-pollo/src/mapping.ts",
+    "bytes": 2820
+  },
+  {
+    "path": "packages/provider-pollo/src/provider.ts",
+    "bytes": 12862
+  },
+  {
+    "path": "packages/provider-pollo/src/routes.ts",
+    "bytes": 5092
+  },
+  {
+    "path": "packages/provider-pollo/test/routes.test.ts",
+    "bytes": 3017
+  },
+  {
+    "path": "packages/provider-sume/README.md",
+    "bytes": 5882
+  },
+  {
+    "path": "packages/provider-sume/package.json",
+    "bytes": 1006
+  },
+  {
+    "path": "packages/provider-sume/src/activation.ts",
+    "bytes": 2468
+  },
+  {
+    "path": "packages/provider-sume/src/errors.ts",
+    "bytes": 3237
+  },
+  {
+    "path": "packages/provider-sume/src/index.ts",
+    "bytes": 139
+  },
+  {
+    "path": "packages/provider-sume/src/mapping.ts",
+    "bytes": 6052
+  },
+  {
+    "path": "packages/provider-sume/src/provider.ts",
+    "bytes": 15584
+  },
+  {
+    "path": "packages/provider-sume/src/routes.ts",
+    "bytes": 7701
+  },
+  {
+    "path": "packages/provider-sume/test/routes.test.ts",
+    "bytes": 1014
+  },
+  {
+    "path": "packages/provider-tokendance/README.md",
+    "bytes": 4264
+  },
+  {
+    "path": "packages/provider-tokendance/package.json",
+    "bytes": 852
+  },
+  {
+    "path": "packages/provider-tokendance/src/activation.ts",
+    "bytes": 2552
+  },
+  {
+    "path": "packages/provider-tokendance/src/errors.ts",
+    "bytes": 2695
+  },
+  {
+    "path": "packages/provider-tokendance/src/index.ts",
+    "bytes": 157
+  },
+  {
+    "path": "packages/provider-tokendance/src/mapping.ts",
+    "bytes": 2976
+  },
+  {
+    "path": "packages/provider-tokendance/src/provider.ts",
+    "bytes": 18172
+  },
+  {
+    "path": "packages/provider-tokendance/src/routes.ts",
+    "bytes": 8635
+  },
+  {
+    "path": "packages/provider-tokendance/test/routes.test.ts",
+    "bytes": 2996
+  },
+  {
+    "path": "packages/provider-whisperx-local/README.md",
+    "bytes": 8307
+  },
+  {
+    "path": "packages/provider-whisperx-local/package.json",
+    "bytes": 847
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/.python-version",
+    "bytes": 5
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/README.md",
+    "bytes": 7357
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/deploy/hypit-whisperx.service.example",
+    "bytes": 873
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/pyproject.toml",
+    "bytes": 908
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/src/hypit_whisperx_service/__init__.py",
+    "bytes": 162
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/src/hypit_whisperx_service/__main__.py",
+    "bytes": 715
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/src/hypit_whisperx_service/application.py",
+    "bytes": 3767
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/src/hypit_whisperx_service/audio.py",
+    "bytes": 2305
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/src/hypit_whisperx_service/check.py",
+    "bytes": 1532
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/src/hypit_whisperx_service/config.py",
+    "bytes": 3505
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/src/hypit_whisperx_service/engine.py",
+    "bytes": 9039
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/src/hypit_whisperx_service/models.py",
+    "bytes": 5687
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/src/hypit_whisperx_service/prepare.py",
+    "bytes": 1533
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/src/hypit_whisperx_service/resources.py",
+    "bytes": 2137
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/src/hypit_whisperx_service/server.py",
+    "bytes": 3895
+  },
+  {
+    "path": "packages/provider-whisperx-local/runtime/uv.lock",
+    "bytes": 635384
+  },
+  {
+    "path": "packages/provider-whisperx-local/src/activation.ts",
+    "bytes": 5616
+  },
+  {
+    "path": "packages/provider-whisperx-local/src/index.ts",
+    "bytes": 223
+  },
+  {
+    "path": "packages/provider-whisperx-local/src/program.ts",
+    "bytes": 6815
+  },
+  {
+    "path": "packages/provider-whisperx-local/src/provider.ts",
+    "bytes": 9025
+  },
+  {
+    "path": "packages/provider-whisperx-local/test/program.test.ts",
+    "bytes": 2998
+  },
+  {
+    "path": "packages/provider-whisperx-local/test/provider.test.ts",
+    "bytes": 5776
+  },
+  {
+    "path": "packages/provider-whisperx-local/test/service/test_models.py",
+    "bytes": 3678
+  },
+  {
+    "path": "packages/provider-whisperx-local/test/service/test_service.py",
+    "bytes": 9121
+  },
+  {
+    "path": "packages/ranking/README.md",
+    "bytes": 5074
+  },
+  {
+    "path": "packages/ranking/package.json",
+    "bytes": 1152
+  },
+  {
+    "path": "packages/ranking/preview/Column.svg",
+    "bytes": 2278
+  },
+  {
+    "path": "packages/ranking/preview/TierBoard.svg",
+    "bytes": 1652
+  },
+  {
+    "path": "packages/ranking/src/activation.ts",
+    "bytes": 1474
+  },
+  {
+    "path": "packages/ranking/src/component.ts",
+    "bytes": 13281
+  },
+  {
+    "path": "packages/ranking/src/fragment.ts",
+    "bytes": 9326
+  },
+  {
+    "path": "packages/ranking/src/index.ts",
+    "bytes": 2298
+  },
+  {
+    "path": "packages/ranking/src/manifest.ts",
+    "bytes": 58754
+  },
+  {
+    "path": "packages/ranking/src/render.ts",
+    "bytes": 31488
+  },
+  {
+    "path": "packages/ranking/src/schedule.ts",
+    "bytes": 45526
+  },
+  {
+    "path": "packages/ranking/src/studio.ts",
+    "bytes": 16724
+  },
+  {
+    "path": "packages/ranking/src/style.ts",
+    "bytes": 10662
+  },
+  {
+    "path": "packages/ranking/src/surface.ts",
+    "bytes": 15671
+  },
+  {
+    "path": "packages/ranking/src/tier.ts",
+    "bytes": 4900
+  },
+  {
+    "path": "packages/ranking/src/types.ts",
+    "bytes": 7675
+  },
+  {
+    "path": "packages/ranking/test/companion.test.ts",
+    "bytes": 2463
+  },
+  {
+    "path": "packages/ranking/test/ranking.test.ts",
+    "bytes": 35663
+  },
+  {
+    "path": "packages/recipe/README.md",
+    "bytes": 2013
+  },
+  {
+    "path": "packages/recipe/package.json",
+    "bytes": 509
+  },
+  {
+    "path": "packages/recipe/src/activation.ts",
+    "bytes": 321
+  },
+  {
+    "path": "packages/recipe/src/format.ts",
+    "bytes": 648
+  },
+  {
+    "path": "packages/recipe/src/frontend.ts",
+    "bytes": 1031
+  },
+  {
+    "path": "packages/recipe/src/index.ts",
+    "bytes": 287
+  },
+  {
+    "path": "packages/recipe/src/manifest.ts",
+    "bytes": 534
+  },
+  {
+    "path": "packages/recipe/src/parser.ts",
+    "bytes": 10530
+  },
+  {
+    "path": "packages/recipe/src/types.ts",
+    "bytes": 804
+  },
+  {
+    "path": "packages/recipe/test/source-closure.test.ts",
+    "bytes": 13276
+  },
+  {
+    "path": "packages/region-evidence/README.md",
+    "bytes": 1156
+  },
+  {
+    "path": "packages/region-evidence/package.json",
+    "bytes": 751
+  },
+  {
+    "path": "packages/region-evidence/src/activation.ts",
+    "bytes": 835
+  },
+  {
+    "path": "packages/region-evidence/src/component.ts",
+    "bytes": 1457
+  },
+  {
+    "path": "packages/region-evidence/src/evidence.ts",
+    "bytes": 4087
+  },
+  {
+    "path": "packages/region-evidence/src/fragment.ts",
+    "bytes": 941
+  },
+  {
+    "path": "packages/region-evidence/src/index.ts",
+    "bytes": 551
+  },
+  {
+    "path": "packages/region-evidence/src/manifest.ts",
+    "bytes": 2922
+  },
+  {
+    "path": "packages/region-evidence/src/schema.ts",
+    "bytes": 654
+  },
+  {
+    "path": "packages/region-evidence/src/surface.ts",
+    "bytes": 2418
+  },
+  {
+    "path": "packages/region-evidence/src/types.ts",
+    "bytes": 410
+  },
+  {
+    "path": "packages/region-evidence/test/region-evidence.test.ts",
+    "bytes": 1354
+  },
+  {
+    "path": "packages/result/README.md",
+    "bytes": 4571
+  },
+  {
+    "path": "packages/result/package.json",
+    "bytes": 320
+  },
+  {
+    "path": "packages/result/src/decode.ts",
+    "bytes": 14101
+  },
+  {
+    "path": "packages/result/src/execution-log.ts",
+    "bytes": 744
+  },
+  {
+    "path": "packages/result/src/index.ts",
+    "bytes": 449
+  },
+  {
+    "path": "packages/result/src/node/file-reference.ts",
+    "bytes": 2042
+  },
+  {
+    "path": "packages/result/src/node/index.ts",
+    "bytes": 543
+  },
+  {
+    "path": "packages/result/src/node/store.ts",
+    "bytes": 23344
+  },
+  {
+    "path": "packages/result/src/types.ts",
+    "bytes": 17579
+  },
+  {
+    "path": "packages/result/src/writer.ts",
+    "bytes": 10478
+  },
+  {
+    "path": "packages/result/test/result.test.ts",
+    "bytes": 27631
+  },
+  {
+    "path": "packages/run/README.md",
+    "bytes": 1092
+  },
+  {
+    "path": "packages/run/package.json",
+    "bytes": 346
+  },
+  {
+    "path": "packages/run/src/candidate.ts",
+    "bytes": 811
+  },
+  {
+    "path": "packages/run/src/facet.ts",
+    "bytes": 2144
+  },
+  {
+    "path": "packages/run/src/frontend-facet.ts",
+    "bytes": 732
+  },
+  {
+    "path": "packages/run/src/frontend.ts",
+    "bytes": 1618
+  },
+  {
+    "path": "packages/run/src/graph.ts",
+    "bytes": 2981
+  },
+  {
+    "path": "packages/run/src/index.ts",
+    "bytes": 778
+  },
+  {
+    "path": "packages/run/src/registry.ts",
+    "bytes": 1213
+  },
+  {
+    "path": "packages/run/src/resolve.ts",
+    "bytes": 9157
+  },
+  {
+    "path": "packages/run/src/types.ts",
+    "bytes": 4141
+  },
+  {
+    "path": "packages/runtime/README.md",
+    "bytes": 3141
+  },
+  {
+    "path": "packages/runtime/package.json",
+    "bytes": 279
+  },
+  {
+    "path": "packages/runtime/src/capacity.ts",
+    "bytes": 2054
+  },
+  {
+    "path": "packages/runtime/src/credentials.ts",
+    "bytes": 5365
+  },
+  {
+    "path": "packages/runtime/src/execution.ts",
+    "bytes": 1091
+  },
+  {
+    "path": "packages/runtime/src/index.ts",
+    "bytes": 634
+  },
+  {
+    "path": "packages/runtime/src/log.ts",
+    "bytes": 2052
+  },
+  {
+    "path": "packages/runtime/src/operations.ts",
+    "bytes": 3418
+  },
+  {
+    "path": "packages/runtime/src/scheduler.ts",
+    "bytes": 11365
+  },
+  {
+    "path": "packages/runtime/src/types.ts",
+    "bytes": 7661
+  },
+  {
+    "path": "packages/runtime-local/README.md",
+    "bytes": 19742
+  },
+  {
+    "path": "packages/runtime-local/package.json",
+    "bytes": 1093
+  },
+  {
+    "path": "packages/runtime-local/src/actions.ts",
+    "bytes": 994
+  },
+  {
+    "path": "packages/runtime-local/src/catalog.ts",
+    "bytes": 1119
+  },
+  {
+    "path": "packages/runtime-local/src/cli.ts",
+    "bytes": 22098
+  },
+  {
+    "path": "packages/runtime-local/src/config.ts",
+    "bytes": 56602
+  },
+  {
+    "path": "packages/runtime-local/src/control.ts",
+    "bytes": 5699
+  },
+  {
+    "path": "packages/runtime-local/src/credentials.ts",
+    "bytes": 2857
+  },
+  {
+    "path": "packages/runtime-local/src/execution.ts",
+    "bytes": 5363
+  },
+  {
+    "path": "packages/runtime-local/src/executor.ts",
+    "bytes": 3581
+  },
+  {
+    "path": "packages/runtime-local/src/extension.ts",
+    "bytes": 14580
+  },
+  {
+    "path": "packages/runtime-local/src/host-api.ts",
+    "bytes": 13306
+  },
+  {
+    "path": "packages/runtime-local/src/host.ts",
+    "bytes": 7837
+  },
+  {
+    "path": "packages/runtime-local/src/index.ts",
+    "bytes": 1504
+  },
+  {
+    "path": "packages/runtime-local/src/log.ts",
+    "bytes": 2525
+  },
+  {
+    "path": "packages/runtime-local/src/node.ts",
+    "bytes": 3346
+  },
+  {
+    "path": "packages/runtime-local/src/process-control.ts",
+    "bytes": 2274
+  },
+  {
+    "path": "packages/runtime-local/src/process-logs.ts",
+    "bytes": 1282
+  },
+  {
+    "path": "packages/runtime-local/src/profile-selection.ts",
+    "bytes": 3604
+  },
+  {
+    "path": "packages/runtime-local/src/program-lock.ts",
+    "bytes": 2250
+  },
+  {
+    "path": "packages/runtime-local/src/programs.ts",
+    "bytes": 27232
+  },
+  {
+    "path": "packages/runtime-local/src/resource-store.ts",
+    "bytes": 5749
+  },
+  {
+    "path": "packages/runtime-local/src/result-writer.ts",
+    "bytes": 10688
+  },
+  {
+    "path": "packages/runtime-local/src/runtime.ts",
+    "bytes": 15062
+  },
+  {
+    "path": "packages/runtime-local/src/sqlite-state.ts",
+    "bytes": 50728
+  },
+  {
+    "path": "packages/runtime-local/src/submission.ts",
+    "bytes": 1048
+  },
+  {
+    "path": "packages/runtime-local/src/supervisor.ts",
+    "bytes": 7878
+  },
+  {
+    "path": "packages/runtime-local/src/types.ts",
+    "bytes": 6023
+  },
+  {
+    "path": "packages/runtime-local/src/worker-process.ts",
+    "bytes": 11713
+  },
+  {
+    "path": "packages/runtime-local/src/worker.ts",
+    "bytes": 21255
+  },
+  {
+    "path": "packages/runtime-local/test/concurrency-process.test.ts",
+    "bytes": 10135
+  },
+  {
+    "path": "packages/runtime-local/test/config.test.ts",
+    "bytes": 38026
+  },
+  {
+    "path": "packages/runtime-local/test/execution-process.test.ts",
+    "bytes": 12115
+  },
+  {
+    "path": "packages/runtime-local/test/extension.test.ts",
+    "bytes": 4552
+  },
+  {
+    "path": "packages/runtime-local/test/file-credentials-cli.test.ts",
+    "bytes": 3110
+  },
+  {
+    "path": "packages/runtime-local/test/host-api.test.ts",
+    "bytes": 998
+  },
+  {
+    "path": "packages/runtime-local/test/local.test.ts",
+    "bytes": 63678
+  },
+  {
+    "path": "packages/runtime-local/test/log.test.ts",
+    "bytes": 1768
+  },
+  {
+    "path": "packages/runtime-local/test/platform-credentials-cli.test.ts",
+    "bytes": 4723
+  },
+  {
+    "path": "packages/runtime-local/test/process-control.test.ts",
+    "bytes": 659
+  },
+  {
+    "path": "packages/runtime-local/test/program-lock.test.ts",
+    "bytes": 1663
+  },
+  {
+    "path": "packages/runtime-local/test/programs.test.ts",
+    "bytes": 21772
+  },
+  {
+    "path": "packages/runtime-local/test/resource-store.test.ts",
+    "bytes": 3036
+  },
+  {
+    "path": "packages/runtime-local/test/rotation-process.test.ts",
+    "bytes": 8585
+  },
+  {
+    "path": "packages/runtime-local/test/sqlite-state.test.ts",
+    "bytes": 21969
+  },
+  {
+    "path": "packages/runtime-local/test/startup-failure.test.ts",
+    "bytes": 3719
+  },
+  {
+    "path": "packages/runtime-local/test/windows-command-line.test.ts",
+    "bytes": 585
+  },
+  {
+    "path": "packages/runtime-local/test/worker-process.test.ts",
+    "bytes": 6014
+  },
+  {
+    "path": "packages/script/README.md",
+    "bytes": 14029
+  },
+  {
+    "path": "packages/script/package.json",
+    "bytes": 1117
+  },
+  {
+    "path": "packages/script/src/activation.ts",
+    "bytes": 739
+  },
+  {
+    "path": "packages/script/src/edit.ts",
+    "bytes": 8709
+  },
+  {
+    "path": "packages/script/src/error.ts",
+    "bytes": 445
+  },
+  {
+    "path": "packages/script/src/format.ts",
+    "bytes": 2401
+  },
+  {
+    "path": "packages/script/src/index.ts",
+    "bytes": 876
+  },
+  {
+    "path": "packages/script/src/lexical.ts",
+    "bytes": 4594
+  },
+  {
+    "path": "packages/script/src/manifest.ts",
+    "bytes": 6797
+  },
+  {
+    "path": "packages/script/src/narrative.ts",
+    "bytes": 10841
+  },
+  {
+    "path": "packages/script/src/parser.ts",
+    "bytes": 35981
+  },
+  {
+    "path": "packages/script/src/studio.ts",
+    "bytes": 10520
+  },
+  {
+    "path": "packages/script/src/surface.ts",
+    "bytes": 4993
+  },
+  {
+    "path": "packages/script/src/types.ts",
+    "bytes": 4642
+  },
+  {
+    "path": "packages/script/test/display-spacing.test.ts",
+    "bytes": 4602
+  },
+  {
+    "path": "packages/script/test/edit.test.ts",
+    "bytes": 6404
+  },
+  {
+    "path": "packages/script/test/markup-integration.test.ts",
+    "bytes": 8872
+  },
+  {
+    "path": "packages/script/test/narrative-views.test.ts",
+    "bytes": 8418
+  },
+  {
+    "path": "packages/script/test/prose-boundaries.test.ts",
+    "bytes": 4153
+  },
+  {
+    "path": "packages/script/test/script.test.ts",
+    "bytes": 10221
+  },
+  {
+    "path": "packages/script/test/studio-companion.test.ts",
+    "bytes": 5967
+  },
+  {
+    "path": "packages/seedance/README.md",
+    "bytes": 6756
+  },
+  {
+    "path": "packages/seedance/package.json",
+    "bytes": 582
+  },
+  {
+    "path": "packages/seedance/src/activation.ts",
+    "bytes": 1401
+  },
+  {
+    "path": "packages/seedance/src/fragment.ts",
+    "bytes": 1775
+  },
+  {
+    "path": "packages/seedance/src/index.ts",
+    "bytes": 13443
+  },
+  {
+    "path": "packages/seedance/src/surface.ts",
+    "bytes": 16053
+  },
+  {
+    "path": "packages/seedance/src/validation.ts",
+    "bytes": 884
+  },
+  {
+    "path": "packages/seedance/test/surface.test.ts",
+    "bytes": 10567
+  },
+  {
+    "path": "packages/seedance/test/validation.test.ts",
+    "bytes": 8946
+  },
+  {
+    "path": "packages/seedance-kits/README.md",
+    "bytes": 10349
+  },
+  {
+    "path": "packages/seedance-kits/kits/broll-v1.svs",
+    "bytes": 5713
+  },
+  {
+    "path": "packages/seedance-kits/kits/call-v1.svs",
+    "bytes": 5603
+  },
+  {
+    "path": "packages/seedance-kits/kits/camera-reference-v1.svs",
+    "bytes": 953
+  },
+  {
+    "path": "packages/seedance-kits/kits/motion-reference-v1.svs",
+    "bytes": 909
+  },
+  {
+    "path": "packages/seedance-kits/kits/podcast-v1.svs",
+    "bytes": 5594
+  },
+  {
+    "path": "packages/seedance-kits/kits/speaker-v1.svs",
+    "bytes": 5377
+  },
+  {
+    "path": "packages/seedance-kits/kits/street-interview-v1.svs",
+    "bytes": 6227
+  },
+  {
+    "path": "packages/seedance-kits/package.json",
+    "bytes": 637
+  },
+  {
+    "path": "packages/seedance-kits/test/kits.test.ts",
+    "bytes": 1703
+  },
+  {
+    "path": "packages/seedream/README.md",
+    "bytes": 909
+  },
+  {
+    "path": "packages/seedream/package.json",
+    "bytes": 663
+  },
+  {
+    "path": "packages/seedream/src/activation.ts",
+    "bytes": 1093
+  },
+  {
+    "path": "packages/seedream/src/index.ts",
+    "bytes": 5558
+  },
+  {
+    "path": "packages/seedream/src/surface.ts",
+    "bytes": 6100
+  },
+  {
+    "path": "packages/source/README.md",
+    "bytes": 847
+  },
+  {
+    "path": "packages/source/package.json",
+    "bytes": 275
+  },
+  {
+    "path": "packages/source/src/header.ts",
+    "bytes": 3556
+  },
+  {
+    "path": "packages/source/src/index.ts",
+    "bytes": 392
+  },
+  {
+    "path": "packages/source/src/unit.ts",
+    "bytes": 1504
+  },
+  {
+    "path": "packages/source/test/text.test.ts",
+    "bytes": 1985
+  },
+  {
+    "path": "packages/spatial/README.md",
+    "bytes": 3899
+  },
+  {
+    "path": "packages/spatial/package.json",
+    "bytes": 708
+  },
+  {
+    "path": "packages/spatial/src/activation.ts",
+    "bytes": 2237
+  },
+  {
+    "path": "packages/spatial/src/author.ts",
+    "bytes": 2010
+  },
+  {
+    "path": "packages/spatial/src/component.ts",
+    "bytes": 3177
+  },
+  {
+    "path": "packages/spatial/src/fragment.ts",
+    "bytes": 2205
+  },
+  {
+    "path": "packages/spatial/src/geometry.ts",
+    "bytes": 13820
+  },
+  {
+    "path": "packages/spatial/src/index.ts",
+    "bytes": 859
+  },
+  {
+    "path": "packages/spatial/src/manifest.ts",
+    "bytes": 19242
+  },
+  {
+    "path": "packages/spatial/src/schema.ts",
+    "bytes": 3430
+  },
+  {
+    "path": "packages/spatial/src/surface.ts",
+    "bytes": 13924
+  },
+  {
+    "path": "packages/spatial/src/types.ts",
+    "bytes": 2736
+  },
+  {
+    "path": "packages/spatial/test/spatial.test.ts",
+    "bytes": 13869
+  },
+  {
+    "path": "packages/speech-estimate/README.md",
+    "bytes": 6309
+  },
+  {
+    "path": "packages/speech-estimate/package.json",
+    "bytes": 481
+  },
+  {
+    "path": "packages/speech-estimate/src/cli.ts",
+    "bytes": 7274
+  },
+  {
+    "path": "packages/speech-estimate/src/index.ts",
+    "bytes": 408
+  },
+  {
+    "path": "packages/speech-estimate/src/policy.ts",
+    "bytes": 2926
+  },
+  {
+    "path": "packages/speech-estimate/src/program.ts",
+    "bytes": 7113
+  },
+  {
+    "path": "packages/speech-estimate/src/types.ts",
+    "bytes": 630
+  },
+  {
+    "path": "packages/speech-estimate/test/cli.test.ts",
+    "bytes": 1231
+  },
+  {
+    "path": "packages/speech-estimate/test/estimate.test.ts",
+    "bytes": 5991
+  },
+  {
+    "path": "packages/speech-evidence/README.md",
+    "bytes": 1987
+  },
+  {
+    "path": "packages/speech-evidence/package.json",
+    "bytes": 679
+  },
+  {
+    "path": "packages/speech-evidence/src/activation.ts",
+    "bytes": 546
+  },
+  {
+    "path": "packages/speech-evidence/src/component.ts",
+    "bytes": 3522
+  },
+  {
+    "path": "packages/speech-evidence/src/index.ts",
+    "bytes": 9501
+  },
+  {
+    "path": "packages/speech-evidence/src/transcript-document.ts",
+    "bytes": 5231
+  },
+  {
+    "path": "packages/speech-evidence/test/evidence.test.ts",
+    "bytes": 4044
+  },
+  {
+    "path": "packages/speech-evidence/test/transcript-document.test.ts",
+    "bytes": 1522
+  },
+  {
+    "path": "packages/studio/INSPECTOR.md",
+    "bytes": 6987
+  },
+  {
+    "path": "packages/studio/LOCALIZATION.md",
+    "bytes": 3882
+  },
+  {
+    "path": "packages/studio/README.md",
+    "bytes": 24057
+  },
+  {
+    "path": "packages/studio/index.html",
+    "bytes": 322
+  },
+  {
+    "path": "packages/studio/locales/en.json",
+    "bytes": 7946
+  },
+  {
+    "path": "packages/studio/locales/zh-CN.json",
+    "bytes": 7899
+  },
+  {
+    "path": "packages/studio/package.json",
+    "bytes": 1361
+  },
+  {
+    "path": "packages/studio/src/build-library.ts",
+    "bytes": 14964
+  },
+  {
+    "path": "packages/studio/src/cli.ts",
+    "bytes": 1060
+  },
+  {
+    "path": "packages/studio/src/companion-assembly.ts",
+    "bytes": 1758
+  },
+  {
+    "path": "packages/studio/src/compile.ts",
+    "bytes": 6105
+  },
+  {
+    "path": "packages/studio/src/domain.ts",
+    "bytes": 5689
+  },
+  {
+    "path": "packages/studio/src/execute.ts",
+    "bytes": 2158
+  },
+  {
+    "path": "packages/studio/src/fallback-companions.ts",
+    "bytes": 3907
+  },
+  {
+    "path": "packages/studio/src/feedback-server.ts",
+    "bytes": 3609
+  },
+  {
+    "path": "packages/studio/src/feedback-store.ts",
+    "bytes": 3083
+  },
+  {
+    "path": "packages/studio/src/feedback.ts",
+    "bytes": 2884
+  },
+  {
+    "path": "packages/studio/src/library-media.ts",
+    "bytes": 967
+  },
+  {
+    "path": "packages/studio/src/localization-node.ts",
+    "bytes": 2206
+  },
+  {
+    "path": "packages/studio/src/localization.ts",
+    "bytes": 4825
+  },
+  {
+    "path": "packages/studio/src/mutation-origin.ts",
+    "bytes": 841
+  },
+  {
+    "path": "packages/studio/src/observe.ts",
+    "bytes": 9388
+  },
+  {
+    "path": "packages/studio/src/parameter-values.ts",
+    "bytes": 9409
+  },
+  {
+    "path": "packages/studio/src/parameters.ts",
+    "bytes": 31313
+  },
+  {
+    "path": "packages/studio/src/preview/render.ts",
+    "bytes": 3106
+  },
+  {
+    "path": "packages/studio/src/preview/runtime-shim.ts",
+    "bytes": 66
+  },
+  {
+    "path": "packages/studio/src/projection.ts",
+    "bytes": 11948
+  },
+  {
+    "path": "packages/studio/src/run.ts",
+    "bytes": 3129
+  },
+  {
+    "path": "packages/studio/src/server.ts",
+    "bytes": 39347
+  },
+  {
+    "path": "packages/studio/src/session.ts",
+    "bytes": 4840
+  },
+  {
+    "path": "packages/studio/src/shared.ts",
+    "bytes": 10367
+  },
+  {
+    "path": "packages/studio/src/snapshot-cli.ts",
+    "bytes": 8826
+  },
+  {
+    "path": "packages/studio/src/snapshot.ts",
+    "bytes": 14609
+  },
+  {
+    "path": "packages/studio/src/source-transaction.ts",
+    "bytes": 2309
+  },
+  {
+    "path": "packages/studio/src/source-watch.ts",
+    "bytes": 2298
+  },
+  {
+    "path": "packages/studio/src/start.ts",
+    "bytes": 7513
+  },
+  {
+    "path": "packages/studio/src/storyboard.ts",
+    "bytes": 4930
+  },
+  {
+    "path": "packages/studio/src/studio-preflight.ts",
+    "bytes": 8091
+  },
+  {
+    "path": "packages/studio/src/studio-registry.ts",
+    "bytes": 24933
+  },
+  {
+    "path": "packages/studio/src/studio-trace.ts",
+    "bytes": 5284
+  },
+  {
+    "path": "packages/studio/src/style.css",
+    "bytes": 72744
+  },
+  {
+    "path": "packages/studio/src/surface-preview.ts",
+    "bytes": 1264
+  },
+  {
+    "path": "packages/studio/src/temporal-declarations.ts",
+    "bytes": 4398
+  },
+  {
+    "path": "packages/studio/src/temporal-edit.ts",
+    "bytes": 7718
+  },
+  {
+    "path": "packages/studio/src/temporal-graph.ts",
+    "bytes": 9318
+  },
+  {
+    "path": "packages/studio/src/temporal-inverse.ts",
+    "bytes": 13440
+  },
+  {
+    "path": "packages/studio/src/ui/artifact-name.ts",
+    "bytes": 3199
+  },
+  {
+    "path": "packages/studio/src/ui/artifact-preview.ts",
+    "bytes": 3474
+  },
+  {
+    "path": "packages/studio/src/ui/code.ts",
+    "bytes": 19718
+  },
+  {
+    "path": "packages/studio/src/ui/comments.ts",
+    "bytes": 14314
+  },
+  {
+    "path": "packages/studio/src/ui/dropdown.ts",
+    "bytes": 2804
+  },
+  {
+    "path": "packages/studio/src/ui/i18n.ts",
+    "bytes": 5654
+  },
+  {
+    "path": "packages/studio/src/ui/icons.ts",
+    "bytes": 5869
+  },
+  {
+    "path": "packages/studio/src/ui/library.ts",
+    "bytes": 30527
+  },
+  {
+    "path": "packages/studio/src/ui/main.ts",
+    "bytes": 55614
+  },
+  {
+    "path": "packages/studio/src/ui/markers.ts",
+    "bytes": 3394
+  },
+  {
+    "path": "packages/studio/src/ui/material-preview.ts",
+    "bytes": 7648
+  },
+  {
+    "path": "packages/studio/src/ui/overlay.ts",
+    "bytes": 6171
+  },
+  {
+    "path": "packages/studio/src/ui/resize.ts",
+    "bytes": 2770
+  },
+  {
+    "path": "packages/studio/src/ui/scrub-preview.ts",
+    "bytes": 4726
+  },
+  {
+    "path": "packages/studio/src/ui/selection.ts",
+    "bytes": 6400
+  },
+  {
+    "path": "packages/studio/src/ui/sidebar-panel.ts",
+    "bytes": 1389
+  },
+  {
+    "path": "packages/studio/src/ui/stage.ts",
+    "bytes": 19489
+  },
+  {
+    "path": "packages/studio/src/ui/syntax.ts",
+    "bytes": 7629
+  },
+  {
+    "path": "packages/studio/src/ui/theme.ts",
+    "bytes": 1641
+  },
+  {
+    "path": "packages/studio/src/ui/timeline.ts",
+    "bytes": 41054
+  },
+  {
+    "path": "packages/studio/src/ui/writeback.ts",
+    "bytes": 370
+  },
+  {
+    "path": "packages/studio/src/ui/zoom.ts",
+    "bytes": 5124
+  },
+  {
+    "path": "packages/studio/test/attribute-groups.test.ts",
+    "bytes": 2930
+  },
+  {
+    "path": "packages/studio/test/audio-preview.test.ts",
+    "bytes": 3361
+  },
+  {
+    "path": "packages/studio/test/build-library.test.ts",
+    "bytes": 14824
+  },
+  {
+    "path": "packages/studio/test/companion-assembly.test.ts",
+    "bytes": 1844
+  },
+  {
+    "path": "packages/studio/test/feedback.test.ts",
+    "bytes": 3132
+  },
+  {
+    "path": "packages/studio/test/localization.test.ts",
+    "bytes": 3818
+  },
+  {
+    "path": "packages/studio/test/material-companions.test.ts",
+    "bytes": 3880
+  },
+  {
+    "path": "packages/studio/test/mutation-origin.test.ts",
+    "bytes": 4482
+  },
+  {
+    "path": "packages/studio/test/parameter-companions.test.ts",
+    "bytes": 3222
+  },
+  {
+    "path": "packages/studio/test/parameter-values.test.ts",
+    "bytes": 3666
+  },
+  {
+    "path": "packages/studio/test/parameters.test.ts",
+    "bytes": 20502
+  },
+  {
+    "path": "packages/studio/test/preflight.test.ts",
+    "bytes": 2482
+  },
+  {
+    "path": "packages/studio/test/provenance.test.ts",
+    "bytes": 2669
+  },
+  {
+    "path": "packages/studio/test/registry.test.ts",
+    "bytes": 2970
+  },
+  {
+    "path": "packages/studio/test/script-syntax.test.ts",
+    "bytes": 1631
+  },
+  {
+    "path": "packages/studio/test/semantic-gesture.test.ts",
+    "bytes": 8337
+  },
+  {
+    "path": "packages/studio/test/snapshot-cli.test.ts",
+    "bytes": 4011
+  },
+  {
+    "path": "packages/studio/test/snapshot-range.test.ts",
+    "bytes": 5827
+  },
+  {
+    "path": "packages/studio/test/source-transaction.test.ts",
+    "bytes": 984
+  },
+  {
+    "path": "packages/studio/test/source-watch.test.ts",
+    "bytes": 4787
+  },
+  {
+    "path": "packages/studio/test/studio-trace.test.ts",
+    "bytes": 1674
+  },
+  {
+    "path": "packages/studio/test/temporal-graph.test.ts",
+    "bytes": 8217
+  },
+  {
+    "path": "packages/studio/test/temporal-inverse.test.ts",
+    "bytes": 12462
+  },
+  {
+    "path": "packages/studio/test/unconsumed-instant.test.ts",
+    "bytes": 6918
+  },
+  {
+    "path": "packages/studio/test/video-preview.test.ts",
+    "bytes": 5972
+  },
+  {
+    "path": "packages/studio-companion/README.md",
+    "bytes": 22116
+  },
+  {
+    "path": "packages/studio-companion/package.json",
+    "bytes": 362
+  },
+  {
+    "path": "packages/studio-companion/src/index.ts",
+    "bytes": 42610
+  },
+  {
+    "path": "packages/studio-companion/test/identity.test.ts",
+    "bytes": 1951
+  },
+  {
+    "path": "packages/temporal/EDITING.md",
+    "bytes": 3156
+  },
+  {
+    "path": "packages/temporal/README.md",
+    "bytes": 2691
+  },
+  {
+    "path": "packages/temporal/package.json",
+    "bytes": 793
+  },
+  {
+    "path": "packages/temporal/src/activation.ts",
+    "bytes": 749
+  },
+  {
+    "path": "packages/temporal/src/component.ts",
+    "bytes": 3224
+  },
+  {
+    "path": "packages/temporal/src/domain.ts",
+    "bytes": 2286
+  },
+  {
+    "path": "packages/temporal/src/extent.ts",
+    "bytes": 1897
+  },
+  {
+    "path": "packages/temporal/src/index.ts",
+    "bytes": 7207
+  },
+  {
+    "path": "packages/temporal/src/markup/context.ts",
+    "bytes": 1176
+  },
+  {
+    "path": "packages/temporal/src/markup/index.ts",
+    "bytes": 19901
+  },
+  {
+    "path": "packages/temporal/src/projection.ts",
+    "bytes": 6533
+  },
+  {
+    "path": "packages/temporal/src/rational.ts",
+    "bytes": 3173
+  },
+  {
+    "path": "packages/temporal/src/sample.ts",
+    "bytes": 1726
+  },
+  {
+    "path": "packages/temporal/src/schedule.ts",
+    "bytes": 2265
+  },
+  {
+    "path": "packages/temporal/src/studio.ts",
+    "bytes": 8448
+  },
+  {
+    "path": "packages/temporal/src/types.ts",
+    "bytes": 3457
+  },
+  {
+    "path": "packages/temporal/test/markup.test.ts",
+    "bytes": 5064
+  },
+  {
+    "path": "packages/temporal/test/temporal.test.ts",
+    "bytes": 7756
+  },
+  {
+    "path": "packages/text/README.md",
+    "bytes": 2827
+  },
+  {
+    "path": "packages/text/package.json",
+    "bytes": 555
+  },
+  {
+    "path": "packages/text/src/activation.ts",
+    "bytes": 1128
+  },
+  {
+    "path": "packages/text/src/component.ts",
+    "bytes": 2325
+  },
+  {
+    "path": "packages/text/src/fragment.ts",
+    "bytes": 2058
+  },
+  {
+    "path": "packages/text/src/frontend.ts",
+    "bytes": 1539
+  },
+  {
+    "path": "packages/text/src/index.ts",
+    "bytes": 776
+  },
+  {
+    "path": "packages/text/src/manifest.ts",
+    "bytes": 8662
+  },
+  {
+    "path": "packages/text/src/program.ts",
+    "bytes": 16131
+  },
+  {
+    "path": "packages/text/src/recipe.ts",
+    "bytes": 7978
+  },
+  {
+    "path": "packages/text/src/surface.ts",
+    "bytes": 8326
+  },
+  {
+    "path": "packages/text/src/types.ts",
+    "bytes": 2773
+  },
+  {
+    "path": "packages/text/test/text.test.ts",
+    "bytes": 8734
+  },
+  {
+    "path": "packages/text-fine/README.md",
+    "bytes": 4962
+  },
+  {
+    "path": "packages/text-fine/package.json",
+    "bytes": 1435
+  },
+  {
+    "path": "packages/text-fine/src/activation.ts",
+    "bytes": 2406
+  },
+  {
+    "path": "packages/text-fine/src/component.ts",
+    "bytes": 4169
+  },
+  {
+    "path": "packages/text-fine/src/index.ts",
+    "bytes": 1075
+  },
+  {
+    "path": "packages/text-fine/src/manifest.ts",
+    "bytes": 44265
+  },
+  {
+    "path": "packages/text-fine/src/program.ts",
+    "bytes": 25653
+  },
+  {
+    "path": "packages/text-fine/src/studio.ts",
+    "bytes": 7178
+  },
+  {
+    "path": "packages/text-fine/src/surface.ts",
+    "bytes": 45343
+  },
+  {
+    "path": "packages/text-fine/src/types.ts",
+    "bytes": 3317
+  },
+  {
+    "path": "packages/text-fine/test/text-fine.test.ts",
+    "bytes": 32440
+  },
+  {
+    "path": "packages/timeline/README.md",
+    "bytes": 1460
+  },
+  {
+    "path": "packages/timeline/package.json",
+    "bytes": 527
+  },
+  {
+    "path": "packages/timeline/src/activation.ts",
+    "bytes": 490
+  },
+  {
+    "path": "packages/timeline/src/component.ts",
+    "bytes": 739
+  },
+  {
+    "path": "packages/timeline/src/identity.ts",
+    "bytes": 2424
+  },
+  {
+    "path": "packages/timeline/src/index.ts",
+    "bytes": 442
+  },
+  {
+    "path": "packages/timeline/src/manifest.ts",
+    "bytes": 1392
+  },
+  {
+    "path": "packages/timeline/src/types.ts",
+    "bytes": 562
+  },
+  {
+    "path": "packages/timeline-author/README.md",
+    "bytes": 7317
+  },
+  {
+    "path": "packages/timeline-author/package.json",
+    "bytes": 919
+  },
+  {
+    "path": "packages/timeline-author/src/activation.ts",
+    "bytes": 1871
+  },
+  {
+    "path": "packages/timeline-author/src/component.ts",
+    "bytes": 5557
+  },
+  {
+    "path": "packages/timeline-author/src/fragment.ts",
+    "bytes": 15545
+  },
+  {
+    "path": "packages/timeline-author/src/index.ts",
+    "bytes": 966
+  },
+  {
+    "path": "packages/timeline-author/src/manifest.ts",
+    "bytes": 11575
+  },
+  {
+    "path": "packages/timeline-author/src/program.ts",
+    "bytes": 5078
+  },
+  {
+    "path": "packages/timeline-author/src/studio.ts",
+    "bytes": 15450
+  },
+  {
+    "path": "packages/timeline-author/src/surface.ts",
+    "bytes": 9173
+  },
+  {
+    "path": "packages/timeline-author/src/types.ts",
+    "bytes": 1511
+  },
+  {
+    "path": "packages/timeline-author/test/program.test.ts",
+    "bytes": 5199
+  },
+  {
+    "path": "packages/timeline-author/test/studio.test.ts",
+    "bytes": 2180
+  },
+  {
+    "path": "packages/timeline-author/test/surface.test.ts",
+    "bytes": 8271
+  },
+  {
+    "path": "packages/video/README.md",
+    "bytes": 3335
+  },
+  {
+    "path": "packages/video/package.json",
+    "bytes": 2737
+  },
+  {
+    "path": "packages/video/src/commands.ts",
+    "bytes": 710
+  },
+  {
+    "path": "packages/video/src/compiler.ts",
+    "bytes": 3102
+  },
+  {
+    "path": "packages/video/src/distribution.ts",
+    "bytes": 3738
+  },
+  {
+    "path": "packages/video/src/index.ts",
+    "bytes": 538
+  },
+  {
+    "path": "packages/video/src/package-selection.ts",
+    "bytes": 1295
+  },
+  {
+    "path": "packages/video/src/vocabulary.ts",
+    "bytes": 17002
+  },
+  {
+    "path": "packages/video/test/cli.test.ts",
+    "bytes": 6870
+  },
+  {
+    "path": "packages/video/test/packages.ts",
+    "bytes": 3156
+  },
+  {
+    "path": "packages/video/test/vocabulary.test.ts",
+    "bytes": 7166
+  },
+  {
+    "path": "packages/visual-track/README.md",
+    "bytes": 7621
+  },
+  {
+    "path": "packages/visual-track/package.json",
+    "bytes": 1227
+  },
+  {
+    "path": "packages/visual-track/preview/build.svrun",
+    "bytes": 135
+  },
+  {
+    "path": "packages/visual-track/preview/preview.svml",
+    "bytes": 2638
+  },
+  {
+    "path": "packages/visual-track/preview/recipes.svs",
+    "bytes": 480
+  },
+  {
+    "path": "packages/visual-track/src/activation.ts",
+    "bytes": 1656
+  },
+  {
+    "path": "packages/visual-track/src/author.ts",
+    "bytes": 8958
+  },
+  {
+    "path": "packages/visual-track/src/component.ts",
+    "bytes": 7382
+  },
+  {
+    "path": "packages/visual-track/src/fragment.ts",
+    "bytes": 3135
+  },
+  {
+    "path": "packages/visual-track/src/frame-treatment.ts",
+    "bytes": 2557
+  },
+  {
+    "path": "packages/visual-track/src/index.ts",
+    "bytes": 2396
+  },
+  {
+    "path": "packages/visual-track/src/layers.ts",
+    "bytes": 14343
+  },
+  {
+    "path": "packages/visual-track/src/lower.ts",
+    "bytes": 13892
+  },
+  {
+    "path": "packages/visual-track/src/manifest.ts",
+    "bytes": 31594
+  },
+  {
+    "path": "packages/visual-track/src/motion.ts",
+    "bytes": 6329
+  },
+  {
+    "path": "packages/visual-track/src/program.ts",
+    "bytes": 8602
+  },
+  {
+    "path": "packages/visual-track/src/source-time.ts",
+    "bytes": 10326
+  },
+  {
+    "path": "packages/visual-track/src/spatial.ts",
+    "bytes": 2780
+  },
+  {
+    "path": "packages/visual-track/src/studio.ts",
+    "bytes": 10002
+  },
+  {
+    "path": "packages/visual-track/src/surface.ts",
+    "bytes": 33457
+  },
+  {
+    "path": "packages/visual-track/src/types.ts",
+    "bytes": 7685
+  },
+  {
+    "path": "packages/visual-track/test/studio-companion.test.ts",
+    "bytes": 1192
+  },
+  {
+    "path": "packages/visual-track/test/visual-track.test.ts",
+    "bytes": 36158
+  },
+  {
+    "path": "packages/volcengine-matting/README.md",
+    "bytes": 5000
+  },
+  {
+    "path": "packages/volcengine-matting/package.json",
+    "bytes": 639
+  },
+  {
+    "path": "packages/volcengine-matting/src/activation.ts",
+    "bytes": 887
+  },
+  {
+    "path": "packages/volcengine-matting/src/index.ts",
+    "bytes": 2354
+  },
+  {
+    "path": "packages/volcengine-matting/src/surface.ts",
+    "bytes": 2951
+  },
+  {
+    "path": "packages/volcengine-matting/test/matting.test.ts",
+    "bytes": 1772
+  },
+  {
+    "path": "packages/wan/README.md",
+    "bytes": 1478
+  },
+  {
+    "path": "packages/wan/package.json",
+    "bytes": 658
+  },
+  {
+    "path": "packages/wan/src/activation.ts",
+    "bytes": 975
+  },
+  {
+    "path": "packages/wan/src/index.ts",
+    "bytes": 6890
+  },
+  {
+    "path": "packages/wan/src/surface.ts",
+    "bytes": 7314
+  },
+  {
+    "path": "packages/whisperx/README.md",
+    "bytes": 4194
+  },
+  {
+    "path": "packages/whisperx/package.json",
+    "bytes": 1220
+  },
+  {
+    "path": "packages/whisperx/src/activation.ts",
+    "bytes": 833
+  },
+  {
+    "path": "packages/whisperx/src/cli.ts",
+    "bytes": 6885
+  },
+  {
+    "path": "packages/whisperx/src/component.ts",
+    "bytes": 2627
+  },
+  {
+    "path": "packages/whisperx/src/evidence.ts",
+    "bytes": 3189
+  },
+  {
+    "path": "packages/whisperx/src/fragment.ts",
+    "bytes": 2523
+  },
+  {
+    "path": "packages/whisperx/src/index.ts",
+    "bytes": 707
+  },
+  {
+    "path": "packages/whisperx/src/manifest.ts",
+    "bytes": 4535
+  },
+  {
+    "path": "packages/whisperx/src/surface.ts",
+    "bytes": 3384
+  },
+  {
+    "path": "packages/whisperx/src/transcript.ts",
+    "bytes": 3869
+  },
+  {
+    "path": "packages/whisperx/src/types.ts",
+    "bytes": 781
+  },
+  {
+    "path": "packages/whisperx/test/cli.test.ts",
+    "bytes": 10023
+  },
+  {
+    "path": "packages/whisperx/test/whisperx.test.ts",
+    "bytes": 6175
+  },
+  {
+    "path": "packages/workspace/README.md",
+    "bytes": 215
+  },
+  {
+    "path": "packages/workspace/package.json",
+    "bytes": 318
+  },
+  {
+    "path": "packages/workspace/src/index.ts",
+    "bytes": 1231
+  },
+  {
+    "path": "packages/workspace/src/node/index.ts",
+    "bytes": 304
+  },
+  {
+    "path": "packages/workspace/src/node/workspace.ts",
+    "bytes": 11762
+  },
+  {
+    "path": "packages/workspace/test/node/workspace.test.ts",
+    "bytes": 3002
+  },
+  {
+    "path": "packages/yt-dlp/README.md",
+    "bytes": 2411
+  },
+  {
+    "path": "packages/yt-dlp/package.json",
+    "bytes": 466
+  },
+  {
+    "path": "packages/yt-dlp/runtime/README.md",
+    "bytes": 1529
+  },
+  {
+    "path": "packages/yt-dlp/runtime/pyproject.toml",
+    "bytes": 400
+  },
+  {
+    "path": "packages/yt-dlp/runtime/uv.lock",
+    "bytes": 131903
+  },
+  {
+    "path": "packages/yt-dlp/src/cli.ts",
+    "bytes": 3815
+  },
+  {
+    "path": "packages/yt-dlp/src/download.ts",
+    "bytes": 4845
+  },
+  {
+    "path": "packages/yt-dlp/src/environment.ts",
+    "bytes": 2356
+  },
+  {
+    "path": "packages/yt-dlp/src/index.ts",
+    "bytes": 138
+  },
+  {
+    "path": "packages/yt-dlp/test/cli.test.ts",
+    "bytes": 1706
+  },
+  {
+    "path": "packages/yt-dlp/test/download.test.ts",
+    "bytes": 5179
+  },
+  {
+    "path": "pnpm-lock.yaml",
+    "bytes": 196982
+  },
+  {
+    "path": "pnpm-workspace.yaml",
+    "bytes": 256
+  },
+  {
+    "path": "scripts/build-public-type-entry.mjs",
+    "bytes": 1668
+  },
+  {
+    "path": "scripts/build-public-types.mjs",
+    "bytes": 3434
+  },
+  {
+    "path": "scripts/check-distribution.mjs",
+    "bytes": 10368
+  },
+  {
+    "path": "scripts/check-independent-audio-track.mjs",
+    "bytes": 5285
+  },
+  {
+    "path": "scripts/check-independent-author-packages.mjs",
+    "bytes": 7486
+  },
+  {
+    "path": "scripts/check-independent-components.mjs",
+    "bytes": 8009
+  },
+  {
+    "path": "scripts/check-independent-fine-packages.mjs",
+    "bytes": 7335
+  },
+  {
+    "path": "scripts/check-independent-hypihub.mjs",
+    "bytes": 5553
+  },
+  {
+    "path": "scripts/check-independent-ranking.mjs",
+    "bytes": 4851
+  },
+  {
+    "path": "scripts/check-independent-runtime-packages.mjs",
+    "bytes": 7495
+  },
+  {
+    "path": "scripts/check-independent-seedance.mjs",
+    "bytes": 4998
+  },
+  {
+    "path": "scripts/check-independent-visual-track.mjs",
+    "bytes": 5310
+  },
+  {
+    "path": "scripts/check-release-candidate.mjs",
+    "bytes": 1700
+  },
+  {
+    "path": "scripts/configure-release-publishers.mjs",
+    "bytes": 2269
+  },
+  {
+    "path": "scripts/distribution-ownership.mjs",
+    "bytes": 3107
+  },
+  {
+    "path": "scripts/independent-consumer.mjs",
+    "bytes": 2190
+  },
+  {
+    "path": "scripts/pack-distribution.mjs",
+    "bytes": 6063
+  },
+  {
+    "path": "scripts/pack-independent-package.mjs",
+    "bytes": 11547
+  },
+  {
+    "path": "scripts/pack-release-candidate.mjs",
+    "bytes": 330
+  },
+  {
+    "path": "scripts/publish-release-candidate.mjs",
+    "bytes": 4733
+  },
+  {
+    "path": "scripts/release-candidate.mjs",
+    "bytes": 5579
+  },
+  {
+    "path": "scripts/release-dependencies.mjs",
+    "bytes": 547
+  },
+  {
+    "path": "scripts/select-release-run.mjs",
+    "bytes": 2588
+  },
+  {
+    "path": "scripts/test/release-dependencies.test.mjs",
+    "bytes": 2694
+  },
+  {
+    "path": "scripts/test/select-release-run.test.mjs",
+    "bytes": 1541
+  },
+  {
+    "path": "scripts/tsconfig.public-types.json",
+    "bytes": 386
+  },
+  {
+    "path": "skills/hypit/SKILL.md",
+    "bytes": 29364
+  },
+  {
+    "path": "skills/hypit/agents/openai.yaml",
+    "bytes": 212
+  },
+  {
+    "path": "skills/hypit/references/creation/brief.md",
+    "bytes": 5741
+  },
+  {
+    "path": "skills/hypit/references/creation/project-files.md",
+    "bytes": 14091
+  },
+  {
+    "path": "skills/hypit/references/creation/reference-video.md",
+    "bytes": 16585
+  },
+  {
+    "path": "skills/hypit/references/creation/script-and-time.md",
+    "bytes": 17219
+  },
+  {
+    "path": "skills/hypit/references/creation/transformations.md",
+    "bytes": 9976
+  },
+  {
+    "path": "skills/hypit/references/environment/distribution.md",
+    "bytes": 9223
+  },
+  {
+    "path": "skills/hypit/references/environment/local-tools.md",
+    "bytes": 24981
+  },
+  {
+    "path": "skills/hypit/references/environment/model-and-provider.md",
+    "bytes": 17787
+  },
+  {
+    "path": "skills/hypit/references/environment/profile.md",
+    "bytes": 14522
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/b-roll.md",
+    "bytes": 6487
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/caption-tracking.md",
+    "bytes": 8113
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/captions.md",
+    "bytes": 17076
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/examples/conversation-images.md",
+    "bytes": 11851
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/examples/image-direction.md",
+    "bytes": 13409
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/generated-dependencies.md",
+    "bytes": 5772
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/graphic-compositions.md",
+    "bytes": 5975
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/image-direction.md",
+    "bytes": 11726
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/motion-graphics.md",
+    "bytes": 4825
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/screen-demonstrations.md",
+    "bytes": 3554
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/sound-mix.md",
+    "bytes": 4930
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/video-direction.md",
+    "bytes": 22279
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/voice-and-performance.md",
+    "bytes": 14995
+  },
+  {
+    "path": "skills/hypit/references/playbooks/craft/voice-direction.md",
+    "bytes": 6401
+  },
+  {
+    "path": "skills/hypit/references/playbooks/formats/narration-led-demo.md",
+    "bytes": 5292
+  },
+  {
+    "path": "skills/hypit/references/playbooks/formats/presenter-led-explainer.md",
+    "bytes": 12236
+  },
+  {
+    "path": "skills/hypit/references/playbooks/formats/ranking-listicle.md",
+    "bytes": 4406
+  },
+  {
+    "path": "skills/hypit/references/playbooks/formats/short-drama.md",
+    "bytes": 5840
+  },
+  {
+    "path": "skills/hypit/references/playbooks/formats/street-interview.md",
+    "bytes": 5661
+  },
+  {
+    "path": "skills/hypit/references/playbooks/formats/talking-head.md",
+    "bytes": 5638
+  },
+  {
+    "path": "skills/hypit/references/playbooks/formats/two-person-podcast.md",
+    "bytes": 6109
+  },
+  {
+    "path": "skills/hypit/references/playbooks/index.md",
+    "bytes": 6279
+  },
+  {
+    "path": "skills/hypit/references/production/audio-clips.md",
+    "bytes": 2378
+  },
+  {
+    "path": "skills/hypit/references/production/authoring.md",
+    "bytes": 16174
+  },
+  {
+    "path": "skills/hypit/references/production/browser-capture.md",
+    "bytes": 6519
+  },
+  {
+    "path": "skills/hypit/references/production/builds.md",
+    "bytes": 18446
+  },
+  {
+    "path": "skills/hypit/references/production/caption-authoring.md",
+    "bytes": 10890
+  },
+  {
+    "path": "skills/hypit/references/production/caption-presentation.md",
+    "bytes": 4366
+  },
+  {
+    "path": "skills/hypit/references/production/component-design.md",
+    "bytes": 16307
+  },
+  {
+    "path": "skills/hypit/references/production/component-sharing.md",
+    "bytes": 7036
+  },
+  {
+    "path": "skills/hypit/references/production/component-visuals.md",
+    "bytes": 9899
+  },
+  {
+    "path": "skills/hypit/references/production/examples/detail.svrun",
+    "bytes": 711
+  },
+  {
+    "path": "skills/hypit/references/production/examples/direction.svs",
+    "bytes": 337
+  },
+  {
+    "path": "skills/hypit/references/production/examples/look.svs",
+    "bytes": 156
+  },
+  {
+    "path": "skills/hypit/references/production/examples/material.svrun",
+    "bytes": 154
+  },
+  {
+    "path": "skills/hypit/references/production/examples/production.svml",
+    "bytes": 3836
+  },
+  {
+    "path": "skills/hypit/references/production/examples/production.svrun",
+    "bytes": 138
+  },
+  {
+    "path": "skills/hypit/references/production/examples/visuals.ts",
+    "bytes": 2237
+  },
+  {
+    "path": "skills/hypit/references/production/fonts-and-text.md",
+    "bytes": 7958
+  },
+  {
+    "path": "skills/hypit/references/production/image-operations.md",
+    "bytes": 4037
+  },
+  {
+    "path": "skills/hypit/references/production/index.md",
+    "bytes": 4843
+  },
+  {
+    "path": "skills/hypit/references/production/media.md",
+    "bytes": 13640
+  },
+  {
+    "path": "skills/hypit/references/production/prompt-kits.md",
+    "bytes": 7258
+  },
+  {
+    "path": "skills/hypit/references/production/rendering.md",
+    "bytes": 8263
+  },
+  {
+    "path": "skills/hypit/references/production/review.md",
+    "bytes": 11900
+  },
+  {
+    "path": "skills/hypit/references/production/runs.md",
+    "bytes": 9392
+  },
+  {
+    "path": "skills/hypit/references/production/script-syntax.md",
+    "bytes": 14179
+  },
+  {
+    "path": "skills/hypit/references/production/snapshots.md",
+    "bytes": 5080
+  },
+  {
+    "path": "skills/hypit/references/production/source-syntax.md",
+    "bytes": 8154
+  },
+  {
+    "path": "skills/hypit/references/production/spatial.md",
+    "bytes": 11181
+  },
+  {
+    "path": "skills/hypit/references/production/studio-companions.md",
+    "bytes": 12625
+  },
+  {
+    "path": "skills/hypit/references/production/studio.md",
+    "bytes": 19011
+  },
+  {
+    "path": "skills/hypit/references/production/system.md",
+    "bytes": 6107
+  },
+  {
+    "path": "skills/hypit/references/production/timeline.md",
+    "bytes": 3358
+  },
+  {
+    "path": "skills/hypit/references/production/timing.md",
+    "bytes": 3474
+  },
+  {
+    "path": "skills/hypit/references/production/track-authoring.md",
+    "bytes": 15112
+  },
+  {
+    "path": "skills/hypit/references/production/tracks.md",
+    "bytes": 2405
+  },
+  {
+    "path": "skills/hypit/references/production/video-downloads.md",
+    "bytes": 2646
+  },
+  {
+    "path": "skills/hypit/references/production/visual-clips.md",
+    "bytes": 4141
+  },
+  {
+    "path": "skills/hypit/references/production/vocabulary.md",
+    "bytes": 7485
+  },
+  {
+    "path": "test/alpha-video-fixture.ts",
+    "bytes": 4486
+  },
+  {
+    "path": "test/fixture-resource.ts",
+    "bytes": 430
+  },
+  {
+    "path": "test/narrative-caption.test.ts",
+    "bytes": 9928
+  },
+  {
+    "path": "test/run.mjs",
+    "bytes": 2607
+  },
+  {
+    "path": "test/support/video-domain.ts",
+    "bytes": 1119
+  },
+  {
+    "path": "test/temporal-fixture.ts",
+    "bytes": 6554
+  },
+  {
+    "path": "test/timeline-fixture.ts",
+    "bytes": 4524
+  },
+  {
+    "path": "tsconfig.json",
+    "bytes": 695
+  }
+]

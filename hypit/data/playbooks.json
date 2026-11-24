@@ -1,0 +1,28 @@
+{
+  "craft": [
+    "skills/hypit/references/playbooks/craft/b-roll.md",
+    "skills/hypit/references/playbooks/craft/caption-tracking.md",
+    "skills/hypit/references/playbooks/craft/captions.md",
+    "skills/hypit/references/playbooks/craft/examples/conversation-images.md",
+    "skills/hypit/references/playbooks/craft/examples/image-direction.md",
+    "skills/hypit/references/playbooks/craft/generated-dependencies.md",
+    "skills/hypit/references/playbooks/craft/graphic-compositions.md",
+    "skills/hypit/references/playbooks/craft/image-direction.md",
+    "skills/hypit/references/playbooks/craft/motion-graphics.md",
+    "skills/hypit/references/playbooks/craft/screen-demonstrations.md",
+    "skills/hypit/references/playbooks/craft/sound-mix.md",
+    "skills/hypit/references/playbooks/craft/video-direction.md",
+    "skills/hypit/references/playbooks/craft/voice-and-performance.md",
+    "skills/hypit/references/playbooks/craft/voice-direction.md"
+  ],
+  "formats": [
+    "skills/hypit/references/playbooks/formats/narration-led-demo.md",
+    "skills/hypit/references/playbooks/formats/presenter-led-explainer.md",
+    "skills/hypit/references/playbooks/formats/ranking-listicle.md",
+    "skills/hypit/references/playbooks/formats/short-drama.md",
+    "skills/hypit/references/playbooks/formats/street-interview.md",
+    "skills/hypit/references/playbooks/formats/talking-head.md",
+    "skills/hypit/references/playbooks/formats/two-person-podcast.md"
+  ],
+  "count": 21
+}

@@ -1,0 +1,12 @@
+[
+  {"id": "D1", "claim": "README: 一键部署到 Vercel / Cloudflare Pages / Docker", "measured": "package.json scripts 含 deploy（opennextjs-cloudflare）、build（next build + serwist build）；README 给出 Vercel button 与 docker run 命令。三套入口均属实，但 require pnpm lockfile 和 opennextjs 专用配置。", "verdict": "属实"},
+  {"id": "D2", "claim": "README:『不存任何平台密码』/『一切在浏览器内运行'（引自 maitian README 风格说法，skid 无此声明）", "measured": "skid-homework README 没有类似隐私声明；相反 AI key 存 IndexedDB、聊天记录也本地持久化。用户要自行评估数据外发到 Gemini/OpenAI 的风险。", "verdict": "不适用：本项目无此声明"},
+  {"id": "D3", "claim": "README:『支持解析多张图片/PDF 文件'，OCR 通过 OpenCV.js 客户端实现", "measured": "src/components/OpenCVLoader.tsx 加载 public/opencv.js； UploadArea.tsx 接收多文件。PDF 通过 pdf.js 转 canvas 后喂给视觉模型。客户端 OCR 只是预处理，真正识别靠 LLM vision。", "verdict": "部分属实：OpenCV.js 是图像处理，文字识别靠 LLM vision"},
+  {"id": "D4", "claim": "README: ADB 截屏实验性功能需要 WebUSB", "measured": "package.json 依赖 @yume-chan/adb / adb-daemon-webusb / adb-credential-web。README FAQ 明确标注实验性并提示 iOS 不可用需 KDE Connect 替代。", "verdict": "属实"},
+  {"id": "D5", "claim": "FAQ:『请移步讨论区'处理 bug —— issues 只收 reproducible 的 bug", "measured": "README 末尾写『如果你发现了 Bug, 请到 issues 反馈, 否则请移步讨论区』。说明作者有意把讨论区和 issues 分开用途。", "verdict": "属实"},
+  {"id": "D6", "claim": "代码结构：Next.js App Router + shadcn/ui 组件树", "measured": "src/app/{page,layout,providers,serwist}.tsx 是标准 Next 15 App Router；components/ 下全是 Radix UI 封装（shadcn）。", "verdict": "属实"},
+  {"id": "D7", "claim": "Prompt 文件是 .md 而非硬编码字符串——方便用户直接编辑", "measured": "src/ai/prompts/*.md 直接 by prompt-manager.ts 加载，Ctrl+X 编辑器读取写入同目录（或 IndexedDB 缓存）。这确实是设计决策。", "verdict": "属实"},
+  {"id": "D8", "claim": "README 说 GPL-3.0，但 package.json 没写 license 字段", "measured": "package.json 无 license 键；LICENSE 根目录文件存在且头部确认 GPLv3。npm install 时不会从 package.json 读 license，以 LICENSE 文件为准。", "verdict": "口径一致但 package.json 缺字段（小问题）"},
+  {"id": "D9", "claim": "开源但官方实例 skid.996every.day 不归本仓库管辖", "measured": "README 列的是外部链接，不在仓库 assets/。本包无法保证该实例的行为或安全性。", "verdict": "属实"},
+  {"id": "D10", "claim": "GitHub Discussion 是主交流渠道，Telegram 群仅接受 SFW", "measured": "README 同时放了 Telegram t.me/earthsworth 和 GitHub discussions 两个链接，后者为主渠道（issues 只收 bug）。Telegram 明确 SFW-only。", "verdict": "属实"}
+]

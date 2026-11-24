@@ -1,0 +1,65 @@
+{
+  "repo": "wangzan101/Mika",
+  "url": "https://github.com/wangzan101/Mika",
+  "homepage": "https://mikaphone.com",
+  "name": "Mika",
+  "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+  "version": "0.1.47",
+  "license": "Apache-2.0",
+  "author": "wangzan101",
+  "language": "Kotlin / Java (Android)",
+  "default_branch": "main",
+  "stargazers_count": 9099,
+  "forks_count": 2052,
+  "created_at": "2026-10-29T14:34:07Z",
+  "pushed_at": "2026-11-18T18:27:41Z",
+  "verified_at": "2026-11-19",
+  "note": "star/fork/pushed_at 为 2026-11-19 GitHub API 快照。这是 Android 原生应用，非 Web/Node/Python 项目，无法在 macOS 本地运行；只能下载 APK 安装到 Android 设备。实时值以 --refresh 为准。",
+  "build_requirements": {
+    "jvm": "Java 17 (Temurin)",
+    "android_sdk": "compileSdk 36, targetSdk 35, minSdk 29",
+    "gradle": "8.11.1 via wrapper",
+    "memory": "-Xmx2g (gradle.properties)",
+    "optional": "Android platform-tools (adb) for phone control setup"
+  },
+  "modules": [
+    {
+      "name": ":core",
+      "desc": "纯 Kotlin/JVM，平台无关：主循环、能力、上下文、记忆、工具引擎"
+    },
+    {
+      "name": ":app",
+      "desc": "Android 宿主：UI、前台服务、虚拟屏、无障碍、WebView、沙箱"
+    }
+  ],
+  "key_features": [
+    "后台虚拟屏操作 APP（不干扰用户主屏幕）",
+    "支持任何 APP/网站（通过 Accessibility + WebView）",
+    "多模型 provider：DeepSeek / 通义千问 / Kimi / 智谱 / OpenAI / Gemini / Ollama / LM Studio 等",
+    "可自建模型（Custom provider + OpenAI-compatible endpoint）",
+    "内置 Linux 沙箱（arm64 only，Python/Node/Shell）",
+    "语音输入（ASR）+ 手持对讲",
+    "定时任务与条件触发",
+    "计算机 CLI/MCP 远程接入（tools/relay/ Go 网关）"
+  ],
+  "quick_start": [
+    "1. 下载 APK: https://github.com/wangzan101/Mika/releases/latest",
+    "2. 设置模型 API Key (Settings > Model)",
+    "3. 配对手机控制: Settings > Phone control > Pair again (需 Android 12+)",
+    "4. 尝试说 'Set alarms for 9:40 and 10:00 tomorrow morning'"
+  ],
+  "cli_commands": {
+    "mika devices --json": "列出连接的 Android 设备",
+    "mika connect --device SERIAL": "配对并启动手机上的 helper 服务",
+    "mika doctor --device SERIAL": "检查连接状态（只读，不提交任务）",
+    "mika task --help": "查看任务提交命令",
+    "mika ui --help": "查看 UI 交互命令"
+  },
+  "architecture_notes": "仓库分两个 Gradle 模块：:core (Kotlin JVM, 无 Android 依赖) 和 :app (Android 宿主)。核心逻辑可在电脑上通过单元测试和假模型验证。详细架构见 docs/dev/architecture.md。",
+  "privacy_safety": "无 Mika 服务器；所有数据存储在手机上。API keys 加密存储；对话记录保存在本地。第三方 APP 自动化可能违反其 ToS，用户自行判断风险。",
+  "deployment_options": [
+    "APK 直装（推荐普通用户）",
+    "源码编译（需 Android Studio + JDK 17 + Android SDK 36）",
+    "CLI 远程接入（tools/mika/ Python CLI + tools/relay/ Go 网关）"
+  ]
+}

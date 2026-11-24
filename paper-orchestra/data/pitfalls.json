@@ -1,0 +1,14 @@
+[
+  {"id": "P1", "title": "不是 Google 官方产品——disclaimer 写在 README 末尾", "detail": "README 最后一行明确：This is not an officially supported Google product. 虽然是 Google Cloud AI Research 团队的作品，但不代表 Google 官方背书或支持。出问题只能靠自己或 community。", "severity": "高"},
+  {"id": "P2", "title": "数据集暂未公开——没有测试数据跑不了完整 pipeline", "detail": "README 白纸黑字：The dataset used for paper generation is **not included** in this code repository. It will be released separately at a later date. 目前只有 templates/ 和少量 examples/，但没有真实的 raw_materials 没法端到端跑通。可以先看 frontend demo 里有个 cvpr_example.json 看看格式。", "severity": "高"},
+  {"id": "P3", "title": "Semantic Scholar API Key 是独立申请的——不是 Gemini API Key", "detail": "SEMANTIC_SCHOLAR_API_KEY 在 .env 里单独一行，和 GEMINI_API_KEY / OPENAI_API_KEY 分开。很多人会漏填这个导致文献检索直接失败。申请地址：https://api.semanticscholar.org/authenticate（免费但有 rate limit）。", "severity": "中"},
+  {"id": "P4", "title": "LLM 调用集中在 4 个 agent，每个都多次调 API", "detail": "outline → lit_review → section_writing → content_refinement 四步串行，每步都可能重试（max_n_tries=3）。一个完整 pipeline 下来 Gemini API 费用不低，且速度受限于最慢的那个 agent。", "severity": "中"},
+  {"id": "P5", "title": "plots 生成需要额外配置 matplotlib + opencv-python", "detail": "requirements.txt 里有 matplotlib / opencv-python / PyMuPDF 等依赖。--use_plotting true 时才走 plotting_agent，但这一步还会额外调 image_model_name（默认 gemini-3-pro-image-preview）生成配图。", "severity": "低"},
+  {"id": "P6", "title": "conference guidelines.md 必须存在于模板目录下", "detail": "outline_agent 会 load conference_guidelines_file，如果模板目录下没有这个文件会报 FileNotFoundError。cvpr2025 和 iclr2025 模板包里都自带了这个文件，自定义模板时别忘了加。", "severity": "中"},
+  {"id": "P7", "title": "输出 PDF 依赖本地安装 LaTeX 编译工具链", "detail": "pipeline 最后会调 pdflatex / bibtex 等命令生成最终 PDF。如果本机没装 TeX Live / MacTeX，run 到后期会失败。建议先跑 `xelatex --version` 确认环境。", "severity": "中"},
+  {"id": "P8", "title": "evaluation 脚本需要真实论文数据才能跑出有意义的数字", "detail": "autoraters/citation_f1.py 和 sxs_paper_quality.py 都需要对比 generated paper vs ground truth。没有数据集的时候这些脚本跑起来只是返回空列表或 NaN。", "severity": "低"},
+  {"id": "P9", "title": "Streamlit frontend 是独立的 demo 入口——不是 production UI", "detail": "frontend/app.py 用了 streamlit，适合本地快速体验整个 pipeline。但它读取的是 frontend/examples/cvpr_example.json，是作者预制的示例，不能直接拿来当正式生产入口。", "severity": "低"},
+  {"id": "P10", "title": "论文生成的结果不等于可发表——仍需人工大幅修改", "detail": "pipeline 的定位是「close the gap between raw research materials and submission ready papers」，注意是「submission ready」而不是「accepted」。实际投出去之前每个段落都得人工过一遍，尤其是 contribution 和 related work 部分。", "severity": "高"},
+  {"id": "P11", "title": "arXiv 已明确要求披露 AI 辅助写作——不能用此工具匿名生成后提交", "detail": "2024 年起 arXiv 和多数会议都要求作者在 submission 时声明使用了哪些 AI 工具。用 PaperOrchestra 写完直接扔上去而不声明，属于学术不端。请自行阅读各 venue 的最新 policy。", "severity": "高"},
+  {"id": "P12", "title": "本项目用 Python 3.11 硬约束——conda create -n paper_orchestra python=3.11", "detail": "README 明确写了 python=3.11，不是 3.10 也不是 3.12。google-genai SDK 对版本有要求，用错版本会 import 失败。别尝试 pyenv 切来切去。", "severity": "中"}
+]

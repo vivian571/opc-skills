@@ -1,0 +1,31 @@
+{
+  "scope": "本包只做离线索引、上游源码镜像与架构文档查阅。**不代跑 pipeline、不生成假论文、不调用任何 LLM API**。用户自行决定是否部署与使用。",
+  "source": "upstream/README.md + methods/*.py + autoraters/ + frontend/",
+  "concerns": [
+    "Google Research 开源但非官方产品（README 末尾 disclaimer: This is not an officially supported Google product）",
+    "依赖 Semantic Scholar API（需单独申请）+ Gemini/OpenAI API（消耗 token）",
+    "生成的论文质量高度依赖输入材料质量——垃圾进垃圾出",
+    "学术诚信边界：自动化论文生成可能违反多数会议/期刊的 authorship 政策"
+  ],
+  "rules": [
+    {"id": "S1", "level": "硬约束", "rule": "只跑静态读取：grep / 头读源码 / 结构化索引；不启动 python paper_writing_cli.py、不装 conda env、不连 Gemini/OpenAI API。"},
+    {"id": "S2", "level": "硬约束", "rule": "不生成 .env 文件、不存储任何 API Key（Semantic Scholar / Gemini / OpenAI）、不在本包内创建 datasets/ 目录。"},
+    {"id": "S3", "level": "硬约束", "rule": "不指导如何批量生成虚假论文、绕过 peer review、或将他人工作包装成本人成果。这是明确的学术不端。"},
+    {"id": "S4", "level": "约束", "rule": "可客观描述项目的技术架构、agent 分工、prompt 设计模式、LaTeX 模板结构——这些是事实陈述。"},
+    {"id": "S5", "level": "约束", "rule": "若用户询问『怎么用这个项目写论文』，回答应停留在技术层面（怎么配环境、怎么准备 raw_materials），并同步提醒 README 的 disclaimer 与各会议的作者政策。"},
+    {"id": "S6", "level": "约束", "rule": "Apache-2.0 授权下允许修改与分发，但必须保留版权与许可声明；商业使用需谨慎评估各会议的 auto-generation policy。"}
+  ],
+  "allowed": [
+    "查 5 个 agent 的职责划分、prompt 设计模式、参数接口",
+    "查 paper_writing_cli.py 的全部 CLI 参数与默认值",
+    "查 autoraters/ 评测脚本的逻辑与指标定义",
+    "查 templates/cvpr2025/iclr2025 的 LaTeX 结构",
+    "查 frontend/ 的 Streamlit demo 功能清单"
+  ],
+  "not_allowed": [
+    "代跑 paper_writing_cli.py 或 streamlit run frontend/app.py",
+    "生成任何 idea_sparse.md / experimental_log.md 示例（会被误用为作弊模板）",
+    "把论文的 abstract/intro/methods 等章节当作可直接提交的最终文本",
+    "指导如何在提交前隐藏 automated writing 的痕迹"
+  ]
+}

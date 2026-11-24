@@ -1,0 +1,23 @@
+{
+  "repo": "https://github.com/hypit-ai/hypit",
+  "demo": "https://hypit.ai",
+  "quickstart": "https://hypit.ai/quickstart/",
+  "develop_guide": "https://hypit.ai/guide/develop/",
+  "issues": "https://github.com/hypit-ai/hypit/issues",
+  "releases": "https://github.com/hypit-ai/hypit/releases",
+  "discord": "https://discord.gg/85hnyQnxpn",
+  "telegram": "https://t.me/hypitai",
+  "x": "https://x.com/hypitai",
+  "local_key_files": [
+    "upstream/README.md",
+    "upstream/README.zh-CN.md",
+    "upstream/LICENSE",
+    "upstream/package.json",
+    "upstream/skills/hypit/SKILL.md",
+    "upstream/docs/quickstart.md",
+    "upstream/docs/guide/skill.md",
+    "upstream/docs/guide/agents.md",
+    "upstream/docs/guide/providers.md",
+    "upstream/skills/hypit/references/playbooks/index.md"
+  ]
+}

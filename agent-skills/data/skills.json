@@ -1,0 +1,285 @@
+{
+  "repo": "addyosmani/agent-skills",
+  "url": "https://github.com/addyosmani/agent-skills",
+  "homepage": "https://skills.addy.ie",
+  "name": "agent-skills",
+  "version": "unspecified (latest main)",
+  "license": "MIT",
+  "author": "Addy Osmani",
+  "language": "JavaScript / Markdown SKILL.md",
+  "default_branch": "main",
+  "stargazers_count": 118007,
+  "forks_count": 12346,
+  "created_at": "2026-02-15T20:20:26Z",
+  "pushed_at": "2026-11-14T04:33:56Z",
+  "verified_at": "2026-11-16",
+  "note": "star/fork/pushed_at 为 2026-11-16 通过 GitHub API 核实的快照，实时值以 --refresh 为准。",
+  "total_skills": 25,
+  "phases": {
+    "define": [
+      "interview-me",
+      "idea-refine",
+      "spec-driven-development"
+    ],
+    "plan": [
+      "planning-and-task-breakdown"
+    ],
+    "build": [
+      "incremental-implementation",
+      "test-driven-development",
+      "context-engineering",
+      "source-driven-development",
+      "doubt-driven-development",
+      "frontend-ui-engineering",
+      "api-and-interface-design"
+    ],
+    "verify": [
+      "browser-testing-with-devtools",
+      "debugging-and-error-recovery"
+    ],
+    "review": [
+      "code-review-and-quality",
+      "code-simplification",
+      "security-and-hardening",
+      "performance-optimization"
+    ],
+    "ship": [
+      "git-workflow-and-versioning",
+      "ci-cd-and-automation",
+      "deprecation-and-migration",
+      "documentation-and-adrs",
+      "observability-and-instrumentation",
+      "shipping-and-launch"
+    ]
+  },
+  "meta_skill": "using-agent-skills（触发词：which skill applies / 哪个技能合适）",
+  "slash_commands": [
+    {
+      "command": "/spec",
+      "phase": "define",
+      "skill": "spec-driven-development"
+    },
+    {
+      "command": "/plan",
+      "phase": "plan",
+      "skill": "planning-and-task-breakdown"
+    },
+    {
+      "command": "/build",
+      "phase": "build",
+      "skill": "incremental-implementation + test-driven-development"
+    },
+    {
+      "command": "/build auto",
+      "phase": "build",
+      "skill": "同上，单审批跑完整个 plan"
+    },
+    {
+      "command": "/test",
+      "phase": "verify",
+      "skill": "test-driven-development + debugging-and-error-recovery"
+    },
+    {
+      "command": "/constraints",
+      "phase": "review",
+      "skill": "constraint-driven-development"
+    },
+    {
+      "command": "/review",
+      "phase": "review",
+      "skill": "code-review-and-quality"
+    },
+    {
+      "command": "/webperf",
+      "phase": "review",
+      "skill": "performance-optimization"
+    },
+    {
+      "command": "/code-simplify",
+      "phase": "review",
+      "skill": "code-simplification"
+    },
+    {
+      "command": "/ship",
+      "phase": "ship",
+      "skill": "shipping-and-launch"
+    }
+  ],
+  "evals": {
+    "tiers": {
+      "tier2": "Trigger & routing — deterministic CI 级，TF-IDF cosine similarity 检查",
+      "tier3": "Behavioral — headless claude 跑 fixture，token 开销"
+    },
+    "cases_count": 25,
+    "runner": "scripts/run-evals.js",
+    "fixture_note": "evals/fixtures/<skill>/ 下各有一份可运行的测试样例（如 TDD 的 splitCents 丢失分问题）"
+  },
+  "hooks": {
+    "session_start": "hooks/session-start.sh（用 jq 构造 SessionStart envelope，把 using-agent-skills/meta-skill 注入）",
+    "note": "Claude Code / Codex CLI 无需 hook；其他 host 可选接入"
+  },
+  "conventions": {
+    "frontmatter": "YAML frontmatter 含 name + description，必须以第三人称描述做什么",
+    "sections": [
+      "Overview",
+      "When to Use",
+      "Process",
+      "Common Rationalizations",
+      "Red Flags",
+      "Verification"
+    ],
+    "self_contained": "skill < 100 行时不创建外部引用文件，否则放 skills/<name>/references/"
+  },
+  "skills": [
+    {
+      "name": "api-and-interface-design",
+      "group": "构建",
+      "overview": "对外暴露的接口（API、模块边界、组件 props）要有稳定的契约",
+      "path": "skills/api-and-interface-design/SKILL.md"
+    },
+    {
+      "name": "browser-testing-with-devtools",
+      "group": "验证",
+      "overview": "通过 Chrome DevTools MCP 在真实浏览器里检查 DOM/网络/性能/控制台错误",
+      "path": "skills/browser-testing-with-devtools/SKILL.md"
+    },
+    {
+      "name": "ci-cd-and-automation",
+      "group": "发布",
+      "overview": "质量门禁自动化：lint/type-check/test/build 全流程 CI",
+      "path": "skills/ci-cd-and-automation/SKILL.md"
+    },
+    {
+      "name": "code-review-and-quality",
+      "group": "评审",
+      "overview": "五个维度的代码审查：正确性、可读性、架构、安全、性能",
+      "path": "skills/code-review-and-quality/SKILL.md"
+    },
+    {
+      "name": "code-simplification",
+      "group": "评审",
+      "overview": "在不改变行为的前提下降低复杂度，优先改善可读性与可维护性",
+      "path": "skills/code-simplification/SKILL.md"
+    },
+    {
+      "name": "constraint-driven-development",
+      "group": "未知",
+      "overview": "Establishes a project's quality bar as a written contract an",
+      "path": "skills/constraint-driven-development/SKILL.md"
+    },
+    {
+      "name": "context-engineering",
+      "group": "构建",
+      "overview": "启动会话前整理上下文预算：决定给 agent 看什么、什么时候看",
+      "path": "skills/context-engineering/SKILL.md"
+    },
+    {
+      "name": "debugging-and-error-recovery",
+      "group": "验证",
+      "overview": "系统性根因分析：先复现、隔离变量、找最小复现路径，最后修 bug",
+      "path": "skills/debugging-and-error-recovery/SKILL.md"
+    },
+    {
+      "name": "deprecation-and-migration",
+      "group": "发布",
+      "overview": "新旧系统共存过渡：expand-contract 模式避免停机",
+      "path": "skills/deprecation-and-migration/SKILL.md"
+    },
+    {
+      "name": "documentation-and-adrs",
+      "group": "发布",
+      "overview": "记录架构决策 ADR；检测文档与代码漂移",
+      "path": "skills/documentation-and-adrs/SKILL.md"
+    },
+    {
+      "name": "doubt-driven-development",
+      "group": "构建",
+      "overview": "对非平凡决策做对抗式评审——假设要推翻它",
+      "path": "skills/doubt-driven-development/SKILL.md"
+    },
+    {
+      "name": "frontend-ui-engineering",
+      "group": "构建",
+      "overview": "生产级 UI：响应式、无障碍、符合设计系统，拒绝 AI 审美",
+      "path": "skills/frontend-ui-engineering/SKILL.md"
+    },
+    {
+      "name": "git-workflow-and-versioning",
+      "group": "发布",
+      "overview": "原子化提交、语义化版本、PR 描述规范、changelog 生成",
+      "path": "skills/git-workflow-and-versioning/SKILL.md"
+    },
+    {
+      "name": "idea-refine",
+      "group": "定义",
+      "overview": "把模糊的想法结构化发散后再收敛，输出可执行的概念",
+      "path": "skills/idea-refine/SKILL.md"
+    },
+    {
+      "name": "incremental-implementation",
+      "group": "构建",
+      "overview": "每次只改一个文件/一个小功能，做完一个测一个再推进",
+      "path": "skills/incremental-implementation/SKILL.md"
+    },
+    {
+      "name": "interview-me",
+      "group": "定义",
+      "overview": "通过一次一个问题提取用户真正想要的东西，而非他们嘴上说的要求",
+      "path": "skills/interview-me/SKILL.md"
+    },
+    {
+      "name": "observability-and-instrumentation",
+      "group": "发布",
+      "overview": "让线上行为可观测：日志、指标、追踪、告警",
+      "path": "skills/observability-and-instrumentation/SKILL.md"
+    },
+    {
+      "name": "performance-optimization",
+      "group": "评审",
+      "overview": "先测量再优化：识别实际瓶颈，避免过早优化引入复杂度",
+      "path": "skills/performance-optimization/SKILL.md"
+    },
+    {
+      "name": "planning-and-task-breakdown",
+      "group": "规划",
+      "overview": "把一个复杂任务拆解成有序、原子、可并行的子任务清单",
+      "path": "skills/planning-and-task-breakdown/SKILL.md"
+    },
+    {
+      "name": "security-and-hardening",
+      "group": "评审",
+      "overview": "OWASP Top Ten 防护：输入处理、认证、数据加密、第三方集成加固",
+      "path": "skills/security-and-hardening/SKILL.md"
+    },
+    {
+      "name": "shipping-and-launch",
+      "group": "发布",
+      "overview": "上线前的 checklist：监控、灰度、回滚策略",
+      "path": "skills/shipping-and-launch/SKILL.md"
+    },
+    {
+      "name": "source-driven-development",
+      "group": "构建",
+      "overview": "每个框架相关决策都要对照官方文档，不靠记忆手写",
+      "path": "skills/source-driven-development/SKILL.md"
+    },
+    {
+      "name": "spec-driven-development",
+      "group": "定义",
+      "overview": "写 PRD/spec 之前先明确范围和验收标准",
+      "path": "skills/spec-driven-development/SKILL.md"
+    },
+    {
+      "name": "test-driven-development",
+      "group": "构建",
+      "overview": "先写失败测试，再写最小实现，最后回归全套测试",
+      "path": "skills/test-driven-development/SKILL.md"
+    },
+    {
+      "name": "using-agent-skills",
+      "group": "元技能",
+      "overview": "发现并调度哪个 skill 适用当前任务",
+      "path": "skills/using-agent-skills/SKILL.md"
+    }
+  ]
+}

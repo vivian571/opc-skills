@@ -1,0 +1,31 @@
+{
+  "scope": "本包只做离线索引、上游源码文档查阅与技术栈分析。**不对使用场景做任何背书**。用户自行决定是否将本项目用于任何目的，自负其责。",
+  "source": "upstream/README.md + src/ 源码抽样 + package.json + LICENSE(GPL-3.0)",
+  "concerns": [
+    "项目自述定位是「作业助手」并 explicitely 建议在考试外使用，免责声明写在 README 末尾",
+    "GPL-3.0 授权意味着任何分发/修改衍生作品必须以相同条款开源；与 MIT/Apache 项目混用时需注意兼容性",
+    "使用 Gemini/OpenAI API 会产生第三方 token 费用，本包不代付也不代理计费"
+  ],
+  "rules": [
+    {"id": "S1", "level": "硬约束", "rule": "只跑静态读取：grep / 头读 README / prompt.md / 源码头部注释；不启动 next dev、不连 localhost:3000、不调用 Gemini/OpenAI API、不存储或转存任何 API Key。"},
+    {"id": "S2", "level": "硬约束", "rule": "不生成 .env.local / next-env.d.ts / cloudflare-env.d.ts 等凭据配置文件。"},
+    {"id": "S3", "level": "硬约束", "rule": "不指导如何绕过学校检测系统、如何使用 ADB 截取他人屏幕、如何把答案直接用于提交以规避学术诚信审查。"},
+    {"id": "S4", "level": "约束", "rule": "可以客观描述项目的功能、技术栈、架构、快捷键、部署方式——这些是事实陈述，不是使用建议。"},
+    {"id": "S5", "level": "约束", "rule": "若用户询问『怎么用这个项目写作业』，回答应停留在技术层面（如怎么配 API Key、怎么改全局 Prompt），并同步提醒 README 自身的免责声明。"},
+    {"id": "S6", "level": "约束", "rule": "MIT/GPL 混合生态中不协助做许可证合规审计——那是法务工作，超出本包范围。"}
+  ],
+  "allowed": [
+    "查 1906 star 项目的技术栈、架构图、i18n 方案、PWA 配置、画图库集成方式",
+    "查 6 份 prompt 文件的结构与设计思路（ctrl+x 全局 prompt 编辑器的实现参考）",
+    "查 ADB/WebUSB 截屏的技术可行性与浏览器限制",
+    "查 Cloudflare Pages 部署配置（open-next + wrangler）",
+    "查快捷键系统与 cmdk 命令 palet 的实现模式",
+    "查 shadcn/ui 组件树与主题定制路径"
+  ],
+  "not_allowed": [
+    "提供一键部署脚本让用户『开箱即用』地搜题",
+    "帮用户写绕过老师检测的方案（如隐藏后台标签、自动切屏）",
+    "把 API Key 硬编码进本包的索引文件或 references/",
+    "生成针对具体学科的作弊 prompt 模板（如『帮我写数学作业』）"
+  ]
+}

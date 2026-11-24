@@ -1,0 +1,67 @@
+{
+  "README.md": {
+    "desc": "主文档（含安装、快速开始、TUI、命令、Agent setup）",
+    "chars": 9358,
+    "lines": 220
+  },
+  "README.zh.md": {
+    "desc": "中文主文档",
+    "chars": 7167,
+    "lines": 213
+  },
+  "docs/installation.md": {
+    "desc": "安装方法详解",
+    "chars": 4980,
+    "lines": 155
+  },
+  "docs/usage.md": {
+    "desc": "使用指南（搜索/下载/收藏/历史）",
+    "chars": 6299,
+    "lines": 169
+  },
+  "docs/tui.md": {
+    "desc": "终端界面详细说明",
+    "chars": 36377,
+    "lines": 508
+  },
+  "docs/kindle.md": {
+    "desc": "Kindle 投递配置与故障排查",
+    "chars": 3484,
+    "lines": 75
+  },
+  "docs/weread.md": {
+    "desc": "WeRead 导入配置与限制",
+    "chars": 9644,
+    "lines": 196
+  },
+  "docs/configuration.md": {
+    "desc": "配置详解（域名/代理/目录/镜像）",
+    "chars": 13410,
+    "lines": 249
+  },
+  "docs/troubleshooting.md": {
+    "desc": "常见问题排查",
+    "chars": 4262,
+    "lines": 102
+  },
+  "docs/mcp.md": {
+    "desc": "MCP Server 配置与工具列表",
+    "chars": 12399,
+    "lines": 281
+  },
+  "docs/metadata.md": {
+    "desc": "元数据 CLI 与 MCP 工具用法",
+    "chars": 29710,
+    "lines": 554
+  },
+  "docs/search-light.gif": {
+    "desc": "搜索演示 GIF（浅色）",
+    "chars": 0,
+    "lines": 0
+  },
+  "docs/search.gif": {
+    "desc": "搜索演示 GIF（深色）",
+    "chars": 0,
+    "lines": 0
+  }
+}

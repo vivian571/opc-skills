@@ -1,0 +1,12 @@
+[
+  {"id": "D1", "claim": "README: 'flexibly transforms unconstrained pre-writing materials into submission-ready LaTeX manuscripts'", "measured": "代码里确实只接受 .md 格式的 raw_materials（idea_sparse.md + experimental_log.md），不支持 PDF / Word / 图片直接喂。所谓「unconstrained」指的是材料可以是零散的笔记、图表目录、实验结果表格等，不是指输入格式自由。", "verdict": "部分属实：灵活在材料组织形式，不在文件格式"},
+  {"id": "D2", "claim": "README: 'comprehensive literature synthesis'", "measured": "literature_review_agent.py 实际做了三件事：(1) s2_title_search 用 Semantic Scholar API 搜标题 (2) CandidatePaper pydantic 模型筛选 (3) LLM 写综述段落。并没有做全文检索——如果 paper 不在 S2 索引里就找不到。", "verdict": "有边界：依赖 S2 索引覆盖度，非全文库"},
+  {"id": "D3", "claim": "README: 'generates plots and supports conceptual diagrams'", "measured": "--use_plotting false 是默认值，需要显式开启。plotting_agent 调的是 Gemini image model 生成配图，不是 matplotlib 自动画。概念图支持取决于 prompt 设计，不稳定。", "verdict": "属实但需显式开 + 质量看运气"},
+  {"id": "D4", "claim": "README: 'adhering to target conference templates'", "measured": "templates/ 下目前只有 cvpr2025 和 iclr2025 两个模板。CVPR 用的是 standard IEEEtran-style，ICLR 用的是自定义 .sty。如果要投其他会议，得自己加 template 目录。", "verdict": "属实但模板选择有限"},
+  {"id": "D5", "claim": "README: 一行 bash 脚本即可运行", "measured": "./paper_writing_cli.sh 只是个薄封装，核心逻辑在 paper_writing_cli.py。实际上要装 conda env + pip install + 配 .env + 准备 raw_materials + 确保 LaTeX 编译链可用，总共至少 5 步前置。", "verdict": "简化了：一行命令背后是 5+ 步准备工作"},
+  {"id": "D6", "claim": "README: 'Acting like an orchestrated team of specialized agents'", "measured": "5 个 agent 确实是串联调用（ProcessPoolExecutor 并行跑 sections，但 agent 之间是顺序的）。没有真正的 multi-agent 辩论或协作机制——更像 pipeline 而非 orchestra。", "verdict": "营销用语略夸张：实为 pipeline 而非真正多 agent 协作"},
+  {"id": "D7", "claim": "arXiv 预印本已被收录：arXiv:2604.05018", "measured": "README citation 字段给出了 arXiv ID。搜索确认该文存在于 arXiv，投稿日期 2026-04，作者列表与 README 一致。", "verdict": "属实"},
+  {"id": "D8", "claim": "frontend/examples/cvpr_example.json 包含完整示例数据", "measured": "该文件存在且是一个合法的 raw_materials JSON 结构（含 idea + experimental_log 字段）。可用于测试 frontend demo，但不能直接当正式 pipeline 的输入——缺少真实实验日志。", "verdict": "属实但只是演示素材"},
+  {"id": "D9", "claim": "README 没说必须用 Vertex AI，但 Google 团队作品大概率推荐 Vertex", "measured": ".env 示例同时列了 GEMINI_API_KEY 和 VERTEX_AI_PROJECT 两种选项，任选其一即可。Google 团队偏好 Vertex，但普通用户用 GEMINI_API_KEY 就够了。", "verdict": "两者皆可，Vertex 适合企业用户"},
+  {"id": "D10", "claim": "CODE_OF_CONDUCT.md 和 CONTRIBUTING.md 都存在但内容很简单", "measured": "两份文档都是通用模板，没有具体的 coding standard 或 review process。说明项目当前处于 early stage，社区贡献流程还不完善。", "verdict": "属实"}
+]

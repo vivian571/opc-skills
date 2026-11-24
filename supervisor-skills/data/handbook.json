@@ -1,0 +1,229 @@
+{
+  "count": 36,
+  "chapters": [
+    "01_Preliminary",
+    "02_Idea_Generation",
+    "03_Paper_Writing",
+    "04_Scientific_Plotting",
+    "05_Vibe_Research",
+    "06_Case_Studies"
+  ],
+  "files": [
+    {
+      "path": "handbook/01_Preliminary/1.1_如何评价一篇论文的质量.md",
+      "chapter": "01_Preliminary",
+      "title": "1.1_如何评价一篇论文的质量",
+      "lines": 27
+    },
+    {
+      "path": "handbook/02_Idea_Generation/2.1_Idea的生命周期与能力匹配.md",
+      "chapter": "02_Idea_Generation",
+      "title": "2.1_Idea的生命周期与能力匹配",
+      "lines": 30
+    },
+    {
+      "path": "handbook/02_Idea_Generation/2.2_想Idea的思路_更高更快更强.md",
+      "chapter": "02_Idea_Generation",
+      "title": "2.2_想Idea的思路_更高更快更强",
+      "lines": 67
+    },
+    {
+      "path": "handbook/02_Idea_Generation/2.3_进阶_如何做颠覆式创新.md",
+      "chapter": "02_Idea_Generation",
+      "title": "2.3_进阶_如何做颠覆式创新",
+      "lines": 41
+    },
+    {
+      "path": "handbook/03_Paper_Writing/3.1_完成一篇科研论文你需要做几件事情.md",
+      "chapter": "03_Paper_Writing",
+      "title": "3.1_完成一篇科研论文你需要做几件事情",
+      "lines": 61
+    },
+    {
+      "path": "handbook/03_Paper_Writing/3.2_Introduction写作的思考模型.md",
+      "chapter": "03_Paper_Writing",
+      "title": "3.2_Introduction写作的思考模型",
+      "lines": 37
+    },
+    {
+      "path": "handbook/03_Paper_Writing/3.3_技术类Full_Paper思考模板.md",
+      "chapter": "03_Paper_Writing",
+      "title": "3.3_技术类Full_Paper思考模板",
+      "lines": 114
+    },
+    {
+      "path": "handbook/03_Paper_Writing/3.4_Benchmark与Evaluation类论文思考模板.md",
+      "chapter": "03_Paper_Writing",
+      "title": "3.4_Benchmark与Evaluation类论文思考模板",
+      "lines": 290
+    },
+    {
+      "path": "handbook/03_Paper_Writing/3.5_写作细节与Checklist.md",
+      "chapter": "03_Paper_Writing",
+      "title": "3.5_写作细节与Checklist",
+      "lines": 627
+    },
+    {
+      "path": "handbook/04_Scientific_Plotting/4.1_Motivated_Example_Figure.md",
+      "chapter": "04_Scientific_Plotting",
+      "title": "4.1_Motivated_Example_Figure",
+      "lines": 62
+    },
+    {
+      "path": "handbook/04_Scientific_Plotting/4.2_Solution_Overview_Figure.md",
+      "chapter": "04_Scientific_Plotting",
+      "title": "4.2_Solution_Overview_Figure",
+      "lines": 49
+    },
+    {
+      "path": "handbook/04_Scientific_Plotting/4.3_Experimental_Results_Figure.md",
+      "chapter": "04_Scientific_Plotting",
+      "title": "4.3_Experimental_Results_Figure",
+      "lines": 56
+    },
+    {
+      "path": "handbook/04_Scientific_Plotting/4.4_绘图Checklist与工具速查表.md",
+      "chapter": "04_Scientific_Plotting",
+      "title": "4.4_绘图Checklist与工具速查表",
+      "lines": 29
+    },
+    {
+      "path": "handbook/05_Vibe_Research/5.1_Vibe_Research与Vibe_Coding入门.md",
+      "chapter": "05_Vibe_Research",
+      "title": "5.1_Vibe_Research与Vibe_Coding入门",
+      "lines": 510
+    },
+    {
+      "path": "handbook/05_Vibe_Research/5.2_李伯岩实战经验分享与会议纪要.md",
+      "chapter": "05_Vibe_Research",
+      "title": "5.2_李伯岩实战经验分享与会议纪要",
+      "lines": 156
+    },
+    {
+      "path": "handbook/06_Case_Studies/6.1_ICML_2025_Alpha-SQL写作剖析.md",
+      "chapter": "06_Case_Studies",
+      "title": "6.1_ICML_2025_Alpha-SQL写作剖析",
+      "lines": 83
+    },
+    {
+      "path": "handbook/06_Case_Studies/6.2_ICLR_2025_AFlow写作剖析.md",
+      "chapter": "06_Case_Studies",
+      "title": "6.2_ICLR_2025_AFlow写作剖析",
+      "lines": 84
+    },
+    {
+      "path": "handbook/06_Case_Studies/6.3_VLDB_2026_LEAD写作剖析.md",
+      "chapter": "06_Case_Studies",
+      "title": "6.3_VLDB_2026_LEAD写作剖析",
+      "lines": 81
+    },
+    {
+      "path": "handbook-en/01_Preliminary/1.1_how-to-evaluate-paper-quality.md",
+      "chapter": "01_Preliminary",
+      "title": "1.1_how-to-evaluate-paper-quality",
+      "lines": 27
+    },
+    {
+      "path": "handbook-en/02_Idea_Generation/2.1_idea-lifecycle-and-capability-matching.md",
+      "chapter": "02_Idea_Generation",
+      "title": "2.1_idea-lifecycle-and-capability-matching",
+      "lines": 30
+    },
+    {
+      "path": "handbook-en/02_Idea_Generation/2.2_higher-faster-stronger.md",
+      "chapter": "02_Idea_Generation",
+      "title": "2.2_higher-faster-stronger",
+      "lines": 67
+    },
+    {
+      "path": "handbook-en/02_Idea_Generation/2.3_disruptive-innovation.md",
+      "chapter": "02_Idea_Generation",
+      "title": "2.3_disruptive-innovation",
+      "lines": 41
+    },
+    {
+      "path": "handbook-en/03_Paper_Writing/3.1_the-essentials-of-a-research-paper.md",
+      "chapter": "03_Paper_Writing",
+      "title": "3.1_the-essentials-of-a-research-paper",
+      "lines": 61
+    },
+    {
+      "path": "handbook-en/03_Paper_Writing/3.2_introduction-writing-flowchart.md",
+      "chapter": "03_Paper_Writing",
+      "title": "3.2_introduction-writing-flowchart",
+      "lines": 37
+    },
+    {
+      "path": "handbook-en/03_Paper_Writing/3.3_technical-paper-template.md",
+      "chapter": "03_Paper_Writing",
+      "title": "3.3_technical-paper-template",
+      "lines": 52
+    },
+    {
+      "path": "handbook-en/03_Paper_Writing/3.4_benchmark-paper-template.md",
+      "chapter": "03_Paper_Writing",
+      "title": "3.4_benchmark-paper-template",
+      "lines": 253
+    },
+    {
+      "path": "handbook-en/03_Paper_Writing/3.5_writing-details-and-checklist.md",
+      "chapter": "03_Paper_Writing",
+      "title": "3.5_writing-details-and-checklist",
+      "lines": 446
+    },
+    {
+      "path": "handbook-en/04_Scientific_Plotting/4.1_motivated-example-figure.md",
+      "chapter": "04_Scientific_Plotting",
+      "title": "4.1_motivated-example-figure",
+      "lines": 56
+    },
+    {
+      "path": "handbook-en/04_Scientific_Plotting/4.2_solution-overview-figure.md",
+      "chapter": "04_Scientific_Plotting",
+      "title": "4.2_solution-overview-figure",
+      "lines": 45
+    },
+    {
+      "path": "handbook-en/04_Scientific_Plotting/4.3_experimental-results-figure.md",
+      "chapter": "04_Scientific_Plotting",
+      "title": "4.3_experimental-results-figure",
+      "lines": 52
+    },
+    {
+      "path": "handbook-en/04_Scientific_Plotting/4.4_plotting-checklist-and-tools.md",
+      "chapter": "04_Scientific_Plotting",
+      "title": "4.4_plotting-checklist-and-tools",
+      "lines": 29
+    },
+    {
+      "path": "handbook-en/05_Vibe_Research/5.1_vibe-research-and-vibe-coding.md",
+      "chapter": "05_Vibe_Research",
+      "title": "5.1_vibe-research-and-vibe-coding",
+      "lines": 295
+    },
+    {
+      "path": "handbook-en/05_Vibe_Research/5.2_liboyan-practical-notes.md",
+      "chapter": "05_Vibe_Research",
+      "title": "5.2_liboyan-practical-notes",
+      "lines": 156
+    },
+    {
+      "path": "handbook-en/06_Case_Studies/6.1_icml2025-alpha-sql-analysis.md",
+      "chapter": "06_Case_Studies",
+      "title": "6.1_icml2025-alpha-sql-analysis",
+      "lines": 67
+    },
+    {
+      "path": "handbook-en/06_Case_Studies/6.2_iclr2025-aflow-analysis.md",
+      "chapter": "06_Case_Studies",
+      "title": "6.2_iclr2025-aflow-analysis",
+      "lines": 68
+    },
+    {
+      "path": "handbook-en/06_Case_Studies/6.3_vldb2026-lead-analysis.md",
+      "chapter": "06_Case_Studies",
+      "title": "6.3_vldb2026-lead-analysis",
+      "lines": 71
+    }
+  ]
+}

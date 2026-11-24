@@ -1,0 +1,168 @@
+{
+  "repo": "cubewhy/skid-homework",
+  "url": "https://github.com/cubewhy/skid-homework",
+  "homepage": "https://skid.cubewhy.dev",
+  "name": "skid-homework",
+  "description": "打滑作业平台：符合人体工程学设计、AI 驱动的作业助手（Gemini / OpenAI-compatible API）",
+  "version": "0.0.0",
+  "license": "GPL-3.0",
+  "author": "cubewhy",
+  "language": "TypeScript (Next.js 15 + shadcn/ui + Tailwind)",
+  "default_branch": "main",
+  "stargazers_count": 1906,
+  "forks_count": 358,
+  "created_at": "2025-09-27T01:17:57Z",
+  "pushed_at": "2026-09-14T23:24:44Z",
+  "updated_at": "2026-11-17T00:44:34Z",
+  "verified_at": "2026-11-17",
+  "note": "star/fork/pushed_at/updated_at 为 2026-11-17 GitHub API 快照。实时值以 --refresh 为准。",
+  "tech_stack": {
+    "framework": "Next.js 15 (App Router)",
+    "ui": "shadcn/ui + Tailwind CSS v4",
+    "animation": "framer-motion + react-spring",
+    "state": "zustand (推断) / dexie (IndexedDB)",
+    "ai_clients": [
+      "src/ai/gemini.ts (@google/genai)",
+      "src/ai/openai.ts"
+    ],
+    "diagram_libs": [
+      "jsxgraph",
+      "mermaid",
+      "function-plot",
+      "dompurify"
+    ],
+    "adb": "@yume-chan/adb + @yume-chan/adb-daemon-webusb (WebUSB)",
+    "i18n": "i18next + i18next-http-backend",
+    "pwa": "serwist",
+    "cloudflare_deploy": "@opennextjs/cloudflare + wrangler"
+  },
+  "pages": [
+    {
+      "route": "/",
+      "component": "src/app/page.tsx",
+      "desc": "首页"
+    },
+    {
+      "route": "/chat",
+      "component": "src/app/chat/page.tsx",
+      "desc": "主聊天界面"
+    },
+    {
+      "route": "/init",
+      "component": "src/app/init/page.tsx",
+      "desc": "API Key 初始化引导"
+    },
+    {
+      "route": "/settings",
+      "component": "src/app/settings/page.tsx",
+      "desc": "设置页（快捷键/i18n/theme等）"
+    },
+    {
+      "route": "/settings/import",
+      "component": "src/app/settings/import/page.tsx",
+      "desc": "导入/导出设置"
+    }
+  ],
+  "ai_prompts": [
+    {
+      "file": "src/ai/prompts/chat.prompt.md",
+      "desc": "对话上下文管理提示词"
+    },
+    {
+      "file": "src/ai/prompts/solve.prompt.md",
+      "desc": "解题流程提示词"
+    },
+    {
+      "file": "src/ai/prompts/improve.prompt.md",
+      "desc": "改进答案提示词（按 / 触发）"
+    },
+    {
+      "file": "src/ai/prompts/tools/jsxgraph-tool.prompt.md",
+      "desc": "JSXGraph 画图工具调用规范"
+    },
+    {
+      "file": "src/ai/prompts/tools/mermaid-tool.prompt.md",
+      "desc": "Mermaid 图表工具调用规范"
+    },
+    {
+      "file": "src/ai/prompts/tools/diagram-tool.prompt.md",
+      "desc": "通用 diagram 工具规范"
+    }
+  ],
+  "commands": [
+    {
+      "cmd": "pnpm i",
+      "desc": "安装依赖"
+    },
+    {
+      "cmd": "pnpm run dev",
+      "desc": "开发服务器 :3000"
+    },
+    {
+      "cmd": "pnpm run build",
+      "desc": "生产构建（含 PWA serwist）"
+    },
+    {
+      "cmd": "pnpm run start",
+      "desc": "生产服务器"
+    },
+    {
+      "cmd": "pnpm run lint",
+      "desc": "ESLint 检查 src/"
+    },
+    {
+      "cmd": "pnpm run deploy",
+      "desc": "Cloudflare Pages 部署"
+    },
+    {
+      "cmd": "docker run -p 3000:3000 ghcr.io/cubewhy/skid-homework:sha-<commit>",
+      "desc": "Docker 运行"
+    }
+  ],
+  "key_shortcuts": [
+    {
+      "keys": "Ctrl+1",
+      "action": "上传文件"
+    },
+    {
+      "keys": "Ctrl+2",
+      "action": "拍照"
+    },
+    {
+      "keys": "Ctrl+3",
+      "action": "提交给 AI"
+    },
+    {
+      "keys": "Ctrl+4",
+      "action": "删除所有文件"
+    },
+    {
+      "keys": "Ctrl+5",
+      "action": "打开设置"
+    },
+    {
+      "keys": "Ctrl+X",
+      "action": "打开全局 Prompt 编辑器"
+    },
+    {
+      "keys": "ESC",
+      "action": "关闭设置/对话框"
+    },
+    {
+      "keys": "空格",
+      "action": "下一题"
+    },
+    {
+      "keys": "Shift+空格",
+      "action": "上一题"
+    },
+    {
+      "keys": "/",
+      "action": "改进答案"
+    }
+  ],
+  "dependency_count": {
+    "deps": 68,
+    "devDeps": 20
+  }
+}

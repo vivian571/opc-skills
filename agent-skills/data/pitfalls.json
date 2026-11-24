@@ -1,0 +1,12 @@
+[
+  {"id": "P1", "title": "per-skill npx install 缺 references/", "detail": "README 明确指出：单独 `npx skills add addyosmani/agent-skills --skill <name>` 只会复制 skills/<name>/，不会带根 references/ 目录。若该 skill 的内部引用了外部 checklists（如 testing/performance/security/accessibility），路径会变无效。解决方法：整体 clone / 整体仓库级安装 / 手动 cp -R references/ <skill-dir>。", "severity": "高"},
+  {"id": "P2", "title": "marketplace SSH 默认走 SSH", "detail": "plugin marketplace add 在 GitHub 默认通过 SSH clone。未配 SSH key 时直接报 Permission denied (publickey)。解决：要么补 SSH key，要么改用 HTTPS URL（`/plugin marketplace add https://github.com/addyosmani/agent-skills.git`），或通过 `git config --global url.\"https://github.com/\".insteadOf git@github.com:` 重定向。", "severity": "高"},
+  {"id": "P3", "title": "/build auto ≠ 全自动：单次审批后仍需人工放行高风险步骤", "detail": "文档强调 `auto` 模式“去掉的是人类在各任务之间的介入”，但遇到测试无法通过、spec 歧义、高危险操作（auth/权限变更、破坏性迁移、支付、删除、触及密钥、不可 revert 的变更）时必须停下按 doubt-driven-development 流程获取明确 sign-off。不要把 auto 当成一键托管流水线。", "severity": "中"},
+  {"id": "P4", "title": "spec path 严格匹配，误把 README 当 spec", "detail": "build 的 autonomous mode 要求只找 SPEC.md / docs/SPEC.md / spec/* 等已知路径下的 spec 文件；README 或其他任意 doc 都不算 spec。找不到时停并提示用户先跑 /spec。不要把任何非 spec 文件当作需求来源。", "severity": "高"},
+  {"id": "P5", "title": "constraints 不是软建议而是 enforced gate", "detail": "constraint-driven-development skill 的核心作用是立一张书面合约，让 agent 不能悄悄把 quality bar 降级（忽略 @ts-ignore、跳过测试、砍断言、降低覆盖率阈值）。这是 hard 机制而不是建议——违反即 stop。", "severity": "中"},
+  {"id": "P6", "title": "meta-skill using-agent-skills 是路由入口，不是具体 skill", "detail": "它的作用只在「启动会话时帮你判断当前任务该调用哪个 skill」，本身不提供工程方法。单独装 meta-skill 而不装其他 24 个不会有额外收益。", "severity": "低"},
+  {"id": "P7", "title": "Tier-2 trigger evals 依赖 TF-IDF cosine similarity，只能捕捉词汇覆盖，不能判定语义等价", "detail": "一个描述漏掉用户常用词会导致 false negative（触发不上）；一个过于宽泛的描述会导致 false positive（抢了别人的 rank）。Tier-3 behavioral eval 才真正验证行为正确性。", "severity": "中"},
+  {"id": "P8", "title": "scripts/run-evals.js 需要 Node.js 18+，无 npm deps 但仍要 jq/python3", "detail": "脚本自身 zero-dependencies，但 hooks/session-start.sh 依赖 jq；behavioral eval 依赖 headless claude。没有这些组件时只能跑 Tier-2 structural 部分。", "severity": "低"},
+  {"id": "P9", "title": "idea-refine 有独立 JS 工具 `scripts/idea-refine.sh`", "detail": "和其他纯文档型 skill 不同，idea-refine 附了一个 bash helper 用来初始化 docs/ideas 目录，并在 stdout 打印 JSON status。属于少数有可执行脚本的 skill 之一。", "severity": "低"},
+  {"id": "P10", "title": "star 极高（★118K）但 repo 是纯 SKILL.md 集合，不含业务代码", "detail": "这是 agent workflow 方法论库，不是可直接运行的 SDK。价值取决于你是否愿意让 agent 跟着其流程走。看 README 之前别把它当成能 `npm i && node index.js` 的 runnable 项目。", "severity": "高"}
+]

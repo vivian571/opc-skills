@@ -1,0 +1,14 @@
+[
+  {"id": "D1", "claim": "README: `bash -c \"$(curl -fsSL .../install.sh)\"` 一行装好", "measured": "install.sh 会 clone 姊妹仓库到 ~/maitian/mdldm-maitian-publisher、clone 本仓到 ~/maitian/mdldm-maitian、cp config.example.json → config.json、写 launchd plist、打开各平台登录页。全程不改 ~/.zshrc，自包含于 ~/maitian/。", "verdict": "属实；但需要手动填 config.json 里的 pluginDir/extensionId/feishuWebhook 三块凭据"},
+  {"id": "D2", "claim": "README: 国内四家只填写不发布，最后一下由你自己点", "measured": "src/hub.mjs 对 manual=[bilibili,douyin,xhs,channels] 的平台，填满表单后停，设 20 分钟定时器刷飞书卡片。auto=[zsz,x,youtube,instagram] 的平台回读一致后自动提交。边界清晰。", "verdict": "属实；符合风控预期"},
+  {"id": "D3", "claim": "README: 不存任何平台密码", "measured": "所有登录态存在 chrome-profile/ 的 Cookies / Local Storage；麦田代码里没有密码字段。config.example.json 也没有 password 相关项。", "verdict": "属实"},
+  {"id": "D4", "claim": "README: Node.js ≥ 22.5（用到内置 node:sqlite）", "measured": "package.json engines.node='>=22.5'；src/db.mjs 直接使用 `import { open } from 'node:sqlite'`。本机 v22.22.2 满足。", "verdict": "属实"},
+  {"id": "D5", "claim": "SKILL.md: 流程 9 步按序执行不跳步", "measured": "skills/maitian-publish/SKILL.md 全文确认为严格顺序：①看片 → ②写发布素材 md → ③确认封面 → ④建工程 → ⑤make-publish & validate → ⑥hub plan → ⑦hub run → ⑧人点 → ⑨sync。其中第 ⑧ 步必须由用户亲自完成，AI 不能代理。", "verdict": "属实"},
+  {"id": "D6", "claim": "README: 手机小组件通过 Scriptable + widgetToken 实现只读面板", "measured": "scripts/widget/maitian-loader.js 每次刷新从 /api/widget/code 拉最新 JS；widgetToken 只开 /api/widget 端点，无写权限。与 web.key 分开设计。", "verdict": "属实；设计上是安全的只读分离"},
+  {"id": "D7", "claim": "README: X 长文+视频帖引用长文模式要走两条独立命令", "measured": "publish.json 里 mode=article+quote 时 hub run 会在定时前 25 分钟启动 `tools/x-article-quote.mjs`（来自姊妹仓库）。这步不是 hub 本体功能，而是 publisher 插件的工具链。", "verdict": "属实；容易误以为是 hub 内置能力"},
+  {"id": "D8", "claim": "README: 转化归因靠 utm_campaign=<主题>-<序号>", "measured": "skill 写文案时必须在 B站/YouTube/X 的链接上拼 `?utm_campaign=<主题>-<序号>`，site.mjs 用这个参数对访客第一次带来的来源做归因。你自己的站点必须记住首次来访的这个值并在注册/下单时一起存。", "verdict": "属实；但归因链条依赖站点侧配合，空配 site 等于关掉转化页"},
+  {"id": "D9", "claim": "README: NAS 掉线或被挂在「…-1」时守护进程会自己卸掉重挂", "measured": "config.nasUrl 指向 smb://；hub daemon 会轮询 rootPath 可达性。NAS 断连或重挂后路径变 -1，守护会自动重试；但期间不会触发上传（plan 阶段就 pass）。", "verdict": "属实；但前提是你的 NAS SMB 共享稳定"},
+  {"id": "D10", "claim": "README: 视频号的定时可能被平台悄悄改掉", "measured": "实测案例：计划 20:00 发布，平台记录为 22:00。sync 检测到不一致打 ⚠️，不发正式卡片。修复方式：hub mark <id> channels scheduled 并注明平台实际记录。", "verdict": "属实；属平台侧不确定性，非本仓 bug"},
+  {"id": "D11", "claim": "config.web.key 是网页访问口令，所有页面和接口没有口令一律 401", "measured": "src/access.mjs 强制要求 ; key 是 web 入口的唯一认证。remote access（cloudflared tunnel / 飞书验证码）是第二层鉴权，和 key 并行。", "verdict": "属实；不要把 key 写进 README 或 commit 历史"},
+  {"id": "D12", "claim": "README 示例 config 里 flink 类字段都是占位符，不是真实 webhook", "measured": "config.example.json 中 feishuWebhook/extensionId/board.baseToken 均为 xxx 占位；初次跑 init.mjs 才会让你填入真实值。本包镜像了该文件用于结构说明，不复现任何真实凭据。", "verdict": "属实"}
+]

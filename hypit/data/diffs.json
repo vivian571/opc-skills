@@ -1,0 +1,40 @@
+[
+  {
+    "topic": "License 名称",
+    "codex": "README badge 写 'Apache-2.0 with conditions'",
+    "api": "GitHub API license.spdx_id = NOASSERTION",
+    "actual": "LICENSE 文件明确：修改版 Apache-2.0 + 3 类附加条件（多租户/商业再分发/LOGO 保留）",
+    "note": "以 LICENSE 原文为准，勿当标准 Apache-2.0"
+  },
+  {
+    "topic": "安装包名",
+    "codex": "文案说 'Install once'",
+    "api": "package.json name = @hypit/hypit",
+    "actual": "Skill 安装：npx skills add hypit-ai/hypit -g；可执行：npm 包 @hypit/hypit（bin: hypit）",
+    "note": "Skill 与可执行包两条安装命令"
+  },
+  {
+    "topic": "star 数口径",
+    "webfetch": "页面显示 30.8k",
+    "api": "30780（2026-11-20 核实）",
+    "actual": "以 API 精确值 30780 为准"
+  },
+  {
+    "topic": "包数量",
+    "readme": "未明示",
+    "actual": "packages/ 下 88 个 @hypit/* 子包（build_index 实测）",
+    "note": "hook 里 package.json devDependencies 列 70+ workspace:*"
+  },
+  {
+    "topic": "版本",
+    "readme": "未明示具体版本",
+    "actual": "package.json version = 0.3.3",
+    "note": "migrations/ 有 0.3 / 0.3.1 SDK 迁移指南"
+  },
+  {
+    "topic": "skill 位置",
+    "codex": "npx skills add 全局安装",
+    "actual": "源码内自带 skills/hypit/SKILL.md + 62 个 reference md 文档 + 7 个示例源文件（本包已镜像到 upstream/skills/hypit/）",
+    "note": "上游 Skill 是生产知识，本离线包额外做索引与 CLI"
+  }
+]

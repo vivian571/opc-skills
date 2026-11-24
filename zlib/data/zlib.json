@@ -1,0 +1,108 @@
+{
+  "repo": "heartleo/zlib",
+  "url": "https://github.com/heartleo/zlib",
+  "homepage": "https://zlib.heartleo.dev/",
+  "name": "zlib",
+  "description": "A Z-Library CLI for you and your AI agents. Search, download, send to Kindle and WeRead, and integrate with AI agents.",
+  "license": "MIT",
+  "author": "heartleo",
+  "language": "Go",
+  "default_branch": "main",
+  "stargazers_count": 2516,
+  "forks_count": 176,
+  "created_at": "2026-04-10T02:20:43Z",
+  "pushed_at": "2026-11-19T13:38:02Z",
+  "verified_at": "2026-11-20",
+  "note": "star/fork/pushed_at 为 2026-11-20 GitHub API 快照。实时值以 --refresh 为准。",
+  "key_features": [
+    "搜索：按年份/语言/格式过滤、排序",
+    "浏览：收藏、推荐、热门、历史",
+    "下载：查看详情与封面、选择下载目录",
+    "发送到 Kindle（SMTP）",
+    "发送到微信读书",
+    "账户配额查看",
+    "主题切换",
+    "网络诊断、自定义镜像、代理",
+    "AI Agent 集成（Claude Code/Codex/Grok/MCP）"
+  ],
+  "install_methods": [
+    "brew install heartleo/tap/zlib-cli",
+    "curl -fsSL https://raw.githubusercontent.com/heartleo/zlib/main/install.sh | sh",
+    "winget install --id heartleo.zlib --exact",
+    "Go 源码构建: go build ./cmd/zlib"
+  ],
+  "cli_commands": {
+    "search": "zlib search \"query\" --json --count 10 [--ext epub|pdf]",
+    "favorites": "zlib favorites --json --page 1",
+    "recommended": "zlib recommended --json",
+    "most-popular": "zlib most-popular --json",
+    "history": "zlib history --json --page 1 [--format epub]",
+    "profile": "zlib profile --json",
+    "doctor": "zlib doctor --json [--proxy \"proxy-url\"]",
+    "login": "zlib login --domain <URL> [--cookies ./cookies.txt]",
+    "download": "zlib download \"id:hash\" [--dir <dir>] --json [--send-to-kindle|--send-to-weread]",
+    "kindle": "zlib kindle send <file> [--json]",
+    "weread": "zlib weread import <file> --json",
+    "metadata": "zlib meta <file> [--fetch --edit --json]",
+    "tui": "zlib tui",
+    "mcp": "zlib mcp [--read-only]"
+  },
+  "tui_keys": {
+    "/": "打开命令列表",
+    "↑/↓ or j/k": "选择书籍",
+    "←/→": "翻页",
+    "Enter": "下载选中书籍（需确认）",
+    "Ctrl+F": "修改搜索查询/过滤器",
+    "Esc": "返回",
+    "/quit": "退出"
+  },
+  "agent_setup": {
+    "Claude Code": "/plugin marketplace add heartleo/zlib && /plugin install zlib@zlib-plugin-cc",
+    "Codex": "codex plugin marketplace add heartleo/zlib && codex plugin add zlib@zlib",
+    "Grok": "grok plugin marketplace add heartleo/zlib && grok plugin install zlib --trust",
+    "MCP server": "claude mcp add -s user zlib -- zlib mcp (或 codex/grok mcp add)"
+  },
+  "skill_modules": [
+    {
+      "name": "zlib",
+      "desc": "搜索/下载/浏览/配额/网络诊断的核心 CLI 技能"
+    },
+    {
+      "name": "kindle",
+      "desc": "本地文件发送到 Kindle (SMTP)"
+    },
+    {
+      "name": "metadata",
+      "desc": "本地电子书元数据读取/查找/编辑/重命名"
+    },
+    {
+      "name": "repo-readme",
+      "desc": "README 编辑/审查技能（参考流行 TUI 项目模式）"
+    },
+    {
+      "name": "security-scan",
+      "desc": "安全扫描技能"
+    },
+    {
+      "name": "zlib-tui",
+      "desc": "TUI 界面技能"
+    }
+  ],
+  "env_vars": {
+    "ZLIB_DOWNLOAD_DIR": "下载目录（可选，默认当前目录）",
+    "ZLIB_SMTP_PWD": "Kindle SMTP 密码（必填发送时）",
+    "ZLIB_PROXY": "HTTP 代理（仅影响 HTTP，不影响 SMTP）",
+    "ZLIB_DOMAIN": "默认域名（可选，login 时会更新 .env）"
+  },
+  "exit_codes": {
+    "0": "成功",
+    "1": "普通错误",
+    "3": "需重新登录 (zlib login)",
+    "4": "网络/镜像问题 (建议 zlib doctor)",
+    "5": "文件保存成功但 Kindle/WeRead 投递失败",
+    "130": "用户取消 (Ctrl+C)"
+  },
+  "trust_boundary": {
+    "note": "登录、会话 cookies、API keys 均保存在本地，不上传。zlib 不存储第三方平台密码。"
+  }
+}

@@ -1,0 +1,3110 @@
+[
+  {
+    "path": ".agents/plugins/marketplace.json",
+    "bytes": 351,
+    "lines": 21,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/kindle/SKILL.md",
+    "bytes": 3225,
+    "lines": 60,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/kindle/references/setup.md",
+    "bytes": 2566,
+    "lines": 69,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/metadata/SKILL.md",
+    "bytes": 4780,
+    "lines": 85,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/metadata/references/cli.md",
+    "bytes": 3995,
+    "lines": 90,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/repo-readme/SKILL.md",
+    "bytes": 4232,
+    "lines": 73,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/repo-readme/references/checklist.md",
+    "bytes": 2122,
+    "lines": 33,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/repo-readme/references/copy.md",
+    "bytes": 4151,
+    "lines": 86,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/repo-readme/references/research.md",
+    "bytes": 7964,
+    "lines": 93,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/repo-readme/references/style-guide.md",
+    "bytes": 3076,
+    "lines": 67,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/repo-readme/references/template-en.md",
+    "bytes": 987,
+    "lines": 19,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/repo-readme/references/template-zh.md",
+    "bytes": 1230,
+    "lines": 19,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/security-scan/SKILL.md",
+    "bytes": 6398,
+    "lines": 132,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/zlib/SKILL.md",
+    "bytes": 6965,
+    "lines": 125,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/zlib/references/connection.md",
+    "bytes": 3120,
+    "lines": 67,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".agents/skills/zlib-tui/SKILL.md",
+    "bytes": 31310,
+    "lines": 81,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".claude-plugin/marketplace.json",
+    "bytes": 439,
+    "lines": 18,
+    "kind": "text",
+    "group": ".claude-plugin"
+  },
+  {
+    "path": ".githooks/commit-msg",
+    "bytes": 393,
+    "lines": 14,
+    "kind": "text",
+    "group": ".githooks"
+  },
+  {
+    "path": ".githooks/pre-commit",
+    "bytes": 135,
+    "lines": 4,
+    "kind": "text",
+    "group": ".githooks"
+  },
+  {
+    "path": ".github/CONTRIBUTING.md",
+    "bytes": 10371,
+    "lines": 205,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "bytes": 2976,
+    "lines": 82,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/config.yml",
+    "bytes": 416,
+    "lines": 9,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+    "bytes": 1525,
+    "lines": 40,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/question.yml",
+    "bytes": 1512,
+    "lines": 43,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/SECURITY.md",
+    "bytes": 1527,
+    "lines": 40,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/actions/save-go-cache/action.yml",
+    "bytes": 700,
+    "lines": 27,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/actions/setup-go/action.yml",
+    "bytes": 1602,
+    "lines": 48,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/dependabot.yml",
+    "bytes": 706,
+    "lines": 36,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/pull_request_template.md",
+    "bytes": 455,
+    "lines": 14,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/pullfrog/instructions.md",
+    "bytes": 2152,
+    "lines": 36,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/pullfrog/issue.md",
+    "bytes": 2135,
+    "lines": 38,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/pullfrog/review.md",
+    "bytes": 1095,
+    "lines": 17,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "bytes": 6810,
+    "lines": 217,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/workflows/gitleaks.yml",
+    "bytes": 1296,
+    "lines": 52,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/workflows/govulncheck.yml",
+    "bytes": 899,
+    "lines": 33,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/workflows/mcp-registry.yml",
+    "bytes": 4642,
+    "lines": 118,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/workflows/pages.yml",
+    "bytes": 3593,
+    "lines": 93,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/workflows/pullfrog.yml",
+    "bytes": 687,
+    "lines": 33,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/workflows/release.yml",
+    "bytes": 3668,
+    "lines": 93,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 859,
+    "lines": 63,
+    "kind": "text",
+    "group": ".gitignore"
+  },
+  {
+    "path": ".gitleaks.toml",
+    "bytes": 1170,
+    "lines": 30,
+    "kind": "text",
+    "group": ".gitleaks.toml"
+  },
+  {
+    "path": ".gitleaksignore",
+    "bytes": 511,
+    "lines": 9,
+    "kind": "text",
+    "group": ".gitleaksignore"
+  },
+  {
+    "path": ".goreleaser.yml",
+    "bytes": 3863,
+    "lines": 147,
+    "kind": "text",
+    "group": ".goreleaser.yml"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 3981,
+    "lines": 68,
+    "kind": "text",
+    "group": "AGENTS.md"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1065,
+    "lines": 22,
+    "kind": "text",
+    "group": "LICENSE"
+  },
+  {
+    "path": "Makefile",
+    "bytes": 572,
+    "lines": 27,
+    "kind": "text",
+    "group": "Makefile"
+  },
+  {
+    "path": "README.md",
+    "bytes": 9424,
+    "lines": 220,
+    "kind": "text",
+    "group": "README.md"
+  },
+  {
+    "path": "README.zh.md",
+    "bytes": 9357,
+    "lines": 213,
+    "kind": "text",
+    "group": "README.zh.md"
+  },
+  {
+    "path": "cmd/zlib/main.go",
+    "bytes": 93,
+    "lines": 8,
+    "kind": "text",
+    "group": "cmd"
+  },
+  {
+    "path": "docs/agents.md",
+    "bytes": 8089,
+    "lines": 177,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/android-api-research.md",
+    "bytes": 4927,
+    "lines": 56,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/android-eapi-deep-dive.md",
+    "bytes": 16445,
+    "lines": 120,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/config-tui-design.md",
+    "bytes": 3017,
+    "lines": 49,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/configuration.md",
+    "bytes": 13429,
+    "lines": 249,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/covers.md",
+    "bytes": 3150,
+    "lines": 74,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/crush-tui-ux-research.md",
+    "bytes": 6930,
+    "lines": 47,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/crush-ui-patterns.md",
+    "bytes": 27142,
+    "lines": 163,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/eapi.md",
+    "bytes": 7585,
+    "lines": 156,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/env.example",
+    "bytes": 254,
+    "lines": 13,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/installation.md",
+    "bytes": 4981,
+    "lines": 155,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/kindle.md",
+    "bytes": 3489,
+    "lines": 75,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/logo-dark-theme.svg",
+    "bytes": 4722,
+    "lines": 32,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/logo-light-theme.svg",
+    "bytes": 4715,
+    "lines": 32,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/mcp-registry.md",
+    "bytes": 12973,
+    "lines": 204,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/mcp.md",
+    "bytes": 12400,
+    "lines": 281,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/metadata-research.md",
+    "bytes": 23868,
+    "lines": 299,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/metadata.md",
+    "bytes": 29720,
+    "lines": 554,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/privacy.md",
+    "bytes": 2084,
+    "lines": 38,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/pullfrog.md",
+    "bytes": 7251,
+    "lines": 134,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/search-light.gif",
+    "bytes": 1161797,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/search-light.tape",
+    "bytes": 2110,
+    "lines": 43,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/search-steps.tape",
+    "bytes": 972,
+    "lines": 80,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/search.gif",
+    "bytes": 1177388,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "docs/search.tape",
+    "bytes": 2102,
+    "lines": 43,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/site.md",
+    "bytes": 23297,
+    "lines": 377,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/themes.md",
+    "bytes": 2800,
+    "lines": 58,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/troubleshooting.md",
+    "bytes": 4263,
+    "lines": 102,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/tui.md",
+    "bytes": 36480,
+    "lines": 508,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/usage.md",
+    "bytes": 6321,
+    "lines": 169,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/versioning.md",
+    "bytes": 3148,
+    "lines": 61,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/weread-research.md",
+    "bytes": 5055,
+    "lines": 127,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/weread.md",
+    "bytes": 9651,
+    "lines": 196,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/zlib-tui.png",
+    "bytes": 717056,
+    "lines": 0,
+    "kind": "binary",
+    "group": "docs"
+  },
+  {
+    "path": "go.mod",
+    "bytes": 1966,
+    "lines": 52,
+    "kind": "text",
+    "group": "go.mod"
+  },
+  {
+    "path": "go.sum",
+    "bytes": 9909,
+    "lines": 112,
+    "kind": "text",
+    "group": "go.sum"
+  },
+  {
+    "path": "install.sh",
+    "bytes": 2241,
+    "lines": 78,
+    "kind": "text",
+    "group": "install.sh"
+  },
+  {
+    "path": "internal/cli/book_cover.go",
+    "bytes": 9644,
+    "lines": 299,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/book_cover_pipeline_test.go",
+    "bytes": 4057,
+    "lines": 142,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/book_cover_prefetch_test.go",
+    "bytes": 4625,
+    "lines": 141,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/book_cover_test.go",
+    "bytes": 5430,
+    "lines": 147,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/book_detail_card.go",
+    "bytes": 3318,
+    "lines": 129,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/book_feed.go",
+    "bytes": 2913,
+    "lines": 98,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/book_feed_view.go",
+    "bytes": 13366,
+    "lines": 400,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/book_feed_view_test.go",
+    "bytes": 22639,
+    "lines": 583,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/book_file_list.go",
+    "bytes": 5326,
+    "lines": 190,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/book_file_list_test.go",
+    "bytes": 3703,
+    "lines": 113,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/book_reference_test.go",
+    "bytes": 551,
+    "lines": 22,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/codex_themes.go",
+    "bytes": 4679,
+    "lines": 85,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/colors.go",
+    "bytes": 1628,
+    "lines": 69,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/config.go",
+    "bytes": 4577,
+    "lines": 94,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/confirmation.go",
+    "bytes": 1553,
+    "lines": 37,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/confirmation_test.go",
+    "bytes": 7017,
+    "lines": 191,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/cookies.go",
+    "bytes": 4941,
+    "lines": 167,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/cookies_test.go",
+    "bytes": 4579,
+    "lines": 143,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/cover_enabled_test.go",
+    "bytes": 247,
+    "lines": 7,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/cover_graphics.go",
+    "bytes": 14427,
+    "lines": 494,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/cover_graphics_test.go",
+    "bytes": 17057,
+    "lines": 508,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/demo_test.go",
+    "bytes": 11250,
+    "lines": 293,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/doctor.go",
+    "bytes": 4490,
+    "lines": 143,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/doctor_test.go",
+    "bytes": 2444,
+    "lines": 67,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/doctor_tui.go",
+    "bytes": 7651,
+    "lines": 257,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/doctor_tui_test.go",
+    "bytes": 10406,
+    "lines": 265,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/domain_stream.go",
+    "bytes": 866,
+    "lines": 27,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/dotenv.go",
+    "bytes": 4257,
+    "lines": 137,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/dotenv_domain_test.go",
+    "bytes": 4420,
+    "lines": 147,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/dotenv_test.go",
+    "bytes": 4304,
+    "lines": 146,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/download.go",
+    "bytes": 20442,
+    "lines": 666,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/download_directory.go",
+    "bytes": 7054,
+    "lines": 212,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/download_directory_test.go",
+    "bytes": 3497,
+    "lines": 98,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/download_embed.go",
+    "bytes": 3273,
+    "lines": 92,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/download_embed_test.go",
+    "bytes": 9222,
+    "lines": 249,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/download_test.go",
+    "bytes": 6903,
+    "lines": 208,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/download_view_test.go",
+    "bytes": 6905,
+    "lines": 169,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/exit.go",
+    "bytes": 3853,
+    "lines": 117,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/exit_test.go",
+    "bytes": 6302,
+    "lines": 158,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/history.go",
+    "bytes": 6082,
+    "lines": 204,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/history_data.go",
+    "bytes": 1751,
+    "lines": 59,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/history_interactive.go",
+    "bytes": 11129,
+    "lines": 377,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/history_test.go",
+    "bytes": 503,
+    "lines": 23,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/history_view_test.go",
+    "bytes": 6989,
+    "lines": 194,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/json.go",
+    "bytes": 454,
+    "lines": 20,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/kindle.go",
+    "bytes": 6062,
+    "lines": 217,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/list_kindle_test.go",
+    "bytes": 7423,
+    "lines": 183,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/loading_test.go",
+    "bytes": 1168,
+    "lines": 40,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/login.go",
+    "bytes": 7389,
+    "lines": 209,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/login_test.go",
+    "bytes": 4733,
+    "lines": 150,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/logout.go",
+    "bytes": 702,
+    "lines": 36,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/mcp.go",
+    "bytes": 36461,
+    "lines": 967,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/mcp_hardening_test.go",
+    "bytes": 11108,
+    "lines": 308,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/mcp_meta.go",
+    "bytes": 32762,
+    "lines": 728,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/mcp_meta_test.go",
+    "bytes": 10537,
+    "lines": 247,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/mcp_output.go",
+    "bytes": 6827,
+    "lines": 217,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/mcp_paths.go",
+    "bytes": 2871,
+    "lines": 97,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/mcp_registry_test.go",
+    "bytes": 5194,
+    "lines": 155,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/mcp_regression_test.go",
+    "bytes": 12847,
+    "lines": 334,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/mcp_test.go",
+    "bytes": 17548,
+    "lines": 554,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta.go",
+    "bytes": 14985,
+    "lines": 450,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_back_test.go",
+    "bytes": 4497,
+    "lines": 120,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_bench.go",
+    "bytes": 38980,
+    "lines": 1209,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_bench_test.go",
+    "bytes": 12284,
+    "lines": 343,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_card_test.go",
+    "bytes": 7229,
+    "lines": 190,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_checker_test.go",
+    "bytes": 7904,
+    "lines": 203,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_default_sources_test.go",
+    "bytes": 3035,
+    "lines": 83,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_edit.go",
+    "bytes": 10393,
+    "lines": 330,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_edit_test.go",
+    "bytes": 12962,
+    "lines": 346,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_extract_cli_test.go",
+    "bytes": 4283,
+    "lines": 119,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_fetch.go",
+    "bytes": 16600,
+    "lines": 444,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_fetch_test.go",
+    "bytes": 5772,
+    "lines": 170,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_gaps_test.go",
+    "bytes": 8102,
+    "lines": 203,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_info_test.go",
+    "bytes": 10422,
+    "lines": 269,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_picker_test.go",
+    "bytes": 2978,
+    "lines": 86,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_prepare.go",
+    "bytes": 20219,
+    "lines": 585,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_prepare_footer_test.go",
+    "bytes": 3061,
+    "lines": 80,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_prepare_notes_test.go",
+    "bytes": 2148,
+    "lines": 52,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_rename.go",
+    "bytes": 23772,
+    "lines": 675,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_rename_test.go",
+    "bytes": 25491,
+    "lines": 658,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_results_test.go",
+    "bytes": 1230,
+    "lines": 40,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_review.go",
+    "bytes": 15662,
+    "lines": 437,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_review_test.go",
+    "bytes": 3176,
+    "lines": 83,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_source_column_test.go",
+    "bytes": 5117,
+    "lines": 126,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_source_flag_test.go",
+    "bytes": 10175,
+    "lines": 269,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_sources.go",
+    "bytes": 6362,
+    "lines": 177,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_sources_test.go",
+    "bytes": 19084,
+    "lines": 480,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_test.go",
+    "bytes": 7361,
+    "lines": 222,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_tui.go",
+    "bytes": 25221,
+    "lines": 738,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_tui_cover_test.go",
+    "bytes": 5473,
+    "lines": 148,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_tui_test.go",
+    "bytes": 12424,
+    "lines": 358,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_ux_test.go",
+    "bytes": 13654,
+    "lines": 370,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/meta_weread_test.go",
+    "bytes": 1395,
+    "lines": 47,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/mirrors.go",
+    "bytes": 8866,
+    "lines": 265,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/mirrors_test.go",
+    "bytes": 7689,
+    "lines": 223,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/neterr.go",
+    "bytes": 5604,
+    "lines": 144,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/neterr_test.go",
+    "bytes": 9994,
+    "lines": 264,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/path.go",
+    "bytes": 2879,
+    "lines": 87,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/path_test.go",
+    "bytes": 6236,
+    "lines": 201,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/profile.go",
+    "bytes": 1071,
+    "lines": 47,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/profile_test.go",
+    "bytes": 979,
+    "lines": 36,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/profile_tui.go",
+    "bytes": 7237,
+    "lines": 233,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/profile_tui_test.go",
+    "bytes": 4004,
+    "lines": 115,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/root.go",
+    "bytes": 7187,
+    "lines": 225,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/root_test.go",
+    "bytes": 3721,
+    "lines": 135,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/saved.go",
+    "bytes": 1765,
+    "lines": 75,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/saved_test.go",
+    "bytes": 1379,
+    "lines": 49,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/search.go",
+    "bytes": 6769,
+    "lines": 250,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/search_defaults.go",
+    "bytes": 1053,
+    "lines": 38,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/search_defaults_test.go",
+    "bytes": 4258,
+    "lines": 122,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/search_filter_form.go",
+    "bytes": 18574,
+    "lines": 590,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/search_filter_form_test.go",
+    "bytes": 10437,
+    "lines": 236,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/search_flags_test.go",
+    "bytes": 1285,
+    "lines": 41,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/search_interactive.go",
+    "bytes": 15174,
+    "lines": 515,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/search_options.go",
+    "bytes": 1622,
+    "lines": 57,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/search_refine_test.go",
+    "bytes": 7907,
+    "lines": 257,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/search_test.go",
+    "bytes": 986,
+    "lines": 42,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_choice.go",
+    "bytes": 8474,
+    "lines": 259,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_choice_test.go",
+    "bytes": 5722,
+    "lines": 153,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_domains.go",
+    "bytes": 13469,
+    "lines": 456,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_domains_test.go",
+    "bytes": 11899,
+    "lines": 320,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_formats.go",
+    "bytes": 5724,
+    "lines": 174,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_formats_test.go",
+    "bytes": 6614,
+    "lines": 184,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_google_alias_test.go",
+    "bytes": 2797,
+    "lines": 85,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_google_key_test.go",
+    "bytes": 10099,
+    "lines": 263,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_model.go",
+    "bytes": 33332,
+    "lines": 1097,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_sources.go",
+    "bytes": 2531,
+    "lines": 81,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_store.go",
+    "bytes": 10135,
+    "lines": 343,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_test.go",
+    "bytes": 16249,
+    "lines": 470,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_weread.go",
+    "bytes": 7214,
+    "lines": 239,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_weread_key_test.go",
+    "bytes": 3975,
+    "lines": 92,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/settings_weread_test.go",
+    "bytes": 10206,
+    "lines": 287,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/shell.go",
+    "bytes": 33844,
+    "lines": 1187,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/shell_confirm.go",
+    "bytes": 1017,
+    "lines": 36,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/shell_error.go",
+    "bytes": 3463,
+    "lines": 117,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/shell_home.go",
+    "bytes": 5922,
+    "lines": 194,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/shell_kindle.go",
+    "bytes": 4026,
+    "lines": 129,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/shell_meta.go",
+    "bytes": 3757,
+    "lines": 107,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/shell_palette.go",
+    "bytes": 3545,
+    "lines": 99,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/shell_test.go",
+    "bytes": 44747,
+    "lines": 1164,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/shell_weread.go",
+    "bytes": 6086,
+    "lines": 188,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/standalone.go",
+    "bytes": 1301,
+    "lines": 52,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/standalone_test.go",
+    "bytes": 3405,
+    "lines": 91,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/testdata/demo-covers/115066162.jpg",
+    "bytes": 20003,
+    "lines": 0,
+    "kind": "binary",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/testdata/demo-covers/19288013.jpg",
+    "bytes": 10926,
+    "lines": 0,
+    "kind": "binary",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/testdata/demo-covers/27462851.jpg",
+    "bytes": 15202,
+    "lines": 0,
+    "kind": "binary",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/testdata/demo-covers/88214470.jpg",
+    "bytes": 15067,
+    "lines": 0,
+    "kind": "binary",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/testdata/demo-covers/README.md",
+    "bytes": 1118,
+    "lines": 22,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/theme.go",
+    "bytes": 5497,
+    "lines": 177,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/theme_contrast.go",
+    "bytes": 4168,
+    "lines": 139,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/theme_custom.go",
+    "bytes": 5509,
+    "lines": 176,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/theme_custom_test.go",
+    "bytes": 6828,
+    "lines": 200,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/theme_editor.go",
+    "bytes": 5308,
+    "lines": 205,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/theme_picker.go",
+    "bytes": 10794,
+    "lines": 346,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/theme_picker_test.go",
+    "bytes": 6846,
+    "lines": 209,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/theme_test.go",
+    "bytes": 5829,
+    "lines": 176,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/tty.go",
+    "bytes": 781,
+    "lines": 24,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/tty_test.go",
+    "bytes": 740,
+    "lines": 29,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/tui_filepicker.go",
+    "bytes": 5552,
+    "lines": 193,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/tui_form.go",
+    "bytes": 5584,
+    "lines": 209,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/tui_inline_form.go",
+    "bytes": 5666,
+    "lines": 176,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/tui_inline_form_test.go",
+    "bytes": 3350,
+    "lines": 96,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/tui_layout.go",
+    "bytes": 6672,
+    "lines": 205,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/tui_layout_test.go",
+    "bytes": 4577,
+    "lines": 129,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/tui_smoke_test.go",
+    "bytes": 3154,
+    "lines": 86,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/tui_test.go",
+    "bytes": 3508,
+    "lines": 111,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/tui_workflows_test.go",
+    "bytes": 5680,
+    "lines": 158,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/update.go",
+    "bytes": 9123,
+    "lines": 259,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/update_demo_test.go",
+    "bytes": 2518,
+    "lines": 77,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/update_progress.go",
+    "bytes": 8592,
+    "lines": 283,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/update_progress_test.go",
+    "bytes": 12575,
+    "lines": 342,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/update_release.go",
+    "bytes": 11424,
+    "lines": 376,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/update_test.go",
+    "bytes": 8278,
+    "lines": 246,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/update_tool_test.go",
+    "bytes": 6538,
+    "lines": 187,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/weread.go",
+    "bytes": 16374,
+    "lines": 489,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/weread_import_test.go",
+    "bytes": 11851,
+    "lines": 309,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/weread_import_tui.go",
+    "bytes": 6769,
+    "lines": 238,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/weread_init_test.go",
+    "bytes": 3800,
+    "lines": 127,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/weread_qr.go",
+    "bytes": 4763,
+    "lines": 148,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/weread_qr_test.go",
+    "bytes": 8181,
+    "lines": 216,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/weread_test.go",
+    "bytes": 10117,
+    "lines": 296,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/weread_tui.go",
+    "bytes": 7099,
+    "lines": 220,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/cli/weread_user_test.go",
+    "bytes": 3828,
+    "lines": 126,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/config/config.go",
+    "bytes": 960,
+    "lines": 43,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/config/kindle.go",
+    "bytes": 944,
+    "lines": 43,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/config/session.go",
+    "bytes": 789,
+    "lines": 40,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/config/weread.go",
+    "bytes": 2574,
+    "lines": 107,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/config/weread_test.go",
+    "bytes": 1166,
+    "lines": 50,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/charset.go",
+    "bytes": 5152,
+    "lines": 182,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/docx.go",
+    "bytes": 7407,
+    "lines": 262,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/docx_test.go",
+    "bytes": 4377,
+    "lines": 115,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/ebookmeta.go",
+    "bytes": 9902,
+    "lines": 364,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/epub.go",
+    "bytes": 9928,
+    "lines": 379,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/epub_test.go",
+    "bytes": 20732,
+    "lines": 618,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/fb2.go",
+    "bytes": 10518,
+    "lines": 384,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/fb2_test.go",
+    "bytes": 5538,
+    "lines": 170,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/isbnscan.go",
+    "bytes": 3252,
+    "lines": 100,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/isbnscan_test.go",
+    "bytes": 3510,
+    "lines": 112,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/meta.go",
+    "bytes": 7902,
+    "lines": 265,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/mobi.go",
+    "bytes": 13141,
+    "lines": 511,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/mobi_test.go",
+    "bytes": 6548,
+    "lines": 201,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/opf.go",
+    "bytes": 24905,
+    "lines": 925,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/pdf.go",
+    "bytes": 7843,
+    "lines": 280,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/pdf_test.go",
+    "bytes": 6291,
+    "lines": 205,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/pdfparse.go",
+    "bytes": 19020,
+    "lines": 840,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/ebookmeta/xmldoc.go",
+    "bytes": 5239,
+    "lines": 217,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/cover.go",
+    "bytes": 3978,
+    "lines": 116,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/cover_test.go",
+    "bytes": 4856,
+    "lines": 135,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/default_sources_test.go",
+    "bytes": 1810,
+    "lines": 54,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/douban.go",
+    "bytes": 9089,
+    "lines": 296,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/douban_test.go",
+    "bytes": 10191,
+    "lines": 247,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/edit.go",
+    "bytes": 6246,
+    "lines": 188,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/edit_test.go",
+    "bytes": 7363,
+    "lines": 183,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/embed.go",
+    "bytes": 4305,
+    "lines": 121,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/embed_test.go",
+    "bytes": 5467,
+    "lines": 126,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/extract.go",
+    "bytes": 13225,
+    "lines": 386,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/extract_test.go",
+    "bytes": 17900,
+    "lines": 301,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/fields.go",
+    "bytes": 6075,
+    "lines": 195,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/filename.go",
+    "bytes": 10994,
+    "lines": 308,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/filename_build.go",
+    "bytes": 8430,
+    "lines": 242,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/filename_build_test.go",
+    "bytes": 7680,
+    "lines": 155,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/filename_layout.go",
+    "bytes": 5059,
+    "lines": 154,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/filename_layout_test.go",
+    "bytes": 5741,
+    "lines": 125,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/filename_test.go",
+    "bytes": 6802,
+    "lines": 113,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/goodreads.go",
+    "bytes": 18164,
+    "lines": 561,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/goodreads_page.go",
+    "bytes": 9186,
+    "lines": 273,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/goodreads_page_test.go",
+    "bytes": 17728,
+    "lines": 412,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/goodreads_test.go",
+    "bytes": 13957,
+    "lines": 343,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/google.go",
+    "bytes": 6172,
+    "lines": 183,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/google_key_test.go",
+    "bytes": 4722,
+    "lines": 124,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/interactions_test.go",
+    "bytes": 4465,
+    "lines": 103,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/isbn.go",
+    "bytes": 1776,
+    "lines": 85,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/limit.go",
+    "bytes": 1624,
+    "lines": 52,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/limit_test.go",
+    "bytes": 2730,
+    "lines": 74,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/lookup.go",
+    "bytes": 10315,
+    "lines": 324,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/match_test.go",
+    "bytes": 10439,
+    "lines": 261,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/matchvalue_test.go",
+    "bytes": 862,
+    "lines": 29,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/merge.go",
+    "bytes": 13893,
+    "lines": 459,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/openlibrary.go",
+    "bytes": 6369,
+    "lines": 222,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/per_source_test.go",
+    "bytes": 5276,
+    "lines": 131,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/plan.go",
+    "bytes": 8641,
+    "lines": 230,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/plan_test.go",
+    "bytes": 7065,
+    "lines": 204,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/query_edit.go",
+    "bytes": 2139,
+    "lines": 59,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/query_edit_test.go",
+    "bytes": 5388,
+    "lines": 131,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/review2_test.go",
+    "bytes": 5765,
+    "lines": 131,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/review_test.go",
+    "bytes": 4735,
+    "lines": 114,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/series_test.go",
+    "bytes": 5030,
+    "lines": 138,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/source.go",
+    "bytes": 9585,
+    "lines": 284,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/source_list_test.go",
+    "bytes": 830,
+    "lines": 28,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/sources_test.go",
+    "bytes": 6275,
+    "lines": 150,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/text.go",
+    "bytes": 8340,
+    "lines": 263,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/text_cjk_test.go",
+    "bytes": 1487,
+    "lines": 44,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/weread.go",
+    "bytes": 8981,
+    "lines": 262,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/metasource/weread_test.go",
+    "bytes": 10961,
+    "lines": 259,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/weread/client.go",
+    "bytes": 10164,
+    "lines": 351,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/weread/cos.go",
+    "bytes": 3994,
+    "lines": 124,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/weread/device.go",
+    "bytes": 2622,
+    "lines": 90,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/weread/errors.go",
+    "bytes": 3586,
+    "lines": 99,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/weread/import.go",
+    "bytes": 10028,
+    "lines": 317,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/weread/login.go",
+    "bytes": 5997,
+    "lines": 208,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/weread/user.go",
+    "bytes": 2403,
+    "lines": 92,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/weread/user_test.go",
+    "bytes": 2262,
+    "lines": 69,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/weread/weread_test.go",
+    "bytes": 23915,
+    "lines": 698,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/book.go",
+    "bytes": 2209,
+    "lines": 91,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/book_test.go",
+    "bytes": 1198,
+    "lines": 40,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/client.go",
+    "bytes": 9536,
+    "lines": 313,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/client_test.go",
+    "bytes": 4977,
+    "lines": 152,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/constants.go",
+    "bytes": 1519,
+    "lines": 57,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/constants_test.go",
+    "bytes": 3483,
+    "lines": 125,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/cover.go",
+    "bytes": 4619,
+    "lines": 175,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/cover_test.go",
+    "bytes": 3445,
+    "lines": 116,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/domain_mirror_test.go",
+    "bytes": 7686,
+    "lines": 205,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/domain_policy.go",
+    "bytes": 7528,
+    "lines": 200,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/domain_policy_test.go",
+    "bytes": 2188,
+    "lines": 52,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/domain_probe.go",
+    "bytes": 9377,
+    "lines": 269,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/domain_probe_test.go",
+    "bytes": 10074,
+    "lines": 280,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/download.go",
+    "bytes": 11983,
+    "lines": 381,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/download_credentials_test.go",
+    "bytes": 5335,
+    "lines": 182,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/download_test.go",
+    "bytes": 10477,
+    "lines": 344,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi.go",
+    "bytes": 14382,
+    "lines": 487,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_book.go",
+    "bytes": 3134,
+    "lines": 110,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_book_test.go",
+    "bytes": 4344,
+    "lines": 105,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_context_test.go",
+    "bytes": 8447,
+    "lines": 291,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_feed.go",
+    "bytes": 2032,
+    "lines": 70,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_feed_test.go",
+    "bytes": 2205,
+    "lines": 67,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_history_delete.go",
+    "bytes": 1245,
+    "lines": 44,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_history_delete_test.go",
+    "bytes": 1188,
+    "lines": 43,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_profile.go",
+    "bytes": 4737,
+    "lines": 165,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_profile_test.go",
+    "bytes": 5936,
+    "lines": 149,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_saved.go",
+    "bytes": 1555,
+    "lines": 56,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_saved_test.go",
+    "bytes": 1998,
+    "lines": 53,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/eapi_test.go",
+    "bytes": 11073,
+    "lines": 285,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/errors.go",
+    "bytes": 2531,
+    "lines": 61,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/kindle.go",
+    "bytes": 11952,
+    "lines": 385,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/kindle_smtp_test.go",
+    "bytes": 13044,
+    "lines": 437,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/kindle_test.go",
+    "bytes": 3636,
+    "lines": 124,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/model.go",
+    "bytes": 3638,
+    "lines": 107,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/profile.go",
+    "bytes": 1171,
+    "lines": 41,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/search.go",
+    "bytes": 1270,
+    "lines": 47,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/text.go",
+    "bytes": 2567,
+    "lines": 85,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/text_test.go",
+    "bytes": 3210,
+    "lines": 87,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/urls.go",
+    "bytes": 1652,
+    "lines": 60,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/version.go",
+    "bytes": 1166,
+    "lines": 50,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "internal/zlib/version_test.go",
+    "bytes": 2279,
+    "lines": 68,
+    "kind": "text",
+    "group": "internal"
+  },
+  {
+    "path": "packaging/mcp/server.json",
+    "bytes": 1497,
+    "lines": 43,
+    "kind": "text",
+    "group": "packaging"
+  },
+  {
+    "path": "packaging/mcpb/manifest.json",
+    "bytes": 3489,
+    "lines": 67,
+    "kind": "text",
+    "group": "packaging"
+  },
+  {
+    "path": "plugins/zlib/.claude-plugin/plugin.json",
+    "bytes": 569,
+    "lines": 24,
+    "kind": "text",
+    "group": "plugins"
+  },
+  {
+    "path": "plugins/zlib/.codex-plugin/plugin.json",
+    "bytes": 1354,
+    "lines": 42,
+    "kind": "text",
+    "group": "plugins"
+  },
+  {
+    "path": "plugins/zlib/.mcp.json",
+    "bytes": 93,
+    "lines": 9,
+    "kind": "text",
+    "group": "plugins"
+  },
+  {
+    "path": "plugins/zlib/.skillignore",
+    "bytes": 244,
+    "lines": 8,
+    "kind": "text",
+    "group": "plugins"
+  },
+  {
+    "path": "plugins/zlib/README.md",
+    "bytes": 549,
+    "lines": 16,
+    "kind": "text",
+    "group": "plugins"
+  },
+  {
+    "path": "plugins/zlib/skills/kindle/SKILL.md",
+    "bytes": 3225,
+    "lines": 60,
+    "kind": "text",
+    "group": "plugins"
+  },
+  {
+    "path": "plugins/zlib/skills/kindle/references/setup.md",
+    "bytes": 2566,
+    "lines": 69,
+    "kind": "text",
+    "group": "plugins"
+  },
+  {
+    "path": "plugins/zlib/skills/metadata/SKILL.md",
+    "bytes": 4780,
+    "lines": 85,
+    "kind": "text",
+    "group": "plugins"
+  },
+  {
+    "path": "plugins/zlib/skills/metadata/references/cli.md",
+    "bytes": 3995,
+    "lines": 90,
+    "kind": "text",
+    "group": "plugins"
+  },
+  {
+    "path": "plugins/zlib/skills/zlib/SKILL.md",
+    "bytes": 6965,
+    "lines": 125,
+    "kind": "text",
+    "group": "plugins"
+  },
+  {
+    "path": "plugins/zlib/skills/zlib/references/connection.md",
+    "bytes": 3120,
+    "lines": 67,
+    "kind": "text",
+    "group": "plugins"
+  },
+  {
+    "path": "scripts/build-zh.mjs",
+    "bytes": 8800,
+    "lines": 211,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/check-docs.mjs",
+    "bytes": 4801,
+    "lines": 112,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/check-site-text.mjs",
+    "bytes": 9919,
+    "lines": 184,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/check.sh",
+    "bytes": 2226,
+    "lines": 69,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/ci-changes.mjs",
+    "bytes": 2955,
+    "lines": 87,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/ci-changes.test.mjs",
+    "bytes": 3517,
+    "lines": 84,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/configure-pullfrog.mjs",
+    "bytes": 11577,
+    "lines": 288,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/configure-pullfrog.test.mjs",
+    "bytes": 7994,
+    "lines": 200,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/install.test.mjs",
+    "bytes": 6922,
+    "lines": 170,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/mcpb/main.go",
+    "bytes": 13965,
+    "lines": 394,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/mcpb/main_test.go",
+    "bytes": 7822,
+    "lines": 225,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/plugin-mcp.test.mjs",
+    "bytes": 1261,
+    "lines": 30,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/sync-plugin-skills.mjs",
+    "bytes": 2568,
+    "lines": 57,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "site/README.md",
+    "bytes": 2546,
+    "lines": 67,
+    "kind": "text",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/11390745.jpg",
+    "bytes": 23341,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/115066162.jpg",
+    "bytes": 19773,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/19288013.jpg",
+    "bytes": 10926,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/27462851.jpg",
+    "bytes": 15202,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/30948117.jpg",
+    "bytes": 17592,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/38104421.jpg",
+    "bytes": 10751,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/41003377.jpg",
+    "bytes": 15089,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/47712806.jpg",
+    "bytes": 18255,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/55190322.jpg",
+    "bytes": 10215,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/55519037.jpg",
+    "bytes": 12433,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/62884051.jpg",
+    "bytes": 16496,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/71204458.jpg",
+    "bytes": 13166,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/76620518.jpg",
+    "bytes": 19226,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/88214470.jpg",
+    "bytes": 9327,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/88230948.jpg",
+    "bytes": 12880,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/90135520.jpg",
+    "bytes": 12734,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/covers/README.md",
+    "bytes": 3469,
+    "lines": 30,
+    "kind": "text",
+    "group": "site"
+  },
+  {
+    "path": "site/favicon.svg",
+    "bytes": 290,
+    "lines": 6,
+    "kind": "text",
+    "group": "site"
+  },
+  {
+    "path": "site/google4bc0b25eb144f7de.html",
+    "bytes": 53,
+    "lines": 1,
+    "kind": "text",
+    "group": "site"
+  },
+  {
+    "path": "site/index.html",
+    "bytes": 76093,
+    "lines": 961,
+    "kind": "text",
+    "group": "site"
+  },
+  {
+    "path": "site/og.png",
+    "bytes": 71848,
+    "lines": 0,
+    "kind": "binary",
+    "group": "site"
+  },
+  {
+    "path": "site/robots.txt",
+    "bytes": 71,
+    "lines": 5,
+    "kind": "text",
+    "group": "site"
+  },
+  {
+    "path": "site/send-to-kindle/index.html",
+    "bytes": 24669,
+    "lines": 429,
+    "kind": "text",
+    "group": "site"
+  },
+  {
+    "path": "site/site.js",
+    "bytes": 7575,
+    "lines": 158,
+    "kind": "text",
+    "group": "site"
+  },
+  {
+    "path": "site/sitemap.xml",
+    "bytes": 449,
+    "lines": 7,
+    "kind": "text",
+    "group": "site"
+  },
+  {
+    "path": "site/style.css",
+    "bytes": 49485,
+    "lines": 675,
+    "kind": "text",
+    "group": "site"
+  },
+  {
+    "path": "site/tui-demo.js",
+    "bytes": 57221,
+    "lines": 36,
+    "kind": "text",
+    "group": "site"
+  }
+]

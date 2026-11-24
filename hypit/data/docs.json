@@ -1,0 +1,232 @@
+[
+  {
+    "path": "docs/guide/agents.md",
+    "title": "Use Hypit in your Agent",
+    "bytes": 3149
+  },
+  {
+    "path": "docs/guide/author-packages.md",
+    "title": "Adding an Author Package",
+    "bytes": 5665
+  },
+  {
+    "path": "docs/guide/component-anatomy.md",
+    "title": "Component Anatomy",
+    "bytes": 3822
+  },
+  {
+    "path": "docs/guide/conventions.md",
+    "title": "Conventions",
+    "bytes": 2821
+  },
+  {
+    "path": "docs/guide/develop.md",
+    "title": "Development Guide",
+    "bytes": 2974
+  },
+  {
+    "path": "docs/guide/packages.md",
+    "title": "Packages and Extension",
+    "bytes": 4950
+  },
+  {
+    "path": "docs/guide/providers.md",
+    "title": "Models and Providers",
+    "bytes": 8899
+  },
+  {
+    "path": "docs/guide/runtime.md",
+    "title": "Runtime",
+    "bytes": 8629
+  },
+  {
+    "path": "docs/guide/service-partners.md",
+    "title": "Model and deployment services",
+    "bytes": 5189
+  },
+  {
+    "path": "docs/guide/skill.md",
+    "title": "Making videos with an Agent",
+    "bytes": 4247
+  },
+  {
+    "path": "docs/guide/studio-companion-architecture.md",
+    "title": "Studio Companions",
+    "bytes": 3195
+  },
+  {
+    "path": "docs/guide/studio-temporal-windows.md",
+    "title": "Timing edits in Studio",
+    "bytes": 3341
+  },
+  {
+    "path": "docs/guide/testing.md",
+    "title": "Testing",
+    "bytes": 4182
+  },
+  {
+    "path": "docs/quickstart/composition.md",
+    "title": "Film & Rendering",
+    "bytes": 5565
+  },
+  {
+    "path": "docs/quickstart/generation.md",
+    "title": "Media & Generation",
+    "bytes": 15540
+  },
+  {
+    "path": "docs/quickstart/images.md",
+    "title": "Image Operations",
+    "bytes": 4144
+  },
+  {
+    "path": "docs/quickstart/preview.md",
+    "title": "Hypit Studio",
+    "bytes": 6003
+  },
+  {
+    "path": "docs/quickstart/run.md",
+    "title": "Run Source & Builds",
+    "bytes": 22400
+  },
+  {
+    "path": "docs/quickstart/script.md",
+    "title": "Script",
+    "bytes": 11765
+  },
+  {
+    "path": "docs/quickstart/styles.md",
+    "title": "SVS Stylesheets",
+    "bytes": 13430
+  },
+  {
+    "path": "docs/quickstart/timing.md",
+    "title": "Timing & Assembly",
+    "bytes": 6147
+  },
+  {
+    "path": "docs/quickstart/tracks.md",
+    "title": "Tracks",
+    "bytes": 26377
+  },
+  {
+    "path": "docs/quickstart.md",
+    "title": "Quickstart for Agent users",
+    "bytes": 5633
+  },
+  {
+    "path": "docs/zh/guide/agents.md",
+    "title": "在你的 Agent 中使用 Hypit",
+    "bytes": 2812
+  },
+  {
+    "path": "docs/zh/guide/author-packages.md",
+    "title": "添加作者包",
+    "bytes": 5071
+  },
+  {
+    "path": "docs/zh/guide/component-anatomy.md",
+    "title": "组件结构",
+    "bytes": 3177
+  },
+  {
+    "path": "docs/zh/guide/conventions.md",
+    "title": "代码规范",
+    "bytes": 2457
+  },
+  {
+    "path": "docs/zh/guide/develop.md",
+    "title": "开发指南",
+    "bytes": 2831
+  },
+  {
+    "path": "docs/zh/guide/packages.md",
+    "title": "包与扩展",
+    "bytes": 4145
+  },
+  {
+    "path": "docs/zh/guide/providers.md",
+    "title": "模型与 Provider",
+    "bytes": 7628
+  },
+  {
+    "path": "docs/zh/guide/runtime.md",
+    "title": "Runtime",
+    "bytes": 7582
+  },
+  {
+    "path": "docs/zh/guide/service-partners.md",
+    "title": "模型与部署服务",
+    "bytes": 4796
+  },
+  {
+    "path": "docs/zh/guide/skill.md",
+    "title": "与 Agent 一起制作视频",
+    "bytes": 3620
+  },
+  {
+    "path": "docs/zh/guide/studio-companion-architecture.md",
+    "title": "Studio Companion",
+    "bytes": 2780
+  },
+  {
+    "path": "docs/zh/guide/studio-temporal-windows.md",
+    "title": "Studio 中的时间编辑",
+    "bytes": 3112
+  },
+  {
+    "path": "docs/zh/guide/testing.md",
+    "title": "测试",
+    "bytes": 3922
+  },
+  {
+    "path": "docs/zh/quickstart/composition.md",
+    "title": "Film 与渲染",
+    "bytes": 5188
+  },
+  {
+    "path": "docs/zh/quickstart/generation.md",
+    "title": "媒体与生成",
+    "bytes": 14536
+  },
+  {
+    "path": "docs/zh/quickstart/images.md",
+    "title": "图片操作",
+    "bytes": 4129
+  },
+  {
+    "path": "docs/zh/quickstart/preview.md",
+    "title": "Hypit Studio",
+    "bytes": 5373
+  },
+  {
+    "path": "docs/zh/quickstart/run.md",
+    "title": "Run Source 与 Build",
+    "bytes": 20032
+  },
+  {
+    "path": "docs/zh/quickstart/script.md",
+    "title": "Script",
+    "bytes": 11647
+  },
+  {
+    "path": "docs/zh/quickstart/styles.md",
+    "title": "SVS 样式表",
+    "bytes": 12943
+  },
+  {
+    "path": "docs/zh/quickstart/timing.md",
+    "title": "时间与装配",
+    "bytes": 5831
+  },
+  {
+    "path": "docs/zh/quickstart/tracks.md",
+    "title": "轨道",
+    "bytes": 24022
+  },
+  {
+    "path": "docs/zh/quickstart.md",
+    "title": "Agent 用户快速开始",
+    "bytes": 5255
+  }
+]

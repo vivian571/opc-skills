@@ -1,0 +1,211 @@
+{
+  "source": "config.example.json",
+  "fields": [
+    {
+      "key": "name",
+      "example": "麦田",
+      "required": false
+    },
+    {
+      "key": "feishuWebhook",
+      "example": "https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxx-xxxx-x",
+      "required": false
+    },
+    {
+      "key": "pluginDir",
+      "example": "/path/to/obsidian-x-publisher",
+      "required": true
+    },
+    {
+      "key": "extensionId",
+      "example": "插件以「加载已解压」安装后，chrome://extensions 里看到的扩展 ID",
+      "required": true
+    },
+    {
+      "key": "bridge",
+      "example": "http://127.0.0.1:8765",
+      "required": false
+    },
+    {
+      "key": "driver",
+      "example": "direct",
+      "required": false
+    },
+    {
+      "key": "chromePort",
+      "example": "9333",
+      "required": false
+    },
+    {
+      "key": "chromeProfile",
+      "example": "~/publish-hub/chrome-profile",
+      "required": false
+    },
+    {
+      "key": "rootPath",
+      "example": "/Volumes/<NAS 共享名>/视频导出",
+      "required": true
+    },
+    {
+      "key": "nasUrl",
+      "example": "smb://<用户名>@<NAS 地址>/<共享名>",
+      "required": false
+    },
+    {
+      "key": "batches",
+      "example": "[['bilibili', 'douyin'], ['xhs', 'channels'], ['zsz', 'x'], ",
+      "required": false
+    },
+    {
+      "key": "auto",
+      "example": "['zsz', 'x', 'youtube', 'instagram']",
+      "required": false
+    },
+    {
+      "key": "manual",
+      "example": "['bilibili', 'douyin', 'xhs', 'channels']",
+      "required": false
+    },
+    {
+      "key": "keepAlive",
+      "example": "['channels']",
+      "required": false
+    },
+    {
+      "key": "keepAliveMinutes",
+      "example": "60",
+      "required": false
+    },
+    {
+      "key": "sampleHours",
+      "example": "6",
+      "required": false
+    },
+    {
+      "key": "xHandle",
+      "example": "你的 X 用户名（不带 @）",
+      "required": false
+    },
+    {
+      "key": "web.port",
+      "example": "8787",
+      "required": false
+    },
+    {
+      "key": "web.key",
+      "example": "换成一串随机字符，网页访问口令",
+      "required": true
+    },
+    {
+      "key": "web.login",
+      "example": "feishu（可选：远程打开时用飞书验证码登录，不用带口令；不要就删掉这一项）",
+      "required": false
+    },
+    {
+      "key": "web.widgetToken",
+      "example": "可选：iPhone 小组件用的只读口令，随便一串随机字符",
+      "required": false
+    },
+    {
+      "key": "web.owner",
+      "example": "可选：小组件上的署名，如 你的名字",
+      "required": false
+    },
+    {
+      "key": "web.avatar",
+      "example": "可选：小组件上的头像图片路径，如 data/avatar.jpg",
+      "required": false
+    },
+    {
+      "key": "web.access.team",
+      "example": "可选：挂了 Cloudflare Access 邮箱登录时填 <团队名>.cloudflareaccess.com",
+      "required": false
+    },
+    {
+      "key": "web.access.aud",
+      "example": "Access 应用的 AUD Tag",
+      "required": false
+    },
+    {
+      "key": "tunnel.name",
+      "example": "maitian",
+      "required": false
+    },
+    {
+      "key": "tunnel.hostname",
+      "example": "固定远程地址，如 maitian.your-domain.com（可选，不配就用每次重启会变的临时地址）",
+      "required": false
+    },
+    {
+      "key": "site.name",
+      "example": "知识站",
+      "required": false
+    },
+    {
+      "key": "site.base",
+      "example": "https://your-site.example.com",
+      "required": false
+    },
+    {
+      "key": "site.adminPath",
+      "example": "/admin",
+      "required": false
+    },
+    {
+      "key": "site.coursesApi",
+      "example": "/api/courses?admin=1",
+      "required": false
+    },
+    {
+      "key": "site.dashboardApi",
+      "example": "/api/admin/dashboard",
+      "required": false
+    },
+    {
+      "key": "site.coursePath",
+      "example": "/series/{seriesId}?courseId={id}",
+      "required": false
+    },
+    {
+      "key": "site.logo",
+      "example": "可选：站点图标的本地路径，比如 data/site-logo.png",
+      "required": false
+    },
+    {
+      "key": "board.url",
+      "example": "飞书多维表格看板地址（可选，不用就删掉 board 整块）",
+      "required": false
+    },
+    {
+      "key": "board.baseToken",
+      "example": "多维表格 base token",
+      "required": false
+    },
+    {
+      "key": "board.tables.episodes",
+      "example": "tblxxx",
+      "required": false
+    },
+    {
+      "key": "board.tables.tasks",
+      "example": "tblxxx",
+      "required": false
+    },
+    {
+      "key": "board.tables.daily",
+      "example": "tblxxx",
+      "required": false
+    },
+    {
+      "key": "board.tables.site",
+      "example": "tblxxx",
+      "required": false
+    },
+    {
+      "key": "board.tables.channels",
+      "example": "tblxxx",
+      "required": false
+    }
+  ],
+  "note": "带 * 的字段必须填写才能真跑；其余均可选或按需配"
+}

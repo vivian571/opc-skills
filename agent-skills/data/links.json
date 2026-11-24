@@ -1,0 +1,7 @@
+{
+  "repo": "https://github.com/addyosmani/agent-skills",
+  "readme": "https://github.com/addyosmani/agent-skills#readme",
+  "homepage": "https://skills.addy.ie",
+  "contributing": "https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md",
+  "local_mirror": "{{WORKBUNDY_HOME}}/skills/agent-skills/upstream"
+}

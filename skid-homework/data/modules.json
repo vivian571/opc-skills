@@ -1,0 +1,1411 @@
+[
+  {
+    "path": "src/@types/global.d.ts",
+    "lines": 5,
+    "bytes": 77,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "content;"
+    ]
+  },
+  {
+    "path": "src/@types/i18next.d.ts",
+    "lines": 11,
+    "bytes": 264,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": []
+  },
+  {
+    "path": "src/@types/resources.d.ts",
+    "lines": 709,
+    "bytes": 26162,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Resources;"
+    ]
+  },
+  {
+    "path": "src/ai/base-client.ts",
+    "lines": 70,
+    "bytes": 1576,
+    "group": "src",
+    "role": "抽象基类：定义统一接口",
+    "exports": [
+      "class"
+    ]
+  },
+  {
+    "path": "src/ai/chat-types.ts",
+    "lines": 7,
+    "bytes": 131,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "AiChatRole",
+      "AiChatMessage"
+    ]
+  },
+  {
+    "path": "src/ai/errors.ts",
+    "lines": 14,
+    "bytes": 340,
+    "group": "src",
+    "role": "AI 调用错误分类与重试策略",
+    "exports": [
+      "NonRetryableError",
+      "isNonRetryableError"
+    ]
+  },
+  {
+    "path": "src/ai/gemini.ts",
+    "lines": 355,
+    "bytes": 9688,
+    "group": "src",
+    "role": "Gemini API 客户端：@google/genai 封装，流式输出 + tool call 支持",
+    "exports": [
+      "GeminiModel",
+      "GeminiConfig",
+      "GeminiAi"
+    ]
+  },
+  {
+    "path": "src/ai/openai.ts",
+    "lines": 452,
+    "bytes": 11595,
+    "group": "src",
+    "role": "OpenAI 兼容客户端：统一请求/响应格式",
+    "exports": [
+      "OpenAiModel",
+      "ResponseInputTextContent",
+      "ResponseInputImageContent",
+      "ResponseInputFileContent",
+      "ResponseApiContentPart",
+      "ResponseApiMessage",
+      "OpenAiClient"
+    ]
+  },
+  {
+    "path": "src/ai/prompts/chat.prompt.md",
+    "lines": 14,
+    "bytes": 591,
+    "group": "src",
+    "role": "对话上下文管理 prompt",
+    "exports": []
+  },
+  {
+    "path": "src/ai/prompts/improve.prompt.md",
+    "lines": 69,
+    "bytes": 2815,
+    "group": "src",
+    "role": "改进答案 prompt（按 / 触发）",
+    "exports": []
+  },
+  {
+    "path": "src/ai/prompts/prompt-manager.ts",
+    "lines": 8,
+    "bytes": 348,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "getEnabledToolCallingPrompts"
+    ]
+  },
+  {
+    "path": "src/ai/prompts/solve.prompt.md",
+    "lines": 68,
+    "bytes": 2572,
+    "group": "src",
+    "role": "解题流程 prompt",
+    "exports": []
+  },
+  {
+    "path": "src/ai/prompts/tools/diagram-tool.prompt.md",
+    "lines": 149,
+    "bytes": 4356,
+    "group": "src",
+    "role": "通用 diagram 工具规范",
+    "exports": []
+  },
+  {
+    "path": "src/ai/prompts/tools/jsxgraph-tool.prompt.md",
+    "lines": 362,
+    "bytes": 13929,
+    "group": "src",
+    "role": "JSXGraph 工具调用规范",
+    "exports": []
+  },
+  {
+    "path": "src/ai/prompts/tools/mermaid-tool.prompt.md",
+    "lines": 18,
+    "bytes": 494,
+    "group": "src",
+    "role": "Mermaid 工具调用规范",
+    "exports": []
+  },
+  {
+    "path": "src/ai/request.ts",
+    "lines": 49,
+    "bytes": 1352,
+    "group": "src",
+    "role": "统一请求入口：按 provider 分发到 gemini/openai",
+    "exports": [
+      "renderImproveXml"
+    ]
+  },
+  {
+    "path": "src/ai/response.ts",
+    "lines": 219,
+    "bytes": 6531,
+    "group": "src",
+    "role": "统一响应解析：tool call 提取、流式分块合并",
+    "exports": [
+      "SolveResponse",
+      "ImproveResponse",
+      "parseSolveResponse",
+      "parseImproveResponse"
+    ]
+  },
+  {
+    "path": "src/app/chat/page.tsx",
+    "lines": 11,
+    "bytes": 240,
+    "group": "src",
+    "role": "主聊天界面",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/app/init/page.tsx",
+    "lines": 11,
+    "bytes": 193,
+    "group": "src",
+    "role": "API Key 初始化向导页面",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/app/layout.tsx",
+    "lines": 64,
+    "bytes": 1527,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "metadata:",
+      "viewport:",
+      "function"
+    ]
+  },
+  {
+    "path": "src/app/page.tsx",
+    "lines": 11,
+    "bytes": 244,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/app/providers.tsx",
+    "lines": 34,
+    "bytes": 881,
+    "group": "src",
+    "role": "Next.js Provider 堆栈：i18n/theme/dexie",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/app/serwist.ts",
+    "lines": 2,
+    "bytes": 68,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "SerwistProvider"
+    ]
+  },
+  {
+    "path": "src/app/settings/import/page.tsx",
+    "lines": 12,
+    "bytes": 394,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "metadata:",
+      "function"
+    ]
+  },
+  {
+    "path": "src/app/settings/page.tsx",
+    "lines": 11,
+    "bytes": 251,
+    "group": "src",
+    "role": "设置页：快捷键/主题/i18n",
+    "exports": [
+      "async"
+    ]
+  },
+  {
+    "path": "src/app/sw.ts",
+    "lines": 22,
+    "bytes": 584,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": []
+  },
+  {
+    "path": "src/components/OpenCVLoader.tsx",
+    "lines": 6,
+    "bytes": 144,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/ShortcutHint.tsx",
+    "lines": 22,
+    "bytes": 554,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ShortcutHintProps",
+      "ShortcutHint"
+    ]
+  },
+  {
+    "path": "src/components/actions/ActionsArea.tsx",
+    "lines": 121,
+    "bytes": 3590,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ActionsAreaProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/actions/ActionsCard.tsx",
+    "lines": 164,
+    "bytes": 4750,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ActionsCardProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/actions/GlobalTraitsEditor.tsx",
+    "lines": 55,
+    "bytes": 1557,
+    "group": "src",
+    "role": "Ctrl+X 全局 Prompt 编辑器",
+    "exports": [
+      "GlobalTraitsEditorProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/actions/ModelSelectorPopover.tsx",
+    "lines": 41,
+    "bytes": 1144,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/actions/OnlineSearchToggle.tsx",
+    "lines": 69,
+    "bytes": 2012,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "OnlineSearchToggleProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/actions/UploadArea.tsx",
+    "lines": 364,
+    "bytes": 11696,
+    "group": "src",
+    "role": "文件/拍照上传区（支持多文件/PDF/ADB）",
+    "exports": [
+      "UploadAreaProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/actions/UploadFilesInfo.tsx",
+    "lines": 38,
+    "bytes": 1020,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "InfoAreaProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/chat/chat-composer.tsx",
+    "lines": 81,
+    "bytes": 2503,
+    "group": "src",
+    "role": "聊天输入区：文件上传/拍照/提交/快捷键",
+    "exports": [
+      "ChatComposerProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/chat/chat-header.tsx",
+    "lines": 187,
+    "bytes": 5854,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ChatHeaderProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/chat/chat-messages.tsx",
+    "lines": 220,
+    "bytes": 8399,
+    "group": "src",
+    "role": "消息列表渲染：Markdown + 代码块 + 图表",
+    "exports": [
+      "ChatMessagesProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/chat/chat-sidebar.tsx",
+    "lines": 182,
+    "bytes": 5852,
+    "group": "src",
+    "role": "侧边栏：历史记录/快捷键提示",
+    "exports": [
+      "ChatSidebarProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/chat/page.tsx",
+    "lines": 138,
+    "bytes": 4309,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/customized/slider/slider-06.tsx",
+    "lines": 16,
+    "bytes": 424,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/dialogs/InspectDialog.tsx",
+    "lines": 157,
+    "bytes": 5154,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "InspectDialogProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/dialogs/TextInputDialog.tsx",
+    "lines": 95,
+    "bytes": 2487,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "TextInputDialogProps",
+      "TextInputDialog"
+    ]
+  },
+  {
+    "path": "src/components/guards/RequireAiKey.tsx",
+    "lines": 52,
+    "bytes": 1357,
+    "group": "src",
+    "role": "无 Key 时拦截并引导到 /init",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/markdown/CodeBlock.tsx",
+    "lines": 145,
+    "bytes": 3903,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "SourceContext",
+      "MarkdownCodeProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/markdown/CodeRenderer.tsx",
+    "lines": 87,
+    "bytes": 2247,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "CodeRendererProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/markdown/MarkdownRenderer.tsx",
+    "lines": 35,
+    "bytes": 998,
+    "group": "src",
+    "role": "Markdown 渲染入口：dompurify sanitize + 代码高亮",
+    "exports": [
+      "MemoizedMarkdown"
+    ]
+  },
+  {
+    "path": "src/components/markdown/diagram/DiagramRenderer.tsx",
+    "lines": 39,
+    "bytes": 989,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "DiagramRendererProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/markdown/diagram/ForceDiagram.tsx",
+    "lines": 121,
+    "bytes": 3097,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/markdown/diagram/JSXGraphDiagram.tsx",
+    "lines": 168,
+    "bytes": 4655,
+    "group": "src",
+    "role": "JSXGraph 交互式几何图渲染",
+    "exports": [
+      "JSXGraphDiagramProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/markdown/diagram/MathPlotDiagram.tsx",
+    "lines": 264,
+    "bytes": 8078,
+    "group": "src",
+    "role": "function-plot 函数图像",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/markdown/diagram/MermaidDiagram.tsx",
+    "lines": 48,
+    "bytes": 1045,
+    "group": "src",
+    "role": "Mermaid 图表渲染",
+    "exports": [
+      "MermaidDiagramProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/pages/ImportSettingsPage.tsx",
+    "lines": 273,
+    "bytes": 8722,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/pages/InitPage.tsx",
+    "lines": 296,
+    "bytes": 11303,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/pages/ScanPage.tsx",
+    "lines": 698,
+    "bytes": 21120,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/preview/EmptyPreviewList.tsx",
+    "lines": 46,
+    "bytes": 1360,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "EmptyPreviewListProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/preview/FileContent.tsx",
+    "lines": 39,
+    "bytes": 1094,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "FileContentProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/preview/PreviewCard.tsx",
+    "lines": 173,
+    "bytes": 5104,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "PreviewCardProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/preview/PreviewItem.tsx",
+    "lines": 120,
+    "bytes": 3688,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "PreviewItemProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/preview/PreviewList.tsx",
+    "lines": 140,
+    "bytes": 3878,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "PreviewListProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/preview/TextFilePreview.tsx",
+    "lines": 60,
+    "bytes": 1680,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "TextFilePreviewProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/settings/AIAPICredentialsManager.tsx",
+    "lines": 356,
+    "bytes": 12957,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "AIAPICredentialsManagerProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/settings/AISourceManager.tsx",
+    "lines": 171,
+    "bytes": 6093,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/settings/AddAISourceDialog.tsx",
+    "lines": 182,
+    "bytes": 5893,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "AddAISourceDialogProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/settings/ExplanationModeSelector.tsx",
+    "lines": 104,
+    "bytes": 3055,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/settings/OpenAIAdvancedOptions.tsx",
+    "lines": 216,
+    "bytes": 7541,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "OpenAIAdvancedOptionsProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/settings/SettingsPage.tsx",
+    "lines": 772,
+    "bytes": 26089,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "DEFAULT_BASE_BY_PROVIDER:",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/settings/ShareAISourceDialog.tsx",
+    "lines": 93,
+    "bytes": 2629,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ShareAISourceDialogProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/settings/ShortcutRecorder.tsx",
+    "lines": 96,
+    "bytes": 2653,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ShortcutRecorderProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/solutions/ActiveSolutionContent.tsx",
+    "lines": 236,
+    "bytes": 7531,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ActiveSolutionContentProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/solutions/Explanation.tsx",
+    "lines": 83,
+    "bytes": 2130,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ExplanationProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/solutions/ImproveSolutionDialog.tsx",
+    "lines": 173,
+    "bytes": 5391,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ImproveSolutionDialogProps",
+      "ImproveSolutionDialogHandle",
+      "ImproveSolutionDialog"
+    ]
+  },
+  {
+    "path": "src/components/solutions/ProblemList.tsx",
+    "lines": 37,
+    "bytes": 1243,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ProblemListProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/solutions/SolutionViewer.tsx",
+    "lines": 344,
+    "bytes": 10942,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "SolutionViewerProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/solutions/SolutionsArea.tsx",
+    "lines": 221,
+    "bytes": 7356,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/solutions/StreamingOutputDisplay.tsx",
+    "lines": 124,
+    "bytes": 3493,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/solutions/TextSolutionPreview.tsx",
+    "lines": 112,
+    "bytes": 3391,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "TextSolutionPreviewProps",
+      "TextSolutionPreview"
+    ]
+  },
+  {
+    "path": "src/components/theme-provider.tsx",
+    "lines": 101,
+    "bytes": 2558,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ThemeProvider",
+      "useTheme"
+    ]
+  },
+  {
+    "path": "src/components/ui/accordion.tsx",
+    "lines": 65,
+    "bytes": 2049,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Accordion,"
+    ]
+  },
+  {
+    "path": "src/components/ui/alert-dialog.tsx",
+    "lines": 156,
+    "bytes": 3869,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "AlertDialog,"
+    ]
+  },
+  {
+    "path": "src/components/ui/alert.tsx",
+    "lines": 67,
+    "bytes": 1625,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Alert,"
+    ]
+  },
+  {
+    "path": "src/components/ui/badge.tsx",
+    "lines": 47,
+    "bytes": 1640,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Badge,"
+    ]
+  },
+  {
+    "path": "src/components/ui/button.tsx",
+    "lines": 61,
+    "bytes": 2152,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Button,"
+    ]
+  },
+  {
+    "path": "src/components/ui/card.tsx",
+    "lines": 93,
+    "bytes": 2000,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Card,"
+    ]
+  },
+  {
+    "path": "src/components/ui/checkbox.tsx",
+    "lines": 31,
+    "bytes": 1212,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Checkbox"
+    ]
+  },
+  {
+    "path": "src/components/ui/collapsible.tsx",
+    "lines": 32,
+    "bytes": 791,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Collapsible,"
+    ]
+  },
+  {
+    "path": "src/components/ui/command.tsx",
+    "lines": 183,
+    "bytes": 4829,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Command,"
+    ]
+  },
+  {
+    "path": "src/components/ui/context-menu.tsx",
+    "lines": 251,
+    "bytes": 8286,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ContextMenu,"
+    ]
+  },
+  {
+    "path": "src/components/ui/dialog.tsx",
+    "lines": 142,
+    "bytes": 3987,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Dialog,"
+    ]
+  },
+  {
+    "path": "src/components/ui/dropdown-menu.tsx",
+    "lines": 258,
+    "bytes": 8457,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "DropdownMenu,"
+    ]
+  },
+  {
+    "path": "src/components/ui/input.tsx",
+    "lines": 22,
+    "bytes": 967,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Input"
+    ]
+  },
+  {
+    "path": "src/components/ui/kbd.tsx",
+    "lines": 29,
+    "bytes": 867,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Kbd,"
+    ]
+  },
+  {
+    "path": "src/components/ui/label.tsx",
+    "lines": 23,
+    "bytes": 603,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Label"
+    ]
+  },
+  {
+    "path": "src/components/ui/model-selector.tsx",
+    "lines": 188,
+    "bytes": 5628,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "CUSTOM_MODEL_VALUE",
+      "ModelSelection",
+      "ModelSelectorProps",
+      "function"
+    ]
+  },
+  {
+    "path": "src/components/ui/popover.tsx",
+    "lines": 47,
+    "bytes": 1630,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Popover,"
+    ]
+  },
+  {
+    "path": "src/components/ui/scroll-area.tsx",
+    "lines": 57,
+    "bytes": 1638,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ScrollArea,"
+    ]
+  },
+  {
+    "path": "src/components/ui/select.tsx",
+    "lines": 189,
+    "bytes": 6366,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Select,"
+    ]
+  },
+  {
+    "path": "src/components/ui/separator.tsx",
+    "lines": 27,
+    "bytes": 691,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Separator"
+    ]
+  },
+  {
+    "path": "src/components/ui/shadcn-io/code-block/index.tsx",
+    "lines": 648,
+    "bytes": 15046,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "BundledLanguage",
+      "CodeBlockProps",
+      "CodeBlock",
+      "CodeBlockHeaderProps",
+      "CodeBlockHeader",
+      "CodeBlockFilesProps",
+      "CodeBlockFiles",
+      "CodeBlockFilenameProps",
+      "CodeBlockFilename",
+      "CodeBlockSelectProps"
+    ]
+  },
+  {
+    "path": "src/components/ui/shadcn-io/code-block/server.tsx",
+    "lines": 65,
+    "bytes": 1670,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "CodeBlockContentProps",
+      "CodeBlockContent"
+    ]
+  },
+  {
+    "path": "src/components/ui/sheet.tsx",
+    "lines": 138,
+    "bytes": 4094,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Sheet,"
+    ]
+  },
+  {
+    "path": "src/components/ui/slider.tsx",
+    "lines": 62,
+    "bytes": 1992,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Slider"
+    ]
+  },
+  {
+    "path": "src/components/ui/sonner.tsx",
+    "lines": 24,
+    "bytes": 561,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Toaster"
+    ]
+  },
+  {
+    "path": "src/components/ui/tabs.tsx",
+    "lines": 65,
+    "bytes": 1965,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Tabs,"
+    ]
+  },
+  {
+    "path": "src/components/ui/text-shimmer.tsx",
+    "lines": 59,
+    "bytes": 1832,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "TextShimmerProps",
+      "TextShimmer"
+    ]
+  },
+  {
+    "path": "src/components/ui/textarea.tsx",
+    "lines": 19,
+    "bytes": 764,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Textarea"
+    ]
+  },
+  {
+    "path": "src/components/ui/tooltip.tsx",
+    "lines": 60,
+    "bytes": 1887,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "Tooltip,"
+    ]
+  },
+  {
+    "path": "src/db/chat-db.ts",
+    "lines": 44,
+    "bytes": 908,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ChatRole",
+      "ChatThreadRecord",
+      "ChatMessageRecord",
+      "chatDb",
+      "createId"
+    ]
+  },
+  {
+    "path": "src/db/problems-db.ts",
+    "lines": 34,
+    "bytes": 721,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "HomeworkRecord",
+      "ProblemsDatabase",
+      "db"
+    ]
+  },
+  {
+    "path": "src/hooks/use-available-models.ts",
+    "lines": 302,
+    "bytes": 8944,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "SourceModels",
+      "useAvailableModels"
+    ]
+  },
+  {
+    "path": "src/hooks/use-chat-logic.ts",
+    "lines": 431,
+    "bytes": 13391,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "useChatLogic"
+    ]
+  },
+  {
+    "path": "src/hooks/use-media-query.ts",
+    "lines": 18,
+    "bytes": 531,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "useMediaQuery"
+    ]
+  },
+  {
+    "path": "src/hooks/use-shortcut.ts",
+    "lines": 30,
+    "bytes": 747,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "useShortcut"
+    ]
+  },
+  {
+    "path": "src/hooks/use-solution-export.ts",
+    "lines": 110,
+    "bytes": 3303,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "OrderedSolution",
+      "useSolutionExport",
+      "error);"
+    ]
+  },
+  {
+    "path": "src/hooks/use-store-initialization.ts",
+    "lines": 20,
+    "bytes": 676,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "useStoreInitialization"
+    ]
+  },
+  {
+    "path": "src/i18n.ts",
+    "lines": 30,
+    "bytes": 634,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "i18n;"
+    ]
+  },
+  {
+    "path": "src/lib/chat-seed.ts",
+    "lines": 32,
+    "bytes": 717,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "SeedChatState",
+      "encodeSeedChat",
+      "decodeSeedChat"
+    ]
+  },
+  {
+    "path": "src/lib/utils.ts",
+    "lines": 7,
+    "bytes": 169,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "cn"
+    ]
+  },
+  {
+    "path": "src/lib/webadb/index.ts",
+    "lines": 3,
+    "bytes": 84,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "AdbManager",
+      "{"
+    ]
+  },
+  {
+    "path": "src/lib/webadb/manager.ts",
+    "lines": 59,
+    "bytes": 1625,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "AdbDevice",
+      "UnsupportedEnvironmentError",
+      "AdbManager"
+    ]
+  },
+  {
+    "path": "src/lib/webadb/screenshot.ts",
+    "lines": 106,
+    "bytes": 2803,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "function",
+      "function",
+      "function"
+    ]
+  },
+  {
+    "path": "src/store/ai-store.ts",
+    "lines": 391,
+    "bytes": 11608,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "AiProvider",
+      "AiModelSummary",
+      "AiSource",
+      "sourceSupportsFileUpload",
+      "ImportAISourceModel",
+      "AiFile",
+      "AiClient",
+      "DEFAULT_GEMINI_MODEL",
+      "DEFAULT_GEMINI_BASE_URL",
+      "DEFAULT_OPENAI_MODEL"
+    ]
+  },
+  {
+    "path": "src/store/chat-store.ts",
+    "lines": 334,
+    "bytes": 8399,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "useChatStore"
+    ]
+  },
+  {
+    "path": "src/store/problems-store.ts",
+    "lines": 440,
+    "bytes": 13473,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "FileStatus",
+      "HomeworkSource",
+      "FileItem",
+      "Solution",
+      "ExplanationStep",
+      "ProblemSolution",
+      "ProblemsState",
+      "useProblemsStore"
+    ]
+  },
+  {
+    "path": "src/store/settings-store.ts",
+    "lines": 189,
+    "bytes": 6291,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "ThemePreference",
+      "LanguagePreference",
+      "ShortcutAction",
+      "ShortcutMap",
+      "ExplanationMode",
+      "SettingsState",
+      "useSettingsStore",
+      "getDefaultShortcuts"
+    ]
+  },
+  {
+    "path": "src/utils/encoding.ts",
+    "lines": 24,
+    "bytes": 692,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "uint8ToBase64",
+      "function"
+    ]
+  },
+  {
+    "path": "src/utils/file-utils.ts",
+    "lines": 39,
+    "bytes": 1051,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "generateTextFilename",
+      "function",
+      "isTextMimeType"
+    ]
+  },
+  {
+    "path": "src/utils/image-post-processing.ts",
+    "lines": 130,
+    "bytes": 3999,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "processImage"
+    ]
+  },
+  {
+    "path": "src/utils/shortcuts.ts",
+    "lines": 308,
+    "bytes": 6684,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "buildShortcutFromKeyboardEvent",
+      "formatShortcutLabel",
+      "expandShortcutVariants",
+      "parseShortcutString"
+    ]
+  },
+  {
+    "path": "src/utils/shuffle.ts",
+    "lines": 9,
+    "bytes": 234,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "shuffleArray<T>"
+    ]
+  },
+  {
+    "path": "src/utils/timeout.ts",
+    "lines": 21,
+    "bytes": 466,
+    "group": "src",
+    "role": "核心模块之一",
+    "exports": [
+      "TimeoutError",
+      "withTimeout<T>"
+    ]
+  }
+]

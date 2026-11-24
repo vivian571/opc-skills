@@ -1,0 +1,173 @@
+{
+  "count": 24,
+  "clis": [
+    {
+      "name": "feishu",
+      "display_name": "Feishu/Lark CLI",
+      "description": "Official Lark (Feishu) CLI for managing Lark apps, bots, and cloud resources from the terminal",
+      "install_cmd": "npm install -g @larksuite/cli",
+      "category": "communication"
+    },
+    {
+      "name": "minimax-cli",
+      "display_name": "MiniMax CLI",
+      "description": "MiniMax AI platform CLI for managing tokens, models, and API interactions from the command line",
+      "install_cmd": "npm install -g minimax-cli",
+      "category": "ai"
+    },
+    {
+      "name": "wecom",
+      "display_name": "WeCom CLI",
+      "description": "Official WeCom open-platform CLI for contacts, todos, meetings, messages, calendars, docs, and smart sheets",
+      "install_cmd": "npm install -g @wecom/cli",
+      "category": "communication"
+    },
+    {
+      "name": "x-twitter-scraper",
+      "display_name": "X Twitter Scraper CLI",
+      "description": "CLI for Twitter search, profile and follower exports, monitoring, webhooks, and approved X actions through Xquik. Not affiliated with X Corp.",
+      "install_cmd": "go install github.com/Xquik-dev/x-twitter-scraper-cli/cmd/x-twitter-scraper@v0.13.1",
+      "category": "communication"
+    },
+    {
+      "name": "contentful",
+      "display_name": "Contentful CLI",
+      "description": "Official Contentful CLI for spaces, migrations, imports, exports, seeding, and environment management",
+      "install_cmd": "npm install -g contentful-cli",
+      "category": "web"
+    },
+    {
+      "name": "sanity",
+      "display_name": "Sanity CLI",
+      "description": "Official Sanity CLI for studios, datasets, schemas, imports, exports, and structured content workflows",
+      "install_cmd": "npm install -g sanity",
+      "category": "web"
+    },
+    {
+      "name": "shopify",
+      "display_name": "Shopify CLI",
+      "description": "Official Shopify CLI for apps, themes, functions, extensions, and Hydrogen storefront workflows",
+      "install_cmd": "npm install -g @shopify/cli",
+      "category": "web"
+    },
+    {
+      "name": "sentry",
+      "display_name": "Sentry CLI",
+      "description": "Official Sentry CLI for releases, sourcemaps, debug files, monitors, and org/project automation",
+      "install_cmd": "npm install -g @sentry/cli",
+      "category": "devops"
+    },
+    {
+      "name": "1password-cli",
+      "display_name": "1Password CLI",
+      "description": "Official 1Password CLI for vault access, secrets retrieval, item automation, and desktop-app-backed authentication",
+      "install_cmd": "brew install --cask 1password-cli",
+      "category": "devops"
+    },
+    {
+      "name": "android-cli",
+      "display_name": "Android CLI",
+      "description": "Official Android terminal interface for SDK setup, project creation, emulator/device management, app run/deploy workflows, docs access, and skill management for any agent",
+      "install_cmd": null,
+      "category": "mobile"
+    },
+    {
+      "name": "generate-veo-video",
+      "display_name": "Generate Veo Video",
+      "description": "CLI for generating videos with Google Veo 3.1 via Vertex AI/Gemini — text-to-video, image-to-video, reference images, frame morphing, and video extension",
+      "install_cmd": "uv tool install git+https://github.com/charles-forsyth/generate-veo-video.git",
+      "category": "ai"
+    },
+    {
+      "name": "suno",
+      "display_name": "Suno CLI",
+      "description": "CLI for generating music with Suno AI from lyrics and style prompts, with batch generation, status polling, downloads, and automatic MP3 tagging",
+      "install_cmd": "python3 -m pip install git+https://github.com/slauger/suno-cli.git",
+      "category": "music"
+    },
+    {
+      "name": "elevenlabs",
+      "display_name": "ElevenLabs CLI",
+      "description": "Official ElevenLabs CLI for managing voice agents as code with local configs, templates, auth, push/pull sync, tests, widgets, and branch-aware workflows",
+      "install_cmd": "npm install -g @elevenlabs/cli",
+      "category": "audio"
+    },
+    {
+      "name": "jimeng",
+      "display_name": "Jimeng / Dreamina CLI",
+      "description": "Official ByteDance AI image and video generation CLI — text-to-image, text-to-video, image-to-video, digital human, and intelligent canvas; domestic brand is Jimeng (即梦), international brand is Dreamina",
+      "install_cmd": "curl -s https://jimeng.jianying.com/cli | bash",
+      "category": "ai"
+    },
+    {
+      "name": "obsidian-cli",
+      "display_name": "Obsidian CLI",
+      "description": "Official Obsidian command line interface for vault automation, developer tools, screenshots, search, history, and plugin workflows",
+      "install_cmd": null,
+      "category": "knowledge"
+    },
+    {
+      "name": "py4csr",
+      "display_name": "TraceCSR / Py4CSR CLI",
+      "description": "GxP-compliant agent harness for CDISC Clinical Study Report (CSR) and Tables/Figures/Listings (TFL) generation",
+      "install_cmd": "pip install py4csr",
+      "category": "data-science"
+    },
+    {
+      "name": "deployhq",
+      "display_name": "DeployHQ CLI",
+      "description": "Deploy code, manage projects/servers, run and monitor deployments via the DeployHQ platform — for humans and AI agents",
+      "install_cmd": "brew install deployhq/tap/dhq",
+      "category": "devops"
+    },
+    {
+      "name": "obsidian-agent-cli",
+      "display_name": "Obsidian CLI",
+      "description": "Full-featured CLI for Obsidian — manage notes, canvases, Excalidraw diagrams, Kanban boards, periodic notes, git, tasks, and more. Includes an AI agent skill for persistent knowledge capture and project memory.",
+      "install_cmd": "pip install obsidian-agent-cli",
+      "category": "productivity"
+    },
+    {
+      "name": "arcgis-pro",
+      "display_name": "ArcGIS Pro",
+      "description": "Agent-native CLI for ArcGIS Pro (ArcPy): professional cartography (layouts + map series), geoprocessing, and feature query/edit — plus a live-Pro MCP bridge that drives the open session.",
+      "install_cmd": "pip install git+https://github.com/Jasper0122/CLI-Anything-Arcgis-Pro.git@v0.1.0",
+      "category": "scientific"
+    },
+    {
+      "name": "cloakbrowser",
+      "display_name": "CloakBrowser CLI",
+      "description": "Agent-friendly CLI for CloakBrowser — stealth Chromium that passes every bot detection test. Covers fingerprint flags, humanize behaviors, page operations, content extraction, cookies, storage, network, multi-page sessions, and CDP gateway.",
+      "install_cmd": "npm install -g @dreamor/cloakbrowser-cli cloakbrowser playwright-core",
+      "category": "web"
+    },
+    {
+      "name": "smithue-cli",
+      "display_name": "SmithUE CLI",
+      "description": "CLI tool for controlling Unreal Engine editor via SmithUE plugin. Enables AI agents to execute editor commands, list tools, search capabilities, and monitor editor status.",
+      "install_cmd": "npm install -g smithue-cli",
+      "category": "devtools"
+    },
+    {
+      "name": "browser-cdp",
+      "display_name": "Browser CDP",
+      "description": "Browser automation via raw Chrome DevTools Protocol — connects to YOUR existing Chrome, no extensions, no new browser, inherits all cookies and sessions",
+      "install_cmd": "pip install git+https://github.com/Uname58/cdp-agent-kit.git#subdirectory=contrib/cli-anything-harness/agent-harness",
+      "category": "web"
+    },
+    {
+      "name": "pieces",
+      "display_name": "Pieces OS CLI",
+      "description": "Agent-native CLI for Pieces OS — persistent long-term memory for developers. Search, create, and manage memory assets, snippets, and models via Pieces OS REST API.",
+      "install_cmd": "pip install git+https://github.com/goddardoven110907/cli-anything-pieces.git",
+      "category": "productivity"
+    },
+    {
+      "name": "vivideo",
+      "display_name": "Vivideo CLI",
+      "description": "Vivideo AI video generation CLI — create avatar and text-to-video content from the terminal, scripts, CI, or agents. Supports auto and manual modes, model/avatar/voice/brand-kit listing, credit estimates, and status/wait polling.",
+      "install_cmd": "npm install -g @vivideo/cli",
+      "category": "ai"
+    }
+  ]
+}

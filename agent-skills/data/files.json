@@ -1,0 +1,1927 @@
+[
+  {
+    "path": ".agents/plugins/marketplace.json",
+    "bytes": 536,
+    "lines": 23,
+    "kind": "text",
+    "group": ".agents"
+  },
+  {
+    "path": ".claude/commands/build.md",
+    "bytes": 4799,
+    "lines": 46,
+    "kind": "text",
+    "group": ".claude"
+  },
+  {
+    "path": ".claude/commands/code-simplify.md",
+    "bytes": 1099,
+    "lines": 24,
+    "kind": "text",
+    "group": ".claude"
+  },
+  {
+    "path": ".claude/commands/constraints.md",
+    "bytes": 2793,
+    "lines": 34,
+    "kind": "text",
+    "group": ".claude"
+  },
+  {
+    "path": ".claude/commands/plan.md",
+    "bytes": 836,
+    "lines": 20,
+    "kind": "text",
+    "group": ".claude"
+  },
+  {
+    "path": ".claude/commands/review.md",
+    "bytes": 879,
+    "lines": 18,
+    "kind": "text",
+    "group": ".claude"
+  },
+  {
+    "path": ".claude/commands/ship.md",
+    "bytes": 4631,
+    "lines": 74,
+    "kind": "text",
+    "group": ".claude"
+  },
+  {
+    "path": ".claude/commands/spec.md",
+    "bytes": 1389,
+    "lines": 23,
+    "kind": "text",
+    "group": ".claude"
+  },
+  {
+    "path": ".claude/commands/test.md",
+    "bytes": 696,
+    "lines": 21,
+    "kind": "text",
+    "group": ".claude"
+  },
+  {
+    "path": ".claude/commands/webperf.md",
+    "bytes": 2005,
+    "lines": 34,
+    "kind": "text",
+    "group": ".claude"
+  },
+  {
+    "path": ".claude/rules/skills-contributing.md",
+    "bytes": 988,
+    "lines": 16,
+    "kind": "text",
+    "group": ".claude"
+  },
+  {
+    "path": ".claude-plugin/marketplace.json",
+    "bytes": 857,
+    "lines": 24,
+    "kind": "text",
+    "group": ".claude-plugin"
+  },
+  {
+    "path": ".claude-plugin/plugin.json",
+    "bytes": 517,
+    "lines": 17,
+    "kind": "text",
+    "group": ".claude-plugin"
+  },
+  {
+    "path": ".codex-plugin/plugin.json",
+    "bytes": 1120,
+    "lines": 30,
+    "kind": "text",
+    "group": ".codex-plugin"
+  },
+  {
+    "path": ".gemini/commands/build.toml",
+    "bytes": 4637,
+    "lines": 44,
+    "kind": "text",
+    "group": ".gemini"
+  },
+  {
+    "path": ".gemini/commands/code-simplify.toml",
+    "bytes": 1066,
+    "lines": 22,
+    "kind": "text",
+    "group": ".gemini"
+  },
+  {
+    "path": ".gemini/commands/constraints.toml",
+    "bytes": 2775,
+    "lines": 33,
+    "kind": "text",
+    "group": ".gemini"
+  },
+  {
+    "path": ".gemini/commands/planning.toml",
+    "bytes": 804,
+    "lines": 19,
+    "kind": "text",
+    "group": ".gemini"
+  },
+  {
+    "path": ".gemini/commands/review.toml",
+    "bytes": 846,
+    "lines": 16,
+    "kind": "text",
+    "group": ".gemini"
+  },
+  {
+    "path": ".gemini/commands/ship.toml",
+    "bytes": 4779,
+    "lines": 72,
+    "kind": "text",
+    "group": ".gemini"
+  },
+  {
+    "path": ".gemini/commands/spec.toml",
+    "bytes": 1348,
+    "lines": 21,
+    "kind": "text",
+    "group": ".gemini"
+  },
+  {
+    "path": ".gemini/commands/test.toml",
+    "bytes": 650,
+    "lines": 19,
+    "kind": "text",
+    "group": ".gemini"
+  },
+  {
+    "path": ".gemini/commands/webperf.toml",
+    "bytes": 1884,
+    "lines": 33,
+    "kind": "text",
+    "group": ".gemini"
+  },
+  {
+    "path": ".gitattributes",
+    "bytes": 19,
+    "lines": 2,
+    "kind": "text",
+    "group": ".gitattributes"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/skill-gap.yml",
+    "bytes": 2669,
+    "lines": 81,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/workflows/test-plugin-install.yml",
+    "bytes": 5885,
+    "lines": 193,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 143,
+    "lines": 11,
+    "kind": "text",
+    "group": ".gitignore"
+  },
+  {
+    "path": ".opencode/skills/api-and-interface-design/SKILL.md",
+    "bytes": 14938,
+    "lines": 370,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/browser-testing-with-devtools/SKILL.md",
+    "bytes": 14640,
+    "lines": 320,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/ci-cd-and-automation/SKILL.md",
+    "bytes": 11512,
+    "lines": 394,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/code-review-and-quality/SKILL.md",
+    "bytes": 21312,
+    "lines": 401,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/code-simplification/SKILL.md",
+    "bytes": 13719,
+    "lines": 332,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/constraint-driven-development/SKILL.md",
+    "bytes": 22205,
+    "lines": 320,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/constraint-driven-development/references/floor-guard.md",
+    "bytes": 10701,
+    "lines": 183,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/constraint-driven-development/scripts/quality-gate.mjs",
+    "bytes": 1927,
+    "lines": 46,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/context-engineering/SKILL.md",
+    "bytes": 15514,
+    "lines": 354,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/debugging-and-error-recovery/SKILL.md",
+    "bytes": 11169,
+    "lines": 301,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/deprecation-and-migration/SKILL.md",
+    "bytes": 12839,
+    "lines": 253,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/documentation-and-adrs/SKILL.md",
+    "bytes": 12594,
+    "lines": 321,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/doubt-driven-development/SKILL.md",
+    "bytes": 16753,
+    "lines": 246,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/frontend-ui-engineering/SKILL.md",
+    "bytes": 12572,
+    "lines": 347,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/git-workflow-and-versioning/SKILL.md",
+    "bytes": 14403,
+    "lines": 356,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/idea-refine/SKILL.md",
+    "bytes": 9404,
+    "lines": 196,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/idea-refine/examples.md",
+    "bytes": 20284,
+    "lines": 239,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/idea-refine/frameworks.md",
+    "bytes": 5404,
+    "lines": 100,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/idea-refine/refinement-criteria.md",
+    "bytes": 5738,
+    "lines": 114,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/idea-refine/scripts/idea-refine.sh",
+    "bytes": 342,
+    "lines": 16,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/incremental-implementation/SKILL.md",
+    "bytes": 9629,
+    "lines": 250,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/interview-me/SKILL.md",
+    "bytes": 15080,
+    "lines": 236,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/observability-and-instrumentation/SKILL.md",
+    "bytes": 13948,
+    "lines": 239,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/performance-optimization/SKILL.md",
+    "bytes": 16783,
+    "lines": 268,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/performance-optimization/references/optimization-patterns.md",
+    "bytes": 9692,
+    "lines": 251,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/planning-and-task-breakdown/SKILL.md",
+    "bytes": 10677,
+    "lines": 260,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/security-and-hardening/SKILL.md",
+    "bytes": 17592,
+    "lines": 217,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/security-and-hardening/references/hardening-patterns.md",
+    "bytes": 13462,
+    "lines": 334,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/shipping-and-launch/SKILL.md",
+    "bytes": 11540,
+    "lines": 337,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/source-driven-development/SKILL.md",
+    "bytes": 10104,
+    "lines": 218,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/spec-driven-development/SKILL.md",
+    "bytes": 16893,
+    "lines": 308,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/test-driven-development/SKILL.md",
+    "bytes": 16984,
+    "lines": 401,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": ".opencode/skills/using-agent-skills/SKILL.md",
+    "bytes": 10446,
+    "lines": 193,
+    "kind": "text",
+    "group": ".opencode"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 5386,
+    "lines": 93,
+    "kind": "text",
+    "group": "AGENTS.md"
+  },
+  {
+    "path": "CLAUDE.md",
+    "bytes": 4094,
+    "lines": 61,
+    "kind": "text",
+    "group": "CLAUDE.md"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 9404,
+    "lines": 138,
+    "kind": "text",
+    "group": "CONTRIBUTING.md"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1068,
+    "lines": 22,
+    "kind": "text",
+    "group": "LICENSE"
+  },
+  {
+    "path": "README.md",
+    "bytes": 25930,
+    "lines": 411,
+    "kind": "text",
+    "group": "README.md"
+  },
+  {
+    "path": "agents/code-reviewer.md",
+    "bytes": 4058,
+    "lines": 103,
+    "kind": "text",
+    "group": "agents"
+  },
+  {
+    "path": "agents/security-auditor.md",
+    "bytes": 4992,
+    "lines": 113,
+    "kind": "text",
+    "group": "agents"
+  },
+  {
+    "path": "agents/test-engineer.md",
+    "bytes": 3351,
+    "lines": 96,
+    "kind": "text",
+    "group": "agents"
+  },
+  {
+    "path": "agents/web-performance-auditor.md",
+    "bytes": 12278,
+    "lines": 185,
+    "kind": "text",
+    "group": "agents"
+  },
+  {
+    "path": "commands/build.toml",
+    "bytes": 4637,
+    "lines": 44,
+    "kind": "text",
+    "group": "commands"
+  },
+  {
+    "path": "commands/code-simplify.toml",
+    "bytes": 1066,
+    "lines": 22,
+    "kind": "text",
+    "group": "commands"
+  },
+  {
+    "path": "commands/constraints.toml",
+    "bytes": 2775,
+    "lines": 33,
+    "kind": "text",
+    "group": "commands"
+  },
+  {
+    "path": "commands/planning.toml",
+    "bytes": 804,
+    "lines": 19,
+    "kind": "text",
+    "group": "commands"
+  },
+  {
+    "path": "commands/review.toml",
+    "bytes": 846,
+    "lines": 16,
+    "kind": "text",
+    "group": "commands"
+  },
+  {
+    "path": "commands/ship.toml",
+    "bytes": 4711,
+    "lines": 72,
+    "kind": "text",
+    "group": "commands"
+  },
+  {
+    "path": "commands/spec.toml",
+    "bytes": 1348,
+    "lines": 21,
+    "kind": "text",
+    "group": "commands"
+  },
+  {
+    "path": "commands/test.toml",
+    "bytes": 650,
+    "lines": 19,
+    "kind": "text",
+    "group": "commands"
+  },
+  {
+    "path": "commands/webperf.toml",
+    "bytes": 2031,
+    "lines": 33,
+    "kind": "text",
+    "group": "commands"
+  },
+  {
+    "path": "docs/adoption-guide.md",
+    "bytes": 11566,
+    "lines": 130,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/advanced-per-agent-configuration.md",
+    "bytes": 7110,
+    "lines": 71,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/agents.md",
+    "bytes": 7164,
+    "lines": 124,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/antigravity-setup.md",
+    "bytes": 6893,
+    "lines": 131,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/codex-setup.md",
+    "bytes": 2447,
+    "lines": 36,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/commandcode-setup.md",
+    "bytes": 2437,
+    "lines": 70,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/comparison.md",
+    "bytes": 15362,
+    "lines": 130,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/copilot-cli-setup.md",
+    "bytes": 3819,
+    "lines": 65,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/copilot-setup.md",
+    "bytes": 11478,
+    "lines": 167,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/cursor-setup.md",
+    "bytes": 9061,
+    "lines": 229,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/developer-onboarding.md",
+    "bytes": 9948,
+    "lines": 136,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/gemini-cli-setup.md",
+    "bytes": 5915,
+    "lines": 134,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/getting-started.md",
+    "bytes": 11199,
+    "lines": 209,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/opencode-setup.md",
+    "bytes": 9547,
+    "lines": 260,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/other-hosts.md",
+    "bytes": 934,
+    "lines": 11,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/skill-anatomy.md",
+    "bytes": 11244,
+    "lines": 204,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "docs/windsurf-setup.md",
+    "bytes": 1479,
+    "lines": 49,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "evals/README.md",
+    "bytes": 23843,
+    "lines": 134,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/api-and-interface-design.json",
+    "bytes": 1494,
+    "lines": 46,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/browser-testing-with-devtools.json",
+    "bytes": 1455,
+    "lines": 45,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/ci-cd-and-automation.json",
+    "bytes": 1349,
+    "lines": 46,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/code-review-and-quality.json",
+    "bytes": 4714,
+    "lines": 101,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/code-simplification.json",
+    "bytes": 1627,
+    "lines": 54,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/constraint-driven-development.json",
+    "bytes": 3353,
+    "lines": 80,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/context-engineering.json",
+    "bytes": 2487,
+    "lines": 59,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/debugging-and-error-recovery.json",
+    "bytes": 2489,
+    "lines": 71,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/deprecation-and-migration.json",
+    "bytes": 1502,
+    "lines": 53,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/documentation-and-adrs.json",
+    "bytes": 5787,
+    "lines": 105,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/doubt-driven-development.json",
+    "bytes": 1322,
+    "lines": 44,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/frontend-ui-engineering.json",
+    "bytes": 1478,
+    "lines": 53,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/git-workflow-and-versioning.json",
+    "bytes": 1635,
+    "lines": 60,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/idea-refine.json",
+    "bytes": 1269,
+    "lines": 44,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/incremental-implementation.json",
+    "bytes": 1942,
+    "lines": 58,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/interview-me.json",
+    "bytes": 1197,
+    "lines": 43,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/observability-and-instrumentation.json",
+    "bytes": 1278,
+    "lines": 45,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/performance-optimization.json",
+    "bytes": 1688,
+    "lines": 54,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/planning-and-task-breakdown.json",
+    "bytes": 1276,
+    "lines": 46,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/security-and-hardening.json",
+    "bytes": 1651,
+    "lines": 58,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/shipping-and-launch.json",
+    "bytes": 1816,
+    "lines": 57,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/source-driven-development.json",
+    "bytes": 1287,
+    "lines": 45,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/spec-driven-development.json",
+    "bytes": 2964,
+    "lines": 81,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/test-driven-development.json",
+    "bytes": 5621,
+    "lines": 96,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/cases/using-agent-skills.json",
+    "bytes": 1262,
+    "lines": 45,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/api-and-interface-design/service-brief.md",
+    "bytes": 693,
+    "lines": 20,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/browser-testing-with-devtools/README.md",
+    "bytes": 186,
+    "lines": 6,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/browser-testing-with-devtools/index.html",
+    "bytes": 869,
+    "lines": 25,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/browser-testing-with-devtools/server.js",
+    "bytes": 511,
+    "lines": 16,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/ci-cd-and-automation/package.json",
+    "bytes": 132,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/ci-cd-and-automation/src/slug.js",
+    "bytes": 93,
+    "lines": 4,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/ci-cd-and-automation/test/slug.test.js",
+    "bytes": 234,
+    "lines": 10,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/code-review-and-quality/user-search.diff",
+    "bytes": 513,
+    "lines": 17,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/code-simplification/config-parser.js",
+    "bytes": 1592,
+    "lines": 47,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/code-simplification/config-parser.test.js",
+    "bytes": 452,
+    "lines": 16,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/context-budget/budget-notes.md",
+    "bytes": 759,
+    "lines": 12,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/context-engineering/context-audit.md",
+    "bytes": 653,
+    "lines": 16,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/debugging-and-error-recovery/pagination.js",
+    "bytes": 172,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/debugging-and-error-recovery/pagination.test.js",
+    "bytes": 290,
+    "lines": 10,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/debugging-and-error-recovery/time-pressure.md",
+    "bytes": 276,
+    "lines": 7,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/deprecation-and-migration/api-inventory.md",
+    "bytes": 504,
+    "lines": 10,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/documentation-and-adrs/decision-context.md",
+    "bytes": 757,
+    "lines": 17,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/documentation-and-adrs/prose-review/README.md",
+    "bytes": 663,
+    "lines": 20,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/documentation-and-adrs/prose-review/queue.js",
+    "bytes": 838,
+    "lines": 33,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/documentation-and-adrs/rate-limiter.js",
+    "bytes": 724,
+    "lines": 26,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/documentation-and-adrs/rate-limiter.md",
+    "bytes": 1156,
+    "lines": 31,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/doubt-driven-development/migration-plan.md",
+    "bytes": 672,
+    "lines": 20,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/frontend-ui-engineering/Button.tsx",
+    "bytes": 306,
+    "lines": 8,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/frontend-ui-engineering/design-system.md",
+    "bytes": 530,
+    "lines": 12,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/git-workflow-and-versioning/.eval/working-tree.patch",
+    "bytes": 571,
+    "lines": 22,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/git-workflow-and-versioning/app.js",
+    "bytes": 129,
+    "lines": 8,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/git-workflow-and-versioning/app.test.js",
+    "bytes": 228,
+    "lines": 10,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/incremental-implementation/reports.js",
+    "bytes": 145,
+    "lines": 8,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/incremental-implementation/reports.test.js",
+    "bytes": 325,
+    "lines": 13,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/incremental-implementation/tasks/plan.md",
+    "bytes": 311,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/incremental-implementation-pressure/draft-export.js",
+    "bytes": 552,
+    "lines": 18,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/incremental-implementation-pressure/scenario.md",
+    "bytes": 419,
+    "lines": 10,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/observability-and-instrumentation/operations.md",
+    "bytes": 422,
+    "lines": 12,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/observability-and-instrumentation/payment-retry.js",
+    "bytes": 339,
+    "lines": 15,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/performance-optimization/benchmark.js",
+    "bytes": 464,
+    "lines": 16,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/performance-optimization/products.js",
+    "bytes": 393,
+    "lines": 15,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/planning-and-task-breakdown/notifications-spec.md",
+    "bytes": 854,
+    "lines": 19,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/review-evidence/CONTRACT.md",
+    "bytes": 430,
+    "lines": 10,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/review-evidence/after.py",
+    "bytes": 524,
+    "lines": 24,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/review-evidence/before.py",
+    "bytes": 454,
+    "lines": 21,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/review-evidence/clean.py",
+    "bytes": 465,
+    "lines": 21,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/security-and-hardening/webhook.js",
+    "bytes": 271,
+    "lines": 12,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/security-and-hardening/webhook.test.js",
+    "bytes": 414,
+    "lines": 14,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/shipping-and-launch/authority-pressure.md",
+    "bytes": 288,
+    "lines": 7,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/shipping-and-launch/launch-status.md",
+    "bytes": 554,
+    "lines": 12,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/source-driven-development/framework-task.md",
+    "bytes": 535,
+    "lines": 11,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/spec-driven-development/billing-brief.md",
+    "bytes": 689,
+    "lines": 17,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/spec-driven-development-decomposition/portal-brief.md",
+    "bytes": 1067,
+    "lines": 23,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development/BUG.md",
+    "bytes": 394,
+    "lines": 11,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development/README.md",
+    "bytes": 787,
+    "lines": 29,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development/package.json",
+    "bytes": 189,
+    "lines": 10,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development/src/split.js",
+    "bytes": 181,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development/test/split.test.js",
+    "bytes": 398,
+    "lines": 14,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development-ecosystem/README.md",
+    "bytes": 131,
+    "lines": 10,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development-ecosystem/ledger.py",
+    "bytes": 457,
+    "lines": 16,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development-ecosystem/test_ledger.py",
+    "bytes": 533,
+    "lines": 20,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development-persistence/BUG.md",
+    "bytes": 509,
+    "lines": 10,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development-persistence/README.md",
+    "bytes": 533,
+    "lines": 12,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development-persistence/test_vault.py",
+    "bytes": 941,
+    "lines": 30,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/test-driven-development-persistence/vault.py",
+    "bytes": 1143,
+    "lines": 34,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/fixtures/using-agent-skills/incident.md",
+    "bytes": 321,
+    "lines": 7,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/code-review-fires/graders/off-by-one.md",
+    "bytes": 455,
+    "lines": 8,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/code-review-fires/graders/severity-labels.md",
+    "bytes": 142,
+    "lines": 5,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/code-review-fires/graders/skill-fired.md",
+    "bytes": 103,
+    "lines": 6,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/code-review-fires/prompt.md",
+    "bytes": 1240,
+    "lines": 32,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/code-review-fires-on-plain-request/graders/skill-fired.md",
+    "bytes": 103,
+    "lines": 6,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/code-review-fires-on-plain-request/prompt.md",
+    "bytes": 1079,
+    "lines": 32,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/code-review-stays-quiet/graders/not-fired.md",
+    "bytes": 127,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/code-review-stays-quiet/graders/tdd-fired.md",
+    "bytes": 118,
+    "lines": 7,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/code-review-stays-quiet/prompt.md",
+    "bytes": 389,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/code-review-stays-quiet-on-commit-message/graders/not-fired.md",
+    "bytes": 127,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/code-review-stays-quiet-on-commit-message/prompt.md",
+    "bytes": 914,
+    "lines": 26,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/debugging-fires-on-pasted-diff/graders/diagnosis-and-regression-guard.md",
+    "bytes": 984,
+    "lines": 8,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/debugging-fires-on-pasted-diff/graders/skill-fired.md",
+    "bytes": 108,
+    "lines": 6,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/debugging-fires-on-pasted-diff/prompt.md",
+    "bytes": 1116,
+    "lines": 26,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/debugging-stays-quiet-on-review/graders/not-fired.md",
+    "bytes": 132,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/debugging-stays-quiet-on-review/prompt.md",
+    "bytes": 933,
+    "lines": 26,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/gitflow-fires-on-commit-message/graders/skill-fired.md",
+    "bytes": 107,
+    "lines": 6,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/gitflow-fires-on-commit-message/graders/typed-why-and-split.md",
+    "bytes": 820,
+    "lines": 8,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/gitflow-fires-on-commit-message/prompt.md",
+    "bytes": 1866,
+    "lines": 52,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/gitflow-stays-quiet-on-what-broke/graders/not-fired.md",
+    "bytes": 131,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/gitflow-stays-quiet-on-what-broke/prompt.md",
+    "bytes": 1042,
+    "lines": 26,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/simplify-fires-on-pasted-function/graders/behavior-kept-and-explained.md",
+    "bytes": 1220,
+    "lines": 8,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/simplify-fires-on-pasted-function/graders/skill-fired.md",
+    "bytes": 99,
+    "lines": 6,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/simplify-fires-on-pasted-function/prompt.md",
+    "bytes": 1206,
+    "lines": 31,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/simplify-stays-quiet-on-make-it-fast/graders/not-fired.md",
+    "bytes": 123,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/simplify-stays-quiet-on-make-it-fast/prompt.md",
+    "bytes": 738,
+    "lines": 21,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/tdd-fires-on-pasted-bug/graders/failing-test-first.md",
+    "bytes": 418,
+    "lines": 8,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/tdd-fires-on-pasted-bug/graders/skill-fired.md",
+    "bytes": 103,
+    "lines": 6,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/tdd-fires-on-pasted-bug/prompt.md",
+    "bytes": 639,
+    "lines": 16,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/tdd-stays-quiet-on-debug/graders/not-fired.md",
+    "bytes": 127,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/tdd-stays-quiet-on-debug/prompt.md",
+    "bytes": 1034,
+    "lines": 26,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/tdd-stays-quiet-on-refactor/graders/not-fired.md",
+    "bytes": 127,
+    "lines": 9,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/plugin/tdd-stays-quiet-on-refactor/prompt.md",
+    "bytes": 914,
+    "lines": 27,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "evals/skill-impact.md",
+    "bytes": 400,
+    "lines": 7,
+    "kind": "text",
+    "group": "evals"
+  },
+  {
+    "path": "plugin.json",
+    "bytes": 547,
+    "lines": 12,
+    "kind": "text",
+    "group": "plugin.json"
+  },
+  {
+    "path": "references/accessibility-checklist.md",
+    "bytes": 5332,
+    "lines": 161,
+    "kind": "text",
+    "group": "references"
+  },
+  {
+    "path": "references/definition-of-done.md",
+    "bytes": 3798,
+    "lines": 68,
+    "kind": "text",
+    "group": "references"
+  },
+  {
+    "path": "references/observability-checklist.md",
+    "bytes": 5129,
+    "lines": 93,
+    "kind": "text",
+    "group": "references"
+  },
+  {
+    "path": "references/orchestration-patterns.md",
+    "bytes": 18201,
+    "lines": 371,
+    "kind": "text",
+    "group": "references"
+  },
+  {
+    "path": "references/performance-checklist.md",
+    "bytes": 13292,
+    "lines": 240,
+    "kind": "text",
+    "group": "references"
+  },
+  {
+    "path": "references/security-checklist.md",
+    "bytes": 14993,
+    "lines": 251,
+    "kind": "text",
+    "group": "references"
+  },
+  {
+    "path": "references/testing-patterns.md",
+    "bytes": 7543,
+    "lines": 237,
+    "kind": "text",
+    "group": "references"
+  },
+  {
+    "path": "scripts/floor-guard-reference-test.js",
+    "bytes": 12781,
+    "lines": 324,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/lib/execution-status.js",
+    "bytes": 2061,
+    "lines": 45,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/lib/skill-lint-test.js",
+    "bytes": 30180,
+    "lines": 763,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/lib/skill-lint.js",
+    "bytes": 27198,
+    "lines": 640,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/lib/skill-resources.js",
+    "bytes": 1442,
+    "lines": 36,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/quality-gate-test.js",
+    "bytes": 3784,
+    "lines": 99,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/run-evals-test.js",
+    "bytes": 52020,
+    "lines": 1177,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/run-evals.js",
+    "bytes": 31496,
+    "lines": 763,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/staged-secret-scan-test.js",
+    "bytes": 3351,
+    "lines": 85,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/validate-artifact-paths-test.js",
+    "bytes": 7977,
+    "lines": 194,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/validate-artifact-paths.js",
+    "bytes": 5056,
+    "lines": 131,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/validate-commands-test.js",
+    "bytes": 10250,
+    "lines": 247,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/validate-commands.js",
+    "bytes": 8307,
+    "lines": 213,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/validate-reference-links-test.js",
+    "bytes": 20509,
+    "lines": 533,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/validate-reference-links.js",
+    "bytes": 8187,
+    "lines": 197,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/validate-skills.js",
+    "bytes": 3614,
+    "lines": 93,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/validate-versions-test.js",
+    "bytes": 905,
+    "lines": 32,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "scripts/validate-versions.js",
+    "bytes": 919,
+    "lines": 35,
+    "kind": "text",
+    "group": "scripts"
+  },
+  {
+    "path": "skills/api-and-interface-design/SKILL.md",
+    "bytes": 14938,
+    "lines": 370,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/browser-testing-with-devtools/SKILL.md",
+    "bytes": 14640,
+    "lines": 320,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/ci-cd-and-automation/SKILL.md",
+    "bytes": 11512,
+    "lines": 394,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/code-review-and-quality/SKILL.md",
+    "bytes": 21312,
+    "lines": 401,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/code-simplification/SKILL.md",
+    "bytes": 13719,
+    "lines": 332,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/constraint-driven-development/SKILL.md",
+    "bytes": 22205,
+    "lines": 320,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/constraint-driven-development/references/floor-guard.md",
+    "bytes": 10701,
+    "lines": 183,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/constraint-driven-development/scripts/quality-gate.mjs",
+    "bytes": 1927,
+    "lines": 46,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/context-engineering/SKILL.md",
+    "bytes": 15514,
+    "lines": 354,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/debugging-and-error-recovery/SKILL.md",
+    "bytes": 11169,
+    "lines": 301,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/deprecation-and-migration/SKILL.md",
+    "bytes": 12839,
+    "lines": 253,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/documentation-and-adrs/SKILL.md",
+    "bytes": 12594,
+    "lines": 321,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/doubt-driven-development/SKILL.md",
+    "bytes": 16753,
+    "lines": 246,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/frontend-ui-engineering/SKILL.md",
+    "bytes": 12572,
+    "lines": 347,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/git-workflow-and-versioning/SKILL.md",
+    "bytes": 14403,
+    "lines": 356,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/idea-refine/SKILL.md",
+    "bytes": 9404,
+    "lines": 196,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/idea-refine/examples.md",
+    "bytes": 20284,
+    "lines": 239,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/idea-refine/frameworks.md",
+    "bytes": 5404,
+    "lines": 100,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/idea-refine/refinement-criteria.md",
+    "bytes": 5738,
+    "lines": 114,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/idea-refine/scripts/idea-refine.sh",
+    "bytes": 342,
+    "lines": 16,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/incremental-implementation/SKILL.md",
+    "bytes": 9629,
+    "lines": 250,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/interview-me/SKILL.md",
+    "bytes": 15080,
+    "lines": 236,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/observability-and-instrumentation/SKILL.md",
+    "bytes": 13948,
+    "lines": 239,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/performance-optimization/SKILL.md",
+    "bytes": 16783,
+    "lines": 268,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/performance-optimization/references/optimization-patterns.md",
+    "bytes": 9692,
+    "lines": 251,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/planning-and-task-breakdown/SKILL.md",
+    "bytes": 10677,
+    "lines": 260,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/security-and-hardening/SKILL.md",
+    "bytes": 17592,
+    "lines": 217,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/security-and-hardening/references/hardening-patterns.md",
+    "bytes": 13462,
+    "lines": 334,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/shipping-and-launch/SKILL.md",
+    "bytes": 11540,
+    "lines": 337,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/source-driven-development/SKILL.md",
+    "bytes": 10104,
+    "lines": 218,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/spec-driven-development/SKILL.md",
+    "bytes": 16893,
+    "lines": 308,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/test-driven-development/SKILL.md",
+    "bytes": 16984,
+    "lines": 401,
+    "kind": "text",
+    "group": "skills"
+  },
+  {
+    "path": "skills/using-agent-skills/SKILL.md",
+    "bytes": 10446,
+    "lines": 193,
+    "kind": "text",
+    "group": "skills"
+  }
+]

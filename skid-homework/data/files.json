@@ -1,0 +1,1199 @@
+[
+  {
+    "path": ".envrc",
+    "bytes": 10,
+    "lines": 2,
+    "kind": "text",
+    "group": ".envrc"
+  },
+  {
+    "path": ".github/FUNDING.yml",
+    "bytes": 40,
+    "lines": 2,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/images/skidhw-thumbnail-new.png",
+    "bytes": 453904,
+    "lines": 0,
+    "kind": "binary",
+    "group": ".github"
+  },
+  {
+    "path": ".github/images/skidhw-thumbnail.png",
+    "bytes": 335074,
+    "lines": 0,
+    "kind": "binary",
+    "group": ".github"
+  },
+  {
+    "path": ".github/workflows/docker-image.yml",
+    "bytes": 2613,
+    "lines": 86,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".github/workflows/lint.yaml",
+    "bytes": 526,
+    "lines": 31,
+    "kind": "text",
+    "group": ".github"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 485,
+    "lines": 50,
+    "kind": "text",
+    "group": ".gitignore"
+  },
+  {
+    "path": ".prettierrc",
+    "bytes": 110,
+    "lines": 8,
+    "kind": "text",
+    "group": ".prettierrc"
+  },
+  {
+    "path": "Dockerfile",
+    "bytes": 2178,
+    "lines": 67,
+    "kind": "text",
+    "group": "Dockerfile"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 34666,
+    "lines": 226,
+    "kind": "text",
+    "group": "LICENSE"
+  },
+  {
+    "path": "README-EN.md",
+    "bytes": 3772,
+    "lines": 123,
+    "kind": "text",
+    "group": "README-EN.md"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7943,
+    "lines": 274,
+    "kind": "text",
+    "group": "README.md"
+  },
+  {
+    "path": "components.json",
+    "bytes": 446,
+    "lines": 23,
+    "kind": "text",
+    "group": "components.json"
+  },
+  {
+    "path": "docs/zh/shortcuts/jsxgraph.md",
+    "bytes": 110,
+    "lines": 12,
+    "kind": "text",
+    "group": "docs"
+  },
+  {
+    "path": "eslint.config.mjs",
+    "bytes": 480,
+    "lines": 20,
+    "kind": "text",
+    "group": "eslint.config.mjs"
+  },
+  {
+    "path": "flake.lock",
+    "bytes": 1521,
+    "lines": 63,
+    "kind": "text",
+    "group": "flake.lock"
+  },
+  {
+    "path": "flake.nix",
+    "bytes": 1213,
+    "lines": 53,
+    "kind": "text",
+    "group": "flake.nix"
+  },
+  {
+    "path": "i18next.config.ts",
+    "bytes": 223,
+    "lines": 10,
+    "kind": "text",
+    "group": "i18next.config.ts"
+  },
+  {
+    "path": "index.html",
+    "bytes": 699,
+    "lines": 23,
+    "kind": "text",
+    "group": "index.html"
+  },
+  {
+    "path": "next.config.js",
+    "bytes": 667,
+    "lines": 38,
+    "kind": "text",
+    "group": "next.config.js"
+  },
+  {
+    "path": "open-next.config.ts",
+    "bytes": 107,
+    "lines": 4,
+    "kind": "text",
+    "group": "open-next.config.ts"
+  },
+  {
+    "path": "package.json",
+    "bytes": 3693,
+    "lines": 116,
+    "kind": "text",
+    "group": "package.json"
+  },
+  {
+    "path": "pnpm-workspace.yaml",
+    "bytes": 76,
+    "lines": 5,
+    "kind": "text",
+    "group": "pnpm-workspace.yaml"
+  },
+  {
+    "path": "postcss.config.mjs",
+    "bytes": 94,
+    "lines": 8,
+    "kind": "text",
+    "group": "postcss.config.mjs"
+  },
+  {
+    "path": "public/apple-touch-icon.png",
+    "bytes": 4869,
+    "lines": 0,
+    "kind": "binary",
+    "group": "public"
+  },
+  {
+    "path": "public/favicon.ico",
+    "bytes": 5683,
+    "lines": 0,
+    "kind": "binary",
+    "group": "public"
+  },
+  {
+    "path": "public/icon-192x192.png",
+    "bytes": 5661,
+    "lines": 0,
+    "kind": "binary",
+    "group": "public"
+  },
+  {
+    "path": "public/icon-512x512.png",
+    "bytes": 17709,
+    "lines": 0,
+    "kind": "binary",
+    "group": "public"
+  },
+  {
+    "path": "public/icons/adb.svg",
+    "bytes": 729,
+    "lines": 2,
+    "kind": "text",
+    "group": "public"
+  },
+  {
+    "path": "public/locales/en/commons.json",
+    "bytes": 24648,
+    "lines": 708,
+    "kind": "text",
+    "group": "public"
+  },
+  {
+    "path": "public/locales/zh/commons.json",
+    "bytes": 24493,
+    "lines": 707,
+    "kind": "text",
+    "group": "public"
+  },
+  {
+    "path": "public/manifest.json",
+    "bytes": 585,
+    "lines": 27,
+    "kind": "text",
+    "group": "public"
+  },
+  {
+    "path": "public/opencv.js",
+    "bytes": 10872775,
+    "lines": 48,
+    "kind": "text",
+    "group": "public"
+  },
+  {
+    "path": "public/skid-homework.svg",
+    "bytes": 950,
+    "lines": 13,
+    "kind": "text",
+    "group": "public"
+  },
+  {
+    "path": "serwist.config.js",
+    "bytes": 192,
+    "lines": 9,
+    "kind": "text",
+    "group": "serwist.config.js"
+  },
+  {
+    "path": "src/@types/global.d.ts",
+    "bytes": 77,
+    "lines": 5,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/@types/i18next.d.ts",
+    "bytes": 264,
+    "lines": 11,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/@types/resources.d.ts",
+    "bytes": 26162,
+    "lines": 709,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/base-client.ts",
+    "bytes": 1576,
+    "lines": 70,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/chat-types.ts",
+    "bytes": 131,
+    "lines": 7,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/errors.ts",
+    "bytes": 340,
+    "lines": 14,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/gemini.ts",
+    "bytes": 9688,
+    "lines": 355,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/openai.ts",
+    "bytes": 11595,
+    "lines": 452,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/prompts/chat.prompt.md",
+    "bytes": 591,
+    "lines": 14,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/prompts/improve.prompt.md",
+    "bytes": 2815,
+    "lines": 69,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/prompts/prompt-manager.ts",
+    "bytes": 348,
+    "lines": 8,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/prompts/solve.prompt.md",
+    "bytes": 2572,
+    "lines": 68,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/prompts/tools/diagram-tool.prompt.md",
+    "bytes": 4356,
+    "lines": 149,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/prompts/tools/jsxgraph-tool.prompt.md",
+    "bytes": 13929,
+    "lines": 362,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/prompts/tools/mermaid-tool.prompt.md",
+    "bytes": 494,
+    "lines": 18,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/request.ts",
+    "bytes": 1352,
+    "lines": 49,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/ai/response.ts",
+    "bytes": 6531,
+    "lines": 219,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/app/chat/page.tsx",
+    "bytes": 240,
+    "lines": 11,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/app/init/page.tsx",
+    "bytes": 193,
+    "lines": 11,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/app/layout.tsx",
+    "bytes": 1527,
+    "lines": 64,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/app/page.tsx",
+    "bytes": 244,
+    "lines": 11,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/app/providers.tsx",
+    "bytes": 881,
+    "lines": 34,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/app/serwist.ts",
+    "bytes": 68,
+    "lines": 2,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/app/settings/import/page.tsx",
+    "bytes": 394,
+    "lines": 12,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/app/settings/page.tsx",
+    "bytes": 251,
+    "lines": 11,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/app/sw.ts",
+    "bytes": 584,
+    "lines": 22,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/OpenCVLoader.tsx",
+    "bytes": 144,
+    "lines": 6,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ShortcutHint.tsx",
+    "bytes": 554,
+    "lines": 22,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/actions/ActionsArea.tsx",
+    "bytes": 3590,
+    "lines": 121,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/actions/ActionsCard.tsx",
+    "bytes": 4750,
+    "lines": 164,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/actions/GlobalTraitsEditor.tsx",
+    "bytes": 1557,
+    "lines": 55,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/actions/ModelSelectorPopover.tsx",
+    "bytes": 1144,
+    "lines": 41,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/actions/OnlineSearchToggle.tsx",
+    "bytes": 2012,
+    "lines": 69,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/actions/UploadArea.tsx",
+    "bytes": 11696,
+    "lines": 364,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/actions/UploadFilesInfo.tsx",
+    "bytes": 1020,
+    "lines": 38,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/chat/chat-composer.tsx",
+    "bytes": 2503,
+    "lines": 81,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/chat/chat-header.tsx",
+    "bytes": 5854,
+    "lines": 187,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/chat/chat-messages.tsx",
+    "bytes": 8399,
+    "lines": 220,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/chat/chat-sidebar.tsx",
+    "bytes": 5852,
+    "lines": 182,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/chat/page.tsx",
+    "bytes": 4309,
+    "lines": 138,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/customized/slider/slider-06.tsx",
+    "bytes": 424,
+    "lines": 16,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/dialogs/InspectDialog.tsx",
+    "bytes": 5154,
+    "lines": 157,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/dialogs/TextInputDialog.tsx",
+    "bytes": 2487,
+    "lines": 95,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/guards/RequireAiKey.tsx",
+    "bytes": 1357,
+    "lines": 52,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/markdown/CodeBlock.tsx",
+    "bytes": 3903,
+    "lines": 145,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/markdown/CodeRenderer.tsx",
+    "bytes": 2247,
+    "lines": 87,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/markdown/MarkdownRenderer.tsx",
+    "bytes": 998,
+    "lines": 35,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/markdown/diagram/DiagramRenderer.tsx",
+    "bytes": 989,
+    "lines": 39,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/markdown/diagram/ForceDiagram.tsx",
+    "bytes": 3097,
+    "lines": 121,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/markdown/diagram/JSXGraphDiagram.tsx",
+    "bytes": 4655,
+    "lines": 168,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/markdown/diagram/MathPlotDiagram.tsx",
+    "bytes": 8078,
+    "lines": 264,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/markdown/diagram/MermaidDiagram.tsx",
+    "bytes": 1045,
+    "lines": 48,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/pages/ImportSettingsPage.tsx",
+    "bytes": 8722,
+    "lines": 273,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/pages/InitPage.tsx",
+    "bytes": 11303,
+    "lines": 296,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/pages/ScanPage.tsx",
+    "bytes": 21120,
+    "lines": 698,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/preview/EmptyPreviewList.tsx",
+    "bytes": 1360,
+    "lines": 46,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/preview/FileContent.tsx",
+    "bytes": 1094,
+    "lines": 39,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/preview/PreviewCard.tsx",
+    "bytes": 5104,
+    "lines": 173,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/preview/PreviewItem.tsx",
+    "bytes": 3688,
+    "lines": 120,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/preview/PreviewList.tsx",
+    "bytes": 3878,
+    "lines": 140,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/preview/TextFilePreview.tsx",
+    "bytes": 1680,
+    "lines": 60,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/settings/AIAPICredentialsManager.tsx",
+    "bytes": 12957,
+    "lines": 356,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/settings/AISourceManager.tsx",
+    "bytes": 6093,
+    "lines": 171,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/settings/AddAISourceDialog.tsx",
+    "bytes": 5893,
+    "lines": 182,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/settings/ExplanationModeSelector.tsx",
+    "bytes": 3055,
+    "lines": 104,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/settings/OpenAIAdvancedOptions.tsx",
+    "bytes": 7541,
+    "lines": 216,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/settings/SettingsPage.tsx",
+    "bytes": 26089,
+    "lines": 772,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/settings/ShareAISourceDialog.tsx",
+    "bytes": 2629,
+    "lines": 93,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/settings/ShortcutRecorder.tsx",
+    "bytes": 2653,
+    "lines": 96,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/solutions/ActiveSolutionContent.tsx",
+    "bytes": 7531,
+    "lines": 236,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/solutions/Explanation.tsx",
+    "bytes": 2130,
+    "lines": 83,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/solutions/ImproveSolutionDialog.tsx",
+    "bytes": 5391,
+    "lines": 173,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/solutions/ProblemList.tsx",
+    "bytes": 1243,
+    "lines": 37,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/solutions/SolutionViewer.tsx",
+    "bytes": 10942,
+    "lines": 344,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/solutions/SolutionsArea.tsx",
+    "bytes": 7356,
+    "lines": 221,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/solutions/StreamingOutputDisplay.tsx",
+    "bytes": 3493,
+    "lines": 124,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/solutions/TextSolutionPreview.tsx",
+    "bytes": 3391,
+    "lines": 112,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/theme-provider.tsx",
+    "bytes": 2558,
+    "lines": 101,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/accordion.tsx",
+    "bytes": 2049,
+    "lines": 65,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/alert-dialog.tsx",
+    "bytes": 3869,
+    "lines": 156,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/alert.tsx",
+    "bytes": 1625,
+    "lines": 67,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/badge.tsx",
+    "bytes": 1640,
+    "lines": 47,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/button.tsx",
+    "bytes": 2152,
+    "lines": 61,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/card.tsx",
+    "bytes": 2000,
+    "lines": 93,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/checkbox.tsx",
+    "bytes": 1212,
+    "lines": 31,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/collapsible.tsx",
+    "bytes": 791,
+    "lines": 32,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/command.tsx",
+    "bytes": 4829,
+    "lines": 183,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/context-menu.tsx",
+    "bytes": 8286,
+    "lines": 251,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/dialog.tsx",
+    "bytes": 3987,
+    "lines": 142,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/dropdown-menu.tsx",
+    "bytes": 8457,
+    "lines": 258,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/input.tsx",
+    "bytes": 967,
+    "lines": 22,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/kbd.tsx",
+    "bytes": 867,
+    "lines": 29,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/label.tsx",
+    "bytes": 603,
+    "lines": 23,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/model-selector.tsx",
+    "bytes": 5628,
+    "lines": 188,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/popover.tsx",
+    "bytes": 1630,
+    "lines": 47,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/scroll-area.tsx",
+    "bytes": 1638,
+    "lines": 57,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/select.tsx",
+    "bytes": 6366,
+    "lines": 189,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/separator.tsx",
+    "bytes": 691,
+    "lines": 27,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/shadcn-io/code-block/index.tsx",
+    "bytes": 15046,
+    "lines": 648,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/shadcn-io/code-block/server.tsx",
+    "bytes": 1670,
+    "lines": 65,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/sheet.tsx",
+    "bytes": 4094,
+    "lines": 138,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/slider.tsx",
+    "bytes": 1992,
+    "lines": 62,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/sonner.tsx",
+    "bytes": 561,
+    "lines": 24,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/tabs.tsx",
+    "bytes": 1965,
+    "lines": 65,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/text-shimmer.tsx",
+    "bytes": 1832,
+    "lines": 59,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/textarea.tsx",
+    "bytes": 764,
+    "lines": 19,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/components/ui/tooltip.tsx",
+    "bytes": 1887,
+    "lines": 60,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/css/jsxgraph.css",
+    "bytes": 4773,
+    "lines": 240,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/db/chat-db.ts",
+    "bytes": 908,
+    "lines": 44,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/db/problems-db.ts",
+    "bytes": 721,
+    "lines": 34,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/hooks/use-available-models.ts",
+    "bytes": 8944,
+    "lines": 302,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/hooks/use-chat-logic.ts",
+    "bytes": 13391,
+    "lines": 431,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/hooks/use-media-query.ts",
+    "bytes": 531,
+    "lines": 18,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/hooks/use-shortcut.ts",
+    "bytes": 747,
+    "lines": 30,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/hooks/use-solution-export.ts",
+    "bytes": 3303,
+    "lines": 110,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/hooks/use-store-initialization.ts",
+    "bytes": 676,
+    "lines": 20,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/i18n.ts",
+    "bytes": 634,
+    "lines": 30,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/index.css",
+    "bytes": 4276,
+    "lines": 131,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/lib/chat-seed.ts",
+    "bytes": 717,
+    "lines": 32,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/lib/utils.ts",
+    "bytes": 169,
+    "lines": 7,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/lib/webadb/index.ts",
+    "bytes": 84,
+    "lines": 3,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/lib/webadb/manager.ts",
+    "bytes": 1625,
+    "lines": 59,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/lib/webadb/screenshot.ts",
+    "bytes": 2803,
+    "lines": 106,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/store/ai-store.ts",
+    "bytes": 11608,
+    "lines": 391,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/store/chat-store.ts",
+    "bytes": 8399,
+    "lines": 334,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/store/problems-store.ts",
+    "bytes": 13473,
+    "lines": 440,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/store/settings-store.ts",
+    "bytes": 6291,
+    "lines": 189,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/utils/encoding.ts",
+    "bytes": 692,
+    "lines": 24,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/utils/file-utils.ts",
+    "bytes": 1051,
+    "lines": 39,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/utils/image-post-processing.ts",
+    "bytes": 3999,
+    "lines": 130,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/utils/shortcuts.ts",
+    "bytes": 6684,
+    "lines": 308,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/utils/shuffle.ts",
+    "bytes": 234,
+    "lines": 9,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "src/utils/timeout.ts",
+    "bytes": 466,
+    "lines": 21,
+    "kind": "text",
+    "group": "src"
+  },
+  {
+    "path": "tsconfig.json",
+    "bytes": 999,
+    "lines": 44,
+    "kind": "text",
+    "group": "tsconfig.json"
+  },
+  {
+    "path": "vercel.json",
+    "bytes": 89,
+    "lines": 5,
+    "kind": "text",
+    "group": "vercel.json"
+  },
+  {
+    "path": "wrangler.toml",
+    "bytes": 344,
+    "lines": 17,
+    "kind": "text",
+    "group": "wrangler.toml"
+  }
+]

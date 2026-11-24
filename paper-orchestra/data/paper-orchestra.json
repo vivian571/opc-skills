@@ -1,0 +1,121 @@
+{
+  "repo": "google-research/paper-orchestra",
+  "url": "https://github.com/google-research/paper-orchestra",
+  "homepage": "https://yiwen-song.github.io/paper_orchestra/",
+  "name": "paper-orchestra",
+  "description": "Google Research 多智能体框架：自动将研究笔记与实验日志转成投稿级 LaTeX 论文（含文献综述 + 图表生成）",
+  "license": "Apache-2.0",
+  "author": "Yiwen Song, Yale Song, Tomas Pfister, Jinsung Yoon @ Google Cloud AI Research",
+  "language": "Python 3.11",
+  "default_branch": "main",
+  "stargazers_count": 3500,
+  "forks_count": 453,
+  "created_at": "2026-05-01T18:07:52Z",
+  "pushed_at": "2026-11-15T18:08:08Z",
+  "verified_at": "2026-11-18",
+  "note": "star/fork/pushed_at 为 2026-11-18 GitHub API 快照。数据集未包含在仓库中。实时值以 --refresh 为准。",
+  "pipeline_stages": [
+    {
+      "stage": "Outline",
+      "agent_file": "methods/agents/outline_agent.py",
+      "desc": "从 idea.md + experimental_log.md 生成论文大纲"
+    },
+    {
+      "stage": "Literature Review",
+      "agent_file": "methods/agents/literature_review_agent.py",
+      "desc": "Semantic Scholar 检索 + LLM 筛选 + 综述写作"
+    },
+    {
+      "stage": "Section Writing",
+      "agent_file": "methods/agents/section_writing_agent.py",
+      "desc": "按大纲逐节撰写内容"
+    },
+    {
+      "stage": "Content Refinement",
+      "agent_file": "methods/agents/content_refinement_agent.py",
+      "desc": "整体润色与格式统一"
+    },
+    {
+      "stage": "Plotting (optional)",
+      "agent_file": "methods/agents/plotting_agent.py",
+      "desc": "从代码自动生成图表"
+    }
+  ],
+  "llm_providers": {
+    "primary": "Google Gemini (google-genai SDK)",
+    "fallback": "OpenAI compatible",
+    "vertex_ai_support": true,
+    "recommended_model": "gemini-3.1-pro-preview"
+  },
+  "latex_templates": [
+    "templates/cvpr2025",
+    "templates/iclr2025"
+  ],
+  "cli_args": {
+    "--raw_materials_dir": "必填：包含 idea_sparse.md 与 experimental_log.md 的目录",
+    "--latex_template_dir": "必填：LaTeX 模板目录（如 templates/cvpr2025）",
+    "--output_dir": "可选：输出目录，默认自动生成带时间戳的文件夹",
+    "--idea_filename": "可选：idea 文档名，默认 idea_sparse.md",
+    "--experimental_log_filename": "可选：实验日志名，默认 experimental_log.md",
+    "--writer_model_name": "可选：写作 agent 用模型，默认 gemini-3.1-pro-preview",
+    "--reflection_model_name": "可选：反思 agent 用模型，默认同 writer",
+    "--research_cutoff": "可选：文献检索截止日期 YYYY-MM，默认当前月",
+    "--use_plotting": "可选：是否启用绘图 agent，默认 false",
+    "--plotting_model_name": "可选：绘图 agent 模型，默认 gemini-3.1-pro-preview",
+    "--image_model_name": "可选：图像生成模型，默认 gemini-3-pro-image-preview"
+  },
+  "env_vars": {
+    "SEMANTIC_SCHOLAR_API_KEY": "必须：文献检索凭据（免费申请 https://api.semanticscholar.org/authenticate）",
+    "OPENAI_API_KEY": "可选：OpenAI fallback",
+    "GEMINI_API_KEY": "可选：Gemini API key（替代 vertex ai）",
+    "VERTEX_AI_PROJECT": "可选：Vertex AI 项目 ID",
+    "VERTEX_AI_LOCATION": "可选：Vertex AI 区域",
+    "SMTP_EMAIL": "可选：demo 模式下发送结果的邮箱",
+    "SMTP_PASSWORD": "可选：demo 模式下发送结果的密码"
+  },
+  "autoraters": [
+    {
+      "file": "autoraters/agent_review.py",
+      "desc": "Agent 行为评估"
+    },
+    {
+      "file": "autoraters/citation_f1.py",
+      "desc": "引用 F1 指标计算"
+    },
+    {
+      "file": "autoraters/lit_review_quality.py",
+      "desc": "文献综述质量评分"
+    },
+    {
+      "file": "autoraters/sxs_lit_review_quality.py",
+      "desc": "SxS 文献质量对比"
+    },
+    {
+      "file": "autoraters/sxs_paper_quality.py",
+      "desc": "SxS 论文质量对比"
+    }
+  ],
+  "frontend_demo": "frontend/app.py (Streamlit)，见 frontend/README.md",
+  "data_note": "数据集暂未公开，README 声明 'released separately at a later date'",
+  "python_deps": [
+    "google-genai",
+    "joblib",
+    "json_repair",
+    "matplotlib",
+    "numpy",
+    "openai",
+    "opencv-python",
+    "pydantic",
+    "PyMuPDF",
+    "pymupdf4llm",
+    "pyOpenSSL",
+    "pypdf",
+    "python-dotenv",
+    "requests",
+    "rich",
+    "streamlit",
+    "thefuzz",
+    "tqdm"
+  ],
+  "deps_count": 18
+}

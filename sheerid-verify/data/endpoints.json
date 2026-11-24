@@ -1,0 +1,56 @@
+[
+  {
+    "method": "GET",
+    "path": "/",
+    "note": "工作台首页 index.html",
+    "auth": "密码或会话"
+  },
+  {
+    "method": "GET",
+    "path": "/app.js | /style.css",
+    "note": "静态资源",
+    "auth": "密码或会话"
+  },
+  {
+    "method": "GET",
+    "path": "/api/session",
+    "note": "校验密码、下发 one-session Cookie 与 X-Local-Token",
+    "auth": "X-Web-Password"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs",
+    "note": "列出全部任务",
+    "auth": "密码或会话"
+  },
+  {
+    "method": "POST",
+    "path": "/api/jobs",
+    "note": "创建任务（202）；仅接受 application/json，body ≤ 64 KB",
+    "auth": "密码或会话 + X-Local-Token"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id?after=N",
+    "note": "增量读取任务日志",
+    "auth": "密码或会话"
+  },
+  {
+    "method": "POST",
+    "path": "/api/jobs/:id/cancel",
+    "note": "停止任务",
+    "auth": "密码或会话 + X-Local-Token"
+  },
+  {
+    "method": "POST",
+    "path": "/api/jobs/:id/resume",
+    "note": "把已停止任务重新排到队尾",
+    "auth": "密码或会话 + X-Local-Token"
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/jobs/:id",
+    "note": "删除已结束任务；运行中的任务返回 409",
+    "auth": "密码或会话 + X-Local-Token"
+  }
+]

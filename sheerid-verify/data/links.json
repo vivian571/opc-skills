@@ -1,0 +1,11 @@
+{
+  "repo": "https://github.com/JenkinWoo/sheeridVerify",
+  "readme": "https://github.com/JenkinWoo/sheeridVerify#readme",
+  "disclaimer": "https://github.com/JenkinWoo/sheeridVerify/blob/main/DISCLAIMER.md",
+  "security": "https://github.com/JenkinWoo/sheeridVerify/blob/main/SECURITY.md",
+  "contributing": "https://github.com/JenkinWoo/sheeridVerify/blob/main/CONTRIBUTING.md",
+  "ci": "https://github.com/JenkinWoo/sheeridVerify/actions/workflows/ci.yml",
+  "issues": "https://github.com/JenkinWoo/sheeridVerify/issues",
+  "local_mirror": "{{WORKBUNDY_HOME}}/skills/sheerid-verify/upstream",
+  "local_checkout": "{{WORKSPACE}}/_work/sheeridVerify"
+}

@@ -1,0 +1,16 @@
+{
+  "types": [
+    "TicketData",
+    "TicketInfo",
+    "StationData",
+    "RouteStationData",
+    "RouteStationInfo",
+    "InterlineData",
+    "InterlineInfo",
+    "InterlineTicketData",
+    "TrainSearchData"
+  ],
+  "interfaces": [
+    "Price"
+  ]
+}

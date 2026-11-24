@@ -1,0 +1,14 @@
+[
+  {"id": "P1", "title": "GPL-3.0 不是 MIT，二次分发必须同权开源", "detail": "README 显式写明 GPL-3.0。这意味着任何人拿到你的修改版都必须提供完整源码。如果你要把 skid-homework 的代码合到自己的项目里——尤其是闭源商业项目——会强制你把整个项目也 GPL 化。和之前我们过的 MIT 项目（sheeridVerify / agent-skills / maitian）完全不是一回事。注意这一点再决定是否引用源码。", "severity": "高"},
+  {"id": "P2", "title": "Gemini API Key 必须用户自己填，不要硬编码", "detail": "README 明确说『需要申请一个 Gemini API 密钥或者自备 OpenAI 兼容 API』。api key 存在浏览器 IndexedDB（dexie）里，不进 git。但如果你是开发者想 fork 本项目，不要把官方示例 key 写进代码或 config 文件。", "severity": "高"},
+  {"id": "P3", "title": "默认不自带答案风格，开箱即用感不如作业帮", "detail": "FAQ 承认：『本站点默认不自带默认的答案风格，和传统题库相比开箱即用没那么强，但可自定义性高』。初次使用的学习曲线比商业 APP 陡——需要先 Ctrl+X 调全局 prompt 才能出像样的格式。", "severity": "中"},
+  {"id": "P4", "title": "LLM 响应慢，thinking budget 太小会出错", "detail": "README 老实交代『本软件使用 LLM 而并非题库，LLM 响应耗费时间通常比题库长』。调小 thinking budget 能提速但会增加错误率。没有本地缓存——每次都是真实 API 调用。", "severity": "中"},
+  {"id": "P5", "title": "Cors 问题是最大报错来源之一", "detail": "FAQ 多次提到 Cors：『如果你的 API 密钥和地址都正确的话，大概率是 Cors 干的』。自架 OpenAI-compatible proxy 时要在响应头加 Access-Control-Allow-Origin。这点 README 没细说，需要自己查 proxy 文档。", "severity": "中"},
+  {"id": "P6", "title": "ADB 截屏需 WebUSB，Chrome Android 才稳定", "detail": "README 写的是实验性功能，且特别注明『苹果手机/postmarketOS 可以尝试 KDE Connect』。iOS Safari 目前不支持 WebUSB，这是硬件限制不是软件 bug。", "severity": "低"},
+  {"id": "P7", "title": "画图工具链处于 unstable 状态", "detail": "README FAQ 写明 JSXGraph unstable、function-plot 逐步弃用（将替换为 JSXGraph）。Mermaid/SVG 相对稳定但依赖 AI 输出的 tool call 是否正确。AI 有时会输出错误的工具调用格式——FAQ 也承认这点并要求反馈。", "severity": "中"},
+  {"id": "P8", "title": "Dev mode 功能仅供调试，普通用户别开", "detail": "README 特意警告『如果使用没有问题，请不要打开该选项』，暴露原始 Markdown 输出，可能泄露 system prompt 细节或被滥用。", "severity": "低"},
+  {"id": "P9", "title": "官方实例 skid.996every.day 是作者自营，不是本项目的一部分", "detail": "README 给的是外部托管链接，不在本仓库管辖范围内。本包镜像只包含源码，不包含任何第三方部署实例的行为保证。", "severity": "低"},
+  {"id": "P10", "title": "Updated_at 晚于 Pushed_at——本地有未推送改动", "detail": "GitHub API 显示 pushed_at=2026-09-14 而 updated_at=2026-11-17。意味着仓库最近有非 push 活动（issue 关闭、wiki 编辑、release 创建、或本地未 push 的 commit）。本次镜像基于 main HEAD（pushed_at 对应 commit）。", "severity": "低"},
+  {"id": "P11", "title": "public/opencv.js 是重型依赖（~10 MB 级）", "detail": "OCR 能力不是后端 AI 视觉模型，而是把 OpenCV.js 下载到客户端运行。首次加载会很大，且 WebAssembly 在某些沙箱环境会失败。这个文件在 public/ 目录但会被 unzip 过滤掉——本包索引里只有路径记录无实际内容。", "severity": "中"},
+  {"id": "P12", "title": "Serwist PWA 注册后清缓存不容易", "detail": "build 产物含 serwist.config.js，PWA 会缓存大量 JS/CSS。用户切换版本时常要手动清缓存或用 hard reload。开发时要关 Service Worker。", "severity": "低"}
+]
